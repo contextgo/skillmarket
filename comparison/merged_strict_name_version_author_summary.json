@@ -1,0 +1,18 @@
+{
+  "strict_overlap_groups": 312,
+  "strict_overlap_pairs": 314,
+  "skillhub_metric_fields": [
+    "downloads",
+    "installs",
+    "stars"
+  ],
+  "openclawmp_metric_fields": [
+    "installs",
+    "totalStars",
+    "githubStars",
+    "rating"
+  ],
+  "note": "Strict merge uses exact normalized name + version + author. openclawmp has no public homepage field, so homepage remains a SkillHub-side reference only.",
+  "best_csv": "comparison/merged_strict_name_version_author_best.csv",
+  "all_csv": "comparison/merged_strict_name_version_author_all.csv"
+}

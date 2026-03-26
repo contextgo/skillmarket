@@ -1,0 +1,20 @@
+{
+  "skillhub_rows": 25239,
+  "openclawmp_rows": 3207,
+  "exact_name_overlap_groups": 502,
+  "exact_name_overlap_pairs": 593,
+  "skillhub_available_metrics": [
+    "downloads",
+    "installs",
+    "stars"
+  ],
+  "openclawmp_available_metrics": [
+    "installs",
+    "totalStars",
+    "githubStars",
+    "rating"
+  ],
+  "note": "openclawmp public API does not expose a dedicated download-count field; installs is the closest public adoption metric.",
+  "best_csv": "comparison/merged_exact_name_best.csv",
+  "all_pairs_csv": "comparison/merged_exact_name_all.csv"
+}

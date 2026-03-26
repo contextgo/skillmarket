@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ContextGo · Skill Market</title>
+    <meta
+      name="description"
+      content="ContextGo 技能市场首页，适合部署到 skillmarket.com.cn，支持搜索、筛选、排序、下载与详情查看。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="./config.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-block">
+          <div class="brand-mark">C</div>
+          <div>
+            <div class="brand-name" id="brandName">ContextGo</div>
+            <div class="brand-subtitle">AI Skills Marketplace</div>
+          </div>
+        </div>
+        <div class="topbar-right">
+          <nav class="topnav">
+            <a href="#featured">精选</a>
+            <a href="#filters">筛选</a>
+            <a href="#grid">技能库</a>
+          </nav>
+          <a class="topbar-cta" href="#featured">热门榜单</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-section">
+          <div class="hero-copy">
+            <div class="hero-badge">精选推荐 · 双源聚合 · 轻量部署</div>
+            <h1>发现、筛选并下载真正好用的 AI Skills。</h1>
+            <p>
+              聚合多平台技能，提供清晰的榜单、搜索和技能详情，让团队和个人都能快速找到可直接使用的能力包。
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#featured">查看精选榜单</a>
+              <a class="secondary-btn" href="#grid">探索全部技能</a>
+            </div>
+
+            <div class="hero-trust">
+              <span class="trust-pill">★ 精选推荐</span>
+              <span class="trust-pill">⚡ 高速下载</span>
+              <span class="trust-pill">✓ 双源聚合</span>
+            </div>
+            <div class="hero-inline-note">
+              从热门榜单开始浏览，或通过搜索、来源和分类筛选，快速定位你需要的技能。
+            </div>
+          </div>
+          <div class="hero-side">
+            <div class="hero-panel stats-panel">
+              <div class="hero-panel-title">Market Stats</div>
+              <div class="hero-stat-grid" id="heroStats">
+                <article class="hero-stat-card skeleton"></article>
+                <article class="hero-stat-card skeleton"></article>
+                <article class="hero-stat-card skeleton"></article>
+                <article class="hero-stat-card skeleton"></article>
+              </div>
+            </div>
+            <div class="install-grid">
+              <article class="install-card install-card-agent">
+                <div class="install-kicker">我是 Agent</div>
+                <h3>更快获取技能包</h3>
+                <p>适合批量浏览、统一来源、快速下载并接入你的自动化工作流。</p>
+                <div class="install-snippet">搜索 → 详情 → ZIP 包</div>
+                <a class="secondary-btn" href="#grid">开始浏览</a>
+              </article>
+              <article class="install-card install-card-human">
+                <div class="install-kicker">我是 Human</div>
+                <h3>像逛应用商店一样找技能</h3>
+                <p>先看榜单和卡片信息，再打开详情页决定是否下载与使用。</p>
+                <div class="install-snippet">榜单 → 筛选 → 下载</div>
+                <a class="ghost-btn" href="#filters">立即筛选</a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block platform-section" id="platforms">
+          <div class="platform-strip">
+            <article class="platform-card">
+              <div class="platform-kicker">来源 A</div>
+              <h3>SkillHub 镜像</h3>
+              <p>覆盖面更广，适合先按热度和下载量快速筛选。</p>
+              <div class="platform-pill">大规模技能库</div>
+            </article>
+            <article class="platform-card">
+              <div class="platform-kicker">来源 B</div>
+              <h3>OpenClawMP 镜像</h3>
+              <p>详情信息更完整，适合补足 README 与资产文件。</p>
+              <div class="platform-pill">README / 文件恢复</div>
+            </article>
+            <article class="platform-card platform-card-merged">
+              <div class="platform-kicker">严格合并</div>
+              <h3>ContextGo 统一市场视图</h3>
+              <p>按 name + version + author 做合并，避免简单重名误判。</p>
+              <div class="platform-pill">统一浏览与下载</div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section-block" id="featured">
+          <div class="section-heading">
+            <div>
+              <div class="eyebrow">精选推荐</div>
+              <h2>本周热门技能</h2>
+            </div>
+            <p>优先展示当前热度更高、信息更完整的技能，方便直接判断是否值得安装。</p>
+          </div>
+          <div class="featured-layout">
+            <div class="leaderboard-panel">
+              <div class="leaderboard-head">
+                <div>
+                  <div class="eyebrow">TOP 3</div>
+                  <h3>榜单头部</h3>
+                </div>
+                <div class="leaderboard-note">按综合热度排序</div>
+              </div>
+              <div class="leaderboard-list" id="leaderboardList"></div>
+            </div>
+            <div class="featured-strip" id="featuredStrip"></div>
+          </div>
+        </section>
+
+        <section class="section-block filter-section" id="filters">
+          <div class="section-heading compact">
+            <div>
+              <div class="eyebrow">搜索与筛选</div>
+              <h2>搜索你需要的技能</h2>
+            </div>
+            <p>支持关键词、来源、分类和排序，适合在大量技能中快速收敛到目标结果。</p>
+          </div>
+
+          <div class="filter-surface">
+            <div class="search-row">
+              <label class="search-box">
+                <span class="search-icon">⌕</span>
+                <input id="searchInput" type="search" placeholder="搜索技能名、作者、标签、描述..." />
+              </label>
+              <label class="select-wrap">
+                <span>排序</span>
+                <select id="sortSelect">
+                  <option value="popularity">综合热度</option>
+                  <option value="downloads">SkillHub 下载量</option>
+                  <option value="installs">安装量</option>
+                  <option value="stars">星标热度</option>
+                  <option value="name">名称</option>
+                  <option value="updated">版本号</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-label">来源</div>
+              <div class="chip-row" id="sourceChips"></div>
+            </div>
+
+            <div class="filter-group">
+              <div class="filter-label">分类</div>
+              <div class="chip-row categories" id="categoryChips"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-block list-section" id="grid">
+          <div class="section-heading compact">
+            <div>
+              <div class="eyebrow">技能市场</div>
+              <h2 id="resultsHeading">正在载入...</h2>
+            </div>
+            <p id="resultsMeta">请稍候，正在读取 manifest。</p>
+          </div>
+
+          <div class="results-toolbar">
+            <div class="results-pills" id="resultsPills"></div>
+            <div class="results-caption">优先展示热度更高、信息更完整的技能条目。</div>
+          </div>
+
+          <div class="cards-grid" id="cardsGrid"></div>
+          <div class="empty-state hidden" id="emptyState">
+            <div class="empty-title">没有匹配的技能</div>
+            <p>试试换个关键词、来源或分类。</p>
+          </div>
+          <div class="load-more-wrap">
+            <button class="secondary-btn hidden" id="loadMoreBtn">加载更多</button>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div>
+          <strong>ContextGo</strong>
+          <span> · skillmarket.com.cn · 静态托管 · OSS 友好 · 可替换 manifest</span>
+        </div>
+        <div id="footerMeta">准备中...</div>
+      </footer>
+    </div>
+
+    <aside class="detail-drawer hidden" id="detailDrawer" aria-hidden="true">
+      <div class="drawer-backdrop" id="drawerBackdrop"></div>
+      <section class="drawer-panel">
+        <button class="drawer-close" id="drawerClose" aria-label="关闭详情">×</button>
+        <div class="drawer-scroll" id="drawerContent"></div>
+      </section>
+    </aside>
+
+    <template id="cardTemplate">
+      <article class="skill-card">
+        <div class="card-main">
+          <div class="card-topline">
+            <div class="skill-avatar"></div>
+            <div class="source-badges"></div>
+          </div>
+          <div class="card-title-row">
+            <div class="card-title"></div>
+            <div class="card-version"></div>
+          </div>
+          <div class="card-meta"></div>
+          <p class="card-description"></p>
+          <div class="card-category"></div>
+          <div class="tag-list"></div>
+        </div>
+        <div class="card-side">
+          <div class="metric-row"></div>
+          <div class="card-actions">
+            <button class="ghost-btn details-btn">查看详情</button>
+            <a class="primary-btn small download-btn" target="_blank" rel="noreferrer">下载 ZIP</a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="./assets/app.js" type="module"></script>
+  </body>
+</html>
