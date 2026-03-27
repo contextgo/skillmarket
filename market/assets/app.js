@@ -7,6 +7,7 @@ const state = {
   selectedCategory: 'all',
   searchQuery: '',
   sortBy: 'popularity',
+  categoriesExpanded: false,
 };
 
 const elements = {
@@ -16,6 +17,7 @@ const elements = {
   leaderboardList: document.getElementById('leaderboardList'),
   sourceChips: document.getElementById('sourceChips'),
   categoryChips: document.getElementById('categoryChips'),
+  categoryToggleBtn: document.getElementById('categoryToggleBtn'),
   searchInput: document.getElementById('searchInput'),
   sortSelect: document.getElementById('sortSelect'),
   cardsGrid: document.getElementById('cardsGrid'),
@@ -121,13 +123,23 @@ function renderFilters() {
       categoryCounts.set(category, (categoryCounts.get(category) || 0) + 1);
     });
   });
-  const sortedCategories = ['all', ...[...categoryCounts.entries()].sort((a, b) => b[1] - a[1]).map(([name]) => name).slice(0, 20)];
+  const ordered = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1]).map(([name]) => name);
+  const visibleCategories = state.categoriesExpanded ? ordered : ordered.slice(0, 8);
+  const sortedCategories = ['all', ...visibleCategories];
   elements.categoryChips.replaceChildren(...sortedCategories.map((category) => createChip(
     category === 'all' ? '全部分类' : category,
     category,
     'category',
     state.selectedCategory,
   )));
+  if (elements.categoryToggleBtn) {
+    if (ordered.length > 8) {
+      elements.categoryToggleBtn.classList.remove('hidden');
+      elements.categoryToggleBtn.textContent = state.categoriesExpanded ? '收起' : '展开更多';
+    } else {
+      elements.categoryToggleBtn.classList.add('hidden');
+    }
+  }
 }
 
 function renderHero(statsPayload) {
@@ -216,9 +228,9 @@ function renderCard(item) {
   fragment.querySelector('.skill-avatar').textContent = firstLetter;
   fragment.querySelector('.card-title').textContent = item.displayName || item.name;
   fragment.querySelector('.card-version').textContent = `v${item.version}`;
-  fragment.querySelector('.card-meta').innerHTML = `<strong>${escapeHtml(item.author || '匿名作者')}</strong> · ${(item.sources || []).map(escapeHtml).join(' / ')}`;
+  fragment.querySelector('.card-meta').innerHTML = `<strong>${escapeHtml(item.author || '匿名作者')}</strong> · ${(item.sources || []).map(escapeHtml).join(' / ')} · ${escapeHtml(item.version)}`;
   fragment.querySelector('.card-description').textContent = item.description || '暂无描述';
-  fragment.querySelector('.card-category').textContent = item.categories?.[0] ? `分类：${item.categories[0]}` : '分类：未标注';
+  fragment.querySelector('.card-category').textContent = item.categories?.[0] ? item.categories[0] : '未标注';
   fragment.querySelector('.source-badges').innerHTML = (item.sources || []).map((source) => `<span class="source-pill">${escapeHtml(source)}</span>`).join('');
   fragment.querySelector('.tag-list').innerHTML = (item.tags || []).slice(0, 4).map((tag) => `<span class="tag-pill">${escapeHtml(tag)}</span>`).join('');
   fragment.querySelector('.metric-row').innerHTML = summarizeMetrics(item).map((metric) => `<span class="metric-pill${metric.alt ? ' alt' : ''}">${escapeHtml(metric.label)}</span>`).join('');
@@ -357,6 +369,12 @@ async function bootstrap() {
     state.sortBy = event.target.value;
     applyFilters();
   });
+  if (elements.categoryToggleBtn) {
+    elements.categoryToggleBtn.addEventListener('click', () => {
+      state.categoriesExpanded = !state.categoriesExpanded;
+      renderFilters();
+    });
+  }
   elements.loadMoreBtn.addEventListener('click', () => {
     state.visibleCount += config.pageSize || 24;
     renderResults();
