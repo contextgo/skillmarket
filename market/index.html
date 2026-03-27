@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="./assets/styles.css?v=20260327b" />
     <script src="./config.js"></script>
   </head>
   <body>
@@ -145,21 +145,26 @@
 
           <div class="filter-surface">
             <div class="search-row">
-              <label class="search-box">
-                <span class="search-icon">⌕</span>
-                <input id="searchInput" type="search" placeholder="搜索技能名、作者、标签、描述..." />
-              </label>
-              <label class="select-wrap">
-                <span>排序</span>
-                <select id="sortSelect">
-                  <option value="popularity">综合热度</option>
-                  <option value="downloads">SkillHub 下载量</option>
-                  <option value="installs">安装量</option>
-                  <option value="stars">星标热度</option>
-                  <option value="name">名称</option>
-                  <option value="updated">版本号</option>
-                </select>
-              </label>
+              <div class="control-panel search-panel">
+                <div class="control-label">搜索技能</div>
+                <label class="search-box">
+                  <span class="search-icon">⌕</span>
+                  <input id="searchInput" type="search" placeholder="搜索技能名、作者、标签、描述..." />
+                </label>
+              </div>
+              <div class="control-panel sort-panel">
+                <div class="control-label">热度排序</div>
+                <label class="select-shell">
+                  <select id="sortSelect">
+                    <option value="popularity">综合热度</option>
+                    <option value="downloads">SkillHub 下载量</option>
+                    <option value="installs">安装量</option>
+                    <option value="stars">星标热度</option>
+                    <option value="name">名称</option>
+                    <option value="updated">版本号</option>
+                  </select>
+                </label>
+              </div>
             </div>
 
             <div class="filter-group">
@@ -242,6 +247,6 @@
       </article>
     </template>
 
-    <script src="./assets/app.js" type="module"></script>
+    <script src="./assets/app.js?v=20260327b" type="module"></script>
   </body>
 </html>
