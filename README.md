@@ -38,7 +38,7 @@ python3 scripts/openclawmp_mirror.py --output-root openclawmp_mirror --type skil
 
 品牌：`ContextGo`
 
-域名：`skillmarket.com.cn`
+域名：`www.skillmarket.com.cn`
 
 已实现一个可静态托管的技能市场页面：
 

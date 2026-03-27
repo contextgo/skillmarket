@@ -1,10 +1,10 @@
 # ContextGo Skill Market
 
-一个纯静态、可直接部署到 OSS / COS / CDN，并计划挂载到 `skillmarket.com.cn` 的技能市场页面。
+一个纯静态、可直接部署到 OSS / COS / CDN，并计划挂载到 `www.skillmarket.com.cn` 的技能市场页面。
 
 品牌：`ContextGo`
 
-域名：`skillmarket.com.cn`
+域名：`www.skillmarket.com.cn`
 
 ## 页面入口
 
@@ -61,7 +61,7 @@ packages/
 ```js
 window.SKILL_MARKET_CONFIG = {
   brandName: 'ContextGo',
-  siteUrl: 'https://skillmarket.com.cn',
+  siteUrl: 'https://www.skillmarket.com.cn',
   manifestUrl: 'https://your-cdn.example.com/market/data/skills.json',
   statsUrl: 'https://your-cdn.example.com/market/data/stats.json',
   packageBaseUrls: {

@@ -35,7 +35,7 @@ Add these repository secrets in GitHub:
 - `OSS_ENDPOINT` = `https://oss-cn-beijing.aliyuncs.com`
 - `OSS_ACCESS_KEY_ID` = your OSS AccessKey ID
 - `OSS_ACCESS_KEY_SECRET` = your OSS AccessKey Secret
-- `SITE_URL` = `https://skillmarket.com.cn`
+- `SITE_URL` = `https://www.skillmarket.com.cn`
 
 ## Workflow trigger
 
@@ -49,19 +49,19 @@ This workflow runs on:
 ### Dry run site only
 
 ```bash
-python3 scripts/deploy_to_oss.py --site-only --dry-run --site-url https://skillmarket.com.cn
+python3 scripts/deploy_to_oss.py --site-only --dry-run --site-url https://www.skillmarket.com.cn
 ```
 
 ### Real site deploy
 
 ```bash
-python3 scripts/deploy_to_oss.py --site-only --site-url https://skillmarket.com.cn
+python3 scripts/deploy_to_oss.py --site-only --site-url https://www.skillmarket.com.cn
 ```
 
 ### Full deploy
 
 ```bash
-python3 scripts/deploy_to_oss.py --site-url https://skillmarket.com.cn
+python3 scripts/deploy_to_oss.py --site-url https://www.skillmarket.com.cn
 ```
 
 ## Notes
