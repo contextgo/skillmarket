@@ -193,8 +193,10 @@ function renderFeatured() {
     return `
       <article class="feature-card">
         <div>
-          <div class="feature-rank">TOP ${index + 4}</div>
-          <div class="source-badges">${(item.sources || []).map((source) => `<span class="source-pill">${escapeHtml(source)}</span>`).join('')}</div>
+          <div class="feature-topline">
+            <div class="feature-rank">TOP ${index + 4}</div>
+            <div class="source-badges">${(item.sources || []).map((source) => `<span class="source-pill">${escapeHtml(source)}</span>`).join('')}</div>
+          </div>
           <div class="title">${escapeHtml(item.displayName)}</div>
           <div class="desc">${escapeHtml(item.description || '暂无描述')}</div>
           <div class="feature-metrics">${metrics.map((metric) => `<span class="metric-pill${metric.alt ? ' alt' : ''}">${escapeHtml(metric.label)}</span>`).join('')}</div>
