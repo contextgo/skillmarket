@@ -60,8 +60,9 @@ It does the following:
 - refreshes `openclawmp_mirror/`
 - rebuilds `market/data/*`
 - commits changes to `main` when upstream data changed
+- directly deploys updated site and package files to OSS in the same workflow
 
-That commit then triggers the normal deploy workflow above.
+This avoids relying on a second workflow trigger from a bot-authored push.
 
 ## Local commands
 

@@ -72,4 +72,4 @@ python3 scripts/openclawmp_mirror.py --output-root openclawmp_mirror --type skil
   - `scripts/openclawmp_mirror.py`
   - `scripts/build_market_catalog.py`
 - 如果镜像或生成数据有变化，会自动提交到 `main`
-- 提交到 `main` 后，现有 `deploy.yml` 会继续自动部署到 OSS
+- 提交成功后，会在同一个 workflow 里直接部署到 OSS

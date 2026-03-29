@@ -78,3 +78,14 @@ jobs:
         if: steps.detect_changes.outputs.changed == 'true'
         run: |
           git push origin HEAD:main
+
+      - name: Deploy updated site and packages
+        if: steps.detect_changes.outputs.changed == 'true'
+        env:
+          OSS_BUCKET: ${{ secrets.OSS_BUCKET }}
+          OSS_ENDPOINT: ${{ secrets.OSS_ENDPOINT }}
+          OSS_ACCESS_KEY_ID: ${{ secrets.OSS_ACCESS_KEY_ID }}
+          OSS_ACCESS_KEY_SECRET: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
+          SITE_URL: ${{ secrets.SITE_URL }}
+        run: |
+          python3 scripts/deploy_to_oss.py --site-url "${SITE_URL}"
