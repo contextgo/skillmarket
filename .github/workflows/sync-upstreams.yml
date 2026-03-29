@@ -1,0 +1,80 @@
+name: Sync Upstream Skill Sources
+
+on:
+  schedule:
+    - cron: '20 2 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: sync-upstreams-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Sync SkillHub mirror
+        run: |
+          python3 scripts/skillhub_mirror.py \
+            --output-root mirror \
+            --page-size 100 \
+            --page-concurrency 8 \
+            --download-concurrency 12
+
+      - name: Recover SkillHub gaps
+        run: |
+          python3 scripts/skillhub_recover_failed.py --output-root mirror
+
+      - name: Sync OpenClawMP mirror
+        run: |
+          python3 scripts/openclawmp_mirror.py \
+            --output-root openclawmp_mirror \
+            --type skill \
+            --page-limit 100 \
+            --download-concurrency 12
+
+      - name: Rebuild curated data
+        run: |
+          python3 scripts/build_market_catalog.py
+
+      - name: Detect changes
+        id: detect_changes
+        run: |
+          git add mirror openclawmp_mirror market/data
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No upstream changes detected."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected and staged."
+          fi
+
+      - name: Commit changes
+        if: steps.detect_changes.outputs.changed == 'true'
+        run: |
+          git commit -m "Sync upstream skills"
+
+      - name: Push changes
+        if: steps.detect_changes.outputs.changed == 'true'
+        run: |
+          git push origin HEAD:main

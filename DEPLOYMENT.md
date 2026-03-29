@@ -44,6 +44,25 @@ This workflow runs on:
 - push to `main`
 - manual trigger via `workflow_dispatch`
 
+## Upstream sync automation
+
+Repository now includes a separate sync workflow:
+
+- workflow: `.github/workflows/sync-upstreams.yml`
+- trigger:
+  - scheduled daily at `02:20 UTC`
+  - manual trigger via `workflow_dispatch`
+
+It does the following:
+
+- refreshes `mirror/`
+- recovers missing SkillHub archives
+- refreshes `openclawmp_mirror/`
+- rebuilds `market/data/*`
+- commits changes to `main` when upstream data changed
+
+That commit then triggers the normal deploy workflow above.
+
 ## Local commands
 
 ### Dry run site only

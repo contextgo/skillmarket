@@ -55,7 +55,21 @@ python3 scripts/openclawmp_mirror.py --output-root openclawmp_mirror --type skil
 已添加 GitHub Actions 自动部署流水线：
 
 - 工作流：`.github/workflows/deploy.yml`
+- 定时同步：`.github/workflows/sync-upstreams.yml`
 - 部署脚本：`scripts/deploy_to_oss.py`
 - 说明文档：`DEPLOYMENT.md`
 
 当 GitHub `main` 分支有新提交时，工作流会自动同步站点文件和技能包到 OSS。
+
+## Upstream Sync
+
+现在支持定时同步上游技能源：
+
+- 每天 UTC `02:20` 运行一次 `sync-upstreams`
+- 顺序执行：
+  - `scripts/skillhub_mirror.py`
+  - `scripts/skillhub_recover_failed.py`
+  - `scripts/openclawmp_mirror.py`
+  - `scripts/build_market_catalog.py`
+- 如果镜像或生成数据有变化，会自动提交到 `main`
+- 提交到 `main` 后，现有 `deploy.yml` 会继续自动部署到 OSS
