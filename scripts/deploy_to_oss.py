@@ -9,17 +9,20 @@ import json
 import mimetypes
 import os
 import sys
+import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 from urllib.parse import quote
 from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parent.parent
 SECRETS_ENV = ROOT / '.secrets' / 'aliyun-oss.env'
 MANIFEST_KEY = '.deploy-manifest.json'
+REQUEST_TIMEOUT = 300
+REQUEST_RETRIES = 3
 
 
 @dataclass
@@ -63,19 +66,31 @@ class OSSClient:
         return f'OSS {self.access_key_id}:{signature}'
 
     def request(self, method: str, key: str = '', data: Optional[bytes] = None, content_type: str = '', headers: Optional[Dict[str, str]] = None) -> bytes:
-        date = self._date()
-        resource = self._resource(key)
         headers = dict(headers or {})
-        auth = self._auth_header(method, date, resource, content_type=content_type)
-        request = Request(self._url(key), method=method, data=data)
-        request.add_header('Date', date)
-        request.add_header('Authorization', auth)
-        if content_type:
-            request.add_header('Content-Type', content_type)
-        for name, value in headers.items():
-            request.add_header(name, value)
-        with urlopen(request, timeout=60) as response:
-            return response.read()
+        last_error: Optional[Exception] = None
+        for attempt in range(1, REQUEST_RETRIES + 1):
+            date = self._date()
+            resource = self._resource(key)
+            auth = self._auth_header(method, date, resource, content_type=content_type)
+            request = Request(self._url(key), method=method, data=data)
+            request.add_header('Date', date)
+            request.add_header('Authorization', auth)
+            if content_type:
+                request.add_header('Content-Type', content_type)
+            for name, value in headers.items():
+                request.add_header(name, value)
+            try:
+                with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+                    return response.read()
+            except HTTPError:
+                raise
+            except (TimeoutError, URLError) as exc:
+                last_error = exc
+                if attempt >= REQUEST_RETRIES:
+                    break
+                time.sleep(min(attempt * 2, 6))
+        assert last_error is not None
+        raise last_error
 
     def get_json(self, key: str) -> Optional[dict]:
         try:
@@ -133,14 +148,19 @@ def production_config(site_url: str) -> bytes:
     payload = {
         'brandName': 'ContextGo',
         'siteUrl': site_url,
-        'manifestUrl': './data/skills.json',
-        'statsUrl': './data/stats.json',
+        'manifestUrl': './data/curated_skills.json',
+        'statsUrl': './data/curated_stats.json',
+        'fullManifestUrl': './data/skills.json',
+        'fullStatsUrl': './data/stats.json',
+        'industryUrl': './data/industry_index.json',
+        'bundleUrl': './data/bundles.json',
         'packageBaseUrls': {
             'skillhub': './packages/skillhub/',
             'openclawmp': './packages/openclawmp/',
         },
         'featuredCount': 8,
         'pageSize': 24,
+        'defaultView': 'curated',
     }
     lines = [
         'window.SKILL_MARKET_CONFIG = ' + json.dumps(payload, ensure_ascii=False, indent=2) + ';',
@@ -159,6 +179,8 @@ def build_upload_items(site_url: str, include_site: bool, include_packages: bool
             items.append(UploadItem(path, rel.as_posix(), guess_type(path.name), 'public,max-age=300'))
         for path in iter_files(ROOT / 'market' / 'data'):
             rel = path.relative_to(ROOT / 'market')
+            if rel.as_posix() in {'data/skills.json', 'data/curation_report.json'}:
+                continue
             items.append(UploadItem(path, rel.as_posix(), guess_type(path.name), 'public,max-age=300'))
     if include_packages:
         for path in iter_files(ROOT / 'mirror' / 'zips'):

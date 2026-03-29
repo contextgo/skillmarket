@@ -6,6 +6,7 @@
 - `scripts/skillhub_mirror.py`：全量镜像 `SkillHub`
 - `scripts/skillhub_recover_failed.py`：补救 `SkillHub` 缺失 zip
 - `scripts/openclawmp_mirror.py`：全量镜像 `openclawmp` 的 skills
+- `scripts/build_curated_catalog.py`：从全量数据生成精选集、行业索引和组合包
 
 ## SkillHub
 
@@ -34,7 +35,7 @@ python3 scripts/openclawmp_mirror.py --output-root openclawmp_mirror --type skil
 - `openclawmp_mirror/reports/skills_table.csv`
 - `openclawmp_mirror/reports/skills_summary.md`
 
-## Static Skill Market
+## Curated Skills Site
 
 品牌：`ContextGo`
 
@@ -43,8 +44,10 @@ python3 scripts/openclawmp_mirror.py --output-root openclawmp_mirror --type skil
 已实现一个可静态托管的技能市场页面：
 
 - 页面入口：`market/index.html`
-- 统一 manifest：`market/data/skills.json`
+- 全量 manifest：`market/data/skills.json`
+- 精选 manifest：`market/data/curated_skills.json`
 - 生成脚本：`scripts/build_market_catalog.py`
+- 组合数据：`market/data/industry_index.json`、`market/data/bundles.json`
 - 说明文档：`market/README.md`
 
 ## CI/CD Deployment
@@ -56,4 +59,3 @@ python3 scripts/openclawmp_mirror.py --output-root openclawmp_mirror --type skil
 - 说明文档：`DEPLOYMENT.md`
 
 当 GitHub `main` 分支有新提交时，工作流会自动同步站点文件和技能包到 OSS。
-

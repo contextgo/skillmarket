@@ -8,6 +8,8 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Dict, List, Set, Tuple
 
+from build_curated_catalog import build_curated_outputs, enrich_items
+
 
 SKILLHUB_CSV = Path('mirror/reports/skills_table.csv')
 OPENCLAWMP_CSV = Path('openclawmp_mirror/reports/skills_table.csv')
@@ -239,14 +241,22 @@ def main() -> int:
 
     items.sort(key=lambda item: (-item['popularity'], item['displayName'].lower(), item['version']))
 
+    enriched_items = enrich_items(items)
+
     OUT_JSON.parent.mkdir(parents=True, exist_ok=True)
-    OUT_JSON.write_text(json.dumps({'items': items}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    OUT_JSON.write_text(json.dumps({'items': enriched_items}, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
     OUT_STATS.write_text(json.dumps({
         'total': len(items),
         'categories': sorted(categories),
         'sources': sources_count,
     }, ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
-    print(json.dumps({'total': len(items), 'sources': sources_count, 'categories': len(categories)}, ensure_ascii=False, indent=2))
+    curated_summary = build_curated_outputs(enriched_items)
+    print(json.dumps({
+        'total': len(items),
+        'sources': sources_count,
+        'categories': len(categories),
+        'curated': curated_summary,
+    }, ensure_ascii=False, indent=2))
     return 0
 
 

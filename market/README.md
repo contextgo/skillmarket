@@ -1,4 +1,4 @@
-# ContextGo Skill Market
+# ContextGo Curated Skills
 
 一个纯静态、可直接部署到 OSS / COS / CDN，并计划挂载到 `www.skillmarket.com.cn` 的技能市场页面。
 
@@ -15,8 +15,13 @@
 
 ## 数据文件
 
-- `market/data/skills.json`：前端直接消费的统一 manifest
-- `market/data/stats.json`：首页统计
+- `market/data/skills.json`：全量统一 manifest
+- `market/data/stats.json`：全量统计
+- `market/data/curated_skills.json`：首页默认使用的精选 manifest
+- `market/data/curated_stats.json`：精选统计
+- `market/data/industry_index.json`：行业入口索引
+- `market/data/bundles.json`：组合包数据
+- `market/data/curation_report.json`：精选过程摘要
 
 ## 重新生成 manifest
 
@@ -28,6 +33,7 @@ python3 scripts/build_market_catalog.py
 
 - `name + version + author`
 - 输出总数：`27982`
+- 当前精选集：`1211`
 
 ## 本地预览
 
@@ -62,12 +68,17 @@ packages/
 window.SKILL_MARKET_CONFIG = {
   brandName: 'ContextGo',
   siteUrl: 'https://www.skillmarket.com.cn',
-  manifestUrl: 'https://your-cdn.example.com/market/data/skills.json',
-  statsUrl: 'https://your-cdn.example.com/market/data/stats.json',
+  manifestUrl: 'https://your-cdn.example.com/market/data/curated_skills.json',
+  statsUrl: 'https://your-cdn.example.com/market/data/curated_stats.json',
+  fullManifestUrl: 'https://your-cdn.example.com/market/data/skills.json',
+  fullStatsUrl: 'https://your-cdn.example.com/market/data/stats.json',
+  industryUrl: 'https://your-cdn.example.com/market/data/industry_index.json',
+  bundleUrl: 'https://your-cdn.example.com/market/data/bundles.json',
   packageBaseUrls: {
     skillhub: 'https://your-cdn.example.com/packages/skillhub/',
     openclawmp: 'https://your-cdn.example.com/packages/openclawmp/',
   },
+  defaultView: 'curated',
 };
 ```
 
