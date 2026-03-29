@@ -130,7 +130,7 @@ function summarizeMetrics(item) {
   const installs = (metrics.skillhub_installs || 0) + (metrics.openclawmp_installs || 0);
   const stars = (metrics.skillhub_stars || 0) + (metrics.openclawmp_total_stars || 0) + (metrics.openclawmp_github_stars || 0);
   return [
-    item.qualityScore ? { label: `${formatNumber(item.qualityScore)} 推荐度`, alt: true } : null,
+    item.qualityScore ? { label: `${formatNumber(item.qualityScore)} 推荐指数`, alt: true } : null,
     installs ? { label: `${formatNumber(installs)} 使用`, alt: false } : null,
     stars ? { label: `${formatNumber(stars)} 关注`, alt: true } : null,
   ]
@@ -238,10 +238,10 @@ function renderFilters() {
 
 function renderHero(statsPayload) {
   const cards = [
-    { label: "策展收录", value: formatNumber(statsPayload?.total || state.allItems.length), hint: "当前市场中重点保留的能力" },
+    { label: "精选技能", value: formatNumber(statsPayload?.total || state.allItems.length), hint: "当前最值得先看的技能" },
     { label: "行业专题", value: formatNumber(state.industryIndex.length || 0), hint: "按真实场景组织的行业入口" },
     { label: "组合方案", value: formatNumber(state.bundles.length || 0), hint: "围绕任务链整理出的推荐组合" },
-    { label: "能力主题", value: formatNumber(statsPayload?.clusterCount || 0), hint: "相似功能会被收敛成更清晰的能力主题" },
+    { label: "能力方向", value: formatNumber(statsPayload?.clusterCount || 0), hint: "帮助你更快理解技能之间的区别" },
   ];
 
   elements.heroStats.innerHTML = cards
@@ -256,7 +256,7 @@ function renderHero(statsPayload) {
     )
     .join("");
 
-  elements.footerMeta.textContent = `当前策展收录 ${formatNumber(statsPayload?.total || state.allItems.length)} 个技能，按场景组织。`;
+  elements.footerMeta.textContent = `当前收录 ${formatNumber(statsPayload?.total || state.allItems.length)} 个精选技能。`;
 }
 
 function renderIndustries() {
@@ -385,7 +385,7 @@ function renderFeatured() {
         <article class="leaderboard-item" data-featured-id="${escapeHtml(item.id)}">
           <div class="leaderboard-rank">${index + 1}</div>
           <div class="leaderboard-body">
-            <div class="source-badges"><span class="source-pill">${escapeHtml(item.primaryCapability || "策展能力")}</span></div>
+            <div class="source-badges"><span class="source-pill">${escapeHtml(item.primaryCapability || "精选能力")}</span></div>
             <div class="leaderboard-title">${escapeHtml(item.displayName || item.name)}</div>
             <div class="leaderboard-desc">${escapeHtml(item.description || "暂无描述")}</div>
             <div class="feature-metrics">${metrics
@@ -482,14 +482,14 @@ function renderCard(item) {
 function renderResults() {
   const total = state.filteredItems.length;
   const showing = Math.min(state.visibleCount, total);
-  elements.resultsHeading.textContent = `策展技能库 · ${formatNumber(total)} 个技能`;
+  elements.resultsHeading.textContent = `精选技能 · ${formatNumber(total)} 个技能`;
   elements.resultsMeta.textContent = `当前显示 ${formatNumber(showing)} 个，行业：${
     state.selectedIndustry === "all" ? "全部" : getIndustryLabel(state.selectedIndustry)
   }，分类：${state.selectedCategory === "all" ? "全部" : state.selectedCategory}`;
 
   const pills = [
     { label: `行业：${state.selectedIndustry === "all" ? "全部" : getIndustryLabel(state.selectedIndustry)}`, alt: false },
-    { label: `排序：${elements.sortSelect.options[elements.sortSelect.selectedIndex]?.text || "推荐度"}`, alt: true },
+    { label: `排序：${elements.sortSelect.options[elements.sortSelect.selectedIndex]?.text || "推荐指数"}`, alt: true },
     { label: `当前显示 ${formatNumber(showing)} / ${formatNumber(total)}`, alt: false },
   ];
   elements.resultsPills.innerHTML = pills
@@ -530,17 +530,17 @@ function openDetails(item) {
 
   elements.drawerContent.innerHTML = `
     <div class="drawer-header">
-      <div class="source-badges"><span class="source-pill">${escapeHtml(item.primaryCapability || "策展能力")}</span></div>
+      <div class="source-badges"><span class="source-pill">${escapeHtml(item.primaryCapability || "精选能力")}</span></div>
       <h3>${escapeHtml(item.displayName || item.name)}</h3>
       <p class="drawer-summary">${escapeHtml(item.description || "暂无描述")}</p>
     </div>
 
     <div class="drawer-section">
-      <div class="drawer-section-title">策展说明</div>
+      <div class="drawer-section-title">推荐说明</div>
       <div class="metric-row">
         <span class="metric-pill alt">能力：${escapeHtml(item.primaryCapability || "通用能力")}</span>
-        ${item.qualityScore ? `<span class="metric-pill">推荐度：${escapeHtml(formatNumber(item.qualityScore))}</span>` : ""}
-        ${item.selectionReason ? `<span class="metric-pill alt">入选理由：${escapeHtml(item.selectionReason)}</span>` : ""}
+        ${item.qualityScore ? `<span class="metric-pill">推荐指数：${escapeHtml(formatNumber(item.qualityScore))}</span>` : ""}
+        ${item.selectionReason ? `<span class="metric-pill alt">为什么推荐：${escapeHtml(item.selectionReason)}</span>` : ""}
       </div>
     </div>
 
@@ -615,7 +615,7 @@ function openIndustrySolution(industryId) {
     </div>
 
     <div class="drawer-section">
-      <div class="drawer-section-title">适用场景</div>
+      <div class="drawer-section-title">适合什么场景</div>
       <div class="drawer-list">
         ${(industry.useCases || []).map((item) => `<div class="drawer-list-item">${escapeHtml(item)}</div>`).join("")}
       </div>

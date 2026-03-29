@@ -103,7 +103,7 @@ code {
 
 .hero-section {
   display: grid;
-  grid-template-columns: minmax(0, 1.2fr) minmax(360px, 0.8fr);
+  grid-template-columns: minmax(0, 1.06fr) minmax(460px, 0.94fr);
   gap: 22px;
   margin-top: 26px;
   padding: 30px;
@@ -273,8 +273,8 @@ code {
   font-size: 0.78rem;
   font-weight: 800;
 }
-.feature-card .title { font-weight: 800; font-size: 1.12rem; margin-top: 12px; line-height: 1.4; max-width: 18ch; }
-.feature-card:first-child .title { font-size: 1.45rem; max-width: 14ch; }
+.feature-card .title { font-weight: 800; font-size: 1.12rem; margin-top: 12px; line-height: 1.4; max-width: none; text-wrap: balance; }
+.feature-card:first-child .title { font-size: 1.32rem; max-width: none; }
 .feature-card .desc { color: var(--ink-soft); font-size: 0.93rem; line-height: 1.72; margin-top: 10px; max-width: 38ch; }
 .feature-metrics { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
 .feature-card .footer { display: flex; justify-content: space-between; gap: 12px; margin-top: 18px; font-size: 0.85rem; color: var(--ink-soft); position: relative; z-index: 1; }
@@ -645,6 +645,9 @@ code {
   background: rgba(255,255,255,0.08);
   border: 1px solid rgba(255,255,255,0.12);
   color: white;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 .install-kicker {
   display: inline-flex;
@@ -657,14 +660,16 @@ code {
 }
 .install-card h3 {
   margin: 14px 0 10px;
-  font-size: 1.08rem;
-  line-height: 1.4;
+  font-size: 1.04rem;
+  line-height: 1.45;
+  text-wrap: balance;
 }
 .install-card p {
   margin: 0;
   color: rgba(255,255,255,.72);
   font-size: .92rem;
   line-height: 1.7;
+  flex: 1 1 auto;
 }
 .install-snippet {
   margin: 14px 0 16px;
@@ -672,9 +677,39 @@ code {
   border-radius: 16px;
   background: rgba(17,24,39,.28);
   border: 1px solid rgba(255,255,255,0.08);
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
   font-size: .82rem;
   color: rgba(255,255,255,.88);
+}
+.install-snippet-step {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 30px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.08);
+  white-space: nowrap;
+  font-weight: 700;
+}
+.install-snippet-index {
+  width: 20px;
+  height: 20px;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.14);
+  color: rgba(255,255,255,.72);
+  font-size: .72rem;
+  font-weight: 700;
+}
+.install-card .secondary-btn,
+.install-card .ghost-btn,
+.install-card .primary-btn {
+  width: 100%;
 }
 .featured-layout {
   display: grid;

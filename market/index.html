@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ContextGo · Curated Skills</title>
+    <title>ContextGo · 精选能力集</title>
     <meta
       name="description"
-      content="ContextGo 精选技能集，一个小而美的策展型 AI Skill 市场，支持行业浏览、组合方案与技能详情查看。"
+      content="ContextGo 精选能力集。围绕真实场景挑选技能，支持行业浏览、组合方案与技能详情查看。"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -24,7 +24,7 @@
           <div class="brand-mark">C</div>
           <div>
             <div class="brand-name" id="brandName">ContextGo</div>
-            <div class="brand-subtitle">Curated Skills</div>
+            <div class="brand-subtitle">精选能力集</div>
           </div>
         </div>
         <div class="topbar-right">
@@ -35,35 +35,35 @@
             <a href="#filters">筛选</a>
             <a href="#grid">技能库</a>
           </nav>
-          <a class="topbar-cta" href="#featured">精选入口</a>
+          <a class="topbar-cta" href="#featured">开始浏览</a>
         </div>
       </header>
 
       <main>
         <section class="hero-section">
           <div class="hero-copy">
-            <div class="hero-badge">精选收录 · 行业归类 · 可组合使用</div>
-            <h1>不是把 Skill 堆满，而是把真正值得用的留下来。</h1>
+            <div class="hero-badge">精选能力 · 场景组织 · 组合使用</div>
+            <h1>把值得用的技能，放在前面。</h1>
             <p>
-              ContextGo 是一个小而美的 AI Skill 市场。这里不追求数量堆砌，而是只收录更值得反复使用、能进入真实工作流、也更容易落地的能力。
+              围绕真实场景挑选技能，让发现、判断和上手都更直接。
             </p>
             <div class="hero-actions">
-              <a class="primary-btn" href="#featured">查看精选榜单</a>
-              <a class="secondary-btn" href="#industries">按行业浏览</a>
+              <a class="primary-btn" href="#featured">查看推荐</a>
+              <a class="secondary-btn" href="#industries">从场景开始</a>
             </div>
 
             <div class="hero-trust">
-              <span class="trust-pill">精选优先</span>
-              <span class="trust-pill">行业归类</span>
-              <span class="trust-pill">组合推荐</span>
+              <span class="trust-pill">少一些选择成本</span>
+              <span class="trust-pill">更快进入工作流</span>
+              <span class="trust-pill">更适合直接上手</span>
             </div>
             <div class="hero-inline-note">
-              从精选榜单、行业场景或组合包进入，再用搜索和筛选收敛到你真正要落地的技能。
+              从推荐技能、行业场景或组合方案开始，逐步找到适合你的能力。
             </div>
           </div>
           <div class="hero-side">
             <div class="hero-panel stats-panel">
-              <div class="hero-panel-title">Curated Notes</div>
+              <div class="hero-panel-title">精选一览</div>
               <div class="hero-stat-grid" id="heroStats">
                 <article class="hero-stat-card skeleton"></article>
                 <article class="hero-stat-card skeleton"></article>
@@ -74,17 +74,27 @@
             <div class="install-grid">
               <article class="install-card install-card-agent">
                 <div class="install-kicker">我是 Agent</div>
-                <h3>直接拿精选能力集</h3>
-                <p>优先使用已经过聚类和筛选的能力，减少重复安装和低价值试错。</p>
-                <div class="install-snippet">行业 → 组合 → 详情 → ZIP 包</div>
+                <h3>更快拿到合适的技能</h3>
+                <p>从更清晰的推荐入口开始，减少试错和重复比较。</p>
+                <div class="install-snippet">
+                  <span class="install-snippet-step"><span class="install-snippet-index">1</span><span>行业</span></span>
+                  <span class="install-snippet-step"><span class="install-snippet-index">2</span><span>组合</span></span>
+                  <span class="install-snippet-step"><span class="install-snippet-index">3</span><span>详情</span></span>
+                  <span class="install-snippet-step"><span class="install-snippet-index">4</span><span>技能包</span></span>
+                </div>
                 <a class="secondary-btn" href="#grid">开始浏览</a>
               </article>
               <article class="install-card install-card-human">
                 <div class="install-kicker">我是 Human</div>
                 <h3>先看场景，再决定下载</h3>
-                <p>从行业和组合入口看哪些 skill 真能串成工作流，而不是面对一堆相似名字。</p>
-                <div class="install-snippet">行业 → 组合 → 筛选 → 下载</div>
-                <a class="ghost-btn" href="#filters">立即筛选</a>
+                <p>先理解它适合解决什么问题，再决定是不是你要的技能。</p>
+                <div class="install-snippet">
+                  <span class="install-snippet-step"><span class="install-snippet-index">1</span><span>行业</span></span>
+                  <span class="install-snippet-step"><span class="install-snippet-index">2</span><span>组合</span></span>
+                  <span class="install-snippet-step"><span class="install-snippet-index">3</span><span>筛选</span></span>
+                  <span class="install-snippet-step"><span class="install-snippet-index">4</span><span>下载</span></span>
+                </div>
+                <a class="secondary-btn" href="#filters">立即筛选</a>
               </article>
             </div>
           </div>
@@ -94,21 +104,21 @@
           <div class="platform-strip">
             <article class="platform-card">
               <div class="platform-kicker">精选原则</div>
-              <h3>少而精，不做堆砌</h3>
-              <p>只保留更有代表性、更完整、也更适合直接落地的能力，不把相似功能反复堆给用户。</p>
-              <div class="platform-pill">去重收敛</div>
+              <h3>少一些重复，多一些明确</h3>
+              <p>尽量让每个技能都更有代表性，也更容易判断是否适合你。</p>
+              <div class="platform-pill">更清晰</div>
             </article>
             <article class="platform-card">
               <div class="platform-kicker">精选原则</div>
-              <h3>按场景组织，不按名字堆</h3>
-              <p>把 skill 放进行业和任务场景里，让用户先理解“解决什么问题”，再决定“选哪一个”。</p>
-              <div class="platform-pill">行业组织</div>
+              <h3>从场景进入，而不是从名字开始</h3>
+              <p>先看它适合什么工作方式，再看具体该选哪一个技能。</p>
+              <div class="platform-pill">更贴近使用</div>
             </article>
             <article class="platform-card platform-card-merged">
               <div class="platform-kicker">精选原则</div>
-              <h3>能组合、能落地、能复用</h3>
-              <p>每个 skill 都不是孤立陈列，而是尽量放进可执行的组合和工作流里，帮助你更快完成任务。</p>
-              <div class="platform-pill">方案优先</div>
+              <h3>让技能之间自然衔接</h3>
+              <p>不只看单个技能，也看它能不能进入更完整的工作流。</p>
+              <div class="platform-pill">更容易落地</div>
             </article>
           </div>
         </section>
@@ -117,9 +127,9 @@
           <div class="section-heading">
             <div>
               <div class="eyebrow">精选推荐</div>
-              <h2>本期策展清单</h2>
+              <h2>值得先看的技能</h2>
             </div>
-            <p>优先展示推荐度更高、信息更完整、且更适合直接进入工作流的 skill。</p>
+            <p>推荐更完整、表达更清楚、也更适合直接进入工作流的技能。</p>
           </div>
           <div class="featured-layout">
             <div class="leaderboard-panel">
@@ -128,7 +138,7 @@
                   <div class="eyebrow">TOP 3</div>
                   <h3>代表条目</h3>
                 </div>
-                <div class="leaderboard-note">按推荐度排序</div>
+                <div class="leaderboard-note">按推荐指数排序</div>
               </div>
               <div class="leaderboard-list" id="leaderboardList"></div>
             </div>
@@ -140,9 +150,9 @@
           <div class="section-heading">
             <div>
               <div class="eyebrow">行业组织</div>
-              <h2>按场景进入，而不是按随机名字翻</h2>
+              <h2>从场景开始</h2>
             </div>
-            <p>用行业视角重新组织能力，适合先判断当前团队要解决的业务问题，再进入具体 skill。</p>
+            <p>先看要解决的问题，再看该用哪些技能。</p>
           </div>
           <div class="industry-grid" id="industryShowcase"></div>
         </section>
@@ -151,9 +161,9 @@
           <div class="section-heading">
             <div>
               <div class="eyebrow">组合推荐</div>
-              <h2>把 skill 串成可执行工作流</h2>
+              <h2>把技能组合起来</h2>
             </div>
-            <p>每个组合包都围绕一个真实任务链，把需要的能力按步骤组织起来。</p>
+            <p>围绕任务链组织技能，让能力之间自然衔接。</p>
           </div>
           <div class="bundle-grid" id="bundleGrid"></div>
         </section>
@@ -162,9 +172,9 @@
           <div class="section-heading compact">
             <div>
               <div class="eyebrow">搜索与筛选</div>
-              <h2>在精选集里继续收敛</h2>
+              <h2>继续缩小范围</h2>
             </div>
-            <p>支持关键词、行业、分类和排序，让你在精简后的能力库里更快找到真正合适的 skill。</p>
+            <p>按关键词、行业、分类和排序快速收敛。</p>
           </div>
 
           <div class="filter-surface">
@@ -177,10 +187,10 @@
                 </label>
               </div>
               <div class="control-panel sort-panel">
-                <div class="control-label">推荐排序</div>
+                <div class="control-label">排序方式</div>
                 <label class="select-shell">
                   <select id="sortSelect">
-                    <option value="quality">推荐度</option>
+                    <option value="quality">推荐指数</option>
                     <option value="popularity">综合热度</option>
                     <option value="installs">安装量</option>
                     <option value="stars">星标热度</option>
@@ -209,7 +219,7 @@
         <section class="section-block list-section" id="grid">
           <div class="section-heading compact">
             <div>
-              <div class="eyebrow">策展技能库</div>
+              <div class="eyebrow">精选技能</div>
               <h2 id="resultsHeading">正在载入...</h2>
             </div>
             <p id="resultsMeta">请稍候，正在读取 manifest。</p>
@@ -217,7 +227,7 @@
 
           <div class="results-toolbar">
             <div class="results-pills" id="resultsPills"></div>
-            <div class="results-caption">只展示经过挑选和整理后的精选能力。</div>
+            <div class="results-caption">只保留更值得先看的技能。</div>
           </div>
 
           <div class="cards-grid" id="cardsGrid"></div>
@@ -234,7 +244,7 @@
       <footer class="footer">
         <div>
           <strong>ContextGo</strong>
-          <span> · skillmarket.com.cn · 小而美的策展型 Skill Collection</span>
+          <span> · skillmarket.com.cn · 小而美的精选能力集</span>
         </div>
         <div id="footerMeta">准备中...</div>
       </footer>
