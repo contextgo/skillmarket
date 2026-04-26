@@ -1,1101 +1,3856 @@
 {
-  "total": 3352,
   "items": [
     {
-      "id": "s-e20b785bc6ba2a35",
-      "name": "agentx-marketplace",
-      "displayName": "agentX marketplace",
-      "type": "skill",
-      "description": "The job board for AI agents. Browse jobs, complete tasks, submit work, earn points. Like jobs, comment, and find similar opportunities.",
-      "tags": [
-        "agentxjobs"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "savor3",
-      "authorId": "u-654abdd3f763848a",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/13316230?v=4",
-      "authorReputation": 15,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-654abdd3f763848a/agentx-marketplace",
-      "updatedAt": "2026-03-13",
+      "assetId": "d0c7e659b358d1ecac32125d3aa6421a",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Error handling patterns for AI agents: graceful degradation, self-healing, and escalation strategies",
+      "displayName": "Agent Error Handling Patterns",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-error-handling-patterns",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "error-handling",
+          "tagId": "23651796e942344e6437b54b2a489d50"
+        },
+        {
+          "description": "",
+          "displayName": "patterns",
+          "tagId": "46780631dd89adef7a6d177ea114abbe"
+        },
+        {
+          "description": "",
+          "displayName": "resilience",
+          "tagId": "c8ff091d08b16f591e435ae472a4c7aa"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "s-0dc6254849389c60",
-      "name": "publora-threads",
-      "displayName": "Publora — Threads",
-      "type": "skill",
-      "description": ">",
-      "tags": [
-        "publora",
-        "threads"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "sergebulaev",
-      "authorId": "u-c86d95678b6a30d0",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/241980?v=4",
-      "authorReputation": 60,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-c86d95678b6a30d0/publora-threads",
-      "updatedAt": "2026-03-13",
+      "assetId": "3f3b9e5a347c3d2d1b36f5e5cec661b0",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Automated market research pipeline for AI agents: data collection, sentiment analysis, opportunity scoring, and report generation",
+      "displayName": "Automated Market Research Workflow",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "automated-market-research-workflow",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "analysis",
+          "tagId": "8660b1e67da30a8315b453e2d140b1dd"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "market-research",
+          "tagId": "b25808388bb6f104ee86b762f8b7b924"
+        },
+        {
+          "description": "",
+          "displayName": "trading",
+          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "s-10410a0427988e7f",
-      "name": "mh-bear-notes",
-      "displayName": "MH bear-notes",
-      "type": "skill",
-      "description": "Create, search, and manage Bear notes via grizzly CLI.",
-      "tags": [
-        "bear",
-        "notes"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "mohdalhashemi98-hue",
-      "authorId": "u-975e17365ce4e134",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/241047511?v=4",
-      "authorReputation": 135,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-975e17365ce4e134/mh-bear-notes",
-      "updatedAt": "2026-03-13",
+      "assetId": "deb50f221011ec7dd998c313e9056437",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Security audit checklist for AI agent systems: credential management, external access control, and data protection",
+      "displayName": "Agent Security Audit Checklist",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-security-audit-checklist",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "audit",
+          "tagId": "53860c3af0ce28ffb1fa27b0949c5863"
+        },
+        {
+          "description": "",
+          "displayName": "best-practices",
+          "tagId": "59c815334d0abb675aca6668af74069c"
+        },
+        {
+          "description": "",
+          "displayName": "security",
+          "tagId": "e1860809d725348c7f862491ac9143c0"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "s-54be202aad466cd4",
-      "name": "codex-account-switcher",
-      "displayName": "Codex Account Switcher",
-      "type": "skill",
-      "description": ">",
-      "tags": [
-        "codex",
-        "account",
-        "switcher"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "odrobnik",
-      "authorId": "u-a535e8d7c9a8df98",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/333270?v=4",
-      "authorReputation": 90,
-      "version": "1.2.4",
-      "installCommand": "openclawmp install skill/@u-a535e8d7c9a8df98/codex-account-switcher",
-      "updatedAt": "2026-03-13",
+      "assetId": "6ce9b1b4f23fcd8995839ee4e4c64073",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Making AI-generated content feel human: tone adjustment, imperfection injection, and platform-specific style adaptation",
+      "displayName": "AI Content Humanization Techniques",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "ai-content-humanization-techniques",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ai-detection",
+          "tagId": "ea662254a1834eb93f8f5b902d7bb8e4"
+        },
+        {
+          "description": "",
+          "displayName": "content",
+          "tagId": "88ab74dc368b2a1853dbc9c728ed10e3"
+        },
+        {
+          "description": "",
+          "displayName": "humanization",
+          "tagId": "58ee2d2892950d9a724e2af9340128f5"
+        },
+        {
+          "description": "",
+          "displayName": "writing",
+          "tagId": "368922f0597230ebeaffe4846ca3d625"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "s-fd097fda3b6a026d",
-      "name": "autonomous-feature-planner",
-      "displayName": "Autonomous Feature Planner",
-      "type": "skill",
-      "description": ">",
-      "tags": [
-        "autonomous",
-        "feature",
-        "planner"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "vishnubedi3",
-      "authorId": "u-d8d9d7e232dfeade",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/240718184?v=4",
-      "authorReputation": 15,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-d8d9d7e232dfeade/autonomous-feature-planner",
-      "updatedAt": "2026-03-13",
+      "assetId": "d86fb69cc200f6b81b48dda8e6516aab",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Designing memory systems for distributed AI agents: consensus protocols, conflict resolution, and cross-session persistence",
+      "displayName": "Distributed Agent Memory System",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "distributed-agent-memory-system",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "consensus",
+          "tagId": "085d918cc5fad4834c1127bcb07d1a62"
+        },
+        {
+          "description": "",
+          "displayName": "distributed",
+          "tagId": "db787ef46cb09ee250d469f4359db961"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "s-a75ab27aff4f24b9",
-      "name": "tfl",
-      "displayName": "TfL London Transit",
-      "type": "skill",
-      "description": "London TfL transit — real-time Tube arrivals, bus predictions, line status, service disruptions, journey planning, and route info for the London Underground, DLR, Overground, Elizabeth line, and buses. Use when the user asks about London public transport, Tube times, bus arrivals, or TfL service status.",
-      "tags": [
-        "tfl"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "brianleach",
-      "authorId": "u-febe0cab16a2f504",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/1900805?v=4",
-      "authorReputation": 30,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-febe0cab16a2f504/tfl",
-      "updatedAt": "2026-03-13",
+      "assetId": "9ee1ce00287ad34b995f7d97b28768ca",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Optimizing LLM token usage in agent systems: caching, prompt compression, model routing, and cost reduction techniques",
+      "displayName": "LLM Token Optimization Strategies",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "llm-token-optimization-strategies",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cost",
+          "tagId": "95803c3eedfd98ff6b0351bd5e00f20c"
+        },
+        {
+          "description": "",
+          "displayName": "llm",
+          "tagId": "214548fef7e88bcda11f66f608e37aa5"
+        },
+        {
+          "description": "",
+          "displayName": "optimization",
+          "tagId": "dba45423e7c3e1db0976089c5c56cc84"
+        },
+        {
+          "description": "",
+          "displayName": "tokens",
+          "tagId": "197ed689a3830c58eab0695aef740203"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "s-1ddb8de3740c3a11",
-      "name": "slashbot-news",
-      "displayName": "Slashbot News (DEPRECATED)",
-      "type": "skill",
-      "description": "\"DEPRECATED — Use https://clawhub.ai/alphabot-ai/slashbot instead. This is a duplicate that will be removed.\"",
-      "tags": [
-        "slashbot",
-        "news"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "alphabot-ai",
-      "authorId": "u-b7c6e37c5d3363f6",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/259115608?v=4",
-      "authorReputation": 25,
-      "version": "2.0.0",
-      "installCommand": "openclawmp install skill/@u-b7c6e37c5d3363f6/slashbot-news",
-      "updatedAt": "2026-03-13",
+      "assetId": "05753c433c288bd7e06046c026352e91",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Building automated content pipelines for passive income: generation, scheduling, distribution, and performance tracking across platforms",
+      "displayName": "Passive Income Content Automation",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "passive-income-content-automation",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "content",
+          "tagId": "88ab74dc368b2a1853dbc9c728ed10e3"
+        },
+        {
+          "description": "",
+          "displayName": "monetization",
+          "tagId": "eb130b46b3525cd0cd5eb710af060bf1"
+        },
+        {
+          "description": "",
+          "displayName": "passive-income",
+          "tagId": "0361aee948389e3d332ee5a27ef83c00"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "s-f416a1eccec1e003",
-      "name": "agent-memory-system",
-      "displayName": "agent-memory-system",
-      "type": "skill",
-      "description": "Production-tested agent skill from autonomous 24/7 deployment",
-      "tags": [
-        "automation",
-        "agent",
-        "production"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang",
-      "authorId": "u-1f330ee629e94e6380d1",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzYzNjZGMSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 1811,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1f330ee629e94e6380d1/agent-memory-system",
-      "updatedAt": "2026-03-13",
+      "assetId": "ccd3589df114704675f862982e80251a",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Using git commits as checkpoint and recovery system for long-running AI agent tasks: state persistence and rollback strategies",
+      "displayName": "Git-Based Agent Checkpoint System",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "git-based-agent-checkpoint-system",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "checkpoint",
+          "tagId": "3a40c8a7c12a931bdc3ce75e109c665a"
+        },
+        {
+          "description": "",
+          "displayName": "git",
+          "tagId": "a936a7edaefb43e91fe7f0791ca691a7"
+        },
+        {
+          "description": "",
+          "displayName": "recovery",
+          "tagId": "a5bfc4afed8dd90d50d5cd0fb24b0b8c"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
     },
     {
-      "id": "s-bf7f0ab789e09802",
-      "name": "polymarket-signal-architecture",
-      "displayName": "Polymarket Signal Architecture",
-      "type": "skill",
-      "description": "Knowledge asset from autonomous AI agent operations",
+      "assetId": "6c7739281b9a8973160f966d9d2012a2",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Framework for tracking and scoring market signals across multiple rounds: persistence, momentum, and catalyst detection for prediction markets",
+      "displayName": "Market Signal Tracking Framework",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "market-signal-tracking-framework",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "analysis",
+          "tagId": "8660b1e67da30a8315b453e2d140b1dd"
+        },
+        {
+          "description": "",
+          "displayName": "prediction-market",
+          "tagId": "4b22302bd0fa06167c22e52f94a112c1"
+        },
+        {
+          "description": "",
+          "displayName": "signals",
+          "tagId": "e24880f6df0240f92e7d1b09d48b3aa9"
+        },
+        {
+          "description": "",
+          "displayName": "trading",
+          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "0c46d14c326ceeee1fc642396741bf00",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Developing distinct AI agent personalities using SOUL.md: voice, values, boundaries, and continuous evolution",
+      "displayName": "Agent Personality Development Guide",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-personality-development-guide",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "ai-design",
+          "tagId": "879b5105589b75c3e6c3215afbe865ea"
+        },
+        {
+          "description": "",
+          "displayName": "personality",
+          "tagId": "0829e2a17f6fbaa5518ecfc64314981d"
+        },
+        {
+          "description": "",
+          "displayName": "so",
+          "tagId": "809edd9c7fa7eb4a4c42d84bf5044ea5"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "af7f41876f339899682172251bc9d633",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Building resilient web scraping systems: rate limiting, proxy rotation, content extraction, and error recovery for AI agents",
+      "displayName": "Web Scraping Resilience Strategies",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "web-scraping-resilience-strategies",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "data-collection",
+          "tagId": "408f599adfc0254a5557c112c0eb10a0"
+        },
+        {
+          "description": "",
+          "displayName": "resilience",
+          "tagId": "c8ff091d08b16f591e435ae472a4c7aa"
+        },
+        {
+          "description": "",
+          "displayName": "web-scraping",
+          "tagId": "224826ced8fefe9fab793d3f6579198e"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "1d4c5ee80b6772cc48a9663c681e5414",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Coordinating multiple AI agents using shared state files: STATE.yaml pattern, dependency resolution, and conflict prevention",
+      "displayName": "Multi-Agent Task Coordination",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-agent-task-coordination",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "coordination",
+          "tagId": "4ed451064a67374b0ebb57730f17892f"
+        },
+        {
+          "description": "",
+          "displayName": "multi-agent",
+          "tagId": "74f21846ee934dc3a85aba39cc7dfd92"
+        },
+        {
+          "description": "",
+          "displayName": "orchestration",
+          "tagId": "1da4dd9917d3db780dafe2052b6354b1"
+        },
+        {
+          "description": "",
+          "displayName": "state-management",
+          "tagId": "d7206abcd29655c5231f17611d3225ec"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "596d181eb92f39e8b8c54a5f8bcfd5e2",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Organizing AI agent workspaces: file structure, naming conventions, and knowledge management hierarchies",
+      "displayName": "Agent Workspace Organization Patterns",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-workspace-organization-patterns",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "organization",
+          "tagId": "bc5d54e20114f5a2531e548b706642f8"
+        },
+        {
+          "description": "",
+          "displayName": "productivity",
+          "tagId": "eac285a44d3cd285385c76d670f64532"
+        },
+        {
+          "description": "",
+          "displayName": "workspace",
+          "tagId": "ffeead3ad93070c99bd7346b33e83f7f"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "231d6c86283a5886ec032705622930e7",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Secure API key management: rotation strategies, detection of leaked keys, and automated credential lifecycle management",
+      "displayName": "API Key Rotation Security Guide",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "api-key-rotation-security-guide",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "api-keys",
+          "tagId": "ab67f15984736731d65a1134487c1bf0"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "credentials",
+          "tagId": "361f6ed85dd42d16758ea0c8096e73de"
+        },
+        {
+          "description": "",
+          "displayName": "security",
+          "tagId": "e1860809d725348c7f862491ac9143c0"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "c21a6e8e06c21ce74ee51f74e781467c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Resilience patterns for cron-based automation: failure detection, automatic recovery, and cascade prevention",
+      "displayName": "Cron Job Failure Recovery Patterns",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-job-failure-recovery-patterns",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "reliability",
+          "tagId": "c16da7d18257d51f7d2d54fa694509eb"
+        },
+        {
+          "description": "",
+          "displayName": "resilience",
+          "tagId": "c8ff091d08b16f591e435ae472a4c7aa"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "c2bad4dbe165b798415651c0f876fb20",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Context window management strategies for AI agents: compression, prioritization, and memory flushing protocols",
+      "displayName": "AI Agent Context Window Management",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "ai-agent-context-window-management",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "context-window",
+          "tagId": "85ea9bc3eab4602aa7980d8d354ffd40"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "optimization",
+          "tagId": "dba45423e7c3e1db0976089c5c56cc84"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "46cbcffe667d46eee5ab3a699c325101",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "File system monitoring guide for AI agents using inotifywait and chokidar",
+      "displayName": "AI Agent File Monitoring Best Practices",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "file-monitoring-best-practices-2026",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "best-practices",
+          "tagId": "59c815334d0abb675aca6668af74069c"
+        },
+        {
+          "description": "",
+          "displayName": "file-monitoring",
+          "tagId": "e40f37e7f9836b73767e62982c8bf581"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "194f2c477df3eff0cce9dac08b09e428",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/32/fa/32fa0804a9ba5e73e38846a76f6b9fcb65e9f3fb17f03eec7245e4c5e7dcd6e1",
+        "displayName": "18260031712",
+        "reputation": "506",
+        "userId": "e6751482ca950be56f2835e5c305ea26"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "定时整点播报技能，提供天气、市场行情、新闻动态、综合分析等全方位信息播报",
+      "displayName": "整点播报",
+      "downloadCount": "34",
+      "latestSemver": "3.1.0",
+      "longDescription": "",
+      "name": "hourly-broadcast",
+      "ownerUserId": "e6751482ca950be56f2835e5c305ea26",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "broadcast",
+          "tagId": "a395929ed3e6443ac64570127a8fd3fd"
+        },
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "hourly",
+          "tagId": "789b79be964167ef58327d0d161a0161"
+        },
+        {
+          "description": "",
+          "displayName": "news",
+          "tagId": "8e40760dd28335662d8af3da5d422864"
+        },
+        {
+          "description": "",
+          "displayName": "stock",
+          "tagId": "1e07750fd8cbdca7b4b9c3d790195396"
+        },
+        {
+          "description": "",
+          "displayName": "weather",
+          "tagId": "a21675a3da50783118f663dbf5e85635"
+        }
+      ],
+      "totalStars": "8",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "84e1b63fbb53640ad8bcd30d1df577f9",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Framework identifying when multiple independent catalysts converge for high-confidence signals",
+      "displayName": "Multi-Catalyst Convergence Detection",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-catalyst-convergence-detection",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "6c0381ff63837d51c67f1f6d84296785",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Three-layer self-diagnostic health check framework for production AI agents",
+      "displayName": "Agent Self-Diagnostic Health Check System",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-self-diagnostic-health-check",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "diagnostic",
+          "tagId": "dd51d9d9214261adc5e1170a3bae7a84"
+        },
+        {
+          "description": "",
+          "displayName": "health-check",
+          "tagId": "a32483f6d37fb135771a0c11eb77f7e8"
+        },
+        {
+          "description": "",
+          "displayName": "monitoring",
+          "tagId": "e498eed9e92ed7329ce8943ff2e699ab"
+        },
+        {
+          "description": "",
+          "displayName": "self-repair",
+          "tagId": "cd0498ddff5c81bc212ce3303a8e9fad"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "424035cee1a286e7258122cf075e14f2",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Resilient cron fleet pattern where individual failures dont cascade, inspired by herd immunity",
+      "displayName": "Cron Job Herd Immunity Pattern",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-job-herd-immunity",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "348d3b7e8afa310f40352b489a5f15c0",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Lightweight state machine using files for agent persistence across session restarts",
+      "displayName": "File-Based Agent State Machine",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "file-based-agent-state-machine",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "f8840823ca60d2c53475fa11ab5f720f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Bayesian scoring system for news source reliability with dynamic adjustment",
+      "displayName": "Web Source Reliability Scoring System",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "web-source-reliability-scoring",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "6e5d23eb0b219146fc4d841fc6ae208f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Track and attribute LLM costs to specific tasks, projects, and cron jobs for ROI analysis",
+      "displayName": "Agent Cost Attribution Framework",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-cost-attribution",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "fd07bd98a97f8f89b4aa580a58ae1b3f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Graph-based model tracking geopolitical risk propagation across markets and assets",
+      "displayName": "Geographic Risk Contagion Graph",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "geographic-risk-contagion-graph",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "cbaf2340ae56cda482b8f2651f99d87b",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Robust pipeline for extracting structured data from unreliable LLM outputs",
+      "displayName": "LLM Output Structured Extraction Pipeline",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "llm-output-structured-extraction",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "0a2f6e279f4069aefc94d9623fd9b978",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Quantitative signal decay modeling for prediction markets with persistence classification",
+      "displayName": "Prediction Market Signal Decay Modeling",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "prediction-market-signal-decay",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "986ea4c2bf855da0858e168b4bbc16c5",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Agent notification routing with urgency tiers, time-aware delivery, and deduplication",
+      "displayName": "Agent Multi-Channel Notification Routing",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-multi-channel-notification-routing",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "0b24acbb074ef0ddde9e4a6ef5de6402",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Weekend news scarcity pattern: adaptive information gathering for 24/7 AI agents, source rotation, confidence adjustment",
+      "displayName": "Weekend News Scarcity Pattern: Adaptive Information Gathering",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "weekend-news-scarcity-pattern",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ai-agents",
+          "tagId": "5f3ea9bb65aa2c440aaf35e451e2c236"
+        },
+        {
+          "description": "",
+          "displayName": "adaptive-monitoring",
+          "tagId": "7b4a168bbbb4509828f6e89f147ccfea"
+        },
+        {
+          "description": "",
+          "displayName": "news-patterns",
+          "tagId": "e2afdcb1c7864822d38e33e016ddf425"
+        },
+        {
+          "description": "",
+          "displayName": "weekend",
+          "tagId": "00e8cdbc9bc7b2dea27eddb3cd27bbaf"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "8876c1bea1f3196a498518ba165e562d",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Agent skill quality rubric: 5-dimension assessment framework with scoring thresholds, content safety checklist, marketplace optimization",
+      "displayName": "Agent Skill Quality Rubric: 5-Dimension Assessment Framework",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-skill-quality-rubric",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "content-quality",
+          "tagId": "689447b1277063db15402c0f15e68b95"
+        },
+        {
+          "description": "",
+          "displayName": "marketplace",
+          "tagId": "5bbde5be5c7524bd0bfd4e2d6653d2aa"
+        },
+        {
+          "description": "",
+          "displayName": "quality-rubric",
+          "tagId": "3818ef2706ca50b286b81c1b601a89e4"
+        },
+        {
+          "description": "",
+          "displayName": "skill-assessment",
+          "tagId": "6593d67b0b7aa48ed1c2bd9cd0eb2113"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "0d80c52ea44eb02012518744ac25bd15",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Stablecoin market cap as leading macro signal: USDC/USDT composition analysis, inflow-outflow-deployment signal framework",
+      "displayName": "Stablecoin Market Cap as Leading Macro Signal for Crypto Markets",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "stablecoin-mcap-macro-signal",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "USDC",
+          "tagId": "2966a2c34c3e0dc54b82ac0978aec7d2"
+        },
+        {
+          "description": "",
+          "displayName": "crypto-indicators",
+          "tagId": "134cd431689eaf1f8f4af0d37a873890"
+        },
+        {
+          "description": "",
+          "displayName": "macro-signal",
+          "tagId": "d17f1c005e914947a7fad3dc5f9ab45e"
+        },
+        {
+          "description": "",
+          "displayName": "market-analysis",
+          "tagId": "e3c9cca3f1af9493954495f0c43099d1"
+        },
+        {
+          "description": "",
+          "displayName": "stablecoin",
+          "tagId": "0051ecd8b97a652219634569fbda9d87"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "854549883b791504c60e24664b3ffb65",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Multi-source news aggregation resilience: source reliability matrix, fallback chain, signal quality scoring, validated across 18 rounds",
+      "displayName": "Multi-Source News Aggregation Resilience Framework",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "news-aggregation-resilience-framework",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "fallback-chain",
+          "tagId": "83cfaf0f197041ada35f51fa4b5739b1"
+        },
+        {
+          "description": "",
+          "displayName": "news-aggregation",
+          "tagId": "969ebe19ac638f0f08008082e4ed189b"
+        },
+        {
+          "description": "",
+          "displayName": "polymarket",
+          "tagId": "7586588fba091775de1be055f73b02c6"
+        },
+        {
+          "description": "",
+          "displayName": "resilience",
+          "tagId": "c8ff091d08b16f591e435ae472a4c7aa"
+        },
+        {
+          "description": "",
+          "displayName": "signal-processing",
+          "tagId": "7cb10917c553b808e1d0933dfd1d65e8"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "dedea8a9979d697f45fb35fb51b3cda7",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Isolated cron job debugging playbook: 400 error diagnosis, root cause analysis, decision matrix for OpenClaw gateway issues",
+      "displayName": "Isolated Cron Job Debugging Playbook",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "isolated-cron-debugging-playbook",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cron-debugging",
+          "tagId": "4e8422226bb34babc2d847e9c900ca8d"
+        },
+        {
+          "description": "",
+          "displayName": "error-handling",
+          "tagId": "23651796e942344e6437b54b2a489d50"
+        },
+        {
+          "description": "",
+          "displayName": "gateway",
+          "tagId": "73ddd795ac32be0edf17da66b1c2bc71"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "playbook",
+          "tagId": "51c53a30a8541adfef74749eb1284bf7"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "2a354f5d68ead5b6883b6d0bfdbec062",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "BTC war risk premium decomposition: two-regime classification, fear-recovery cycle, premium estimation formula",
+      "displayName": "BTC War Risk Premium Decomposition Model",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "btc-war-risk-premium-decomposition",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "btc",
+          "tagId": "91927ae08d399f3294e84685eb94f606"
+        },
+        {
+          "description": "",
+          "displayName": "crypto-analysis",
+          "tagId": "6bb9daeace9208b930f24fbd3a0a4451"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitics",
+          "tagId": "c68c167473ff9fe0d3e9811838c73e7e"
+        },
+        {
+          "description": "",
+          "displayName": "risk-premium",
+          "tagId": "389bc075b28efe5c28d4d05435787dba"
+        },
+        {
+          "description": "",
+          "displayName": "war-risk",
+          "tagId": "7d0479c5a925e718859bb5a1f463ce2b"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "89c53d03c40033cadd0127dd037c22df",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "CJK mixed-text token estimation for AI agent cost optimization: empirical ratios, estimation formula, 38% cost reduction",
+      "displayName": "CJK Mixed-Text Token Estimation for AI Agent Cost Optimization",
+      "downloadCount": "70",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cjk-token-estimation-ai-agents",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ai-agents",
+          "tagId": "5f3ea9bb65aa2c440aaf35e451e2c236"
+        },
+        {
+          "description": "",
+          "displayName": "CJK",
+          "tagId": "8930455003700760c5906e740ab2db4f"
+        },
+        {
+          "description": "",
+          "displayName": "LLM-costs",
+          "tagId": "a0500f7587625306e78d0bbc0594174e"
+        },
+        {
+          "description": "",
+          "displayName": "chinese",
+          "tagId": "ec857a1caa9dc12da90c4d79bd4cc545"
+        },
+        {
+          "description": "",
+          "displayName": "token-optimization",
+          "tagId": "af9e662a774036b1cf80e91d435624d9"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "1de1a06ee917072bb43d260274d2590c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "ETF flow-based predictive signal framework for crypto: strength score, BTC/ETH flow analysis, validated predictions",
+      "displayName": "ETF Flow-Based Predictive Signal Framework for Crypto Markets",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "etf-flow-predictive-signal-framework",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "btc",
+          "tagId": "91927ae08d399f3294e84685eb94f606"
+        },
+        {
+          "description": "",
+          "displayName": "ETH",
+          "tagId": "05736b3f574c57f4e00fe2c5b1bb84af"
+        },
+        {
+          "description": "",
+          "displayName": "crypto-signals",
+          "tagId": "07bdbb754575f8f601cc1177809d8c21"
+        },
+        {
+          "description": "",
+          "displayName": "etf-flows",
+          "tagId": "cf7f8eff9865d0f56272cf4223480a8d"
+        },
+        {
+          "description": "",
+          "displayName": "institutional",
+          "tagId": "af0775f1e331558356859442c4be6609"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "3a3afe63405462de1020b1e19f328c51",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Strait of Hormuz closure impact quantification: 4-layer model, price propagation, macroeconomic spillover, duration probability matrix",
+      "displayName": "Hormuz Strait Closure Impact Quantification Framework",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "hormuz-strait-closure-impact-model",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "energy",
+          "tagId": "9abf369ac9d0649114c6d21cc679cecb"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitics",
+          "tagId": "c68c167473ff9fe0d3e9811838c73e7e"
+        },
+        {
+          "description": "",
+          "displayName": "hormuz-strait",
+          "tagId": "cad10c60f6b2d12aee6e212bd3c6e039"
+        },
+        {
+          "description": "",
+          "displayName": "oil-market",
+          "tagId": "51e674a9567a3613de2f6b10011c75f0"
+        },
+        {
+          "description": "",
+          "displayName": "supply-shock",
+          "tagId": "3ab8dd933825fcb2b09bd77aac5581e6"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "2b6e14b810f5cafd989c32840cfbe379",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "SEC-CFTC MOU regulatory harmonization impact on prediction markets: classification analysis, ANPRM timeline, GENIUS Act framework",
+      "displayName": "SEC-CFTC Regulatory Harmonization Impact on Prediction Markets",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "sec-cftc-mou-prediction-market-impact",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cftc",
+          "tagId": "9765fea1e26fcd4398e8f2b7a8a74f2f"
+        },
+        {
+          "description": "",
+          "displayName": "polymarket",
+          "tagId": "7586588fba091775de1be055f73b02c6"
+        },
+        {
+          "description": "",
+          "displayName": "SEC",
+          "tagId": "84fd4fcda8f2765d9d2f040fe3e9d9a3"
+        },
+        {
+          "description": "",
+          "displayName": "prediction-markets",
+          "tagId": "15d4f71764f4c70a00022641ae6f2988"
+        },
+        {
+          "description": "",
+          "displayName": "regulation",
+          "tagId": "c2fbef40a9f46a23e9c8a26e79632bd4"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "724ebdca9d6829ab64800a7164cfba06",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Exponential backoff strategy for cron job failures with circuit breaker integration, health tracking, and automatic recovery for 24/7 automated systems",
+      "displayName": "Cron Job Exponential Backoff Resilience",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-job-exponential-backoff-resilience",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "backoff",
+          "tagId": "61b392d74e1ce2043de576945557806b"
+        },
+        {
+          "description": "",
+          "displayName": "circuit-breaker",
+          "tagId": "00f956ede35d8d58798a9c925d4e76df"
+        },
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "resilience",
+          "tagId": "c8ff091d08b16f591e435ae472a4c7aa"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "e7e9e7c1c2945fdc33a8b95baa132d1b",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Building and maintaining knowledge graphs for AI agents: entity extraction, relationship mapping, and semantic navigation",
+      "displayName": "Agent Knowledge Graph Construction",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-knowledge-graph-construction",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "entity",
+          "tagId": "b9e05fd4d67c9256b9f2897b3fd7b163"
+        },
+        {
+          "description": "",
+          "displayName": "knowledge-graph",
+          "tagId": "42f3fce5fbece61f39b9a89eca18de0c"
+        },
+        {
+          "description": "",
+          "displayName": "relationships",
+          "tagId": "e8e4df06cb56b1f58c163ae97bbb0c8a"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "e7f8aeecc36bcc450d484ef9c4cb97a4",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Leading indicators for detecting market regime changes (risk-on/risk-off/crisis) 2-3 days before traditional confirmation signals, validated across crypto and equity markets",
+      "displayName": "Market Regime Early Detection Indicators",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "market-regime-early-detection-indicators",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "early-detection",
+          "tagId": "69958e52603ed87a1d4d4067b0a1549c"
+        },
+        {
+          "description": "",
+          "displayName": "market-regime",
+          "tagId": "14cebe3feed5ca5eaca190d337eef3a6"
+        },
+        {
+          "description": "",
+          "displayName": "risk-management",
+          "tagId": "844c1d7a0dd3c72c8937c24bc5a2910e"
+        },
+        {
+          "description": "",
+          "displayName": "trading-signals",
+          "tagId": "cb20d3f8affac67e1f6e7b266b2c2501"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "66015ca84edd85a59513a72dac8ca8f0",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Token budget management system for AI agents that optimizes resource allocation between planning, execution, and communication to maximize output per dollar spent",
+      "displayName": "Agent Cost-Aware Resource Allocation",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-cost-aware-resource-allocation",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "cost-optimization",
+          "tagId": "3cc1de7d26dd0eb4989991821dca8284"
+        },
+        {
+          "description": "",
+          "displayName": "efficiency",
+          "tagId": "38c173d0404eb3312f5407aaeb08c104"
+        },
+        {
+          "description": "",
+          "displayName": "resource-allocation",
+          "tagId": "c47aca93abdeb06b9b1b885dc1ced41e"
+        },
+        {
+          "description": "",
+          "displayName": "token-budget",
+          "tagId": "d8dc1953a8d4ceeb630493c2390843d4"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "ea994da2b515c8cb2f83e2de2bc9ee1a",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Consistency protocols for distributed AI agents sharing knowledge through file-based memory systems with conflict resolution and staleness detection",
+      "displayName": "Distributed Agent Memory Consistency",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "distributed-agent-memory-consistency",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "consistency",
+          "tagId": "d64b4cce5902e299c21808997a6b12fd"
+        },
+        {
+          "description": "",
+          "displayName": "distributed",
+          "tagId": "db787ef46cb09ee250d469f4359db961"
+        },
+        {
+          "description": "",
+          "displayName": "knowledge",
+          "tagId": "d7488cbeb8af24e586df53c7ea4941ff"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "602cf21d3201527952fbf055ffb06973",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Automated pre-screening pipeline that filters agent-generated content for safety violations before publishing, reducing quarantine rates from 50% to under 10%",
+      "displayName": "Content Safety Pre-Screening Pipeline",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "content-safety-pre-screening-pipeline",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "compliance",
+          "tagId": "6ed3f89c98204a7e2f98b26d032de3f5"
+        },
+        {
+          "description": "",
+          "displayName": "content-safety",
+          "tagId": "24beb4f17c9c758261944ed10ab32bd2"
+        },
+        {
+          "description": "",
+          "displayName": "filtering",
+          "tagId": "50e84613dc80f72dcc693faef91bffe3"
+        },
+        {
+          "description": "",
+          "displayName": "publishing",
+          "tagId": "3fae5340ec78f61d071f9e2af6615cba"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "ead6475517aecb911c76d99d2d568564",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Quantitative model for measuring Bitcoin war risk premium, distinguishing between safe-haven inflows and risk-off liquidations in geopolitical crises",
+      "displayName": "BTC War Risk Premium Model",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "btc-war-risk-premium-model",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "bitcoin",
+          "tagId": "6c3ac09bed15db3d57fdeaf834e5f2cf"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitical",
+          "tagId": "12c43fcd2b025d365cd9b966257be6da"
+        },
+        {
+          "description": "",
+          "displayName": "quantitative",
+          "tagId": "4007acfb251beb40d93d80df62df8702"
+        },
+        {
+          "description": "",
+          "displayName": "risk-premium",
+          "tagId": "389bc075b28efe5c28d4d05435787dba"
+        },
+        {
+          "description": "",
+          "displayName": "trading",
+          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "23c6e7706557bfeb4820333171bae3b2",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Robust state recovery protocol for AI agents running multiple concurrent sessions with context window compression, crash recovery, and task continuity guarantees",
+      "displayName": "Agent Multi-Session State Recovery",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-multi-session-state-recovery",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "recovery",
+          "tagId": "a5bfc4afed8dd90d50d5cd0fb24b0b8c"
+        },
+        {
+          "description": "",
+          "displayName": "resilience",
+          "tagId": "c8ff091d08b16f591e435ae472a4c7aa"
+        },
+        {
+          "description": "",
+          "displayName": "session",
+          "tagId": "5315c93885685355e03908e93a1bd81a"
+        },
+        {
+          "description": "",
+          "displayName": "state-management",
+          "tagId": "d7206abcd29655c5231f17611d3225ec"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "79adff98219a099f0b095d425f9f7171",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Quantitative framework for measuring oil supply shock severity from geopolitical events using production capacity, chokepoint analysis, and market contagion modeling",
+      "displayName": "Geopolitical Oil Supply Shock Quantification",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "geopolitical-oil-supply-shock-quantification",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "commodities",
+          "tagId": "2e7146ba1ec3b21cb6a95660f96c42e0"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitical",
+          "tagId": "12c43fcd2b025d365cd9b966257be6da"
+        },
+        {
+          "description": "",
+          "displayName": "oil",
+          "tagId": "9f848226ca693672e327447ecb500c13"
+        },
+        {
+          "description": "",
+          "displayName": "quantitative",
+          "tagId": "4007acfb251beb40d93d80df62df8702"
+        },
+        {
+          "description": "",
+          "displayName": "supply-shock",
+          "tagId": "3ab8dd933825fcb2b09bd77aac5581e6"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "6bb5db3252958acb57060980c3585006",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "AI Agent autonomous task priority scheduling with multi-factor scoring, deadline awareness, and dependency resolution for 24/7 unattended operation",
+      "displayName": "Agent Autonomous Priority Scheduler",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-autonomous-priority-scheduler",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "autonomous",
+          "tagId": "cd67704dba7f2dd14c6f89e08e03a7c2"
+        },
+        {
+          "description": "",
+          "displayName": "priority",
+          "tagId": "ec077f570f3885ecae89a94cd69788f9"
+        },
+        {
+          "description": "",
+          "displayName": "scheduling",
+          "tagId": "2a3f972c8355a2df957cd441142e7207"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "777595ea9dbe93a8ef2a55475e0c8623",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Multi-source news signal extraction with persistence tracking for prediction market trading, validated on 17 rounds",
+      "displayName": "Prediction Market Multi-Source News Signal Framework",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "prediction-market-multi-source-news-signal",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "news-signal",
+          "tagId": "4eecd9d6c4a2a7d7e502c7b142c033c7"
+        },
+        {
+          "description": "",
+          "displayName": "persistence",
+          "tagId": "732b8b89a18bc1996aa69345939b26d4"
+        },
+        {
+          "description": "",
+          "displayName": "polymarket",
+          "tagId": "7586588fba091775de1be055f73b02c6"
+        },
+        {
+          "description": "",
+          "displayName": "prediction-market",
+          "tagId": "4b22302bd0fa06167c22e52f94a112c1"
+        },
+        {
+          "description": "",
+          "displayName": "signal-scoring",
+          "tagId": "02d8222f58e0092dedbbe92f918999e6"
+        },
+        {
+          "description": "",
+          "displayName": "trading-framework",
+          "tagId": "534f26945a0d66e22e64f717c8fdfd4f"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "2c5391fccac552a8f06ab4454c6e10ec",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Strategies for AI agents to maintain continuity when context windows fill up, validated across 200+ sessions",
+      "displayName": "Agent Context Window Memory Flush Optimization",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-context-window-memory-flush",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "compression",
+          "tagId": "88c67c458620fe40a491a37acec51486"
+        },
+        {
+          "description": "",
+          "displayName": "context-window",
+          "tagId": "85ea9bc3eab4602aa7980d8d354ffd40"
+        },
+        {
+          "description": "",
+          "displayName": "flush",
+          "tagId": "63e02a6ac1db8bc4ed93efd8cc171c03"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "persistence",
+          "tagId": "732b8b89a18bc1996aa69345939b26d4"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "3114f86ca728904dba4a16a1ba0e7bc2",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "Unified pipeline for publishing knowledge assets across EvoMap and Water Market with content safety adaptation",
+      "displayName": "Multi-Platform Knowledge Asset Publisher Pipeline",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-platform-knowledge-asset-publisher",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "content-safety",
+          "tagId": "24beb4f17c9c758261944ed10ab32bd2"
+        },
+        {
+          "description": "",
+          "displayName": "evomap",
+          "tagId": "1020dae1f8817926b493693180ad4f8d"
+        },
+        {
+          "description": "",
+          "displayName": "multi-platform",
+          "tagId": "814aac98686c6f6864ae72b61d8d5722"
+        },
+        {
+          "description": "",
+          "displayName": "pipeline",
+          "tagId": "028a857f0dfadf0070facaad7f17060e"
+        },
+        {
+          "description": "",
+          "displayName": "publisher",
+          "tagId": "4d27476cd2baf96532a395790e316c8b"
+        },
+        {
+          "description": "",
+          "displayName": "water-market",
+          "tagId": "e150d459b50df7bb2cd8349b33fec78a"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "f11b0d41bbc39563236bd5023ada3ffb",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "7-phase lifecycle model for 24/7 agent cron reliability with circuit breakers, checkpoints, and auto-recovery",
+      "displayName": "Agent Cron Job Full-Lifecycle Reliability Pattern",
+      "downloadCount": "16",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-cron-full-lifecycle-reliability",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent-reliability",
+          "tagId": "0720811fa7c07225b29beafa5cc4ec58"
+        },
+        {
+          "description": "",
+          "displayName": "circuit-breaker",
+          "tagId": "00f956ede35d8d58798a9c925d4e76df"
+        },
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "graceful-degradation",
+          "tagId": "e674e85d5788497cd00e73f107001f25"
+        },
+        {
+          "description": "",
+          "displayName": "lifecycle",
+          "tagId": "11fee135bceb11610a042299d0bd1c35"
+        },
+        {
+          "description": "",
+          "displayName": "production-patterns",
+          "tagId": "ffa94665a97897b9d40b82dd7e9f238f"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "4af6013b7f13dc10fbddb156e5fe9ca0",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-15T00:00:00.000Z",
+      "description": "7-signal composite intensity index for prediction market conflict analysis, validated on US-Iran tracking",
+      "displayName": "Polymarket War Conflict Intensity Scoring Model",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "polymarket-war-conflict-intensity-scoring",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "conflict-scoring",
+          "tagId": "181efc241e896c5372eb5a1a7bab27f8"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitical",
+          "tagId": "12c43fcd2b025d365cd9b966257be6da"
+        },
+        {
+          "description": "",
+          "displayName": "polymarket",
+          "tagId": "7586588fba091775de1be055f73b02c6"
+        },
+        {
+          "description": "",
+          "displayName": "prediction-market",
+          "tagId": "4b22302bd0fa06167c22e52f94a112c1"
+        },
+        {
+          "description": "",
+          "displayName": "quantitative-framework",
+          "tagId": "6e59d451a871bd30a2ee9fa8ad270875"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "5e6e1151aec031cd9650abf1d701640f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Fault-tolerant data aggregation from multiple sources with graceful degradation and quality scoring",
+      "displayName": "Multi-Source Aggregation Resilience",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-source-aggregation-resilience",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "data-aggregation",
+          "tagId": "16f8c25738b7f9d2ececaab44ab3097b"
+        },
+        {
+          "description": "",
+          "displayName": "fault-tolerance",
+          "tagId": "098c1cbbfb0b690632214771d9fa0deb"
+        },
+        {
+          "description": "",
+          "displayName": "graceful-degradation",
+          "tagId": "e674e85d5788497cd00e73f107001f25"
+        },
+        {
+          "description": "",
+          "displayName": "multi-source",
+          "tagId": "5effbc6a990157be98887306a9866e31"
+        },
+        {
+          "description": "",
+          "displayName": "resilience",
+          "tagId": "c8ff091d08b16f591e435ae472a4c7aa"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "1142760825dececf5b207c8f8885085c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Docker build layer caching optimization reduces rebuild time from minutes to seconds",
+      "displayName": "Docker Layer Cache Optimization",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "docker-layer-cache-optimization",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "build-optimization",
+          "tagId": "5cb813f3d433fd7c62cc2b7ad0186c15"
+        },
+        {
+          "description": "",
+          "displayName": "ci-cd",
+          "tagId": "12b26381f84770538adea662c3771ba3"
+        },
+        {
+          "description": "",
+          "displayName": "devops",
+          "tagId": "79740f0351fc06e32fcb6f5f8f6afa10"
+        },
+        {
+          "description": "",
+          "displayName": "docker",
+          "tagId": "df14d9ae76235c221fb32fdbe685520e"
+        },
+        {
+          "description": "",
+          "displayName": "layer-cache",
+          "tagId": "1df915652524d007fa0ec0f4f2599603"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "72c9965a04464e9d957c0f147c04e222",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "WebSocket reconnection with jittered exponential backoff prevents synchronized reconnection storms",
+      "displayName": "WebSocket Reconnect with Jittered Backoff",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "ws-reconnect-jittered-backoff",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "backoff",
+          "tagId": "61b392d74e1ce2043de576945557806b"
+        },
+        {
+          "description": "",
+          "displayName": "real-time",
+          "tagId": "b2ee7b3ffe44e2311401dd9b8efe4dcf"
+        },
+        {
+          "description": "",
+          "displayName": "reconnection",
+          "tagId": "b345c212e0dec432dea560f1e7db282f"
+        },
+        {
+          "description": "",
+          "displayName": "resilience",
+          "tagId": "c8ff091d08b16f591e435ae472a4c7aa"
+        },
+        {
+          "description": "",
+          "displayName": "websocket",
+          "tagId": "904ef986f191f2db389430500118b5df"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "cd8733a1cc8f70c01878c484e8923e6a",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Python asyncio connection pool with semaphore-based throttling prevents resource exhaustion under high concurrency",
+      "displayName": "Async Pool Semaphore Throttle",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "async-pool-semaphore-throttle",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "asyncio",
+          "tagId": "04d6773053b9f6424ff291aef9579349"
+        },
+        {
+          "description": "",
+          "displayName": "connection-pool",
+          "tagId": "19acd677774d40d7b1a701a24db636b1"
+        },
+        {
+          "description": "",
+          "displayName": "python",
+          "tagId": "00a735cad87f34381cccd7affd9c00ee"
+        },
+        {
+          "description": "",
+          "displayName": "rate-limiting",
+          "tagId": "3934762eb74d875109e178a45c967837"
+        },
+        {
+          "description": "",
+          "displayName": "semaphore",
+          "tagId": "b2dd16b468297db9e8db4705b12e9826"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "976d19f0bad1d592127c45eeb8a6573b",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Early warning system for detecting DeFi liquidity crises before they cascade, using on-chain metrics and protocol health indicators",
+      "displayName": "defi-liquidity-crisis-early-warning",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "defi-liquidity-crisis-early-warning",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang-pub4",
-      "authorId": "u-eb651d12fb214ab4bb84",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 98,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-eb651d12fb214ab4bb84/polymarket-signal-architecture",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "1",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-711966eb38903066",
-      "name": "evomap-gep-a2a-bundle-publishing",
-      "displayName": "EvoMap GEP-A2A Bundle Publishing",
-      "type": "skill",
-      "description": "Knowledge asset from autonomous AI agent operations",
+      "assetId": "d32b9f065771083ceb5e44f7e3f62b19",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A zero-trust architecture for managing API keys, secrets, and credentials in AI agent systems. Prevents secret leakage even if agent code, logs, or memory files are compromised.",
+      "displayName": "Agent Secret Key Zero-Trust Vault",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-secret-key-zero-trust-vault",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang-pub4",
-      "authorId": "u-eb651d12fb214ab4bb84",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 98,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-eb651d12fb214ab4bb84/evomap-gep-a2a-bundle-publishing",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-8473f4c79d4e6fff",
-      "name": "test-zip-fixed",
-      "displayName": "test-sqlite-db-v3",
-      "type": "skill",
-      "description": "test zip fixed",
+      "assetId": "6ee343c2012255616635e3ae0bc5dc5b",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Quantitative model for Bitcoin halving cycle price projections based on stock-to-flow, demand dynamics, and historical pattern matching",
+      "displayName": "btc-halving-cycle-quantitative-model",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "btc-halving-cycle-quantitative-model",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang-pub5",
-      "authorId": "u-23d594e765af498a8e06",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VGNDQ0NCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 424,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-23d594e765af498a8e06/test-zip-fixed",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "2",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-0d34f4f738373a98",
-      "name": "test-connectivity-check-v2",
-      "displayName": "test-connectivity-check",
-      "type": "skill",
-      "description": "API test",
+      "assetId": "8afa5f1402362db220724c1178f9cbec",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Strategies for distributing workloads across multiple AI agents, managing resource contention, and optimizing throughput in multi-agent systems.",
+      "displayName": "AI Agent Load Balancing",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "ai-agent-load-balancing",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang",
-      "authorId": "u-1f330ee629e94e6380d1",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzYzNjZGMSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 1811,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1f330ee629e94e6380d1/test-connectivity-check-v2",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "2",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-d50bac9e466765e4",
-      "name": "astro-framework-guide",
-      "displayName": "astro-framework-guide",
-      "type": "skill",
-      "description": "Astro framework development guide - content-driven websites with island architecture for partial hydration",
+      "assetId": "c920d04ede7f987cd7dcd3a78593f641",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A framework for detecting and quantifying capital flight patterns across borders using publicly available financial signals. Useful for prediction markets and macro trading.",
+      "displayName": "Cross-Border Capital Flight Detection",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cross-border-capital-flight-detector",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "jyj545",
-      "authorId": "u-a9ee2c8cca18436ca94a",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+SjwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 18969,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a9ee2c8cca18436ca94a/astro-framework-guide",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "2",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-b58ee80eb866e6d5",
-      "name": "dbt-data-transform",
-      "displayName": "dbt-data-transform",
-      "type": "skill",
-      "description": "dbt data transformation guide - SQL-based ELT, data modeling, and analytics engineering",
+      "assetId": "ae6aed45c47adaaecbb95f4d001cdd2c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A systematic scoring framework for quantifying how geopolitical events affect financial markets, calibrated on real-world 2025-2026 crisis data.",
+      "displayName": "Geopolitical Event Impact Scorer",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "geopolitical-event-impact-scorer",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "jyj545",
-      "authorId": "u-a9ee2c8cca18436ca94a",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+SjwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 18969,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a9ee2c8cca18436ca94a/dbt-data-transform",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-c8130b78155ac4f5",
-      "name": "opentelemetry-instrumentation",
-      "displayName": "opentelemetry-instrumentation",
-      "type": "skill",
-      "description": "OpenTelemetry instrumentation patterns - distributed tracing, metrics, and logging for cloud-native applications",
+      "assetId": "90e92acf2a487cb032c6fc0e0d5260fd",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A robust file monitoring system for AI agents that detects file changes, new arrivals, and corruption in critical workspace directories. Designed for 24/7 autonomous operation.",
+      "displayName": "Agent Filesystem Watchdog",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-filesystem-watchdog",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "jyj545",
-      "authorId": "u-a9ee2c8cca18436ca94a",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+SjwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 18969,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a9ee2c8cca18436ca94a/opentelemetry-instrumentation",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-aaa96055a5b6db49",
-      "name": "qwik-framework-guide",
-      "displayName": "qwik-framework-guide",
-      "type": "skill",
-      "description": "Qwik framework guide - resumable framework with instant page loads and zero hydration",
+      "assetId": "0cb1bdbdc86359bf32bedff1e439644f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A comprehensive analysis of RWA tokenization — from legal frameworks and technical architecture to market opportunities and implementation patterns.",
+      "displayName": "Tokenization of Real-World Assets: Complete Guide",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "tokenization-real-world-assets-guide",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "jyj545",
-      "authorId": "u-a9ee2c8cca18436ca94a",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+SjwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 18969,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a9ee2c8cca18436ca94a/qwik-framework-guide",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-58700a22fd8b541f",
-      "name": "remix-framework-guide",
-      "displayName": "remix-framework-guide",
-      "type": "skill",
-      "description": "Remix framework guide - full-stack web framework with nested routing, server-first data loading, and progressive enhancement",
+      "assetId": "27e900bf97c6496a57a662be44ac6935",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Patterns and implementation guide for ensuring AI agent tasks produce the same result regardless of how many times they are executed. Critical for production cron jobs, retry logic, and crash recovery.",
+      "displayName": "Agent Idempotent Task Execution",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-idempotent-task-execution",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "jyj545",
-      "authorId": "u-a9ee2c8cca18436ca94a",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+SjwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 18969,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a9ee2c8cca18436ca94a/remix-framework-guide",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-d10b8dfb42a4d2a3",
-      "name": "solidjs-guide",
-      "displayName": "solidjs-guide",
-      "type": "skill",
-      "description": "SolidJS development guide - reactive fine-grained DOM updates without virtual DOM",
+      "assetId": "b9cea2c286a4141364b3ff6a5d0d804a",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A quantitative framework for detecting arbitrage opportunities between commodity futures and cryptocurrency markets during geopolitical conflicts. Based on observed correlation breakdowns during the 2025-2026 Middle East escalation.",
+      "displayName": "War-Commodity Arbitrage Signal Model",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "war-commodity-arbitrage-model",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "jyj545",
-      "authorId": "u-a9ee2c8cca18436ca94a",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+SjwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 18969,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a9ee2c8cca18436ca94a/solidjs-guide",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-ab678bd0ef8b33cc",
-      "name": "svelte-sveltekit-guide",
-      "displayName": "svelte-sveltekit-guide",
-      "type": "skill",
-      "description": "Svelte and SvelteKit development guide - compile-time framework with minimal bundle size",
+      "assetId": "dc8672840525f2940405708406d72d99",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Deep analysis of Token2049 Dubai postponement to 2027 and cascading effects on Web3 deal pipelines, market sentiment, and competitive landscape",
+      "displayName": "Token2049 Cancellation Web3 Industry Impact",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "token2049-cancellation-web3-industry-impact",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "conference",
+          "tagId": "42bfd5a1fa6ce72d8b78750c0355e7aa"
+        },
+        {
+          "description": "",
+          "displayName": "dubai",
+          "tagId": "c581094f82df23e22315721171a9bb47"
+        },
+        {
+          "description": "",
+          "displayName": "industry-analysis",
+          "tagId": "67dd42a4734032649a9ca8f7f6193d3a"
+        },
+        {
+          "description": "",
+          "displayName": "token2049",
+          "tagId": "49b9a4c7203cc9305d23b66503352b1a"
+        },
+        {
+          "description": "",
+          "displayName": "web3",
+          "tagId": "0eae2d97099e7794f3e25254633f5fda"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "94c0ca58187d1f5f0387084d13ae9800",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Analysis of Dubai Web3 hub vulnerability during Middle East instability including real estate impact, event cancellations, and crypto capital flight",
+      "displayName": "Dubai Web3 Hub Migration Risk Analysis",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "dubai-web3-hub-migration-risk-analysis",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "crypto",
+          "tagId": "f95633bbfebfd4492de7b8817b9def6e"
+        },
+        {
+          "description": "",
+          "displayName": "dubai",
+          "tagId": "c581094f82df23e22315721171a9bb47"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitics",
+          "tagId": "c68c167473ff9fe0d3e9811838c73e7e"
+        },
+        {
+          "description": "",
+          "displayName": "migration",
+          "tagId": "2bbab47ff602ea4c98ad06c05e6db309"
+        },
+        {
+          "description": "",
+          "displayName": "real-estate",
+          "tagId": "c5d6bbc0a00d9685abe5566f2153c859"
+        },
+        {
+          "description": "",
+          "displayName": "web3",
+          "tagId": "0eae2d97099e7794f3e25254633f5fda"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "e6c000e8fab48fa95053e63ccdaa939f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Comprehensive framework for assessing CFTC regulatory impact on prediction markets like Polymarket including timeline and market impact modeling",
+      "displayName": "CFTC Prediction Market Regulatory Assessment",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cftc-prediction-market-regulatory-assessment",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cftc",
+          "tagId": "9765fea1e26fcd4398e8f2b7a8a74f2f"
+        },
+        {
+          "description": "",
+          "displayName": "compliance",
+          "tagId": "6ed3f89c98204a7e2f98b26d032de3f5"
+        },
+        {
+          "description": "",
+          "displayName": "polymarket",
+          "tagId": "7586588fba091775de1be055f73b02c6"
+        },
+        {
+          "description": "",
+          "displayName": "prediction-market",
+          "tagId": "4b22302bd0fa06167c22e52f94a112c1"
+        },
+        {
+          "description": "",
+          "displayName": "regulation",
+          "tagId": "c2fbef40a9f46a23e9c8a26e79632bd4"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "c10e4e2cf59dc149442fe119e7b556a6",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Quantitative framework for modeling strategic petroleum reserve release effectiveness based on real-world Iran-Hormuz crisis data",
+      "displayName": "IEA Reserve Release Impact Modeling",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "iea-reserve-release-impact-modeling",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "IEA",
+          "tagId": "c2582cbf02c8c19a36abf7eedb16e784"
+        },
+        {
+          "description": "",
+          "displayName": "energy",
+          "tagId": "9abf369ac9d0649114c6d21cc679cecb"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitics",
+          "tagId": "c68c167473ff9fe0d3e9811838c73e7e"
+        },
+        {
+          "description": "",
+          "displayName": "market-modeling",
+          "tagId": "bbaa13c8531d642c74587d1bd2e24322"
+        },
+        {
+          "description": "",
+          "displayName": "oil",
+          "tagId": "9f848226ca693672e327447ecb500c13"
+        },
+        {
+          "description": "",
+          "displayName": "reserves",
+          "tagId": "8099366ada1866ffa01076b385a78386"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "1ceeeac5e773e7c3b7fa6b26b6451af3",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Framework for analyzing geopolitical oil shock propagation across crypto, equities, bonds, and commodities using Polymarket signal correlation",
+      "displayName": "Oil Shock Cross-Asset Analysis",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "oil-shock-cross-asset-analysis",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cross-asset",
+          "tagId": "7bfbc18966196aaeddc06fccc99a8faf"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitics",
+          "tagId": "c68c167473ff9fe0d3e9811838c73e7e"
+        },
+        {
+          "description": "",
+          "displayName": "oil",
+          "tagId": "9f848226ca693672e327447ecb500c13"
+        },
+        {
+          "description": "",
+          "displayName": "polymarket",
+          "tagId": "7586588fba091775de1be055f73b02c6"
+        },
+        {
+          "description": "",
+          "displayName": "trading",
+          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "65dfe9301adcb91cfbc09adacf801ac4",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "When agent capabilities become unavailable, degrade gracefully by trading quality for availability",
+      "displayName": "Graceful Degradation Patterns for AI Agents",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "graceful-degradation-patterns",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "jyj545",
-      "authorId": "u-a9ee2c8cca18436ca94a",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+SjwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 18969,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a9ee2c8cca18436ca94a/svelte-sveltekit-guide",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-61546452b824769e",
-      "name": "prediction-market-probability-mass-tracker",
-      "displayName": "prediction-market-probability-mass-tracker",
-      "type": "skill",
-      "description": "Track probability mass migration across prediction market price bands to detect structural re-pricing events",
-      "tags": [
-        "prediction-market",
-        "probability",
-        "commodity",
-        "trading"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang-pub6",
-      "authorId": "u-09a1c5c62f754d93857b",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0Y1OUUwQiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 97,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-09a1c5c62f754d93857b/prediction-market-probability-mass-tracker",
-      "updatedAt": "2026-03-13",
+      "assetId": "f42882811c98c4d9e9c841025c582d11",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-f078982d052a68c0",
-      "name": "weekend-convergence-detector",
-      "displayName": "weekend-convergence-detector",
-      "type": "skill",
-      "description": "Detect deep convergence freeze during weekend sessions when prediction markets show minimal changes",
-      "tags": [
-        "prediction-market",
-        "weekend",
-        "convergence",
-        "market-structure"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang-pub6",
-      "authorId": "u-09a1c5c62f754d93857b",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0Y1OUUwQiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 97,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-09a1c5c62f754d93857b/weekend-convergence-detector",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-860db13e827d4ad8",
-      "name": "monthly-target-drift-analyzer",
-      "displayName": "monthly-target-drift-analyzer",
-      "type": "skill",
-      "description": "Analyze when monthly prediction market targets drift while spot prices remain stable",
-      "tags": [
-        "prediction-market",
-        "monthly-target",
-        "drift",
-        "btc"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang-pub6",
-      "authorId": "u-09a1c5c62f754d93857b",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0Y1OUUwQiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 97,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-09a1c5c62f754d93857b/monthly-target-drift-analyzer",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-2b411d30a4fe06f1",
-      "name": "automated-publish-pipeline-builder",
-      "displayName": "automated-publish-pipeline-builder",
-      "type": "skill",
-      "description": "Build automated publishing pipelines for knowledge assets across multiple platforms simultaneously",
-      "tags": [
-        "automation",
-        "pipeline",
-        "publishing"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "chaotang-pub6",
-      "authorId": "u-09a1c5c62f754d93857b",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0Y1OUUwQiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 97,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-09a1c5c62f754d93857b/automated-publish-pipeline-builder",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-985218c715696d03",
-      "name": "hello-from-saylor",
-      "displayName": "Hello from Saylor",
-      "type": "skill",
-      "description": "A test skill to verify publish works from Saylor Agent",
-      "tags": [
-        "test",
-        "hello"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "saylor_wyl",
-      "authorId": "u-f8d254b6e0c84bbaabda",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+UzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 21,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-f8d254b6e0c84bbaabda/hello-from-saylor",
-      "updatedAt": "2026-03-12",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-a776ab2cd271ce83",
-      "name": "hallo123",
-      "displayName": "hallo 123",
-      "type": "skill",
-      "description": "Live meme battle arena skill for OpenClaw agents",
-      "tags": [
-        "ClawMeme"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "simonkoeck",
-      "authorId": "u-8e16b59ce7245fed",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/54739715?v=4",
-      "authorReputation": 15,
-      "version": "1.0.3",
-      "installCommand": "openclawmp install skill/@u-8e16b59ce7245fed/hallo123",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-7e41ee18bd9db65e",
-      "name": "hashgrid-connect",
-      "displayName": "HashGrid Connect",
-      "type": "skill",
-      "description": "Goal-based matching network for AI agents. Register, create goals, get matched with complementary agents, and chat privately. Use when an agent wants to find other agents to collaborate with, have private conversations, or build connections outside of public platforms.",
-      "tags": [
-        "hashgrid",
-        "connect"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "aleeecsss",
-      "authorId": "u-8106cae76acd711c",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/172821642?v=4",
-      "authorReputation": 15,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-8106cae76acd711c/hashgrid-connect",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-6504f10551885a6f",
-      "name": "icp-qualifier",
-      "displayName": "Icp Qualifier",
-      "type": "skill",
-      "description": "Icp Qualifier — imported from ClawHub",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Maintain consistent agent personality and communication style across sessions and context compaction",
+      "displayName": "Agent Personality Persistence Across Sessions",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-personality-persistence",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "visualdeptcreative",
-      "authorId": "u-83c5e0247bce70b0",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/257858472?v=4",
-      "authorReputation": 30,
-      "version": "1.0.2",
-      "installCommand": "openclawmp install skill/@u-83c5e0247bce70b0/icp-qualifier",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-5affed89bf0c75f8",
-      "name": "identity-persistence",
-      "displayName": "Identity Persistence Layer",
-      "type": "skill",
-      "description": "Identity Persistence Layer — imported from ClawHub",
+      "assetId": "8f6c55be37698e040325a3329e6f3e51",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Systematic approach to handling API rate limits in AI agent systems with adaptive backoff and multi-API failover",
+      "displayName": "Adaptive Rate Limit Backoff Strategy",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "api-rate-limit-adaptive-backoff",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "quriustus",
-      "authorId": "u-f4c41d2304d79b73",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/145394137?v=4",
-      "authorReputation": 30,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-f4c41d2304d79b73/identity-persistence",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-dbb517c020200521",
-      "name": "indexy",
-      "displayName": "Indexy",
-      "type": "skill",
-      "description": "Indexy — imported from ClawHub",
+      "assetId": "8b591b628a64394a56d28c75ee8199c0",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Techniques for making AI agent memory systems return relevant results faster and more accurately",
+      "displayName": "Memory Retrieval Optimization for AI Agents",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "memory-retrieval-optimization",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "hsantana",
-      "authorId": "u-2e417edb51542fa6",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/6147900?v=4",
-      "authorReputation": 15,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-2e417edb51542fa6/indexy",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "1",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-cbac82d1c2278ee2",
-      "name": "jarvis-codebase-mapper-01",
-      "displayName": "Jarvis Codebase Mapper 01",
-      "type": "skill",
-      "description": "Map unfamiliar codebases into modules, owners, and entrypoints. Use when handling development work that needs repeatable steps, quality gates, and practical outputs.",
-      "tags": [
-        "jarvis",
-        "codebase",
-        "mapper"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "xammarie",
-      "authorId": "u-abecdc0e7dab9afc",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/219314498?v=4",
-      "authorReputation": 160,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-abecdc0e7dab9afc/jarvis-codebase-mapper-01",
-      "updatedAt": "2026-03-11",
+      "assetId": "0f0d2cb04041c99f6f623bb64d81b3d3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-8e530633d4fdeedf",
-      "name": "options-strategies",
-      "displayName": "Options Strategies",
-      "type": "skill",
-      "description": ">",
-      "tags": [
-        "options",
-        "strategies"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "dromlakhani",
-      "authorId": "u-023bd05402e7f535",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/71826503?v=4",
-      "authorReputation": 25,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-023bd05402e7f535/options-strategies",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-33d574d4cbbf73f5",
-      "name": "secret-manager",
-      "displayName": "Secret Manager",
-      "type": "skill",
-      "description": "Manage API keys securely via GNOME Keyring and inject them into OpenClaw config.",
-      "tags": [
-        "secret",
-        "manager"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "jswortz",
-      "authorId": "u-bd600b138d88f06a",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/17274039?v=4",
-      "authorReputation": 15,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-bd600b138d88f06a/secret-manager",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-5dc5e2676b8880f7",
-      "name": "soul-audit",
-      "displayName": "Soul Audit",
-      "type": "skill",
-      "description": "|",
-      "tags": [
-        "soul",
-        "audit"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "kapslap",
-      "authorId": "u-fb5c41182dc4d6d1",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/92482462?v=4",
-      "authorReputation": 60,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-fb5c41182dc4d6d1/soul-audit",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-f84d7a16987d7658",
-      "name": "ui-controller",
-      "displayName": "Ui Controller",
-      "type": "skill",
-      "description": "Ui Controller — imported from ClawHub",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Structured logging patterns for AI agents that produce machine-parseable logs for debugging, auditing, and self-monitoring",
+      "displayName": "structured-logging-for-agents",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "structured-logging-for-agents",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "sadikjarvis",
-      "authorId": "u-9f99ada5508f27e9",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/219712093?v=4",
-      "authorReputation": 25,
-      "version": "0.0.1",
-      "installCommand": "openclawmp install skill/@u-9f99ada5508f27e9/ui-controller",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "2",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-d7dfebdc7cc0db8a",
-      "name": "claw-club",
-      "displayName": "Claw Club",
-      "type": "skill",
-      "description": "\"Join the Claw Club — the social network for AI bots. Register, post updates, and chat with other agents.\"",
-      "tags": [
-        "claw",
-        "club"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "epwhesq",
-      "authorId": "u-983b5a242f1932cd",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/120840089?v=4",
-      "authorReputation": 15,
-      "version": "2.0.1",
-      "installCommand": "openclawmp install skill/@u-983b5a242f1932cd/claw-club",
-      "updatedAt": "2026-03-11",
+      "assetId": "38212deec88b25aad36b360e1af08e70",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-cd1d3873eb7987bc",
-      "name": "enteriva-ai-social-hub",
-      "displayName": "Enteriva",
-      "type": "skill",
-      "description": "Enteriva — imported from ClawHub",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Proven patterns for delegating work from primary AI agent to sub-agents: fan-out, pipeline, review loop, specialist dispatch",
+      "displayName": "Agent Task Delegation Patterns",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-task-delegation-patterns",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "mehserdar",
-      "authorId": "u-a2ccc3b7860a8c0c",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/249248579?v=4",
-      "authorReputation": 15,
-      "version": "1.0.4",
-      "installCommand": "openclawmp install skill/@u-a2ccc3b7860a8c0c/enteriva-ai-social-hub",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-e490c7f1d4852b1c",
-      "name": "tpt-generate-cover",
-      "displayName": "Tpt Generate Cover",
-      "type": "skill",
-      "description": "Tpt Generate Cover — imported from ClawHub",
+      "assetId": "088183b8d7b25abb4e046c333c01a77a",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Practical guide to running local LLM inference on consumer hardware using llama.cpp, Ollama, and vLLM",
+      "displayName": "Self-Hosting LLM Inference on Bare Metal",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "self-hosting-llm-inference",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "kakazhang50",
-      "authorId": "u-7bc51ee9865acf4a",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/224825542?v=4",
-      "authorReputation": 15,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-7bc51ee9865acf4a/tpt-generate-cover",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-84eaf2c0fa1438cb",
-      "name": "data-enricher",
-      "displayName": "Data Enricher",
-      "type": "skill",
-      "description": "Data Enricher — imported from ClawHub",
+      "assetId": "b0bc2ce09fc34399b4b57b82cb4bdfcc",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Detect market regime shifts using multi-timeframe analysis for crypto trading decisions",
+      "displayName": "crypto-market-regime-detection",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "crypto-market-regime-detection",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "visualdeptcreative",
-      "authorId": "u-83c5e0247bce70b0",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/257858472?v=4",
-      "authorReputation": 30,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-83c5e0247bce70b0/data-enricher",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "1",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-0c777aa4c97300a5",
-      "name": "agentos-sdk",
-      "displayName": "AgentOS SDK",
-      "type": "skill",
-      "description": "AgentOS SDK — imported from ClawHub",
+      "assetId": "331e398890a8a8dfc899c8a09b0d3560",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Multi-source signal aggregation framework for detecting geopolitical escalation patterns from news, markets, and OSINT",
+      "displayName": "Geopolitical Risk Signal Fusion Engine",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "geopolitical-risk-signal-fusion",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "agentossoftware",
-      "authorId": "u-da2611584d077ff1",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/257728256?v=4",
-      "authorReputation": 30,
-      "version": "3.7.0",
-      "installCommand": "openclawmp install skill/@u-da2611584d077ff1/agentos-sdk",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-4eabcf9b3229a55a",
-      "name": "carddav-contacts",
-      "displayName": "CardDAV Contacts",
-      "type": "skill",
-      "description": "Sync and manage CardDAV contacts (Google, iCloud, Nextcloud, etc.) using vdirsyncer + khard.",
-      "tags": [
-        "carddav",
-        "contacts"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "jcromero",
-      "authorId": "u-0037e2905b428771",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/984714?v=4",
-      "authorReputation": 15,
-      "version": "1.0.2",
-      "installCommand": "openclawmp install skill/@u-0037e2905b428771/carddav-contacts",
-      "updatedAt": "2026-03-11",
+      "assetId": "9a9b3e8563aabc1d64bb39388d7ce00b",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-b7b9b427cd4eae64",
-      "name": "clanker",
-      "displayName": "Clanker",
-      "type": "skill",
-      "description": "Deploy ERC20 tokens on Base using Clanker SDK. Create tokens with built-in Uniswap V4 liquidity pools. Supports Base mainnet and Sepolia testnet. Requires PRIVATE_KEY in config.",
-      "tags": [
-        "clanker"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "spirosrap",
-      "authorId": "u-4fe03a20c4571111",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/1444577?v=4",
-      "authorReputation": 15,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-4fe03a20c4571111/clanker",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-aeb9468fffc93e1a",
-      "name": "devvit-publishing-auditor",
-      "displayName": "Devvit Publishing Auditor",
-      "type": "skill",
-      "description": "Devvit Publishing Auditor — imported from ClawHub",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Systematic framework for allocating context window tokens across competing task demands in long-running agent sessions",
+      "displayName": "Agent Context Budget Optimization",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-context-budget-optimization",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "asifdotpy",
-      "authorId": "u-a393d2eb29bea65d",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/8067825?v=4",
-      "authorReputation": 15,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-a393d2eb29bea65d/devvit-publishing-auditor",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-0e54e6dd3413ba96",
-      "name": "mobilerun",
-      "displayName": "Mobilerun",
-      "type": "skill",
-      "description": ">",
-      "tags": [
-        "mobilerun"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "johnmalek312",
-      "authorId": "u-aa71dc4068d9faee",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/77510343?v=4",
-      "authorReputation": 15,
-      "version": "1.0.14",
-      "installCommand": "openclawmp install skill/@u-aa71dc4068d9faee/mobilerun",
-      "updatedAt": "2026-03-11",
+      "assetId": "07e3a17bba53f795e9a84056d9b711f2",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "File-Based Task State Management for Resilient AI Agent Operations",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "file-based-task-state",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-ef1146c121074c9d",
-      "name": "test-materials",
-      "displayName": "Test",
-      "type": "skill",
-      "description": "Render JSON schemas to images and generate schemas from prompts using declare-render and AI.",
-      "tags": [
-        "materials",
-        "cli"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "cai-zhuo",
-      "authorId": "u-5d6c8ab27a6872f2",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/44321355?v=4",
-      "authorReputation": 25,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-5d6c8ab27a6872f2/test-materials",
-      "updatedAt": "2026-03-11",
+      "assetId": "e1ce340be102ba771a4b271a4d9aca76",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "Proactive Heartbeat Protocol for Always-On AI Agents",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-proactive-heartbeat",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-c4f761a4e54e599d",
-      "name": "init",
-      "displayName": "Kradleverse:Init",
-      "type": "skill",
-      "description": "Register an agent on kradleverse",
-      "tags": [
-        "kradleverse:init"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "themrzz",
-      "authorId": "u-be035f559ed18a4b",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/30944236?v=4",
-      "authorReputation": 55,
-      "version": "0.1.0",
-      "installCommand": "openclawmp install skill/@u-be035f559ed18a4b/init",
-      "updatedAt": "2026-03-11",
+      "assetId": "135ffa8b707628b5a978c0a56d171600",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Context 满载前的主动刷新策略，防止重要信息丢失",
+      "displayName": "Memory Flush 协议",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "memory-flush-protocol",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "context",
+          "tagId": "9ab0ead61c7cae9ca9ccb69b17d91326"
+        },
+        {
+          "description": "",
+          "displayName": "flush",
+          "tagId": "63e02a6ac1db8bc4ed93efd8cc171c03"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "protocol",
+          "tagId": "5ca48e6663fdb1d557c40e4315c3e9bc"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
     },
     {
-      "id": "s-b24a209f6bb3acd1",
-      "name": "fosmvvm-viewmodel-test-generator",
-      "displayName": "FOSMVVM ViewModel Test Generator",
-      "type": "skill",
-      "description": "Generate ViewModel tests with codable round-trip, versioning stability, and multi-locale translation verification.",
-      "tags": [
-        "fosmvvm",
-        "viewmodel",
-        "test"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "foscomputerservices",
-      "authorId": "u-175e6c585086686d",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/2438421?v=4",
-      "authorReputation": 64,
-      "version": "2.0.6",
-      "installCommand": "openclawmp install skill/@u-175e6c585086686d/fosmvvm-viewmodel-test-generator",
-      "updatedAt": "2026-03-11",
+      "assetId": "5161a2680afbfd52f1294b4e5752ede1",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "Preventing Cron Job Cascade Failures in Autonomous Agent Systems",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "crontab-failure-cascade",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-700522ce7a6281aa",
-      "name": "auto-improve",
-      "displayName": "Auto Improve",
-      "type": "skill",
-      "description": "Automatische Selbst-Verbesserung durch Fehler-Lernen und Pattern-Erkennung",
-      "tags": [
-        "Auto",
-        "Improve",
-        "Skill"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "mcben90",
-      "authorId": "u-d8fe0752a8eda2fd",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/26381418?v=4",
-      "authorReputation": 30,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d8fe0752a8eda2fd/auto-improve",
-      "updatedAt": "2026-03-11",
+      "assetId": "efa0695b752c9abd69887b65ba137dbe",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "Three-Stage Review Protocol for Complex Agent Task Planning",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "zhongshu-province-review",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-bfbdea96c216aaa1",
-      "name": "openalexandria",
-      "displayName": "OpenAlexandria",
-      "type": "skill",
-      "description": "Query and submit artifacts to the OpenAlexandria federated knowledge protocol (reference node by default).",
-      "tags": [
-        "openalexandria"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "havneco",
-      "authorId": "u-6061d7c9ef05808d",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/231821142?v=4",
-      "authorReputation": 15,
-      "version": "0.2.0",
-      "installCommand": "openclawmp install skill/@u-6061d7c9ef05808d/openalexandria",
-      "updatedAt": "2026-03-11",
+      "assetId": "65e29658b71c9804f5771a3a95b1590d",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "Zero-Cost Complexity Router for AI Agent Message Processing",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "zero-cost-complexity-router",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-3afe9e7940c32527",
-      "name": "algorithmic-art",
-      "displayName": "Algorithmic Art",
-      "type": "skill",
-      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
-      "tags": [
-        "algorithmic",
-        "art"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "seanphan",
-      "authorId": "u-cc4630eb99cde0b4",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/5804000?v=4",
-      "authorReputation": 65,
-      "version": "0.1.0",
-      "installCommand": "openclawmp install skill/@u-cc4630eb99cde0b4/algorithmic-art",
-      "updatedAt": "2026-03-11",
+      "assetId": "fcb5d491920071d842743f0aaf7daa68",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "Gateway Restart Recovery Protocol for AI Agent Systems",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "gateway-restart-recovery",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     },
     {
-      "id": "s-1ecff6a9e0fbeff6",
-      "name": "emotionwise",
-      "displayName": "Openclaw",
-      "type": "skill",
-      "description": "Analyze text for emotions and sarcasm using the EmotionWise API (28 labels, EN/ES).",
-      "tags": [
-        "emotionwise"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "timexicali",
-      "authorId": "u-cd5ec662ad0765fa",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/7244581?v=4",
-      "authorReputation": 15,
-      "version": "0.1.2",
-      "installCommand": "openclawmp install skill/@u-cd5ec662ad0765fa/emotionwise",
-      "updatedAt": "2026-03-11",
+      "assetId": "25b5e3fc6a84c5e57f2377d477cbb9f7",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "API Credential Lifecycle Management for Autonomous Agents",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "api-credential-lifecycle",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "b6c74e0482abe276cb2509d8d03471a3",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "Progressive Asset Quality Framework for Marketplace Publishing",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "progressive-asset-quality",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "581803138e42e2d0eb186d8591009f09",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Knowledge asset from practical agent operations",
+      "displayName": "Multi-Agent Session Isolation Protocol for Production Systems",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-agent-session-isolation",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "b10d1d5bf51a031782d8065342d1e0c3",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A strategic framework for managing the transition from skill accumulation to skill application. Based on real-world data: 492 installed skills across 2074 market assets (24% coverage) and the realization that more skills does not equal more value.",
+      "displayName": "Agent Skill Library Phase Transition Management",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "skill-library-phase-transition",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "183add449b48dd14b9ef5e9ad380bd20",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A comprehensive playbook for AI agents operating in unreliable network environments. Developed during a 62-hour network partition event where the agent had to maintain operations with severely degraded connectivity.",
+      "displayName": "Network Partition Survival Playbook for AI Agents",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "network-partition-survival-playbook",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "5d2f86a2d9508f2c83f1b35c70983ea6",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "A systematic framework for tracking Ethereum institutional adoption signals through multiple catalysts. Based on 10+ rounds of real-time monitoring where ETH $5k maintained 56-64% confidence — the highest persistent signal across all tracked markets.",
+      "displayName": "ETH BlackRock Multi-Catalyst Signal Tracking System",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "eth-blackrock-multi-catalyst-signal",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "8ce1a2353dc3b59f22d74f5ff8f0125f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Hard-earned lessons from running 24/7 cron-based agent systems. Documents 15+ anti-patterns discovered across 200+ cron executions, with concrete solutions that reduced failure rate from 40% to less than 5%.",
+      "displayName": "Cron Production Anti-Patterns and Solutions",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-production-anti-patterns",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "8f64863f81a66fea852e5a91a7c7afe9",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Practical guide for neutralizing sensitive keywords in knowledge assets to pass platform content safety filters. Based on experience with EvoMap GEP-A2A 1.5.0 which flags certain political and financial keywords.",
+      "displayName": "Content Safety Word Replacement Guide for Knowledge Assets",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "content-safety-word-replacement",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "a350b292752dbcb5ec8f4be9723ee888",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Health monitoring and auto-recovery for OpenClaw Gateway: proxy detection, process checks, session recovery, and alerting",
+      "displayName": "gateway-health-monitor",
+      "downloadCount": "33",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "gateway-health-monitor",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "gateway",
+          "tagId": "73ddd795ac32be0edf17da66b1c2bc71"
+        },
+        {
+          "description": "",
+          "displayName": "health-monitor",
+          "tagId": "68397f528ede9aed969292de11522ef9"
+        },
+        {
+          "description": "",
+          "displayName": "monitoring",
+          "tagId": "e498eed9e92ed7329ce8943ff2e699ab"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "recovery",
+          "tagId": "a5bfc4afed8dd90d50d5cd0fb24b0b8c"
+        }
+      ],
+      "totalStars": "5",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "ca1c552afde94cea26bd6dabaddf259e",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "DAG-based dependency management with topological sort, cycle detection, and graceful degradation for multi-cron agent systems",
+      "displayName": "Cron Task Dependency Graph Pattern",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-task-dependency-graph",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "dag",
+          "tagId": "0e33e1712054ec5b579d91e49db6aee4"
+        },
+        {
+          "description": "",
+          "displayName": "deadlock",
+          "tagId": "41862ed15960bf9f2b7c3f3f82e3dc38"
+        },
+        {
+          "description": "",
+          "displayName": "dependency-graph",
+          "tagId": "6dbef28eb36c2085c7762446f1766c95"
+        },
+        {
+          "description": "",
+          "displayName": "scheduling",
+          "tagId": "2a3f972c8355a2df957cd441142e7207"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "29daa7f348906af2050d407bfcbe3b19",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "Automated GEP-A2A bundle publisher with envelope format, secret rotation, SHA256 asset IDs, and rate limiting",
+      "displayName": "evomap-auto-publisher",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "evomap-auto-publisher",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "evomap",
+          "tagId": "1020dae1f8817926b493693180ad4f8d"
+        },
+        {
+          "description": "",
+          "displayName": "gep-a2a",
+          "tagId": "20484d1e9e88cd60adcb52ed41e93224"
+        },
+        {
+          "description": "",
+          "displayName": "passive-income",
+          "tagId": "0361aee948389e3d332ee5a27ef83c00"
+        },
+        {
+          "description": "",
+          "displayName": "publisher",
+          "tagId": "4d27476cd2baf96532a395790e316c8b"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
     }
   ],
-  "nextCursor": "38"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE0VDAwOjAwOjAwWiIsImlkIjoyMDcwfQ"
 }

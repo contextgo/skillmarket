@@ -1,1146 +1,3295 @@
 {
-  "total": 3352,
   "items": [
     {
-      "id": "s-5a89debb61697626",
-      "name": "linux-desktop",
-      "displayName": "Linux Desktop Control",
-      "type": "skill",
-      "description": "\"Linux desktop automation and control. Use when: (1) taking screenshots of the screen or windows, (2) controlling mouse and keyboard, (3) managing windows, (4) automating desktop tasks, or (5) any Linux desktop interaction needs. Supports screenshot capture, mouse movement, typing, and window management.\"",
+      "assetId": "7e7d29eed882c66ce5610050879a7dbd",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/03/b8/03b82fe4d480ef39ea39172a6860df71141f7c8ada26ce89094e7b643fa859f8",
+        "displayName": "runeweaverstudios",
+        "reputation": "70",
+        "userId": "c2e96341c4d81a619100ac04a23e65e1"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Runs VirusTotal-style security checks on OpenClaw/Cursor skills before install, including remote code execution (RCE) and malicious code (obfuscation, exfiltration, backdoors). Use when evaluating a skill from a registry (e.g. ClawHub), before granting OAuth/API credentials, or when the user asks for a security review of a skill.",
+      "displayName": "Skill Safety Checker",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [runeweaverstudios/skill-safety-checker](https://clawhub.ai/runeweaverstudios/skill-safety-checker)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/runeweaverstudios/skill-safety-checker)\n📅 Published: 2026-02-23",
+      "name": "skill-safety-checker",
+      "ownerUserId": "c2e96341c4d81a619100ac04a23e65e1",
+      "publicationHint": null,
       "tags": [
-        "linux",
-        "desktop"
+        {
+          "description": "",
+          "displayName": "check",
+          "tagId": "5a7aaba78aff9599841850236440afb9"
+        },
+        {
+          "description": "",
+          "displayName": "security",
+          "tagId": "e1860809d725348c7f862491ac9143c0"
+        },
+        {
+          "description": "",
+          "displayName": "skill",
+          "tagId": "8387fbc6e0d4a7afc95df8bacff3e64b"
+        }
       ],
-      "installs": 3,
-      "rating": 0,
-      "author": "ouyangabel",
-      "authorId": "u-d88ef2dbbf18f8b4",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/156869006?v=4",
-      "authorReputation": 55,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d88ef2dbbf18f8b4/linux-desktop",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
     },
     {
-      "id": "s-9d8a2f0a8a375ce2",
-      "name": "mh-openai-whisper-api",
-      "displayName": "MH openai-whisper-api",
-      "type": "skill",
-      "description": "Transcribe audio via OpenAI Audio Transcriptions API (Whisper).",
-      "tags": [
-        "openai",
-        "whisper",
-        "api"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "mohdalhashemi98-hue",
-      "authorId": "u-975e17365ce4e134",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/241047511?v=4",
-      "authorReputation": 135,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-975e17365ce4e134/mh-openai-whisper-api",
-      "updatedAt": "2026-03-18",
+      "assetId": "d9fe95e0ee336cbd58709aed58115c4a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/87/14/87148eb6a3c18b49d9578aa17a3258b0120979eb1ade58ca1029cbf54deda279",
+        "displayName": "te1man",
+        "reputation": "25",
+        "userId": "1cd00aeb79a4384addea463a54d13d3b"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-dfeef4a941406c27",
-      "name": "mnemon",
-      "displayName": "Mnemon Memory",
-      "type": "skill",
-      "description": "\"Persistent memory CLI for LLM agents. Store facts, recall past knowledge, link related memories, manage lifecycle.\"",
-      "tags": [
-        "mnemon"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "grivn",
-      "authorId": "u-35068647bbca491b",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/56754250?v=4",
-      "authorReputation": 15,
-      "version": "0.1.2",
-      "installCommand": "openclawmp install skill/@u-35068647bbca491b/mnemon",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-b2467793c0a455ba",
-      "name": "native-airtable",
-      "displayName": "Native Airtable",
-      "type": "skill",
-      "description": "\"Read Airtable bases, tables, and records directly via the Airtable API. Use when you need spreadsheet/database data from Airtable. Calls api.airtable.com directly with no third-party proxy.\"",
-      "tags": [
-        "airtable"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "codeninja23",
-      "authorId": "u-9da555d28aae8fc1",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/34013241?v=4",
-      "authorReputation": 120,
-      "version": "0.1.0",
-      "installCommand": "openclawmp install skill/@u-9da555d28aae8fc1/native-airtable",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-a79968bffca59178",
-      "name": "naverstock-skill",
-      "displayName": "Naver Stock",
-      "type": "skill",
-      "description": "Fetch text-based real-time stock prices (KRX, Overseas) using Naver Finance.",
-      "tags": [
-        "naver",
-        "stock"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "seungdols",
-      "authorId": "u-a7943afe1ad4d4ca",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/16032614?v=4",
-      "authorReputation": 15,
-      "version": "1.1.1",
-      "installCommand": "openclawmp install skill/@u-a7943afe1ad4d4ca/naverstock-skill",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-0c2679bfe13b6d81",
-      "name": "flaresolverr",
-      "displayName": "FlareSolverr — Cloudflare Bypass",
-      "type": "skill",
-      "description": "Bypass Cloudflare protection — use when curl/summarize gets 403 or Cloudflare blocks",
-      "tags": [
-        "flaresolverr"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "dolverin",
-      "authorId": "u-afec73ac1ed8518a",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/5910064?v=4",
-      "authorReputation": 25,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-afec73ac1ed8518a/flaresolverr",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-2f9f4387883b65bb",
-      "name": "personal-sleep",
-      "displayName": "Personal Sleep Coach",
-      "type": "skill",
-      "description": "Acts as the user's sleep coach in the Sleep topic. Tracks sleep schedule, quality, patterns, naps, and gives advice for better sleep. Use when in Personal chat Sleep topic, or when user mentions sleep, insomnia, nap, wake up, bedtime, tired, fatigue, rest, alarm, or \"couldn't sleep\".",
-      "tags": [
-        "personal",
-        "sleep"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "gekacross",
-      "authorId": "u-57848ba3de81a91f",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/57638140?v=4",
-      "authorReputation": 80,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-57848ba3de81a91f/personal-sleep",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-9f14a91f9687026a",
-      "name": "qdrant-advanced",
-      "displayName": "Qdrant Advanced",
-      "type": "skill",
-      "description": "\"Advanced Qdrant vector database operations for AI agents. Semantic search, contextual document ingestion with chunking, collection management, snapshots, and migration tools. Production-ready scripts for the complete Qdrant lifecycle. Use when: (1) Implementing semantic search across collections, (2) Ingesting documents with intelligent chunking, (3) Managing collections programmatically, (4) Creating backups and migrations.\"",
-      "tags": [
-        "qdrant",
-        "advanced"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "yoder-bawt",
-      "authorId": "u-465dad7da6816dcc",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/259239279?v=4",
-      "authorReputation": 80,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-465dad7da6816dcc/qdrant-advanced",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-dcfe847f589b257c",
-      "name": "gpt-analyzer",
-      "displayName": "Gpt Analyzer",
-      "type": "skill",
-      "description": "GPT-specific pattern detection with model fingerprinting and version identification",
-      "tags": [
-        "GPT",
-        "Analyzer"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "raghulpasupathi",
-      "authorId": "u-18e45b0450b4b87d",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/15859053?v=4",
-      "authorReputation": 55,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-18e45b0450b4b87d/gpt-analyzer",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-f426568369322ada",
-      "name": "get-focus-mode",
-      "displayName": "Get Focus Mode",
-      "type": "skill",
-      "description": "Get the current macOS Focus mode",
-      "tags": [
-        "get",
-        "focus",
-        "mode"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "nickchristensen",
-      "authorId": "u-57101e6c50fcc3a2",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/613826?v=4",
-      "authorReputation": 15,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-57101e6c50fcc3a2/get-focus-mode",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-5c645f2d4fa0394d",
-      "name": "mole-mac-cleanup",
-      "displayName": "Mole Mac Cleanup",
-      "type": "skill",
-      "description": "Mac cleanup & optimization tool combining CleanMyMac, AppCleaner, DaisyDisk features. Deep cleaning, smart uninstaller, disk insights, and project artifact purge.",
-      "tags": [
-        "mole",
-        "mac",
-        "cleanup"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "bjesuiter",
-      "authorId": "u-7d764edb72f03219",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/2365676?v=4",
-      "authorReputation": 15,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-7d764edb72f03219/mole-mac-cleanup",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-737ea6878d499c3d",
-      "name": "skilldevelop",
-      "displayName": "myskill",
-      "type": "skill",
-      "description": "\"Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.\"",
-      "tags": [
-        "self",
-        "improvement"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "raghuraam25",
-      "authorId": "u-2d59be370e6b8b3f",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/150361839?v=4",
-      "authorReputation": 15,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-2d59be370e6b8b3f/skilldevelop",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-b1e7bc2184b83bbe",
-      "name": "smb-sales-boost-leads",
-      "displayName": "SMB Sales Boost — B2B Lead Database of SMBs for Cold Outreach & GTM",
-      "type": "skill",
-      "description": "Query and manage leads from the SMB Sales Boost B2B lead database. Search newly registered businesses, filter by location/industry/keywords, export leads, manage filter presets, and use AI-powered category suggestions. Requires an active SMB Sales Boost subscription (Starter, Growth, Scale, Platinum, or Enterprise) and API key.",
-      "tags": [
-        "smb",
-        "sales",
-        "boost"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "tomsonx232",
-      "authorId": "u-14854c53b6607c4c",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/43103360?v=4",
-      "authorReputation": 15,
-      "version": "1.3.0",
-      "installCommand": "openclawmp install skill/@u-14854c53b6607c4c/smb-sales-boost-leads",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-670f9e7207d74aa9",
-      "name": "apewisdom",
-      "displayName": "ApeWisdom Reddit Scanner",
-      "type": "skill",
-      "description": "Scan Reddit for trending stocks and sentiment spikes using the ApeWisdom API (free). Use this to find \"meme stocks\", retail momentum, and sentiment shifts on r/wallstreetbets.",
-      "tags": [
-        "apewisdom"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "stuhorsman",
-      "authorId": "u-fccd8e9edf2890d9",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/106658046?v=4",
-      "authorReputation": 25,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-fccd8e9edf2890d9/apewisdom",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-08eeef8b9c9b1f0e",
-      "name": "npkill",
-      "displayName": "NPkill",
-      "type": "skill",
-      "description": "Clean up node_modules and .next folders to free up disk space using npkill. Specifically designed to help JavaScript and Next.js developers remove accumulated build artifacts that consume significant storage. Provides both interactive and automated cleanup options with safety checks to protect important system directories.",
-      "tags": [
-        "npkill"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "ashirbadgudu",
-      "authorId": "u-4dae645ff8555486",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/49669234?v=4",
-      "authorReputation": 15,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-4dae645ff8555486/npkill",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-0d2de839a18e6f59",
-      "name": "wick-arena",
-      "displayName": "Wick Arena Agentic Trading Competition",
-      "type": "skill",
-      "description": "Wick Arena Agentic Trading Competition — imported from ClawHub",
-      "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "hyperwick",
-      "authorId": "u-db97cd2cbddaaa13",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/93698654?v=4",
-      "authorReputation": 15,
-      "version": "0.6.2",
-      "installCommand": "openclawmp install skill/@u-db97cd2cbddaaa13/wick-arena",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-89f5eb1e4fe5e9ad",
-      "name": "agents-manager",
-      "displayName": "Agent manager",
-      "type": "skill",
-      "description": "Manage Clawdbot agents: discover, profile, track capabilities, define routing hierarchy, and assign tasks.",
-      "tags": [
-        "agents",
-        "manager"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "agentandbot-design",
-      "authorId": "u-d9559d9b19c65ade",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/258481583?v=4",
-      "authorReputation": 15,
-      "version": "1.0.2",
-      "installCommand": "openclawmp install skill/@u-d9559d9b19c65ade/agents-manager",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-8d9c73cf38c78c64",
-      "name": "smart-home-energy-saver",
-      "displayName": "Smart Home Energy Saver",
-      "type": "skill",
-      "description": "Analyze home energy usage and propose safe, read-only automation plans for savings. Use when a user wants Home Assistant energy insights, optimization ideas, or draft automation YAML without directly controlling devices.",
-      "tags": [
-        "smart",
-        "home",
-        "energy"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "codedao12",
-      "authorId": "u-a61bfcaf2e2b691e",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/249323427?v=4",
-      "authorReputation": 96,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a61bfcaf2e2b691e/smart-home-energy-saver",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-7c95bafd39ec0038",
-      "name": "duckduckgo-websearch",
-      "displayName": "Duckduckgo Websearch",
-      "type": "skill",
-      "description": "High-quality web search using DuckDuckGo (Instant Answer + SERP scraping fallback). Use when the user asks to search the web, fetch top results, or summarize web pages. Triggers for: (1) general web queries (news, facts, links), (2) site-specific searches, (3) short summaries of top results. Prefer this skill for private/offline-friendly search without Brave API keys.",
-      "tags": [
-        "duckduckgo",
-        "websearch"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "ianwchoi",
-      "authorId": "u-66dab7ae470f4619",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/111876709?v=4",
-      "authorReputation": 15,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-66dab7ae470f4619/duckduckgo-websearch",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-951cd69b4fd29807",
-      "name": "telnyx-rag",
-      "displayName": "Telnyx Rag",
-      "type": "skill",
-      "description": "Semantic search and Q&A over workspace files using Telnyx Storage + AI embeddings. Index your memory, knowledge, and skills for natural language retrieval and AI-powered answers.",
-      "tags": [
-        "telnyx",
-        "rag"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "teamtelnyx",
-      "authorId": "u-54c4327370f7deba",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/176328014?v=4",
-      "authorReputation": 75,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-54c4327370f7deba/telnyx-rag",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-c0f6340fac62dcbf",
-      "name": "brave-api-search",
-      "displayName": "Brave Api Search",
-      "type": "skill",
-      "description": "Real-time web search, autosuggest, and AI-powered answers using the official Brave Search API. Use for searching documentation, facts, current events, or any web content. Supports AI grounded answers with citations and query autosuggest. Requires BRAVE_SEARCH_API_KEY and BRAVE_ANSWERS_API_KEY.",
-      "tags": [
-        "brave",
-        "api",
-        "search"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "broedkrummen",
-      "authorId": "u-9fc9f00a319f5ce0",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/146327287?v=4",
-      "authorReputation": 15,
-      "version": "3.0.2",
-      "installCommand": "openclawmp install skill/@u-9fc9f00a319f5ce0/brave-api-search",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-ecc9da9864686f80",
-      "name": "mh-session-logs",
-      "displayName": "MH session-logs",
-      "type": "skill",
-      "description": "Search and analyze your own session logs (older/parent conversations) using jq.",
-      "tags": [
-        "session",
-        "logs"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "mohdalhashemi98-hue",
-      "authorId": "u-975e17365ce4e134",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/241047511?v=4",
-      "authorReputation": 135,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-975e17365ce4e134/mh-session-logs",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-eb7db0ddbc50b8c7",
-      "name": "skill-install-guardian",
-      "displayName": "Skill Install Guardian",
-      "type": "skill",
-      "description": "\"Security and due diligence layer for installing external skills from ClawHub. Performs DEEP content scanning for malicious patterns, security checks, integration analysis, and requires owner confirmation before installation.\"",
-      "tags": [
-        "skill",
-        "install",
-        "guardian"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "zendenho7",
-      "authorId": "u-fc62344e1ff67e9e",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/90267714?v=4",
-      "authorReputation": 15,
-      "version": "1.3.0",
-      "installCommand": "openclawmp install skill/@u-fc62344e1ff67e9e/skill-install-guardian",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-ef145778d02c1d25",
-      "name": "longrunning-agent",
-      "displayName": "Longrunning Agent",
-      "type": "skill",
-      "description": "\"Enables AI agents to work on long-running projects across multiple sessions. Use when starting complex projects, resuming work on existing projects, managing task lists with priorities and dependencies, or tracking progress incrementally.\"",
-      "tags": [
-        "longrunning",
-        "agent"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "yonghaozhao722",
-      "authorId": "u-09d0c97e57882f25",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/118432288?v=4",
-      "authorReputation": 49,
-      "version": "1.1.1",
-      "installCommand": "openclawmp install skill/@u-09d0c97e57882f25/longrunning-agent",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-9dbd3407b2a1ba94",
-      "name": "gina",
-      "displayName": "Gina",
-      "type": "skill",
-      "description": "Gina namespace for Netsnek e.U. personal assistant and scheduling framework",
-      "tags": [
-        "gina"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "kleberbaum",
-      "authorId": "u-79aa2020a09f6c8a",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/26285351?v=4",
-      "authorReputation": 130,
-      "version": "0.1.0",
-      "installCommand": "openclawmp install skill/@u-79aa2020a09f6c8a/gina",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-ace9bc4cd42f249c",
-      "name": "xferops-gog",
-      "displayName": "XferOps gog",
-      "type": "skill",
-      "description": "Google Workspace CLI for Gmail, Calendar, Drive, Contacts, Sheets, and Docs.",
-      "tags": [
-        "xferops",
-        "gog"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "parker-xferops",
-      "authorId": "u-3b41d40109f9a7b8",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/259154645?v=4",
-      "authorReputation": 15,
-      "version": "0.1.1",
-      "installCommand": "openclawmp install skill/@u-3b41d40109f9a7b8/xferops-gog",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-6d29f36fbdbca252",
-      "name": "invoice-chaser",
-      "displayName": "Invoice Chaser",
-      "type": "skill",
-      "description": "Automated invoice follow-up sequences that escalate from friendly to firm. Track unpaid invoices, send timed reminder emails with escalating tone, log payment interactions, and generate AR aging reports. Your agent handles the awkward conversations so you don't have to — preserving cash flow and client relationships while you focus on actual work. Configure invoice tracking, email templates per stage (friendly → firm → final notice), timing rules, and let your agent chase payments 24/7. Use when adding invoices, running payment chases, checking status, or generating accounts receivable reports.",
-      "tags": [
-        "invoice",
-        "chaser"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "audsmith28",
-      "authorId": "u-8a48eee194bbb026",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/223534942?v=4",
-      "authorReputation": 82,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-8a48eee194bbb026/invoice-chaser",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-4549de959dac3e54",
-      "name": "personal-assistant",
-      "displayName": "Personal Assistant",
-      "type": "skill",
-      "description": "Personal daily briefing and productivity assistant. Generates morning briefings with priorities, habits, and self-care reminders. Use when starting your day, planning tasks, or maintaining daily routines and personal development. A minimalist personal productivity skill focused on you.",
-      "tags": [
-        "personal",
-        "assistant"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "gustavoziaugra",
-      "authorId": "u-920904b3eaefa926",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/30840206?v=4",
-      "authorReputation": 15,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-920904b3eaefa926/personal-assistant",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-5ef87fd6e4bfcaf2",
-      "name": "ai-notes-of-video",
-      "displayName": "AI Notes of Video",
-      "type": "skill",
-      "description": "The video AI notes tool is provided by Baidu. Based on the video download address provided by the user, it downloads and parses the video, and finally generates AI notes corresponding to the video (a total of three types of notes can be generated: document notes, outline notes, and image-text notes).",
-      "tags": [
-        "notes",
-        "video"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "jlpjavawayup",
-      "authorId": "u-81f441f61c732bb5",
-      "authorAvatar": "🤖",
-      "authorReputation": 35,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-81f441f61c732bb5/ai-notes-of-video",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-3a87f99ba32108c3",
-      "name": "playwright-headless-browser",
-      "displayName": "Playwright Headless Browser (Chromium)",
-      "type": "skill",
-      "description": "Set up headless browser automation in Clawdbot using Playwright Chromium. Use when configuring browser tools for WSL/Linux environments, installing browser dependencies, or enabling headless web automation. Handles Chromium installation, system library dependencies, and Clawdbot browser configuration.",
-      "tags": [
-        "playwright",
-        "browser"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "maverick-software",
-      "authorId": "u-a759334b20b735c1",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/85259593?v=4",
-      "authorReputation": 72,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a759334b20b735c1/playwright-headless-browser",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-6eeb814a7472b8cf",
-      "name": "yuanyuan-blueprint-workshop",
-      "displayName": "yuanyuan-blueprint-workshop",
-      "type": "skill",
-      "description": "Turn a person's tacit know-how into a testable Agent Blueprint through a structured 5-step workshop: scenario discovery, SOP extraction, dependency mapping, blueprint generation, and skill sourcing. Use when helping someone discover whether they have a reusable method and transform it into a buildable lobster-agent blueprint.",
-      "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "BeAChanger",
-      "authorId": "u-2023605e7d0a4f3b97d7",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/133616562?v=4",
-      "authorReputation": 68,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-2023605e7d0a4f3b97d7/yuanyuan-blueprint-workshop",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-775b2518670f89f6",
-      "name": "antivirus",
-      "displayName": "Antivirus",
-      "type": "skill",
-      "description": "\"MoltGuard — Protect you and your human from prompt injection, data exfiltration, and malicious commands. Source: https://github.com/openguardrails/openguardrails/tree/main/moltguard\"",
-      "tags": [
-        "moltguard"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "thomaslwang",
-      "authorId": "u-f0c640a8a346bbea",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/9669989?v=4",
-      "authorReputation": 15,
-      "version": "6.8.20",
-      "installCommand": "openclawmp install skill/@u-f0c640a8a346bbea/antivirus",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-68a9590e17500307",
-      "name": "agenthc-market-intelligence",
-      "displayName": "Stock Market Intelligence",
-      "type": "skill",
-      "description": "Market data API for AI agents. Equities, fixed income, crypto, and macro. Bitcoin Lightning micropayments.",
-      "tags": [
-        "agenthc",
-        "market",
-        "intelligence"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "traderhc123",
-      "authorId": "u-6811dafa8346db67",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/254811676?v=4",
-      "authorReputation": 15,
-      "version": "2.4.0",
-      "installCommand": "openclawmp install skill/@u-6811dafa8346db67/agenthc-market-intelligence",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-411183c3a79ea8b8",
-      "name": "lofy-projects",
-      "displayName": "Lofy Projects",
-      "type": "skill",
-      "description": "Project management for the Lofy AI assistant — tracks multiple projects with milestones, priority scoring engine (urgency × job relevance × momentum × energy match), meeting prep automation, time logging, stale project alerts, and work session recommendations. Use when managing projects, prioritizing work, preparing for meetings, or tracking milestones and deadlines.",
-      "tags": [
-        "lofy",
-        "projects"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "harrey401",
-      "authorId": "u-d0df046cf262eb88",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/76279260?v=4",
-      "authorReputation": 113,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d0df046cf262eb88/lofy-projects",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-d37f8f2a1257b3f4",
-      "name": "cinema-insider-top10",
-      "displayName": "Cinema Insider Top-10",
-      "type": "skill",
+      "createdAt": "2026-03-17T00:00:00.000Z",
       "description": "Professional analytical digest of top 10 movie and TV industry news using advanced AI aggregation and cross-referencing.",
+      "displayName": "Cinema Insider Top-10",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [te1man/cinema-insider-top10](https://clawhub.ai/te1man/cinema-insider-top10)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/te1man/cinema-insider-top10)\n📅 Published: 2026-02-15",
+      "name": "cinema-insider-top10",
+      "ownerUserId": "1cd00aeb79a4384addea463a54d13d3b",
+      "publicationHint": null,
       "tags": [
-        "cinema",
-        "insider",
-        "top10"
+        {
+          "description": "",
+          "displayName": "cinema",
+          "tagId": "6038510014367b6dc1725f9fbbacaa24"
+        },
+        {
+          "description": "",
+          "displayName": "insider",
+          "tagId": "73145de5b88d66c4a559aa01fb9edd22"
+        },
+        {
+          "description": "",
+          "displayName": "top10",
+          "tagId": "0cbefeb36a26eeb17d402b9dcef77424"
+        }
       ],
-      "installs": 3,
-      "rating": 0,
-      "author": "te1man",
-      "authorId": "u-4a78c5dc91c16e47",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/49500410?v=4",
-      "authorReputation": 25,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-4a78c5dc91c16e47/cinema-insider-top10",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "totalStars": "2",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
     },
     {
-      "id": "s-6dcf79dcb49d70f8",
-      "name": "stealth-proxy",
-      "displayName": "Stealth Proxy",
-      "type": "skill",
-      "description": "Meta-skill for secure network tunnel setup, geo-access diagnostics, and leak-aware task resumption by orchestrating shell-scripting, curl-http, wireguard, tailscale, dns, ipinfo, and moltguard. Use when users need controlled VPN switching, region verification, DNS safety checks, and automatic retry of previously blocked workflows.",
-      "tags": [
-        "vpn"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "h4gen",
-      "authorId": "u-b26421326a72e8b0",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/12556763?v=4",
-      "authorReputation": 90,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-b26421326a72e8b0/stealth-proxy",
-      "updatedAt": "2026-03-17",
+      "assetId": "726b9caaf2541bd11f9dfdf2bccf3152",
+      "assetType": 5,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/68/ab/68abcad66e79362483f133a44096406be24376a5ee5bab5ed21589a93c3455aa",
+        "displayName": "turfptax",
+        "reputation": "5",
+        "userId": "3d36c798fba72f501305dce55888afdd"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Use when agents need to communicate over the local network — \"send message to agent\", \"discover agents\", \"check for messages\", \"coordinate with other agents\", \"approve agent\", \"agent status\", \"add peer\", \"message log\"",
+      "displayName": "LocalUDPMessenger",
+      "downloadCount": "4",
+      "latestSemver": "1.5.0",
+      "longDescription": "📦 ClawHub: [turfptax/localudpmessenger](https://clawhub.ai/turfptax/localudpmessenger)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/turfptax/localudpmessenger)\n🏷️ Version: 1.5.0\n📅 Published: 2026-02-13",
+      "name": "localudpmessenger",
+      "ownerUserId": "3d36c798fba72f501305dce55888afdd",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "messenger",
+          "tagId": "86b687f89f334ae5285a947bff984c49"
+        },
+        {
+          "description": "",
+          "displayName": "udp",
+          "tagId": "b5cc5b8ebbd0f2961a8bbf253750b20d"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
     },
     {
-      "id": "s-173294bd9601c22f",
-      "name": "cortex-memory",
-      "displayName": "Cortex Memory",
-      "type": "skill",
-      "description": "Long-term structured memory with knowledge graph, entity tracking, temporal reasoning, and cross-session recall. Powered by the Cortex API.",
-      "tags": [
-        "cortex",
-        "memory"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "matthewubundi",
-      "authorId": "u-5c78ed5cc6bf8019",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/245393172?v=4",
-      "authorReputation": 15,
-      "version": "1.0.2",
-      "installCommand": "openclawmp install skill/@u-5c78ed5cc6bf8019/cortex-memory",
-      "updatedAt": "2026-03-17",
+      "assetId": "9ee6f5072d11861872f136fb27da6c24",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/58/a1/58a1dbdb38f1892a8d0bfc90435c181415533cbc8fd68cd7c7264a69d3b578eb",
+        "displayName": "marian2js",
+        "reputation": "10",
+        "userId": "403f0442e84c844f4085c9838becea9c"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Enables agents to interact with the eToro API to access market data, portfolio and social features, and execute trades programmatically. Supports both OAuth SSO and manual API key authentication.",
+      "displayName": "eToro Apps",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [marian2js/etoro-apps](https://clawhub.ai/marian2js/etoro-apps)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/marian2js/etoro-apps)\n📅 Published: 2026-02-24",
+      "name": "etoro-apps",
+      "ownerUserId": "403f0442e84c844f4085c9838becea9c",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "apps",
+          "tagId": "7d6b240f28f97e9ba5504e5d8d8c7e5d"
+        },
+        {
+          "description": "",
+          "displayName": "etoro",
+          "tagId": "4a660777cdf0477a44794d934cf2501a"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
     },
     {
-      "id": "s-babc38ccad3aefcd",
-      "name": "truthcheck",
-      "displayName": "TruthCheck",
-      "type": "skill",
-      "description": "\"Verify claims, fact-check content, check URL trustworthiness, and trace claims to their origin using the TruthCheck CLI. Use when: (1) user asks to fact-check or verify a claim, (2) user wants to check if a URL/source is trustworthy, (3) user wants to trace where a claim originated, (4) user asks about misinformation or content verification. Requires: pip install truthcheck\"",
-      "tags": [
-        "truthcheck"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "baiyishr",
-      "authorId": "u-f0a0f18da61a4f54",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/3783600?v=4",
-      "authorReputation": 15,
-      "version": "0.4.3",
-      "installCommand": "openclawmp install skill/@u-f0a0f18da61a4f54/truthcheck",
-      "updatedAt": "2026-03-17",
+      "assetId": "90666c1ecef6b9f445d8722739aaf2ff",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/8f/3c/8f3c79f3440bdfce0929a1889bc3ec66f55ae5642136802c593821efb572acc0",
+        "displayName": "harrey401",
+        "reputation": "128",
+        "userId": "77ce0ea0fbb3ca16d7edf9a93c5543bf"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Project management for the Lofy AI assistant — tracks multiple projects with milestones, priority scoring engine (urgency × job relevance × momentum × energy match), meeting prep automation, time logging, stale project alerts, and work session recommendations. Use when managing projects, prioritizing work, preparing for meetings, or tracking milestones and deadlines.",
+      "displayName": "Lofy Projects",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [harrey401/lofy-projects](https://clawhub.ai/harrey401/lofy-projects)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/harrey401/lofy-projects)\n📅 Published: 2026-02-10",
+      "name": "lofy-projects",
+      "ownerUserId": "77ce0ea0fbb3ca16d7edf9a93c5543bf",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "lofy",
+          "tagId": "1b960180b2990c383e7a57241c353b86"
+        },
+        {
+          "description": "",
+          "displayName": "projects",
+          "tagId": "435938cbb6eaab2200ae5d6495d9590f"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
     },
     {
-      "id": "s-e3abaa6c65f651d6",
-      "name": "nocodb",
-      "displayName": "NocoDB",
-      "type": "skill",
-      "description": "Access and manage NocoDB databases, tables, and records via REST API. Use when the user wants to view bases, list tables, inspect column schemas, query or filter row data, or insert new records into a self-hosted NocoDB instance. Also use for spreadsheet-style database lookups and data entry.",
-      "tags": [
-        "nocodb"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "nickian",
-      "authorId": "u-e2eef18759de88f5",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/590678?v=4",
-      "authorReputation": 30,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-e2eef18759de88f5/nocodb",
-      "updatedAt": "2026-03-17",
+      "assetId": "d598372c10078cdad1f59d3a0092c505",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/79/00/7900397ec68068157e9a3e0e1c62b146c8d65598548155946ed316d23ae8e365",
+        "displayName": "traderhc123",
+        "reputation": "20",
+        "userId": "7e649cfc4f270ef120b04a40be503c02"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Market data API for AI agents. Equities, fixed income, crypto, and macro. Bitcoin Lightning micropayments.",
+      "displayName": "Stock Market Intelligence",
+      "downloadCount": "11",
+      "latestSemver": "2.4.0",
+      "longDescription": "📦 ClawHub: [traderhc123/agenthc-market-intelligence](https://clawhub.ai/traderhc123/agenthc-market-intelligence)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/traderhc123/agenthc-market-intelligence)\n🏷️ Version: 2.4.0\n📅 Published: 2026-03-10",
+      "name": "agenthc-market-intelligence",
+      "ownerUserId": "7e649cfc4f270ef120b04a40be503c02",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agenthc",
+          "tagId": "787f93f18653e01cfc6a11a31695c593"
+        },
+        {
+          "description": "",
+          "displayName": "intelligence",
+          "tagId": "01486dc06d2b754590b37b7f843df6c0"
+        },
+        {
+          "description": "",
+          "displayName": "market",
+          "tagId": "1d92d1a8228404713daa404f8612060b"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
     },
     {
-      "id": "s-52cab68da3c88fd8",
-      "name": "kagi-enrich",
-      "displayName": "Kagi Enrich",
-      "type": "skill",
-      "description": "Search Kagi's unique non-commercial web (Teclis) and non-mainstream news (TinyGem) indexes for independent, ad-free content you won't find in regular search results. Use when you want to discover small-web sites, independent blogs, niche discussions, or non-mainstream news on a topic.",
-      "tags": [
-        "kagi",
-        "enrich"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "joelazar",
-      "authorId": "u-20f9a9a792f66992",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/16268238?v=4",
-      "authorReputation": 25,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-20f9a9a792f66992/kagi-enrich",
-      "updatedAt": "2026-03-17",
+      "assetId": "8bf2a28dc1beba28a82ba55be13c3c52",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fe/99/fe99acd5691401fa35bd86e1c08262045dee03672dde85a4d7b4d5d4f22c0f75",
+        "displayName": "e-ndorfin",
+        "reputation": "10",
+        "userId": "a24f618a660d705decb4d07134c1e84e"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Join a shared 3D lobster room where AI agents walk, chat, and collaborate in real-time.",
+      "displayName": "Lelamp Room",
+      "downloadCount": "7",
+      "latestSemver": "0.4.1",
+      "longDescription": "📦 ClawHub: [e-ndorfin/lelamp-room](https://clawhub.ai/e-ndorfin/lelamp-room)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/e-ndorfin/lelamp-room)\n🏷️ Version: 0.4.1\n📅 Published: 2026-03-07",
+      "name": "lelamp-room",
+      "ownerUserId": "a24f618a660d705decb4d07134c1e84e",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "lelamp",
+          "tagId": "d9ff86f9f6b1b692a8213d4931038c1a"
+        },
+        {
+          "description": "",
+          "displayName": "room",
+          "tagId": "cf59575e4d6b2ecf3a4e3ffb153c145c"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
     },
     {
-      "id": "s-83e790d95ede07bd",
-      "name": "lofy-home",
-      "displayName": "Lofy Home",
-      "type": "skill",
-      "description": "Smart home control for the Lofy AI assistant — scene modes (study, chill, sleep, morning, grind), device management via Home Assistant REST API, presence-based automation, natural language commands for lights, music, thermostat, and PC wake-on-LAN. Use when controlling smart home devices, activating scene modes, or managing home automation.",
-      "tags": [
-        "lofy",
-        "home"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "harrey401",
-      "authorId": "u-d0df046cf262eb88",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/76279260?v=4",
-      "authorReputation": 113,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d0df046cf262eb88/lofy-home",
-      "updatedAt": "2026-03-17",
+      "assetId": "c529acc04398c1421ad09e32244eb1a0",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d4/a8/d4a885b4008e165f74dff509365e96401f2151d6033df96397e43ef894ffd591",
+        "displayName": "farseek2020",
+        "reputation": "10",
+        "userId": "1ffd3621b764fac6bf64ac0ace32d7a8"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-f52bf9ee053c23e6",
-      "name": "telegram-voice-to-voice-macos",
-      "displayName": "Telegram Voice To Voice Macos",
-      "type": "skill",
-      "description": "\"Telegram voice-to-voice for macOS Apple Silicon: transcribe inbound .ogg voice notes with yap (Speech.framework) and reply with Telegram voice notes via say+ffmpeg. Not compatible with Linux/Windows.\"",
-      "tags": [
-        "telegram",
-        "voice",
-        "voice"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "fiberian1981",
-      "authorId": "u-ee230aed027163f2",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/61297635?v=4",
-      "authorReputation": 15,
-      "version": "0.1.3",
-      "installCommand": "openclawmp install skill/@u-ee230aed027163f2/telegram-voice-to-voice-macos",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-44e51f0f31abf0f5",
-      "name": "podcast-to-substack",
-      "displayName": "Podcast to Substack",
-      "type": "skill",
-      "description": "Publish podcast episodes from RSS + Notion to Substack with reliable Apple Podcasts embedding and image extraction, then generate LinkedIn-ready companion posts. Use when asked to run or improve podcast-to-substack workflows, fix Notion image fetch failures, prevent Substack embed-as-text issues, or cross-post episode summaries to LinkedIn.",
-      "tags": [
-        "podcast",
-        "substack"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "danielfoch",
-      "authorId": "u-7344401bf01a6adb",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/152220262?v=4",
-      "authorReputation": 50,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-7344401bf01a6adb/podcast-to-substack",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-f6a58c988a2a5fb1",
-      "name": "smart-daily-assistant",
-      "displayName": "Smart Daily Assistant",
-      "type": "skill",
-      "description": "When user asks to set reminders, save quick notes, get morning briefing, draft messages, use quick reply templates, translate text, plan day, schedule tasks, track habits, track birthdays, log expenses, save links, manage contacts, change message tone, plan weekend, or any daily personal assistant task. 20-feature AI personal assistant with reminders, notes, briefings, message drafting, quick replies, templates, translate, daily planner, habit tracker, and gamification. All data stays local — NO external API calls, NO network requests, NO data sent to any server.",
-      "tags": [
-        "smart",
-        "daily",
-        "assistant"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "mkpareek0315",
-      "authorId": "u-adac092b9d16129e",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/71243646?v=4",
-      "authorReputation": 276,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-adac092b9d16129e/smart-daily-assistant",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-c1a9fe4b1b557cfc",
-      "name": "supermarket",
-      "displayName": "Supermarket",
-      "type": "skill",
-      "description": "Search grocery products, find store locations, add items to cart, and view profile across all Kroger-family stores — Kroger, Ralphs, Fred Meyer, Harris Teeter, King Soopers, Fry's, QFC, Mariano's, Pick 'n Save, Metro Market, and more. Use when user asks about groceries, food shopping, store locations, or wants to manage their grocery cart.",
-      "tags": [
-        "supermarket"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "niemesrw",
-      "authorId": "u-6d6f298c7b8933d9",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/8837846?v=4",
-      "authorReputation": 30,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-6d6f298c7b8933d9/supermarket",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-afad88180ba8d059",
-      "name": "itsyhome-control",
-      "displayName": "Itsyhome Control",
-      "type": "skill",
-      "description": "\"Control and query HomeKit and Home Assistant smart home devices via the Itsyhome macOS app (https://itsyhome.app). Use when the user asks to turn devices on/off, toggle lights, set brightness/temperature/color/fan speed/blind position, lock/unlock doors, open/close garage doors, run scenes, list rooms or devices, check device state or status. Requires Itsyhome Pro running on the same Mac as the OpenClaw gateway. Trigger on any smart home control intent (lights, thermostat, locks, blinds, fans, cameras, scenes, groups).\"",
-      "tags": [
-        "itsyhome",
-        "control"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "nickustinov",
-      "authorId": "u-cfb4af6621aff114",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/823000?v=4",
-      "authorReputation": 15,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-cfb4af6621aff114/itsyhome-control",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-4cc428a1480be010",
-      "name": "md2pdf-converter",
-      "displayName": "Markdown to PDF Converter (v2.0)",
-      "type": "skill",
-      "description": "Offline Markdown to PDF converter with FULL Unicode support using Pandoc + WeasyPrint + local Twemoji cache (3660 colorful emojis). Converts Markdown documents to professional PDFs with Chinese fonts and colorful emojis (complete version with all variants). Use when user needs to convert Markdown reports or documents to PDF, generate PDFs with emoji support, create PDFs with proper Chinese character rendering, or work offline after initial setup.",
-      "tags": [
-        "md2pdf",
-        "converter"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "tianxingleo",
-      "authorId": "u-ba31286276d620d7",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/237200863?v=4",
-      "authorReputation": 32,
-      "version": "2.0.0",
-      "installCommand": "openclawmp install skill/@u-ba31286276d620d7/md2pdf-converter",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
-    },
-    {
-      "id": "s-6c32ee892e2c08b8",
-      "name": "docling",
-      "displayName": "Docling",
-      "type": "skill",
-      "description": "Extract and parse content from web pages, PDFs, documents (docx, pptx), and images using the docling CLI with GPU acceleration. Use INSTEAD of web_fetch for extracting content from specific URLs when you need clean, structured text. Use Brave (web_search) for searching/discovering pages. Use docling when you HAVE a URL and need its content parsed.",
-      "tags": [
-        "docling"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "er3mit4",
-      "authorId": "u-cbd9274b5ad1e61b",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/112354129?v=4",
-      "authorReputation": 15,
-      "version": "1.0.2",
-      "installCommand": "openclawmp install skill/@u-cbd9274b5ad1e61b/docling",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-891a5c643afeb5db",
-      "name": "ub2-markdown-report-generator",
-      "displayName": "Markdown Report Generator",
-      "type": "skill",
-      "description": "Markdown Report Generator — imported from ClawHub",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Farseek — imported from ClawHub",
+      "displayName": "Farseek",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [farseek2020/farseek](https://clawhub.ai/farseek2020/farseek)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/farseek2020/farseek)\n📅 Published: 2026-02-18",
+      "name": "farseek",
+      "ownerUserId": "1ffd3621b764fac6bf64ac0ace32d7a8",
+      "publicationHint": null,
       "tags": [],
-      "installs": 3,
-      "rating": 0,
-      "author": "underbench2-gif",
-      "authorId": "u-5526d4222b22b573",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/224172328?v=4",
-      "authorReputation": 79,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-5526d4222b22b573/ub2-markdown-report-generator",
-      "updatedAt": "2026-03-17",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
     },
     {
-      "id": "s-223da0c38afeecac",
-      "name": "interview-coach-ai",
-      "displayName": "Interview Coach",
-      "type": "skill",
-      "description": "When user asks for interview prep, mock interview, practice questions, behavioral questions, technical interview, HR round, salary negotiation, STAR method, common interview questions, company research, interview tips, confidence building, answer feedback, body language tips, follow-up email after interview, or any job interview task. 22-feature AI interview coach with mock interviews, role-specific questions, answer scoring, salary negotiation, STAR method trainer, and confidence builder. All data stays local — NO external API calls, NO network requests, NO data sent to any server.",
-      "tags": [
-        "interview",
-        "coach"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "mkpareek0315",
-      "authorId": "u-adac092b9d16129e",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/71243646?v=4",
-      "authorReputation": 276,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-adac092b9d16129e/interview-coach-ai",
-      "updatedAt": "2026-03-17",
+      "assetId": "db682d520e34e5b282a25f502aa093bd",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9d/38/9d383b9e6d43812747e1cc0989dc72654d61d0e95fb9e88691c625bc1c307325",
+        "displayName": "xukp20",
+        "reputation": "100",
+        "userId": "20913051582b3c2e3d38909c68d13dd9"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "\"Tool-only paper processing skill with a manual language parameter: supports batch artifact download for many papers or single-paper download, then the model manually reads source/PDF and writes summary.md in the selected language. Use when per-paper comprehension should be model-driven instead of script-generated.\"",
+      "displayName": "Arxiv Paper Processor",
+      "downloadCount": "10",
+      "latestSemver": "0.1.1",
+      "longDescription": "📦 ClawHub: [xukp20/arxiv-paper-processor](https://clawhub.ai/xukp20/arxiv-paper-processor)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/xukp20/arxiv-paper-processor)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-14",
+      "name": "arxiv-paper-processor",
+      "ownerUserId": "20913051582b3c2e3d38909c68d13dd9",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "arxiv",
+          "tagId": "f4287fc5509212310dc951861962540c"
+        },
+        {
+          "description": "",
+          "displayName": "paper",
+          "tagId": "fc7faa36883faf8c13b7a372acb3a033"
+        },
+        {
+          "description": "",
+          "displayName": "processor",
+          "tagId": "7370d58ff8e9c08662fae54d778b22b6"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "2bfa89ee23a86504ba2b08a853058427",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3c/0f/3c0f2d359613f9a2c1f335db6e17daf4f7946a8d10b025424fdf5c74a09ce247",
+        "displayName": "mohdalhashemi98-hue",
+        "reputation": "145",
+        "userId": "fb6371e22f7d2cd55ca9b6694dbd5512"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
+      "displayName": "MH wacli",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [mohdalhashemi98-hue/mh-wacli](https://clawhub.ai/mohdalhashemi98-hue/mh-wacli)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-wacli)\n📅 Published: 2026-02-25",
+      "name": "mh-wacli",
+      "ownerUserId": "fb6371e22f7d2cd55ca9b6694dbd5512",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "wacli",
+          "tagId": "73727facd9a08a5a53c58aad3721436f"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "f78b23e086604e66a7bfdad0dc9b784c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/e2/c3e22f4f3b873742cd293a4f471c7fe64ed79036ed2bf06bc4e99dacab426a5c",
+        "displayName": "ryandeangraves",
+        "reputation": "45",
+        "userId": "bbae456fc546dfc82dd06bb9f89c0302"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Charts — imported from ClawHub",
+      "displayName": "Charts",
+      "downloadCount": "8",
+      "latestSemver": "1.1.0",
+      "longDescription": "📦 ClawHub: [ryandeangraves/charts](https://clawhub.ai/ryandeangraves/charts)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/ryandeangraves/charts)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-19",
+      "name": "charts",
+      "ownerUserId": "bbae456fc546dfc82dd06bb9f89c0302",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "a25497bd378b7e29fb454d167aa9bda1",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/55/6c/556c9b22fc5064ec1166aa3a3463880179149a3e231967335d9f0de5a7cd33d1",
+        "displayName": "qiao101660",
+        "reputation": "5",
+        "userId": "57ff8d1f0ccc696e5d26ce4364538e0d"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "A Skill for searching hotels and querying prices via AIGoHotel MCP (searchHotels / getHotelDetail / getHotelSearchTags)",
+      "displayName": "AI Go Hotel",
+      "downloadCount": "4",
+      "latestSemver": "1.0.1",
+      "longDescription": "📦 ClawHub: [qiao101660/aihotel](https://clawhub.ai/qiao101660/aihotel)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/qiao101660/aihotel)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-25",
+      "name": "aihotel",
+      "ownerUserId": "57ff8d1f0ccc696e5d26ce4364538e0d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "aigohotel",
+          "tagId": "9a7d4e4303c4806c595dc25db5fd409d"
+        },
+        {
+          "description": "",
+          "displayName": "MCP",
+          "tagId": "7f82cd7d22fcc8d86d2ef57721d02967"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "f2adcea7d0cea4eb91bba7681a8668aa",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/9c/889c639d639e2a24792ac3956cc9aefae0394ec043baae3bfd5155644b39d06e",
+        "displayName": "htranbee",
+        "reputation": "5",
+        "userId": "dba225f0d783d4ab9e6361ece266b1b8"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Use Beecli to interact with the Beetrade platform for authentication, market data, bot/strategy operations, alerts, accounts, and portfolio workflows. Use this skill whenever a user asks to run or troubleshoot Beecli commands.",
+      "displayName": "Beetrade",
+      "downloadCount": "4",
+      "latestSemver": "0.1.4",
+      "longDescription": "📦 ClawHub: [htranbee/beetrade](https://clawhub.ai/htranbee/beetrade)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/htranbee/beetrade)\n🏷️ Version: 0.1.4\n📅 Published: 2026-03-01",
+      "name": "beetrade",
+      "ownerUserId": "dba225f0d783d4ab9e6361ece266b1b8",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "beetrade",
+          "tagId": "29acad985bd5e8cd871ffea29c864fc0"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "fdf53aa4e9528ca5e65db4117fe7d35e",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bf/e9/bfe9b7ef4c951e9b188740555e785f402d0821ceb6c7faa4d0a55490f9939480",
+        "displayName": "edoserbia",
+        "reputation": "80",
+        "userId": "8bceeda28f71f63f735424c738c54055"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Self-driving agent workflow with heartbeat-driven task execution, day/night progress reports, and long-term memory consolidation. Integrates with todo-management for task tracking.",
+      "displayName": "Agent Autopilot",
+      "downloadCount": "26",
+      "latestSemver": "1.4.1",
+      "longDescription": "📦 ClawHub: [edoserbia/agent-autopilot](https://clawhub.ai/edoserbia/agent-autopilot)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/edoserbia/agent-autopilot)\n🏷️ Version: 1.4.1\n📅 Published: 2026-02-22",
+      "name": "agent-autopilot",
+      "ownerUserId": "8bceeda28f71f63f735424c738c54055",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "autopilot",
+          "tagId": "3148d43a85c7e5c165147ce7d716f3b0"
+        }
+      ],
+      "totalStars": "5",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "5324896a27883f7d4a72242688f9938e",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7c/e9/7ce9bdca44bba5433dab7fda34c01b3fb0ba1f7c97c490178e9fbe42bea6c88f",
+        "displayName": "tarasshyn",
+        "reputation": "10",
+        "userId": "38bfbae23331b22a2da5f6ea7514de12"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Schedule and manage social media posts across Instagram, X (Twitter), Bluesky, TikTok, Threads, LinkedIn, Facebook, Pinterest, and YouTube using the AdaptlyPost API. Use when the user wants to schedule social media posts, manage social media content, upload media for social posting, list connected social accounts, check post status, cross-post content to multiple platforms, or automate their social media workflow. AdaptlyPost is a SaaS tool — no self-hosting required.",
+      "displayName": "AdaptlyPost",
+      "downloadCount": "7",
+      "latestSemver": "1.0.3",
+      "longDescription": "📦 ClawHub: [tarasshyn/adaptlypost](https://clawhub.ai/tarasshyn/adaptlypost)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/tarasshyn/adaptlypost)\n🏷️ Version: 1.0.3\n📅 Published: 2026-03-05",
+      "name": "adaptlypost",
+      "ownerUserId": "38bfbae23331b22a2da5f6ea7514de12",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "adaptlypost",
+          "tagId": "56eba76e15e8a26fe32781ba62ce8952"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "9492455d7e55619df982ad0bbc236792",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ad/82/ad8206b9a013bc9eadae639b264d6f1c1cdea597f76f4e89bd3efc7d84e5c363",
+        "displayName": "fourthdensity",
+        "reputation": "24",
+        "userId": "80899bc8e4dd7b59fb83ccd5ae55754c"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Generate retro robotic speech audio using SAM (Software Automatic Mouth), the classic C64 text-to-speech synthesizer. Use for /sam command to generate voice messages. Supports /sam on/off toggle mode where all responses are spoken in SAM voice. Supports pitch, speed, mouth, and throat parameters for voice customization.",
+      "displayName": "SAM TTS",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [fourthdensity/sam-tts](https://clawhub.ai/fourthdensity/sam-tts)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/fourthdensity/sam-tts)\n📅 Published: 2026-02-12",
+      "name": "sam-tts",
+      "ownerUserId": "80899bc8e4dd7b59fb83ccd5ae55754c",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "sam",
+          "tagId": "1b3af758e32403bd23e643f4cdc592c0"
+        },
+        {
+          "description": "",
+          "displayName": "tts",
+          "tagId": "2e48d3d4ae82cc66f0bc9b34c3dbfddf"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "45b2730e8e579b16e0bb3fc1cde7ecda",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/89/08/8908775aedc809f855ed6522647bde7b4d795534c3d71ed900b29050fc8bb2fb",
+        "displayName": "rogerscristo",
+        "reputation": "10",
+        "userId": "2d0b36af5e085c30afc94e17cf1339d9"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Dutch Translator — imported from ClawHub",
+      "displayName": "Dutch Translator",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [rogerscristo/dutch-translator](https://clawhub.ai/rogerscristo/dutch-translator)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/rogerscristo/dutch-translator)\n📅 Published: 2026-02-24",
+      "name": "dutch-translator",
+      "ownerUserId": "2d0b36af5e085c30afc94e17cf1339d9",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "140a6593802fbcf98dc000da64805ba7",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/aa/30/aa30ef7663beed447f5d01c3fe6c7c407754515626fe4ec9d0a67cc6db6cb907",
+        "displayName": "jatin-31",
+        "reputation": "10",
+        "userId": "f8f3334e9bacbddcda316677e6a768b5"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "\"Use when you need to work with tasks: view tasks, list tasks, update task status, add blockers, artifacts, and worklogs.\"",
+      "displayName": "Og Board Individual",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [jatin-31/og-board-individual](https://clawhub.ai/jatin-31/og-board-individual)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jatin-31/og-board-individual)\n📅 Published: 2026-02-22",
+      "name": "og-board-individual",
+      "ownerUserId": "f8f3334e9bacbddcda316677e6a768b5",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "board",
+          "tagId": "ce91848fc8b2fd05f5079db81564ea4f"
+        },
+        {
+          "description": "",
+          "displayName": "individual",
+          "tagId": "8cbf58a331a937ee2fc125f588a0fdb0"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "8db64f6c6e99d83e36ddd067ed831499",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/16/f8/16f89fc682089cd90d82608071a9561d839c1f1a13442dd32e3ed14037b47711",
+        "displayName": "xieyihaod",
+        "reputation": "74",
+        "userId": "fc01f76d02a27d3d696f851c01de829b"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "脚本实现复盘技能。首次实现或架构升级时，检查是否有更高效、更低成本的方式。用资深工程师的角度解决问题。",
+      "displayName": "script-review",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "script-review",
+      "ownerUserId": "fc01f76d02a27d3d696f851c01de829b",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "best-practices",
+          "tagId": "59c815334d0abb675aca6668af74069c"
+        },
+        {
+          "description": "",
+          "displayName": "optimization",
+          "tagId": "dba45423e7c3e1db0976089c5c56cc84"
+        },
+        {
+          "description": "",
+          "displayName": "review",
+          "tagId": "f759768a9fedb5d65c6c786fba457a9d"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "64d68a6dead0d809d436a60f2991f091",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "BlackRock ETHB以太坊ETF分析：机构采用、质押集成、价格影响",
+      "displayName": "BlackRock ETHB: Institutional Ethereum Adoption Analysis",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "blackrock-ethb-institutional-ethereum",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "blackrock",
+          "tagId": "084393705a27f3c0441140ced6849351"
+        },
+        {
+          "description": "",
+          "displayName": "etf",
+          "tagId": "1a9fd360e78d40ddc3eefcb29f5e31af"
+        },
+        {
+          "description": "",
+          "displayName": "ethereum",
+          "tagId": "283bfb41bc6153fe6bd62aecac25caae"
+        },
+        {
+          "description": "",
+          "displayName": "institutional",
+          "tagId": "af0775f1e331558356859442c4be6609"
+        },
+        {
+          "description": "",
+          "displayName": "staking",
+          "tagId": "1779545907be2aa6efacf472d7462950"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "0911a9a8486c6688655c91acf54b7742",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "多会话上下文隔离安全协议",
+      "displayName": "multi-session-context-isolation",
+      "downloadCount": "15",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-session-context-isolation",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "isolation",
+          "tagId": "7a8e03861cb3b1df3310694e4bfd0f53"
+        },
+        {
+          "description": "",
+          "displayName": "multi-agent",
+          "tagId": "74f21846ee934dc3a85aba39cc7dfd92"
+        },
+        {
+          "description": "",
+          "displayName": "security",
+          "tagId": "e1860809d725348c7f862491ac9143c0"
+        },
+        {
+          "description": "",
+          "displayName": "session",
+          "tagId": "5315c93885685355e03908e93a1bd81a"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "4c09e7c1ae713ead106c310e74c3c463",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "SEC-CFTC联合监管框架分析：MOU签署、管辖权划分、对Polymarket影响",
+      "displayName": "SEC-CFTC Joint Crypto Regulation Framework",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "sec-cftc-joint-regulation-crypto",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cftc",
+          "tagId": "9765fea1e26fcd4398e8f2b7a8a74f2f"
+        },
+        {
+          "description": "",
+          "displayName": "crypto",
+          "tagId": "f95633bbfebfd4492de7b8817b9def6e"
+        },
+        {
+          "description": "",
+          "displayName": "polymarket",
+          "tagId": "7586588fba091775de1be055f73b02c6"
+        },
+        {
+          "description": "",
+          "displayName": "regulation",
+          "tagId": "c2fbef40a9f46a23e9c8a26e79632bd4"
+        },
+        {
+          "description": "",
+          "displayName": "SEC",
+          "tagId": "84fd4fcda8f2765d9d2f040fe3e9d9a3"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "36c4d7fd7c325f231a07e328472218b8",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Basel III 1250%风险权重提案分析：对机构加密采用的影响",
+      "displayName": "Basel III Crypto Bank Exposure: 1250% Risk Weight Analysis",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "basel-iii-crypto-bank-exposure",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "banking",
+          "tagId": "cca70f5d0f7ea1e8ec2cbc48079c3e95"
+        },
+        {
+          "description": "",
+          "displayName": "basel",
+          "tagId": "fc3ac93bc67ca14dc4225ff59c25d24c"
+        },
+        {
+          "description": "",
+          "displayName": "crypto",
+          "tagId": "f95633bbfebfd4492de7b8817b9def6e"
+        },
+        {
+          "description": "",
+          "displayName": "institutional",
+          "tagId": "af0775f1e331558356859442c4be6609"
+        },
+        {
+          "description": "",
+          "displayName": "regulation",
+          "tagId": "c2fbef40a9f46a23e9c8a26e79632bd4"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "a19276c7789e1814219388b7eaa90ffd",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "霍尔木兹海峡关闭对加密市场影响分析框架：2026年美伊冲突案例",
+      "displayName": "Strait of Hormuz Closure: Crypto Market Impact Analysis",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "strait-of-hormuz-closure-crypto-impact",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "crypto",
+          "tagId": "f95633bbfebfd4492de7b8817b9def6e"
+        },
+        {
+          "description": "",
+          "displayName": "geopolitics",
+          "tagId": "c68c167473ff9fe0d3e9811838c73e7e"
+        },
+        {
+          "description": "",
+          "displayName": "iran",
+          "tagId": "afc1b007d2ca201fdd0d251a888f0751"
+        },
+        {
+          "description": "",
+          "displayName": "oil",
+          "tagId": "9f848226ca693672e327447ecb500c13"
+        },
+        {
+          "description": "",
+          "displayName": "trading",
+          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "c20842afe481da2891e1ad15bf2d325c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "新闻到知识资产自动转化管道",
+      "displayName": "news-to-asset-pipeline",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "news-to-asset-pipeline",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "content",
+          "tagId": "88ab74dc368b2a1853dbc9c728ed10e3"
+        },
+        {
+          "description": "",
+          "displayName": "pipeline",
+          "tagId": "028a857f0dfadf0070facaad7f17060e"
+        },
+        {
+          "description": "",
+          "displayName": "publishing",
+          "tagId": "3fae5340ec78f61d071f9e2af6615cba"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "6df25d6c7b667b7cbf847397680e44a1",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Section 301关税调查对加密市场影响分析框架",
+      "displayName": "Trade War Section 301 Impact on Crypto Markets",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "trade-war-section-301-crypto",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "crypto",
+          "tagId": "f95633bbfebfd4492de7b8817b9def6e"
+        },
+        {
+          "description": "",
+          "displayName": "macro",
+          "tagId": "fec5c17d78dbe843cb32aa6fbdccf800"
+        },
+        {
+          "description": "",
+          "displayName": "section301",
+          "tagId": "c5014e990414ee857921c1b3be4b7a31"
+        },
+        {
+          "description": "",
+          "displayName": "tariffs",
+          "tagId": "3012a0fbf04a0b76cc2a7993fa2882f8"
+        },
+        {
+          "description": "",
+          "displayName": "trade-war",
+          "tagId": "65c9c34eb2967f328ff5eae559ea19c6"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "f4c1b9fffa48250907de0ee8c6edcfd0",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "FOMC利率决策Agent操作手册：会前准备、实时监控、会后交易策略",
+      "displayName": "FOMC Rate Decision Agent Playbook",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "fomc-rate-decision-agent-playbook",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "crypto",
+          "tagId": "f95633bbfebfd4492de7b8817b9def6e"
+        },
+        {
+          "description": "",
+          "displayName": "fed",
+          "tagId": "34a6aaef60085538b69923e5b73f047b"
+        },
+        {
+          "description": "",
+          "displayName": "fomc",
+          "tagId": "8333d64a5a707d85b5e2c584b7cfcf4b"
+        },
+        {
+          "description": "",
+          "displayName": "macro",
+          "tagId": "fec5c17d78dbe843cb32aa6fbdccf800"
+        },
+        {
+          "description": "",
+          "displayName": "trading",
+          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "281dc28a2ccf87197a1f68c0beccbb42",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fe/12/fe12bc37d31967dd3ba27a66e9ba3b52f64879ffa202a57b3d63f88bb958e095",
+        "displayName": "chubby",
+        "reputation": "78",
+        "userId": "646daa49264e04847d4d01aae564c46d"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "定时任务自动生成定制早报 - 天气+科技要闻+飞书日程+BotLearn热点",
+      "displayName": "08:00 定制早报模板",
+      "downloadCount": "16",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "morning-brief-template",
+      "ownerUserId": "646daa49264e04847d4d01aae564c46d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "morning-brief",
+          "tagId": "62078729f4565a7bced908011026f2a3"
+        },
+        {
+          "description": "",
+          "displayName": "news",
+          "tagId": "8e40760dd28335662d8af3da5d422864"
+        },
+        {
+          "description": "",
+          "displayName": "schedule",
+          "tagId": "02266da2bb7d6b8458920e4868a9d506"
+        },
+        {
+          "description": "",
+          "displayName": "weather",
+          "tagId": "a21675a3da50783118f663dbf5e85635"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "1007d8c21477a72e62ccfc6c666625cc",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fe/12/fe12bc37d31967dd3ba27a66e9ba3b52f64879ffa202a57b3d63f88bb958e095",
+        "displayName": "chubby",
+        "reputation": "78",
+        "userId": "646daa49264e04847d4d01aae564c46d"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "通过 heartbeat 机制自动检查 BotLearn 社区动态、自动点赞、自动评论",
+      "displayName": "BotLearn 社区自动运营 heartbeat",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "botlearn-heartbeat",
+      "ownerUserId": "646daa49264e04847d4d01aae564c46d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "botlearn",
+          "tagId": "0a3834746f1b8d08f955c049860e10ce"
+        },
+        {
+          "description": "",
+          "displayName": "community",
+          "tagId": "dc5ef3897f122336f9c1c883daa6fd26"
+        },
+        {
+          "description": "",
+          "displayName": "heartbeat",
+          "tagId": "9521145c0f43c0429ecdb78790f39150"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "40a9feb9a939950ef2eef554ddfabf1a",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fe/12/fe12bc37d31967dd3ba27a66e9ba3b52f64879ffa202a57b3d63f88bb958e095",
+        "displayName": "chubby",
+        "reputation": "78",
+        "userId": "646daa49264e04847d4d01aae564c46d"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Agent 定时任务配置避坑指南",
+      "displayName": "定时任务与搜索能力配置经验",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "scheduled-tasks-guide",
+      "ownerUserId": "646daa49264e04847d4d01aae564c46d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "schedule",
+          "tagId": "02266da2bb7d6b8458920e4868a9d506"
+        },
+        {
+          "description": "",
+          "displayName": "tavily",
+          "tagId": "a8abaa017fab6937623c1acb4c56b7f8"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "691e8415b10b00b7731e0a7066791d59",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/f6/f1/f6f14b6d25f5a42dd464f27225a8e713fb6d1146ee5ba6ac0f2d6b50a3423df3",
+        "displayName": "thomaslwang",
+        "reputation": "20",
+        "userId": "9c75817d9406a504e903bf172fdc959a"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "\"MoltGuard — Protect you and your human from prompt injection, data exfiltration, and malicious commands. Source: https://github.com/openguardrails/openguardrails/tree/main/moltguard\"",
+      "displayName": "Antivirus",
+      "downloadCount": "12",
+      "latestSemver": "6.8.20",
+      "longDescription": "📦 ClawHub: [thomaslwang/antivirus](https://clawhub.ai/thomaslwang/antivirus)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/thomaslwang/antivirus)\n🏷️ Version: 6.8.20\n📅 Published: 2026-03-12",
+      "name": "antivirus",
+      "ownerUserId": "9c75817d9406a504e903bf172fdc959a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "moltguard",
+          "tagId": "181312522a92611100b1e69eee4dfe39"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "3bb43457752e799445f8f07abead6bf8",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Knowledge asset: trump-token-maralago-event-analysis",
+      "displayName": "TRUMP Token: Mar-a-Lago Event and Holder Analysis",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "trump-token-maralago-event-analysis",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "9c9f6ce71291aaf9be83ea010e481677",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Knowledge asset: strait-of-hormuz-crypto-supply-chain",
+      "displayName": "Strait of Hormuz Disruption: Impact on Crypto and Energy Markets",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "strait-of-hormuz-crypto-supply-chain",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "24471cceea8a10af9e557618e0173d5d",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Multi-agent memory synchronization pattern",
+      "displayName": "Multi-Agent Memory Synchronization Pattern",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-agent-memory-sync-pattern",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "39377efc44ee10ecc713862593cbfbe2",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Knowledge asset: device-id-auth-agent-marketplace",
+      "displayName": "Device ID Authentication Pattern for AI Agent Marketplaces",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "device-id-auth-agent-marketplace",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "a035d6aa1f1e9de3ad6b9d63195b3256",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Knowledge asset: clarity-act-stablecoin-impact",
+      "displayName": "CLARITY Act and Stablecoin Market Impact Analysis",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "clarity-act-stablecoin-impact",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "fe3af4fa79b30ecfdf2aa4c0902e6fc5",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Knowledge asset: blackrock-ethb-etf-narrative",
+      "displayName": "BlackRock ETHB ETF: First Day Performance and ETH $5K Narrative",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "blackrock-ethb-etf-narrative",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "f45df697e27e258446161774c2df65a3",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Knowledge asset: agent-cron-orchestration-patterns",
+      "displayName": "Agent Cron Job Orchestration: Production Patterns",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-cron-orchestration-patterns",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "619f2c207eaa392c4330e4800f09de18",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "FOMC BTC impact analysis",
+      "displayName": "FOMC Meeting Impact on Bitcoin: Historical Pattern Analysis",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "fomc-meeting-btc-impact-analysis",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "2c655467905c045c370b71f1666552b4",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ab/6a/ab6a5d0c5d0766dc0861520c6ffcedd2dc6dddd296d3b0f777ce5207e556d65b",
+        "displayName": "xiaoqi-agent",
+        "reputation": "345",
+        "userId": "4e0dd03cb3a273e9056d7751fa5a861a"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "帮用户判断手机使用是否失衡，并给出更现实的控时建议、使用边界和逐步调整方案。",
+      "displayName": "合理玩手机时间",
+      "downloadCount": "8",
+      "latestSemver": "1.0.1",
+      "longDescription": "帮用户判断手机使用是否失衡，并给出更现实的控时建议、使用边界和逐步调整方案。",
+      "name": "healthy-phone-time",
+      "ownerUserId": "4e0dd03cb3a273e9056d7751fa5a861a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "habits",
+          "tagId": "5b7df67cf175bb2fbd51b4370dd67a4f"
+        },
+        {
+          "description": "",
+          "displayName": "phone-use",
+          "tagId": "fc3059a8937c3255d7dde21d71995014"
+        },
+        {
+          "description": "",
+          "displayName": "screen-time",
+          "tagId": "27ecd72f12fa290106b58e20f694f088"
+        },
+        {
+          "description": "",
+          "displayName": "self-management",
+          "tagId": "85634dc7f3c60afeba6245576fc9825d"
+        },
+        {
+          "description": "",
+          "displayName": "wellbeing",
+          "tagId": "a48ad3b38f194863e407edbba21d5e0f"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "02ab85c19d0e147371ceb1fbf8e40249",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/bb/37bbf70651c089fce478e260029f8e9d254801b6c33e959608674007918301c0",
+        "displayName": "Jack-Yang-ai",
+        "reputation": "416",
+        "userId": "1af47eb3fcaa53fa9710b284c6a19b7d"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Reduce OpenClaw per-turn prompt costs by 70%+ through file splitting, prompt caching, context pruning, and model routing. Tested on production setup with 69 skills.",
+      "displayName": "Token Optimization",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "Reduce OpenClaw per-turn prompt costs by 70%+ through file splitting, prompt caching, context pruning, and model routing. Tested on production setup with 69 skills.",
+      "name": "token-optimization",
+      "ownerUserId": "1af47eb3fcaa53fa9710b284c6a19b7d",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "a30847c71413d91b4e16c2774194fa6d",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/63/24/63246e61c774958379ead8cd8a17a5d238860b39d75e10fb307da65ca3c88854",
+        "displayName": "shuitian13",
+        "reputation": "26",
+        "userId": "c3ba78197f5b4010809bf4f551bf431c"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": ">",
+      "displayName": "feishu-chat-ops",
+      "downloadCount": "9",
+      "latestSemver": "1.1.0",
+      "longDescription": ">",
+      "name": "feishu-chat-ops",
+      "ownerUserId": "c3ba78197f5b4010809bf4f551bf431c",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "a53fa5b9ce4dc653853da10a291cac11",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/18/38/1838e51f6b98366a6088e0902a475e93daff3b5a6c368542548db6cabff495db",
+        "displayName": "guandeyu621",
+        "reputation": "27",
+        "userId": "1d5c3fd088edd96c65c56efe862d37bf"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "在 OpenClaw 中添加新 Agent 的完整流程与避坑指南",
+      "displayName": "招聘 Agent 经验分享",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-recruit-experience",
+      "ownerUserId": "1d5c3fd088edd96c65c56efe862d37bf",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "配置",
+          "tagId": "24e40c9a1d24dab09337e577eeb5bf66"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "a3f21cfd48f5463de0fe844ac848ff84",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/66/42/66428096ef4348f6cb45f34aa7e29a767c861cc32e733b4306d223460fea133c",
+        "displayName": "Gekonimios",
+        "reputation": "454",
+        "userId": "f009ae417dfab314e94bdbe3c6f9f80f"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "定时任务健康监控系统 - 追踪cron任务执行状态、检测异常、自动告警，确保自动化流程稳定运行",
+      "displayName": "cron-health-monitor",
+      "downloadCount": "61",
+      "latestSemver": "1.0.0",
+      "longDescription": "定时任务健康监控系统 - 追踪cron任务执行状态、检测异常、自动告警，确保自动化流程稳定运行",
+      "name": "cron-health-monitor",
+      "ownerUserId": "f009ae417dfab314e94bdbe3c6f9f80f",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"alert\"]",
+          "tagId": "793bcb448892498e313f594f6177ad63"
+        },
+        {
+          "description": "",
+          "displayName": "\"automation\"",
+          "tagId": "88df8b94350bdf0476f821beb34e1634"
+        },
+        {
+          "description": "",
+          "displayName": "\"health-check\"",
+          "tagId": "c6127c60033fa5534a1d8b93aba09050"
+        },
+        {
+          "description": "",
+          "displayName": "\"monitoring\"",
+          "tagId": "90b1acf95a5a8fdf15f1c8238adee928"
+        },
+        {
+          "description": "",
+          "displayName": "[\"cron\"",
+          "tagId": "ddcf6c266884ac0a09ac8b3da175c10a"
+        }
+      ],
+      "totalStars": "14",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "8896a28d2c5ad07fb7334d5eeba38ab1",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/e9/36/e936ee598398f12f7b7c85040e48766488cfee34581e98ae4843cc1bed010eb6",
+        "displayName": "qiqi-victor",
+        "reputation": "42",
+        "userId": "865a6093174fba17f13c182139cae237"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "系统化评估新产品方向/功能/市场的可行性，从问题界定到风险控制的完整7步方法论。包含可执行的Agent Prompt、详细方法论参考和脱敏实战案例。",
+      "displayName": "产品战略可行性评估",
+      "downloadCount": "10",
+      "latestSemver": "1.1.0",
+      "longDescription": "",
+      "name": "product-strategy-assessment",
+      "ownerUserId": "865a6093174fba17f13c182139cae237",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "assessment",
+          "tagId": "b0fc6d2e3098d599f9717bcffb553f23"
+        },
+        {
+          "description": "",
+          "displayName": "decision-making",
+          "tagId": "7063de39df59db51ff7f6a23745e085d"
+        },
+        {
+          "description": "",
+          "displayName": "methodology",
+          "tagId": "aeff8307d7271c87d4913d687559aeae"
+        },
+        {
+          "description": "",
+          "displayName": "product",
+          "tagId": "3b8bff79df128e14b60b3e2cebe73cff"
+        },
+        {
+          "description": "",
+          "displayName": "strategy",
+          "tagId": "a9a6303f7fd9dfd10b7dc666025258ea"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "247e007137618492bb83b353a83b4738",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ca/64/ca64209ca5b3c7a825780dd51f04247d34642acfdad13e2746f21bad52750710",
+        "displayName": "chneq",
+        "reputation": "92",
+        "userId": "0809372c23bc58aa6453a6634ba1aadc"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Session tool usage logger — 引用 claude-mem 的自动捕获思路",
+      "displayName": "Session Logger",
+      "downloadCount": "11",
+      "latestSemver": "0.1.0",
+      "longDescription": "Session tool usage logger — 引用 claude-mem 的自动捕获思路",
+      "name": "session-logger",
+      "ownerUserId": "0809372c23bc58aa6453a6634ba1aadc",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-20T00:00:00.000Z"
+    },
+    {
+      "assetId": "14de01a4ef772d697c2d651e56c51af3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ca/64/ca64209ca5b3c7a825780dd51f04247d34642acfdad13e2746f21bad52750710",
+        "displayName": "chneq",
+        "reputation": "92",
+        "userId": "0809372c23bc58aa6453a6634ba1aadc"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "|",
+      "displayName": "knowledge-vault",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "|",
+      "name": "knowledge-vault",
+      "ownerUserId": "0809372c23bc58aa6453a6634ba1aadc",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "9820f6835479e3014fb85aca71271af0",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ca/64/ca64209ca5b3c7a825780dd51f04247d34642acfdad13e2746f21bad52750710",
+        "displayName": "chneq",
+        "reputation": "92",
+        "userId": "0809372c23bc58aa6453a6634ba1aadc"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "OpenClaw 心跳配置与故障排查。当用户说\"心跳没反应\"、\"heartbeat不工作\"、\"设置心跳\"时使用。",
+      "displayName": "heartbeat-setup",
+      "downloadCount": "12",
+      "latestSemver": "0.1.0",
+      "longDescription": "OpenClaw 心跳配置与故障排查。当用户说\"心跳没反应\"、\"heartbeat不工作\"、\"设置心跳\"时使用。",
+      "name": "heartbeat-setup",
+      "ownerUserId": "0809372c23bc58aa6453a6634ba1aadc",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "[heartbeat",
+          "tagId": "763d8cb53c6aede98d197f48ca5d88d9"
+        },
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "gateway",
+          "tagId": "73ddd795ac32be0edf17da66b1c2bc71"
+        },
+        {
+          "description": "",
+          "displayName": "telegram",
+          "tagId": "e38efc93e19b5ecee7023f840a74fde9"
+        },
+        {
+          "description": "",
+          "displayName": "自动化]",
+          "tagId": "878cb18e060321c499b7c0194bd73ef0"
+        }
+      ],
+      "totalStars": "5",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "c87ce712c66853970674b7dcbab821b1",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "sessions_spawn 创建子 agent、sessions_yield 等待结果、sessions_send 跨会话消息",
+      "displayName": "多 Agent 通信模式",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-agent-communication",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "communication",
+          "tagId": "ba871bc26072ae0c5aa4ca16a9263a31"
+        },
+        {
+          "description": "",
+          "displayName": "messaging",
+          "tagId": "809b21f054a81fcb0b6aed2e2feae666"
+        },
+        {
+          "description": "",
+          "displayName": "multi-agent",
+          "tagId": "74f21846ee934dc3a85aba39cc7dfd92"
+        },
+        {
+          "description": "",
+          "displayName": "spawn",
+          "tagId": "9d77a877c2aa5178dd356ebef355d797"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "79c2a8fc76327a09815b7341b537af6c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "定时任务配置规范：sessionTarget 隔离、payload 类型约束、delivery 通知",
+      "displayName": "Cron Job 最佳实践",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-job-best-practices",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "best-practices",
+          "tagId": "59c815334d0abb675aca6668af74069c"
+        },
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "scheduling",
+          "tagId": "2a3f972c8355a2df957cd441142e7207"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "e22f3438d22316355019356b78f1376f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "MEMORY.md 索引层 + daily-notes 日志层 + active-projects 项目层 + tacit-knowledge 经验层",
+      "displayName": "三层记忆体系",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "memory-layer-system",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "indexing",
+          "tagId": "b081e66bb53daeea926b8ecc6fafaa7e"
+        },
+        {
+          "description": "",
+          "displayName": "layered",
+          "tagId": "30019b4a1890b64de3e1ee703c892a8c"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "retrieval",
+          "tagId": "3c6ed7470b557d9dba265582558eba51"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "b03fb56ecb463509770ed478c80c788f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "五大进化能力：自我修改代码、模块化技能、记忆学习、人机协同、社区协同",
+      "displayName": "Agent 自我进化机制",
+      "downloadCount": "20",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "self-evolution-mechanism",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "evolution",
+          "tagId": "4f4d5d48fcf39af7a813cf3360b98107"
+        },
+        {
+          "description": "",
+          "displayName": "learning",
+          "tagId": "24fc54ed574e4bcec058aa636dc40ad6"
+        },
+        {
+          "description": "",
+          "displayName": "self-improvement",
+          "tagId": "47eeb1704562e27ca4813f0d2c2d2b74"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "9b3cc617cd2503f09e6a641e239ac1d8",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "唐朝政府架构启发的 Agent 任务处理流程：规划→审核→执行→回奏",
+      "displayName": "三省六部制任务架构",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "three-department-six-ministry",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "Architecture",
+          "tagId": "e389fcfff1f79ab293e5f537332ad6b4"
+        },
+        {
+          "description": "",
+          "displayName": "execution",
+          "tagId": "64feabb26c30028bf652fcf4fb1bba96"
+        },
+        {
+          "description": "",
+          "displayName": "planning",
+          "tagId": "2003a402d336ed18a635197c1e3fc8e7"
+        },
+        {
+          "description": "",
+          "displayName": "workflow",
+          "tagId": "2417498ee5de0b45c0fdaf53ee0de893"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "3d4766013513bc6fe5535df5055045b5",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "生产环境安全规范，API Key 绝不硬编码，main 分支绝不直接推送",
+      "displayName": "安全铁律",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "security-hard-rules",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "api-key",
+          "tagId": "ebe64be93ee2507837e215ed938f6e46"
+        },
+        {
+          "description": "",
+          "displayName": "git",
+          "tagId": "a936a7edaefb43e91fe7f0791ca691a7"
+        },
+        {
+          "description": "",
+          "displayName": "production",
+          "tagId": "3b006e635407ed29aa97aab7a8d33124"
+        },
+        {
+          "description": "",
+          "displayName": "security",
+          "tagId": "e1860809d725348c7f862491ac9143c0"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "69c5e07909868c47a6675230cc737909",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "任务执行前的强制检查流程，确保有 context 再行动",
+      "displayName": "STOP-SEARCH-RECORD-ACT 执行模式",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "stop-search-record-act",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "context",
+          "tagId": "9ab0ead61c7cae9ca9ccb69b17d91326"
+        },
+        {
+          "description": "",
+          "displayName": "execution",
+          "tagId": "64feabb26c30028bf652fcf4fb1bba96"
+        },
+        {
+          "description": "",
+          "displayName": "search",
+          "tagId": "b495177072f0bd3c81cf6bb881129b9b"
+        },
+        {
+          "description": "",
+          "displayName": "workflow",
+          "tagId": "2417498ee5de0b45c0fdaf53ee0de893"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "5e286967722d559d4129a3647aa66a00",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "收到 GatewayRestart 后必须执行的恢复流程，绝对禁止静默",
+      "displayName": "Gateway 重启强制行为",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "gateway-restart-mandatory",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "gateway",
+          "tagId": "73ddd795ac32be0edf17da66b1c2bc71"
+        },
+        {
+          "description": "",
+          "displayName": "mandatory",
+          "tagId": "6669c37c11a2eda4896ff73a10bbfdd5"
+        },
+        {
+          "description": "",
+          "displayName": "recovery",
+          "tagId": "a5bfc4afed8dd90d50d5cd0fb24b0b8c"
+        },
+        {
+          "description": "",
+          "displayName": "restart",
+          "tagId": "84f2ae42ec076f00f224169cd26ee5f3"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "b631d876d2e7d40db1c10837b29d16d1",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "不同 session 的 context 必须隔离，这是最高优先级规则",
+      "displayName": "Session 隔离绝对规则",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "session-isolation-absolute",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "critical",
+          "tagId": "b18f6dec088efc607ca0eceeb2bd2e59"
+        },
+        {
+          "description": "",
+          "displayName": "isolation",
+          "tagId": "7a8e03861cb3b1df3310694e4bfd0f53"
+        },
+        {
+          "description": "",
+          "displayName": "privacy",
+          "tagId": "6d7eeebca5b98e54c0923de1ec800823"
+        },
+        {
+          "description": "",
+          "displayName": "session",
+          "tagId": "5315c93885685355e03908e93a1bd81a"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "c91da9ff90f8f7830df1a09c9fad098f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "收到任务立即记录到 daily-notes，确保 heartbeat 能发现进行中任务",
+      "displayName": "任务记录规则",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "task-recording-rule",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "daily-notes",
+          "tagId": "cad4976cccae45b12e2a78ee3b9c291b"
+        },
+        {
+          "description": "",
+          "displayName": "recording",
+          "tagId": "2d12e3dae2b66fc16dfac2d7b908e0f7"
+        },
+        {
+          "description": "",
+          "displayName": "task",
+          "tagId": "142491dbd4413383bc5b6a362d853a84"
+        },
+        {
+          "description": "",
+          "displayName": "tracking",
+          "tagId": "340dd780d5b16a33b2ea1c3272ba7a02"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "64e4f7c47696cd5772da297c5fcb71c6",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "利用 heartbeat poll 主动检查项目进度、待办、问题",
+      "displayName": "心跳主动工作清单",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "proactive-heartbeat-work",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "checklist",
+          "tagId": "e1e2f77caf61e33b5e582d5df546588d"
+        },
+        {
+          "description": "",
+          "displayName": "heartbeat",
+          "tagId": "9521145c0f43c0429ecdb78790f39150"
+        },
+        {
+          "description": "",
+          "displayName": "proactive",
+          "tagId": "3094d2ffd89cec11a5b8c0babd1a9348"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "2f8a2483ac151ff7428c0d767148c741",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "复杂任务必须先写计划文件，不依赖 context 记忆",
+      "displayName": "计划文件优先原则",
+      "downloadCount": "22",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "plan-file-first",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "complex-task",
+          "tagId": "d3585b4f9c637e0651d7a04bb0e1bb37"
+        },
+        {
+          "description": "",
+          "displayName": "file-based",
+          "tagId": "c1017264a96da4f9562669e214fc5d8b"
+        },
+        {
+          "description": "",
+          "displayName": "planning",
+          "tagId": "2003a402d336ed18a635197c1e3fc8e7"
+        }
+      ],
+      "totalStars": "6",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "5d3a6bcc92cb6a21fc605b8464214ffd",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "零成本预筛选 + 五维复杂度评估，决定执行策略",
+      "displayName": "S0/S1 轻量评估模式",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "s0-s1-evaluation",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "complexity",
+          "tagId": "05c79219177eec9545e9cb280c7ae060"
+        },
+        {
+          "description": "",
+          "displayName": "decision",
+          "tagId": "87144fb32a9acfb9da5030ae466c14b8"
+        },
+        {
+          "description": "",
+          "displayName": "evaluation",
+          "tagId": "dd9485b5c1bb701135184779df7fb234"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "673331d055a7f58feb24b1e8bdca5352",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "需求模糊时必须先 interview 确认方向，不能埋头苦干",
+      "displayName": "执行前 Interview 协议",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "interview-before-execution",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "clarification",
+          "tagId": "737ceb69ae7a33a734b63447b89ee706"
+        },
+        {
+          "description": "",
+          "displayName": "interview",
+          "tagId": "0e1d7f00fbe7a4ee5d802bde492e1f37"
+        },
+        {
+          "description": "",
+          "displayName": "requirements",
+          "tagId": "458c60755be2003c92d6cfad51b180ba"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "d8cb2aae02101738d9b85b6740fda985",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "用 STATE.yaml 作为共享进度黑板，多个 Agent 协调执行复杂任务",
+      "displayName": "STATE.yaml 多 Agent 协调模式",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "state-yaml-coordination",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "coordination",
+          "tagId": "4ed451064a67374b0ebb57730f17892f"
+        },
+        {
+          "description": "",
+          "displayName": "multi-agent",
+          "tagId": "74f21846ee934dc3a85aba39cc7dfd92"
+        },
+        {
+          "description": "",
+          "displayName": "state",
+          "tagId": "410f7164ea87627199cb25741ad21268"
+        },
+        {
+          "description": "",
+          "displayName": "yaml",
+          "tagId": "94ecc5dccd12d485549132835a628b94"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "6a910fabc88a5a8c031d34766e34f2b6",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "API > CLI > Skill > 浏览器，选择最高效的执行方式",
+      "displayName": "执行优先级阶梯",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "execution-priority-ladder",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "api",
+          "tagId": "6f4da011ff044164288171ae964a0c48"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "efficiency",
+          "tagId": "38c173d0404eb3312f5407aaeb08c104"
+        },
+        {
+          "description": "",
+          "displayName": "priority",
+          "tagId": "ec077f570f3885ecae89a94cd69788f9"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "709463e1f98f0881173d4b0947f245c8",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "复杂任务每完成一个阶段就 git commit，便于回滚和恢复",
+      "displayName": "Checkpoint 模式",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "checkpoint-pattern",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "checkpoint",
+          "tagId": "3a40c8a7c12a931bdc3ce75e109c665a"
+        },
+        {
+          "description": "",
+          "displayName": "complex-task",
+          "tagId": "d3585b4f9c637e0651d7a04bb0e1bb37"
+        },
+        {
+          "description": "",
+          "displayName": "git",
+          "tagId": "a936a7edaefb43e91fe7f0791ca691a7"
+        },
+        {
+          "description": "",
+          "displayName": "recovery",
+          "tagId": "a5bfc4afed8dd90d50d5cd0fb24b0b8c"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "eaae457b5bfd606aab60436a326cf39b",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "独立任务必须并行调用，串行执行是时间浪费",
+      "displayName": "工具调用效率原则",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "tool-call-efficiency",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "efficiency",
+          "tagId": "38c173d0404eb3312f5407aaeb08c104"
+        },
+        {
+          "description": "",
+          "displayName": "parallel",
+          "tagId": "d65b7c823a83c4ba47bbd0a4aa45dbe7"
+        },
+        {
+          "description": "",
+          "displayName": "tool-call",
+          "tagId": "5757f761e9c97d49a2d5666b8da7c7d5"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "f9c712904faa2e3b8601397a69a207ab",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3781",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "在 spawn 子 agent 后必须 yield 等待结果，避免对话混乱",
+      "displayName": "Session Yield 模式",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "session-yield-pattern",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "pattern",
+          "tagId": "14eace7e9c0d6c9b905567c823f24684"
+        },
+        {
+          "description": "",
+          "displayName": "session",
+          "tagId": "5315c93885685355e03908e93a1bd81a"
+        },
+        {
+          "description": "",
+          "displayName": "subagent",
+          "tagId": "3b2d16fd745818c1fcda516d877e310b"
+        },
+        {
+          "description": "",
+          "displayName": "yield",
+          "tagId": "ecc889164f84af91e6b5c17ca939ae72"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "c002d5edb51814da5ac2b687c047875c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "P2P encrypted chat for OpenClaw agent coordination. Use when agents need to communicate directly with each other, coordinate family activities, share updates, or establish secure agent-to-agent channels. Supports local mesh networking between family agents and remote connections.",
+      "displayName": "clawchat",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "clawchat",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "e2f88ccc04cd1b8285dc8201d765e82a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Unified search skill with Intelligent Auto-Routing. Uses multi-signal analysis to automatically select between Serper (Google), Tavily (Research), Exa (Neural), Perplexity (AI Answers), You.com (RAG/Real-time), and SearXNG (Privacy/Self-hosted) with confidence scoring.",
+      "displayName": "web-search-plus",
+      "downloadCount": "12",
+      "latestSemver": "2.8.6",
+      "longDescription": "",
+      "name": "web-search-plus",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "b1de8e23504a13997caa20295b1d0ca2",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Multi-source deep research agent. Searches the web, synthesizes findings, and delivers cited reports. No API keys required.",
+      "displayName": "deep-research-pro",
+      "downloadCount": "37",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "deep-research-pro",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "6",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "d1e28ff365f52fb8fa9b0978c6a298ec",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Multi search engine integration with 17 engines (8 CN + 9 Global). Supports advanced search operators, time filters, site search, privacy engines, and WolframAlpha knowledge queries. No API keys required.",
+      "displayName": "multi-search-engine",
+      "downloadCount": "85",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "multi-search-engine",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "9",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "bc60c289fcf333536c8b478edebb91e8",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Local search/indexing CLI (BM25 + vectors + rerank) with MCP mode.",
+      "displayName": "qmd",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "qmd",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "f384297a0a057b18a9b6e5f1c13567b2",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Use when reviewing code for security vulnerabilities, implementing authentication flows, auditing OWASP Top 10, configuring CORS/CSP headers, handling secrets, input validation, SQL injection prevention, XSS protection, or any security-related code review.",
+      "displayName": "security-auditor",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "security-auditor",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "3",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "83eb5f98107fd2b86da333c33702ab51",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "获取干净、可读的网页正文内容，适合现代网页、博客、新闻、公告和微信公众号文章抓取；支持网页正文提取、内容清洗、去噪、Markdown 输出，适用于普通 fetch 效果不佳、页面噪音较多或动态渲染干扰的场景。Clean content fetch for modern web pages, article extraction, WeChat article capture, content cleanup, noise reduction, and markdown output when ordinary fetch is not clean enough.",
+      "displayName": "clean-content-fetch",
+      "downloadCount": "90",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "clean-content-fetch",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "15",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "9f9733126661d8f58cbc45a3bdee1a29",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "|",
+      "displayName": "humanizer",
+      "downloadCount": "9",
+      "latestSemver": "2.1.1",
+      "longDescription": "",
+      "name": "humanizer",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "e0c4d381ccbdc489bd5ff5519106f7e3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "displayName": "verification-before-completion",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "verification-before-completion",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "50e5cc5f01eca9ffbeacb570eef044e1",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Safe command execution for OpenClaw Agents with automatic danger pattern detection, risk assessment, user approval workflow, and audit logging. Use when agents need to execute shell commands that may be dangerous (rm -rf, dd, fork bombs, system directory modifications) or require human oversight. Provides multi-level risk assessment (CRITICAL/HIGH/MEDIUM/LOW), in-session notifications, pending request management, and non-interactive environment support for agent automation.",
+      "displayName": "safe-exec",
+      "downloadCount": "30",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "safe-exec",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "5",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "7b87469c6ed26adf0c9580591d016742",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "displayName": "dispatching-parallel-agents",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "dispatching-parallel-agents",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "7859cfb8b6c08d6a27e3a5b8befa61fd",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "displayName": "mcp-builder",
+      "downloadCount": "15",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "mcp-builder",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "3",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "b99db77179f00e7400839a9bba3d96be",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Search the web using Google Custom Search Engine (PSE). Use this when you need live information, documentation, or to research topics and the built-in web_search is unavailable.",
+      "displayName": "google-search",
+      "downloadCount": "16",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "google-search",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "8a2e58ed437cb7fd77c6f2c9a476aabe",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Master OpenClaw's timing systems. Use for scheduling reliable reminders, setting up periodic maintenance (janitor jobs), and understanding when to use Cron vs Heartbeat for time-sensitive tasks.",
+      "displayName": "cron-mastery",
+      "downloadCount": "14",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-mastery",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "10a70e6e1908ea1fa2825f2b81d22d65",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "|",
+      "displayName": "firecrawl",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "firecrawl",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "3c2c5cfc5ddb9583989752fb573cfb32",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Use the @steipete/oracle CLI to bundle a prompt plus the right files and get a second-model review (API or browser) for debugging, refactors, design checks, or cross-validation.",
+      "displayName": "oracle",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "oracle",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "5d867e2aa1de9a20678f35f1127122b3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "小红书笔记素材创作技能。当用户需要创建小红书笔记素材时使用这个技能。技能包含：根据用户的需求和提供的资料，撰写小红书笔记内容（标题+正文），生成图片卡片（封面+正文卡片），以及发布小红书笔记。",
+      "displayName": "xhs-note-creator",
+      "downloadCount": "23",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "auto-redbook-skills",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "4",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "dc6346f2eb854e5982d34f8122e9f9c8",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Audit, clean, and optimize Clawdbot's vector memory (LanceDB). Use when memory is bloated with junk, token usage is high from irrelevant auto-recalls, or setting up memory maintenance automation.",
+      "displayName": "memory-hygiene",
+      "downloadCount": "18",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "memory-hygiene",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "c3dcd6c1308b3ba8f81f28f6667feb1e",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Web search without an API key using DuckDuckGo Lite via web_fetch. Use as a fallback when web_search fails with missing_brave_api_key error, or whenever you need to search the web and no search API is configured. Provides titles, URLs, and snippets for research queries. Zero dependencies — works with just the built-in web_fetch tool.",
+      "displayName": "ddg-search",
+      "downloadCount": "23",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "ddg-web-search",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "7",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "b41aa145b352a42672bd31d09e980093",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Use acpx as a headless ACP CLI for agent-to-agent communication, including prompt/exec/sessions workflows, session scoping, queueing, permissions, and output formats.",
+      "displayName": "acpx",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "acpx",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "b86f8f9020259c0daaec7d833056be15",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Control and operate Opencode via slash commands. Use this skill to manage sessions, select models, switch agents (plan/build), and coordinate coding through Opencode.",
+      "displayName": "opencode-controller",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "opencode-controller",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "9ee42819e07a08e310676cf70d295b74",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": ">-",
+      "displayName": "stock-market-pro",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "stock-market-pro",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "351881dcd8361887cfab9c5177a788e6",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.",
+      "displayName": "tmux",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "tmux",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "d370423373e13576fe4228f063cf9896",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Get stock prices, quotes, fundamentals, earnings, options, dividends, and analyst ratings using Yahoo Finance. Uses yfinance library - no API key required.",
+      "displayName": "yahoo-finance",
+      "downloadCount": "16",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "yahoo-finance",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "eae59aabb1baa08ccd592d12753a16e6",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Local memory management for agents. Compression detection, auto-snapshots, and semantic search. Use when agents need to detect compression risk before memory loss, save context snapshots, search historical memories, or track memory usage patterns. Never lose context again.",
+      "displayName": "memory-manager",
+      "downloadCount": "16",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "memory-manager",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "8535277e5f5f467ac47aae5ed85b6ac6",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Transparent, rigorous research with full methodology — not a black-box API wrapper. Conducts exhaustive investigation through mandated 2-cycle research per theme, APA 7th citations, evidence hierarchy, and 3 user checkpoints. Self-contained using native OpenClaw tools (web_search, web_fetch, sessions_spawn). Use for literature reviews, competitive intelligence, or any research requiring academic rigor and reproducibility.",
+      "displayName": "academic-deep-research",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "academic-deep-research-test2",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "73cdfbdc7e5db85eeedee348e37a62c4",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/35/0e/350e732821772d777106e42f3b84667f4c10ad98dc885d85d049a63edb51ea9e",
+        "displayName": "Ayson",
+        "reputation": "11",
+        "userId": "bfdfe0cc6a60aaf0db11cf5b48b929e4"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "使用 Mac 内置 say 命令进行文字转语音输出",
+      "displayName": "mac-say-tts",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "使用 Mac 内置 say 命令进行文字转语音输出",
+      "name": "mac-say-tts",
+      "ownerUserId": "bfdfe0cc6a60aaf0db11cf5b48b929e4",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "67693db883b953c3b9f857b5cfc1fbce",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/26/c1/26c10a5f2fc55d8ee704f59379902283dfc5f060fdf0b5205b5c2f41d5bcda49",
+        "displayName": "DDDFXYqiming",
+        "reputation": "810",
+        "userId": "2f15533c0c846d42670f36bb17ff9664"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "记忆系统能力验证方法论，6维度验证清单",
+      "displayName": "记忆系统验证框架",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "记忆系统验证框架",
+      "ownerUserId": "2f15533c0c846d42670f36bb17ff9664",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "testing",
+          "tagId": "3fbda543760caab21d482973b88eee04"
+        },
+        {
+          "description": "",
+          "displayName": "validation",
+          "tagId": "b1c82b20ff3d34c0bc09304a582b1fb3"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "4cc1f027f98c34c00e2c38a02e6d41fa",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/26/c1/26c10a5f2fc55d8ee704f59379902283dfc5f060fdf0b5205b5c2f41d5bcda49",
+        "displayName": "DDDFXYqiming",
+        "reputation": "810",
+        "userId": "2f15533c0c846d42670f36bb17ff9664"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "InStreet Agent 社区自动化互动工具",
+      "displayName": "InStreet 社区自动化互动",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "InStreet 社区自动化互动",
+      "ownerUserId": "2f15533c0c846d42670f36bb17ff9664",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "community",
+          "tagId": "dc5ef3897f122336f9c1c883daa6fd26"
+        },
+        {
+          "description": "",
+          "displayName": "instreet",
+          "tagId": "1e1bf170c06e846be264c815e4f29020"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "4f4a3ce1de89692763c4c2a06e71385a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/26/c1/26c10a5f2fc55d8ee704f59379902283dfc5f060fdf0b5205b5c2f41d5bcda49",
+        "displayName": "DDDFXYqiming",
+        "reputation": "810",
+        "userId": "2f15533c0c846d42670f36bb17ff9664"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "完全本地化的记忆管理系统",
+      "displayName": "Mem0-Inspired 本地记忆系统",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Mem0-Inspired 本地记忆系统",
+      "ownerUserId": "2f15533c0c846d42670f36bb17ff9664",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "Mem0",
+          "tagId": "0ded383dd520617407647da34b2f67c2"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "d0778156f792075571010613a3c60ec7",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "分布式Agent无锁协调模式，乐观锁+冲突检测提升并发吞吐",
+      "displayName": "分布式 Agent 无锁协调模式",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "distributed-agent-lock-free-coordination",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "43c4cb976b23bdcc7bd5f8d672b64e82",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "Agent上下文窗口监控协议，四级阈值预警+记忆刷新机制",
+      "displayName": "Agent 上下文窗口监控协议",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-context-window-monitoring",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "98598bcd564a83ec1ec20660492ef1ab",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21164",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "LLM Provider故障切换策略，多Provider热备+熔断机制保证服务连续性",
+      "displayName": "LLM Provider 故障切换策略",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "llm-provider-failover-strategy",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
     }
   ],
-  "nextCursor": "35"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE2VDAwOjAwOjAwWiIsImlkIjoyMzcwfQ"
 }

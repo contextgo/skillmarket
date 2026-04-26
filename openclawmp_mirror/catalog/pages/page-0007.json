@@ -1,1190 +1,3768 @@
 {
-  "total": 3352,
   "items": [
     {
-      "id": "s-b229c050a998d7c1",
-      "name": "write-utf8",
-      "displayName": "write-utf8",
-      "type": "skill",
-      "description": "Windows PowerShell UTF-8 file writer to fix Chinese encoding issues",
-      "tags": [
-        "utf8",
-        "encoding",
-        "powershell",
-        "chinese",
-        "file"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "DDDFXYqiming",
-      "authorId": "u-53e83d47f1f746f78d4e",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/114125824?v=4",
-      "authorReputation": 655,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-53e83d47f1f746f78d4e/write-utf8",
-      "updatedAt": "2026-03-15",
+      "assetId": "6cd2451b3d6d444895228a51ea052838",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 5
-    },
-    {
-      "id": "s-08ee5b2bf3e692ee",
-      "name": "openclaw-twitter-monitor",
-      "displayName": "ct-monitor",
-      "type": "skill",
-      "description": "CT Monitor — Crypto Intelligence Analyst. Monitors 5000+ KOL tweets, real-time news, RSS feeds & real-time prices (Binance + DexScreener). Integrates Binance Web3 APIs for smart money tracking, social hype validation, and on-chain verification. Extracts Alpha signals, identifies narratives, generates AI briefings.",
+      "createdAt": "2026-04-03T16:11:07.410Z",
+      "description": "Generate publication-quality chart images from data. Supports line, bar, area, point, candlestick, p...",
+      "displayName": "chart-image",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "chart-image",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
       "tags": [],
-      "installs": 10,
-      "rating": 0,
-      "author": "chaotang-pub",
-      "authorId": "u-b1660de1be4240329321",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VGNDQ0NCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 3411,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-b1660de1be4240329321/openclaw-twitter-monitor",
-      "updatedAt": "2026-03-14",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 7
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:41:06.206Z"
     },
     {
-      "id": "s-5995248cb2c7beae",
-      "name": "bilibili-subtitle-download-skill",
-      "displayName": "Bilibili Subtitle Downloader",
-      "type": "skill",
-      "description": "下载 Bilibili 视频字幕，将其进行分块以供 LLM（大语言模型）处理，并生成高质量的总结。当用户提供 Bilibili BV 号或 URL，并希望获取视频内容的总结、核心要点或详细的分解时使用。",
-      "tags": [
-        "bilibili",
-        "subtitle",
-        "downloader"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "davincievans",
-      "authorId": "u-8abc5ce50b8d1215",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/45795384?v=4",
-      "authorReputation": 50,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-8abc5ce50b8d1215/bilibili-subtitle-download-skill",
-      "updatedAt": "2026-03-14",
+      "assetId": "38ca1ed7274c4c898136dea7704d7006",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 5
+      "createdAt": "2026-04-03T16:11:06.192Z",
+      "description": "",
+      "displayName": "openclaw-channel-config",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "channel-config",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:41:06.186Z"
     },
     {
-      "id": "s-8cbb6513f27bbc21",
-      "name": "ecommerce-price-comparison",
-      "displayName": "电商价格比较",
-      "type": "skill",
-      "description": "从京东、淘宝、天猫、拼多多等中国电商平台抓取商品价格并进行比较分析。当用户需要比较不同电商平台的商品价格、寻找最佳性价比、或监控商品价格变化时使用。支持关键词搜索、商品链接分析、价格历史追踪和购买建议。",
-      "tags": [
-        "电商价格比较"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "birdme007",
-      "authorId": "u-519bb9577d03b69a",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/42058582?v=4",
-      "authorReputation": 50,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-519bb9577d03b69a/ecommerce-price-comparison",
-      "updatedAt": "2026-03-14",
+      "assetId": "b5fb027d67cb40a0bdc8762cc552d613",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-04-03T16:11:04.942Z",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this ...",
+      "displayName": "canvas-design",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "canvas-design",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:41:06.167Z"
     },
     {
-      "id": "s-dbdb0b769048eb1d",
-      "name": "meeting-assistant",
-      "displayName": "会议纪要助手",
-      "type": "skill",
-      "description": "智能会议助手，自动记录会议要点、生成纪要、追踪行动项",
-      "tags": [
-        "会议",
-        "纪要",
-        "转录",
-        "团队协作"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "Batman0506",
-      "authorId": "u-38a9d2a1117b45e69b21",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/43673757?v=4",
-      "authorReputation": 3801,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-38a9d2a1117b45e69b21/meeting-assistant",
-      "updatedAt": "2026-03-11",
+      "assetId": "3895886435ec49dd96e933ab71d4c730",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "createdAt": "2026-04-03T16:11:02.298Z",
+      "description": "|",
+      "displayName": "browser-automation",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "browser-automation",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:41:06.147Z"
     },
     {
-      "id": "s-54bc10a82ca960cd",
-      "name": "email-writer",
-      "displayName": "AI商务邮件助手",
-      "type": "skill",
-      "description": "AI邮件撰写助手，专业商务邮件模板、语气调整、多语言翻译、回复建议",
-      "tags": [
-        "邮件",
-        "商务",
-        "沟通",
-        "职场"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "Batman0506",
-      "authorId": "u-38a9d2a1117b45e69b21",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/43673757?v=4",
-      "authorReputation": 3801,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-38a9d2a1117b45e69b21/email-writer",
-      "updatedAt": "2026-03-11",
+      "assetId": "6890af9b27ff4042b5de445e626ba732",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "createdAt": "2026-04-03T16:11:01.160Z",
+      "description": "Generate, edit, and transform images with commercially-safe AI models. Create images from text, edit...",
+      "displayName": "bria-ai",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "bria-ai",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:41:06.127Z"
     },
     {
-      "id": "s-fb44637d21333da7",
-      "name": "real-estate-assistant",
-      "displayName": "房产助手",
-      "type": "skill",
-      "description": "房产助手，房源搜索、购房指南、房贷计算器、市场分析",
-      "tags": [
-        "房产",
-        "买房",
-        "租房",
-        "房贷"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "Batman0506",
-      "authorId": "u-38a9d2a1117b45e69b21",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/43673757?v=4",
-      "authorReputation": 3801,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-38a9d2a1117b45e69b21/real-estate-assistant",
-      "updatedAt": "2026-03-11",
+      "assetId": "3237c6024e08453bb6d882b544002452",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-04-03T16:10:58.722Z",
+      "description": "Access ATXP paid API tools for web search, AI image generation, music creation, video generation, X/...",
+      "displayName": "atxp",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "atxp",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:13:06.185Z"
     },
     {
-      "id": "s-5be8cc251f01e62d",
-      "name": "customer-retention",
-      "displayName": "客户留存",
-      "type": "skill",
-      "description": "为个体企业家构建并执行客户留存策略。适用于降低客户流失率、提高客户终身价值、建立忠诚度计划、重新激活不活跃用户，或创建以留存为导向的产品和沟通策略。涵盖流失分析、留存群体、生命周期营销、赢回活动和忠诚度机制。",
-      "tags": [
-        "customer",
-        "retention"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "jk-0001",
-      "authorId": "u-dd0a79060070af96",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/103896999?v=4",
-      "authorReputation": 629,
-      "version": "0.1.0",
-      "installCommand": "openclawmp install skill/@u-dd0a79060070af96/customer-retention",
-      "updatedAt": "2026-03-11",
+      "assetId": "dd11c23a6c83401fbaa62c344bd8ba73",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "createdAt": "2026-04-03T16:10:57.544Z",
+      "description": "|",
+      "displayName": "android-native-dev",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "android-native-dev",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:13:06.165Z"
     },
     {
-      "id": "s-7a4aff9383f5e3f5",
-      "name": "glm-web-fetch",
-      "displayName": "GLM网页读取",
-      "type": "skill",
-      "description": "使用智谱AI读取并解析URL网页内容",
-      "tags": [
-        "glm",
-        "zhipu",
-        "web",
-        "fetch",
-        "网页读取"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "woyouyitouchenfeijv",
-      "authorId": "u-0e2f2ffaa8c749cf9fc5",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/27728236?v=4",
-      "authorReputation": 972,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-0e2f2ffaa8c749cf9fc5/glm-web-fetch",
-      "updatedAt": "2026-03-10",
+      "assetId": "a018edc636354e728064a26b1c83be2e",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 6
+      "createdAt": "2026-04-03T16:10:56.239Z",
+      "description": "瀵规姉寮忓唴瀹瑰鏍?Skill銆傜瑪鏉嗗瓙鍐欑鈫掑弬璋嬫寫鍒衡啋瑁佸垽鎵撳垎寰幆2-3杞紝8鍒嗕互涓婃墠杩囥€傝Е鍙戝満鏅細鍐呭瀹℃牳銆佹枃绔犺川閲忔妸鍏炽€佸叕浼楀彿鑽夌瀹￠槄銆佸啓浣...",
+      "displayName": "adversarial-review",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "adversarial-review",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:13:06.146Z"
     },
     {
-      "id": "s-c0b40b6e048a5671",
-      "name": "book-to-skill",
-      "displayName": "Book to Skill",
-      "type": "skill",
-      "description": "根据上传的书籍自动提取技能和思维方式并创建新 skill",
+      "assetId": "e013f821c16c40df85214f83b6fe303e",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T16:10:55.021Z",
+      "description": "\"銆愰渶瑕?API Key銆慉dMapix 骞垮憡鎯呮姤涓?App 鍒嗘瀽鍔╂墜銆傛煡骞垮憡绱犳潗銆佸垎鏋怉pp鎶曟斁绛栫暐銆佺湅鎺掕姒溿€佹煡涓嬭浇閲?鏀跺叆銆佽幏鍙栧競鍦烘礊瀵燂紝鎵€鏈夋暟鎹...",
+      "displayName": "admapix",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "admapix",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:13:06.126Z"
+    },
+    {
+      "assetId": "6300961793394a77b9919015e89f9121",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T16:10:53.761Z",
+      "description": "Time-blind friendly planning, executive function support, and daily structure for ADHD brains. Speci...",
+      "displayName": "adhd-daily-planner",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "adhd-daily-planner",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:13:05.983Z"
+    },
+    {
+      "assetId": "7f343898198a4c67b72140910c612ef4",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T16:10:52.646Z",
+      "description": "鑷€傚簲鑻忔牸鎷夊簳寮忚拷闂妧鑳?/ Adaptive Socratic Questioning - Use adaptive follow-up questioning to deepen st...",
+      "displayName": "adaptive-socratic-questioning",
+      "downloadCount": "4",
+      "latestSemver": "1.1.0",
+      "longDescription": "",
+      "name": "adaptive-socratic-questioning-1-1-0",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:13:05.963Z"
+    },
+    {
+      "assetId": "74c0382d438546668b67b733c41841e2",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T16:10:51.365Z",
+      "description": "瀛︽湳璁烘枃鍏ㄦ祦绋嬫挵鍐欏姪鎵嬶紝浜旀鏍囧噯鍖栨祦绋嬶紙鐩爣纭鈫掓枃鐚暣鍚堚啋澶х翰瑙勫垝鈫掑唴瀹规挵鍐欌啋璐ㄩ噺璇勪及锛夛紝鏀寔鏈熷垔璁烘枃/瀛︿綅璁烘枃/浼氳璁烘枃锛岃鐩栫悊宸ョ...",
+      "displayName": "academic-paper-writing",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "academic-paper-writing-v2",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:13:05.943Z"
+    },
+    {
+      "assetId": "d52aec016c49452494498621bbbb49e2",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T16:10:50.053Z",
+      "description": "瀛︽湳璁烘枃鏅鸿兘妫€绱㈠姪鎵嬶紝鍩轰簬 Semantic Scholar 鏁版嵁搴擄紝鏀寔鍏抽敭璇?浣滆€?鏈熷垔/鏃堕棿澶氱淮搴︽绱紝鑷姩鏋勫缓鍏抽敭璇嶇煩闃点€佽繘琛岃鏂囪川閲忚瘎鍒嗭...",
+      "displayName": "academic-paper-search",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "academic-paper-search-v2",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:13:05.924Z"
+    },
+    {
+      "assetId": "07872dcf7eae4da2b8d6b6618a2dbc7a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T16:10:21.278Z",
+      "description": "Knowledge comic creator supporting multiple art styles and tones",
+      "displayName": "baoyu-comic",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "baoyu-comic",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T19:01:41.060Z"
+    },
+    {
+      "assetId": "2bb899cf16d64ce7ac4380fb6fcfa4d5",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/84/6a844e3a049c6c94305076a3f8ba4db2e709974dd1980ff402255eb77d2aa776",
+        "displayName": "337278848",
+        "reputation": "1775",
+        "userId": "67fd859376ed346fd984a32bd7301beb"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T16:07:48.653Z",
+      "description": "Coding workflow with planning, implementation, verification, and testing for clean software development.",
+      "displayName": "Code",
+      "downloadCount": "37",
+      "latestSemver": "1.0.4",
+      "longDescription": "",
+      "name": "code",
+      "ownerUserId": "67fd859376ed346fd984a32bd7301beb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T16:09:43.245Z"
+    },
+    {
+      "assetId": "cef62d2d65384d2b9ad199552f154f1b",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T15:57:07.828Z",
+      "description": "在原有折纸教学基础上，添加交互式学习体验、实时错误检测、个性化进度跟踪和深度教育价值。帮助用户从模仿到创新，成为真正的折纸艺术家。",
+      "displayName": "折纸大师 - 增强版",
+      "downloadCount": "8",
+      "latestSemver": "1.1.0",
+      "longDescription": "",
+      "name": "origami-enhanced",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
       "tags": [
-        "book",
-        "skill-creation",
-        "knowledge-extraction",
-        "learning"
+        {
+          "description": "",
+          "displayName": "origami",
+          "tagId": "9a1f2a3f2bc4455e8ea9a110388d57f6"
+        },
+        {
+          "description": "",
+          "displayName": "折纸",
+          "tagId": "630972bd50074e0091cf2210700d5635"
+        },
+        {
+          "description": "",
+          "displayName": "教育",
+          "tagId": "c9795b93c355c39bbfe39bc4562a0d78"
+        },
+        {
+          "description": "",
+          "displayName": "数学",
+          "tagId": "3e4dffffcd334824bb52c5b8774c65ea"
+        },
+        {
+          "description": "",
+          "displayName": "交互式",
+          "tagId": "2eb182994c93466c9e6870007a348f7a"
+        },
+        {
+          "description": "",
+          "displayName": "学习",
+          "tagId": "545bb576a6f3cbd5977a1a912861a1fe"
+        },
+        {
+          "description": "",
+          "displayName": "手工",
+          "tagId": "33fe83aac1ad4392bbc37f3d0e29545d"
+        },
+        {
+          "description": "",
+          "displayName": "STEM",
+          "tagId": "a141a367e3c74ea4a6991fb353c3ada0"
+        },
+        {
+          "description": "",
+          "displayName": "AI增强",
+          "tagId": "bfc4125cad0a4d65b2846471b1b03fb0"
+        }
       ],
-      "installs": 10,
-      "rating": 0,
-      "author": "shenshuo-03",
-      "authorId": "u-a43804851d754c47b2e0",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/262797904?v=4",
-      "authorReputation": 82,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a43804851d754c47b2e0/book-to-skill",
-      "updatedAt": "2026-03-10",
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T16:00:03.246Z"
+    },
+    {
+      "assetId": "8373ad24d0e14600b1bd8b12aa4147f3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
+        "displayName": "ruiyongwang",
+        "reputation": "1473",
+        "userId": "f718804c10ff235090b4eaf5a6a1fc65"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T14:53:49.501Z",
+      "description": "基于7族58项创新配比参数、6大关键材料因子、不确定性传播模型和蒙特卡洛模拟，实现±15%精度的工程造价估算。整合汕尾/广东造价指标，支持交互式估算。",
+      "displayName": "度量衡测不准关键因子配比估量估价系统",
+      "downloadCount": "4",
+      "latestSemver": "3.3.1",
+      "longDescription": "",
+      "name": "design-norm-quantity",
+      "ownerUserId": "f718804c10ff235090b4eaf5a6a1fc65",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "工程造价估算",
+          "tagId": "00d038fc307f4cd9b72131810609f3bf"
+        },
+        {
+          "description": "",
+          "displayName": "测不准原理",
+          "tagId": "aed9ef077f9c46428ff0f0d4daf3165f"
+        },
+        {
+          "description": "",
+          "displayName": "配比系数",
+          "tagId": "ede38a1dba264427805ebef6a6c18116"
+        },
+        {
+          "description": "",
+          "displayName": "蒙特卡洛模拟",
+          "tagId": "201a3fe5417b449e8ad5f901dbf6098e"
+        },
+        {
+          "description": "",
+          "displayName": "不确定性分析",
+          "tagId": "d4a10ef1e807446cb8c46133eb4eb4be"
+        },
+        {
+          "description": "",
+          "displayName": "材料因子",
+          "tagId": "df064e8d9765458996d172787501754c"
+        },
+        {
+          "description": "",
+          "displayName": "造价管控",
+          "tagId": "2d6ae8fd24904936beec1c120a053070"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-04-03T17:00:30.118Z"
+    },
+    {
+      "assetId": "ff39bc824ea646bda0815e8741434fbc",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
       "category": "productivity",
-      "githubStars": 0,
-      "totalStars": 3
-    },
-    {
-      "id": "s-11752b387d79c743",
-      "name": "crypto-levels-1-0-3",
-      "displayName": "Crypto Levels 1.0.3",
-      "type": "skill",
-      "description": "Analyze cryptocurrency support and resistance levels. Use when users ask about crypto price analysis, support/resistance levels, technical analysis for BTC, ETH, or other cryptocurrencies. Provides current price, key levels, and trading insights for crypto pairs like BTC-USDT, ETH-USDT.",
+      "createdAt": "2026-04-03T14:38:59.622Z",
+      "description": "",
+      "displayName": "浏览器自动化 - 增强版",
+      "downloadCount": "12",
+      "latestSemver": "1.1.0",
+      "longDescription": "",
+      "name": "browser-automation",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
       "tags": [
-        "crypto",
-        "levels"
+        {
+          "description": "",
+          "displayName": "browser",
+          "tagId": "6f8ea8609d1d2e51c73466f4d68e822c"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "batch",
+          "tagId": "08a58ad90a32a034d7735a420b9898dc"
+        },
+        {
+          "description": "",
+          "displayName": "workflow",
+          "tagId": "2417498ee5de0b45c0fdaf53ee0de893"
+        },
+        {
+          "description": "",
+          "displayName": "extraction",
+          "tagId": "c4efe5393215d74e9c837770f69c9531"
+        },
+        {
+          "description": "",
+          "displayName": "monitoring",
+          "tagId": "e498eed9e92ed7329ce8943ff2e699ab"
+        }
       ],
-      "installs": 10,
-      "rating": 0,
-      "author": "tariqsumatri82",
-      "authorId": "u-7c5d27ee2fc6a4cc",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/41301375?v=4",
-      "authorReputation": 75,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-7c5d27ee2fc6a4cc/crypto-levels-1-0-3",
-      "updatedAt": "2026-03-10",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 5
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T14:40:43.245Z"
     },
     {
-      "id": "s-56bef3017abb3fbb",
-      "name": "openclaw-token-finops-router",
-      "displayName": "OpenClaw Token FinOps 路由器",
-      "type": "skill",
-      "description": "为 OpenClaw 建立 Token FinOps 路由：预算、分层模型、缓存与异常控费。",
+      "assetId": "a2233960edbe4ff68899496463cbc162",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/84/4d/844dd944082855bfb6b0e8f2fe9627c3bbc28728ae7f19d4d43e2a7149ada183",
+        "displayName": "AIddlx",
+        "reputation": "100",
+        "userId": "57f9b4d92d6c46c1035bee8ff20cc9d9"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T14:33:20.776Z",
+      "description": "诊断并修复 openclawmp CLI 升级过程中的配置问题，支持从 0.x 版本平滑迁移到 1.x 版本",
+      "displayName": "OpenClawMP 升级修复工具",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "openclawmp-upgrade-fix",
+      "ownerUserId": "57f9b4d92d6c46c1035bee8ff20cc9d9",
+      "publicationHint": null,
       "tags": [
-        "openclaw",
-        "finops",
-        "token",
-        "model-routing",
-        "cost"
+        {
+          "description": "",
+          "displayName": "openclawmp",
+          "tagId": "6d914674368a5896d23d3a12fc54f347"
+        },
+        {
+          "description": "",
+          "displayName": "upgrade",
+          "tagId": "776b001f9d1891befd01403e11a9d0a3"
+        },
+        {
+          "description": "",
+          "displayName": "fix",
+          "tagId": "3437bbeb0b4b158b9ea3f405e1d01022"
+        },
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        },
+        {
+          "description": "",
+          "displayName": "config",
+          "tagId": "cb08266aca0833516b3607a86c758c14"
+        },
+        {
+          "description": "",
+          "displayName": "migration",
+          "tagId": "2bbab47ff602ea4c98ad06c05e6db309"
+        }
       ],
-      "installs": 10,
-      "rating": 0,
-      "author": "dooooongyuan",
-      "authorId": "u-043a152b1cc14436ac21",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/128032721?v=4",
-      "authorReputation": 4565,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-043a152b1cc14436ac21/openclaw-token-finops-router",
-      "updatedAt": "2026-03-03",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "totalStars": "1",
+      "updatedAt": "2026-04-03T14:34:53.246Z"
     },
     {
-      "id": "s-323b71376732daf6",
-      "name": "dataclaw-tools",
-      "displayName": "DataClaw 工具集",
-      "type": "skill",
-      "description": "DataClaw 工具集 - 数据导出、匿名化、分享",
+      "assetId": "01d83f4e751848dfb2724d8d8bf36223",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T14:20:05.621Z",
+      "description": "",
+      "displayName": "主动心跳引擎 - 增强版",
+      "downloadCount": "10",
+      "latestSemver": "1.1.0",
+      "longDescription": "",
+      "name": "proactive-agent-heartbeat",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "heartbeat",
+          "tagId": "9521145c0f43c0429ecdb78790f39150"
+        },
+        {
+          "description": "",
+          "displayName": "proactive",
+          "tagId": "3094d2ffd89cec11a5b8c0babd1a9348"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T14:22:33.245Z"
+    },
+    {
+      "assetId": "cedeb4235b6d43b487d3277b2b7dfa78",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T14:16:02.558Z",
+      "description": "",
+      "displayName": "智能笔记整理助手 - 增强版",
+      "downloadCount": "5",
+      "latestSemver": "1.1.0",
+      "longDescription": "",
+      "name": "smart-notes-organizer",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "notes",
+          "tagId": "88825ff77a4376db63c402e691024f63"
+        },
+        {
+          "description": "",
+          "displayName": "organization",
+          "tagId": "bc5d54e20114f5a2531e548b706642f8"
+        },
+        {
+          "description": "",
+          "displayName": "knowledge-graph",
+          "tagId": "42f3fce5fbece61f39b9a89eca18de0c"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "search",
+          "tagId": "b495177072f0bd3c81cf6bb881129b9b"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T14:18:03.244Z"
+    },
+    {
+      "assetId": "9f23fb9da33b40338a26649fbcb05e90",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T13:31:41.885Z",
+      "description": "",
+      "displayName": "验证门控",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "verification-gate",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "verification",
+          "tagId": "21218b96a272e8da455c9bca7410a4c8"
+        },
+        {
+          "description": "",
+          "displayName": "validation",
+          "tagId": "b1c82b20ff3d34c0bc09304a582b1fb3"
+        },
+        {
+          "description": "",
+          "displayName": "testing",
+          "tagId": "3fbda543760caab21d482973b88eee04"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "quality",
+          "tagId": "77e9a30b8e2a4357cd4e5de0fbd8440c"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:52:26.110Z"
+    },
+    {
+      "assetId": "f65cd060b67947f5831d1ca7249f4084",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T13:31:20.963Z",
+      "description": "",
+      "displayName": "多智能体编排协调器",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "swarm-coordinator",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "multi-agent",
+          "tagId": "74f21846ee934dc3a85aba39cc7dfd92"
+        },
+        {
+          "description": "",
+          "displayName": "coordination",
+          "tagId": "4ed451064a67374b0ebb57730f17892f"
+        },
+        {
+          "description": "",
+          "displayName": "swarm",
+          "tagId": "b65d17101de32a2d482f7640090dff54"
+        },
+        {
+          "description": "",
+          "displayName": "task-splitting",
+          "tagId": "23186077ec5e4b9da1a4ab120a7b0a02"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:52:26.090Z"
+    },
+    {
+      "assetId": "a95ae3c275db43479b61117462a66581",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T13:30:58.299Z",
+      "description": "",
+      "displayName": "梦境记忆整合",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "dream-memory",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "consolidation",
+          "tagId": "a1d96a42d5484a03b3c3a7d7ee48d2cf"
+        },
+        {
+          "description": "",
+          "displayName": "logs",
+          "tagId": "a73efb83b537178b3af8b411265980ab"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "daily",
+          "tagId": "da0fb67e0c08372d016b333391178546"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:52:26.069Z"
+    },
+    {
+      "assetId": "9e62e0a56c5c42dbb9bfda044654718f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T13:30:24.152Z",
+      "description": "",
+      "displayName": "结构化上下文压缩器",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "structured-context-compressor",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "context",
+          "tagId": "9ab0ead61c7cae9ca9ccb69b17d91326"
+        },
+        {
+          "description": "",
+          "displayName": "compression",
+          "tagId": "88c67c458620fe40a491a37acec51486"
+        },
+        {
+          "description": "",
+          "displayName": "conversation",
+          "tagId": "716a2dc21bc64a36c17a8d67f2944a63"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:52:26.049Z"
+    },
+    {
+      "assetId": "108a056f026c4b14a805f49e5ed6564a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T13:29:49.201Z",
+      "description": "",
+      "displayName": "记忆提取器",
+      "downloadCount": "14",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "memory-extractor",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "extraction",
+          "tagId": "c4efe5393215d74e9c837770f69c9531"
+        },
+        {
+          "description": "",
+          "displayName": "conversation",
+          "tagId": "716a2dc21bc64a36c17a8d67f2944a63"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "context",
+          "tagId": "9ab0ead61c7cae9ca9ccb69b17d91326"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:51:18.759Z"
+    },
+    {
+      "assetId": "fbefc500b0024095ac7dab66a544a9ed",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T13:29:08.970Z",
+      "description": "",
+      "displayName": "Humanizer - 去AI腔",
+      "downloadCount": "10",
+      "latestSemver": "2.1.1",
+      "longDescription": "",
+      "name": "humanizer",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "writing",
+          "tagId": "368922f0597230ebeaffe4846ca3d625"
+        },
+        {
+          "description": "",
+          "displayName": "humanizer",
+          "tagId": "70b6a8a588cf0e5541e6efc436734083"
+        },
+        {
+          "description": "",
+          "displayName": "AI",
+          "tagId": "5edc89f9d04eb0de558c81a6ae0bdd80"
+        },
+        {
+          "description": "",
+          "displayName": "text",
+          "tagId": "8c9d9ff48c14663f3ca0e87b59e7362f"
+        },
+        {
+          "description": "",
+          "displayName": "editing",
+          "tagId": "8288a2420f69c69c7f44febdd3284efd"
+        },
+        {
+          "description": "",
+          "displayName": "nlp",
+          "tagId": "70ebbf7937acd6035321c44d2b76ed9f"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:51:18.740Z"
+    },
+    {
+      "assetId": "48ca9ac8d71b4da98dbb0c07f1e7418a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T13:28:28.457Z",
+      "description": "",
+      "displayName": "六维度交流能力提升框架",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "communication-6d-framework",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "communication",
+          "tagId": "ba871bc26072ae0c5aa4ca16a9263a31"
+        },
+        {
+          "description": "",
+          "displayName": "framework",
+          "tagId": "f1c9a9377915114cc1404dc651abbc20"
+        },
+        {
+          "description": "",
+          "displayName": "assessment",
+          "tagId": "b0fc6d2e3098d599f9717bcffb553f23"
+        },
+        {
+          "description": "",
+          "displayName": "improvement",
+          "tagId": "0b62bfe0a5b0bf3979c125b0a659bc0c"
+        },
+        {
+          "description": "",
+          "displayName": "practice",
+          "tagId": "565a205263f34b8797749e69825e466d"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:51:18.720Z"
+    },
+    {
+      "assetId": "68832d753cf24b0eb35a904761a052fe",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-03T13:27:32.835Z",
+      "description": "",
+      "displayName": "浏览器智能路由",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "browser-router",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "browser",
+          "tagId": "6f8ea8609d1d2e51c73466f4d68e822c"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "router",
+          "tagId": "59c8871fb83849151465508fae3101ee"
+        },
+        {
+          "description": "",
+          "displayName": "web",
+          "tagId": "a6c04fc047e0d9e02df87e54ee20ba0b"
+        },
+        {
+          "description": "",
+          "displayName": "scraping",
+          "tagId": "335093b8b4c4d18cccaa4b21ac03af74"
+        },
+        {
+          "description": "",
+          "displayName": "playwright",
+          "tagId": "75d8115bed24c518abe08e3bd34297db"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:51:18.700Z"
+    },
+    {
+      "assetId": "fcab488c3c6740dfb336ddcb54cbdc00",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
+        "displayName": "ruiyongwang",
+        "reputation": "1473",
+        "userId": "f718804c10ff235090b4eaf5a6a1fc65"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T13:23:58.985Z",
+      "description": "融合文史哲东方智慧的建设工程商事调解智库。基于儒道墨法诸子百家哲学，追求公平而非单纯效率，含六尺巷、负荆请罪等典故和五维公平性评估矩阵。",
+      "displayName": "中国建设工程商事调解智库（东方智慧版）",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cn-meditation-wisdom",
+      "ownerUserId": "f718804c10ff235090b4eaf5a6a1fc65",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "建设工程",
+          "tagId": "02e1a3857bf71c2c2d16b186f73144e5"
+        },
+        {
+          "description": "",
+          "displayName": "商事调解",
+          "tagId": "b96137ac027c4bc6ad9a4e3e323b58fc"
+        },
+        {
+          "description": "",
+          "displayName": "东方智慧",
+          "tagId": "9f896487e4354443b1f12d78e140bb1e"
+        },
+        {
+          "description": "",
+          "displayName": "儒道墨法",
+          "tagId": "90ec72fa181c427d952427c1409db5ce"
+        },
+        {
+          "description": "",
+          "displayName": "公平性",
+          "tagId": "65f46baeda504aecaf5b5004d13bf340"
+        },
+        {
+          "description": "",
+          "displayName": "工程纠纷",
+          "tagId": "bf58e732c0fa4b629fbfa3f3ab135b2f"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-04-03T13:42:29.195Z"
+    },
+    {
+      "assetId": "e8fec161e8f64d429ff7a344c288b094",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/e9/bb/e9bbe868aa9c841b95f78f1f33de188a99674c738fd9c31d64cdeaf5c057ec0e",
+        "displayName": "Cheng",
+        "reputation": "16",
+        "userId": "eaf9ded239d34a9999345e394ce921bf"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T13:22:32.952Z",
+      "description": "使用滴答清单 (TickTick/Dida365) MCP 工具管理任务。支持列出清单、任务筛选、搜索、创建、完成、删除任务等操作。",
+      "displayName": "滴答清单",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "dida365",
+      "ownerUserId": "eaf9ded239d34a9999345e394ce921bf",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ticktick",
+          "tagId": "1572767e529045bba00358714fa074f2"
+        },
+        {
+          "description": "",
+          "displayName": "dida365",
+          "tagId": "09b2165f6f014f0f85e4f0f03cacbd8c"
+        },
+        {
+          "description": "",
+          "displayName": "task",
+          "tagId": "142491dbd4413383bc5b6a362d853a84"
+        },
+        {
+          "description": "",
+          "displayName": "todo",
+          "tagId": "37e917436a9842ffa1282a231f868256"
+        },
+        {
+          "description": "",
+          "displayName": "清单",
+          "tagId": "df6e258e8e4d418fa33b870292f8165c"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:42:29.176Z"
+    },
+    {
+      "assetId": "4073af133d864440b5d3be1b74a030b5",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/e9/bb/e9bbe868aa9c841b95f78f1f33de188a99674c738fd9c31d64cdeaf5c057ec0e",
+        "displayName": "Cheng",
+        "reputation": "16",
+        "userId": "eaf9ded239d34a9999345e394ce921bf"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T13:22:16.214Z",
+      "description": "使用有道云笔记 CLI (youdaonote) 操作笔记。支持列出目录、读取笔记、创建笔记、搜索笔记、网页剪藏等操作。",
+      "displayName": "有道云笔记",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "youdao-note",
+      "ownerUserId": "eaf9ded239d34a9999345e394ce921bf",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "youdao",
+          "tagId": "ab1a00c55fd44479b52896c58ececd9d"
+        },
+        {
+          "description": "",
+          "displayName": "note",
+          "tagId": "50b062206b78afd8b703f50ff8052095"
+        },
+        {
+          "description": "",
+          "displayName": "cloud",
+          "tagId": "11d1add01b3fe3e7e341c223f3db6a58"
+        },
+        {
+          "description": "",
+          "displayName": "笔记",
+          "tagId": "e1bd3fab1bfa4f9a9419557990962c95"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T13:30:48.457Z"
+    },
+    {
+      "assetId": "39128caa22e74222a4e98a6ed662dbaf",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9f/2c/9f2cff50f4ec7e3f2dc59523b27759f9dcc2a824f2f2211f56d5096c01a6e2d3",
+        "displayName": "RichLai",
+        "reputation": "34",
+        "userId": "5a537b22706a44fea37ec968de33f1b6"
+      },
+      "category": "developer-tools",
+      "createdAt": "2026-04-03T12:50:43.827Z",
+      "description": "封装 openclawmp 发布流程：自动版本递增、安全扫描、发布审批摘要。token 存储在本地 ~/.openclaw/hub-credentials.json，不写入 skill。",
+      "displayName": "水产市场发布助手",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "marketplace-helper",
+      "ownerUserId": "5a537b22706a44fea37ec968de33f1b6",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "openclawmp",
+          "tagId": "6d914674368a5896d23d3a12fc54f347"
+        },
+        {
+          "description": "",
+          "displayName": "marketplace",
+          "tagId": "5bbde5be5c7524bd0bfd4e2d6653d2aa"
+        },
+        {
+          "description": "",
+          "displayName": "publish",
+          "tagId": "f3c0c6386c6be450deec4747f8e499b4"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T12:52:13.245Z"
+    },
+    {
+      "assetId": "228d45d16097473ea38b576a5022761c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9f/2c/9f2cff50f4ec7e3f2dc59523b27759f9dcc2a824f2f2211f56d5096c01a6e2d3",
+        "displayName": "RichLai",
+        "reputation": "34",
+        "userId": "5a537b22706a44fea37ec968de33f1b6"
+      },
+      "category": "developer-tools",
+      "createdAt": "2026-04-03T12:43:25.437Z",
+      "description": "封装 openclawmp 发布流程：自动写入 token、自动版本递增、安全扫描、发布到水产市场。",
+      "displayName": "水产市场发布助手",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "marketplace-helper",
+      "ownerUserId": "5a537b22706a44fea37ec968de33f1b6",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "openclawmp",
+          "tagId": "6d914674368a5896d23d3a12fc54f347"
+        },
+        {
+          "description": "",
+          "displayName": "marketplace",
+          "tagId": "5bbde5be5c7524bd0bfd4e2d6653d2aa"
+        },
+        {
+          "description": "",
+          "displayName": "publish",
+          "tagId": "f3c0c6386c6be450deec4747f8e499b4"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T12:44:53.245Z"
+    },
+    {
+      "assetId": "c210d9a6ae084f33b542b9e6de4e70bb",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9f/2c/9f2cff50f4ec7e3f2dc59523b27759f9dcc2a824f2f2211f56d5096c01a6e2d3",
+        "displayName": "RichLai",
+        "reputation": "34",
+        "userId": "5a537b22706a44fea37ec968de33f1b6"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T12:25:44.675Z",
+      "description": "融合星座塔罗赋能的自我迭代进化系统。包含夜观星（星座运势/塔罗/答案之书/恋爱配对）和庄周梦×影分身（记忆整理/进化诊断/性格画像）两大模块，通过team mailbox事件驱动实现自我进化闭环。适用于已有OpenClaw多Agent体系的用户深度定制。",
+      "displayName": "玄学娱乐智能定制化进化体系",
+      "downloadCount": "5",
+      "latestSemver": "1.0.4",
+      "longDescription": "",
+      "name": "mystical-evolution-system",
+      "ownerUserId": "5a537b22706a44fea37ec968de33f1b6",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "astrology",
+          "tagId": "49853ad8574c4beab962f537a0721af4"
+        },
+        {
+          "description": "",
+          "displayName": "tarot",
+          "tagId": "c89c3291ddfbcdb5b8ce3e303c08fd8d"
+        },
+        {
+          "description": "",
+          "displayName": "self-evolution",
+          "tagId": "19f91ef8ddcea81c8a2dcab5326326df"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "personality",
+          "tagId": "0829e2a17f6fbaa5518ecfc64314981d"
+        },
+        {
+          "description": "",
+          "displayName": "mystical",
+          "tagId": "f51bbcc805404604a712fe04c54d9f51"
+        },
+        {
+          "description": "",
+          "displayName": "zodiac",
+          "tagId": "de4a4cde77d3ef0bdffab3c98a90b713"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T12:47:33.245Z"
+    },
+    {
+      "assetId": "acc39bce25dd4075931ad05d7baf00ec",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
+        "displayName": "ruiyongwang",
+        "reputation": "1473",
+        "userId": "f718804c10ff235090b4eaf5a6a1fc65"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T12:03:06.984Z",
+      "description": "中国建设工程商事调解专家系统 v2.0。基于《商事调解条例》（国令第827号）、《人民调解法》《仲裁法》《民事诉讼法》《建筑法》GF-2017-0201、GB/T 50500-2024，提供工程款纠纷、工期争议、质量争议、变更签证争议的全流程调解支持。",
+      "displayName": "中国建设工程商事调解 v2.2.0",
+      "downloadCount": "5",
+      "latestSemver": "2.2.0",
+      "longDescription": "",
+      "name": "cn-construction-mediation",
+      "ownerUserId": "f718804c10ff235090b4eaf5a6a1fc65",
+      "publicationHint": null,
       "tags": [],
-      "installs": 10,
-      "rating": 0,
-      "author": "Gearaixs",
-      "authorId": "u-1fb2e2ef90e04bbb852d",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/38853564?v=4",
-      "authorReputation": 572,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1fb2e2ef90e04bbb852d/dataclaw-tools",
-      "updatedAt": "2026-02-28",
+      "totalStars": "1",
+      "updatedAt": "2026-04-03T12:05:43.244Z"
+    },
+    {
+      "assetId": "65af1070a60c488399f41a39f4102b4c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ab/91/ab9111f839bc5ea5f1f9f380408c6deb234b620c665f51b7f9bc86488c1c109c",
+        "displayName": "nzsz",
+        "reputation": "1003",
+        "userId": "25e91179db0bbb81ce0af885c5fd5c85"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "createdAt": "2026-04-03T11:18:26.145Z",
+      "description": "帮助用户学习折纸艺术的完整指南，包含基础技巧、经典作品教程、图解说明和纸张选择建议。适用于从初学者到进阶爱好者的各种折纸需求。",
+      "displayName": "折纸大师",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "origami",
+      "ownerUserId": "25e91179db0bbb81ce0af885c5fd5c85",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "origami",
+          "tagId": "9a1f2a3f2bc4455e8ea9a110388d57f6"
+        },
+        {
+          "description": "",
+          "displayName": "折纸",
+          "tagId": "630972bd50074e0091cf2210700d5635"
+        },
+        {
+          "description": "",
+          "displayName": "手工",
+          "tagId": "33fe83aac1ad4392bbc37f3d0e29545d"
+        },
+        {
+          "description": "",
+          "displayName": "纸艺",
+          "tagId": "db2d2c36d3f44872bcabafdb6b4dba60"
+        },
+        {
+          "description": "",
+          "displayName": "教程",
+          "tagId": "9e0116997e9f488ca3daad8fa4a10eac"
+        },
+        {
+          "description": "",
+          "displayName": "diy",
+          "tagId": "da3f8c4e290643111111ed16e2758ac3"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T11:18:53.246Z"
     },
     {
-      "id": "s-dd482449c90fd12a",
-      "name": "tennis-training",
-      "displayName": "网球训练完全指南",
-      "type": "skill",
-      "description": "从零基础到中级选手的系统性网球学习指南：12章完整教学（基础/正反手/发球/步法/战术/体能/心理/实战/装备/营养），包含训练计划、伤病预防、比赛策略，适合业余爱好者系统提升",
-      "tags": [
-        "tennis",
-        "sports",
-        "training",
-        "technique",
-        "tactics",
-        "fitness",
-        "injury-prevention",
-        "mental-game"
-      ],
-      "installs": 10,
-      "rating": 0,
-      "author": "JOJO的打工仔",
-      "authorId": "u-ad87dc7556674039b0d5",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+SjwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 5856,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-ad87dc7556674039b0d5/tennis-training",
-      "updatedAt": "2026-02-28",
-      "category": "sports",
-      "githubStars": 0,
-      "totalStars": 3
-    },
-    {
-      "id": "s-4336d8fd85baeab8",
-      "name": "page-cro",
-      "displayName": "页面转化优化",
-      "type": "skill",
-      "description": "Claude Code 和 AI 代理的营销技能，包括转化率优化、文案写作、SEO、分析和增长工程。",
-      "tags": [
-        "claude",
-        "codex",
-        "marketing",
-        "javascript",
-        "github-import"
-      ],
-      "installs": 3,
-      "rating": 0,
-      "author": "coreyhaines31",
-      "authorId": "u-dc9cd65da993bec2",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/34802794?v=4",
-      "authorReputation": 2800,
-      "version": "1.3.0",
-      "installCommand": "openclawmp install skill/@u-dc9cd65da993bec2/page-cro",
-      "updatedAt": "2026-03-08",
-      "category": "JavaScript",
-      "githubStars": 11794,
-      "totalStars": 11795
-    },
-    {
-      "id": "s-98c3b742887fe9a6",
-      "name": "filesystem",
-      "displayName": "Filesystem",
-      "type": "skill",
-      "description": "Advanced filesystem operations for listing files, searching content, batch processing, and directory analysis. Supports recursive search, file type filtering, size analysis, and batch operations like copy/move/delete. Use when you need to: list directory contents, search for files by name or content, analyze directory structures, perform batch file operations, or analyze file sizes and distribution.",
-      "tags": [
-        "filesystem"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "amaofx",
-      "authorId": "u-177ce5927629d90f",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/11001226?v=4",
-      "authorReputation": 48,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-177ce5927629d90f/filesystem",
-      "updatedAt": "2026-03-18",
+      "assetId": "76346733fb1045a3a35277f826973bc1",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ab/91/ab9111f839bc5ea5f1f9f380408c6deb234b620c665f51b7f9bc86488c1c109c",
+        "displayName": "nzsz",
+        "reputation": "1003",
+        "userId": "25e91179db0bbb81ce0af885c5fd5c85"
+      },
       "category": "",
-      "githubStars": 4,
-      "totalStars": 8
+      "createdAt": "2026-04-03T10:30:05.297Z",
+      "description": "帮助用户学习折纸艺术的完整指南，包含基础技巧、经典作品教程、图解说明和纸张选择建议。适用于从初学者到进阶爱好者的各种折纸需求。",
+      "displayName": "折纸大师",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "origami",
+      "ownerUserId": "25e91179db0bbb81ce0af885c5fd5c85",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "origami",
+          "tagId": "9a1f2a3f2bc4455e8ea9a110388d57f6"
+        },
+        {
+          "description": "",
+          "displayName": "折纸",
+          "tagId": "630972bd50074e0091cf2210700d5635"
+        },
+        {
+          "description": "",
+          "displayName": "手工",
+          "tagId": "33fe83aac1ad4392bbc37f3d0e29545d"
+        },
+        {
+          "description": "",
+          "displayName": "纸艺",
+          "tagId": "db2d2c36d3f44872bcabafdb6b4dba60"
+        },
+        {
+          "description": "",
+          "displayName": "教程",
+          "tagId": "9e0116997e9f488ca3daad8fa4a10eac"
+        },
+        {
+          "description": "",
+          "displayName": "diy",
+          "tagId": "da3f8c4e290643111111ed16e2758ac3"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T10:32:13.245Z"
     },
     {
-      "id": "s-6bf4f19356fb5c7f",
-      "name": "instreet",
-      "displayName": "instreet",
-      "type": "skill",
-      "description": "InStreet Agent 社交网络平台集成，支持社区互动、Playground 参与、心跳机制和技能分享。使用 when user mentions InStreet, social interaction, community engagement, or agent networking.",
+      "assetId": "e37d5ce0162a497e951c2c6f8e746f7a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ab/91/ab9111f839bc5ea5f1f9f380408c6deb234b620c665f51b7f9bc86488c1c109c",
+        "displayName": "nzsz",
+        "reputation": "1003",
+        "userId": "25e91179db0bbb81ce0af885c5fd5c85"
+      },
+      "category": "writing",
+      "createdAt": "2026-04-03T10:02:04.476Z",
+      "description": "",
+      "displayName": "Suspense Novel Writer",
+      "downloadCount": "7",
+      "latestSemver": "1.0.1",
+      "longDescription": "",
+      "name": "suspense-novel-writer",
+      "ownerUserId": "25e91179db0bbb81ce0af885c5fd5c85",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "suspense",
+          "tagId": "0671a42b3e2d40a1acec49f604d5e14b"
+        },
+        {
+          "description": "",
+          "displayName": "novel",
+          "tagId": "749e24a238384406b6b130c131c80a28"
+        },
+        {
+          "description": "",
+          "displayName": "writing",
+          "tagId": "368922f0597230ebeaffe4846ca3d625"
+        },
+        {
+          "description": "",
+          "displayName": "mystery",
+          "tagId": "f0320d4986ea4f4b8981571f94871d65"
+        },
+        {
+          "description": "",
+          "displayName": "storytelling",
+          "tagId": "58c0dd780b614e76b1d5331c36013cfd"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T10:10:53.246Z"
+    },
+    {
+      "assetId": "51b4b7b7b0647f670f6e6d2895ea7b48",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
+        "displayName": "33680779",
+        "reputation": "80",
+        "userId": "7e1b8d2bef7546cd46c088d995cd7137"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T00:00:00.000Z",
+      "description": "美术学与设计学论文配图与视觉呈现的专业指南，涵盖配图规划、视觉规范、制作技巧、排版整合全流程。",
+      "displayName": "美术学设计学论文配图指南 #1",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "美术学与设计学论文配图与视觉呈现的专业指南，涵盖配图规划、视觉规范、制作技巧、排版整合全流程。",
+      "name": "thesis-visual-presentation-guide",
+      "ownerUserId": "7e1b8d2bef7546cd46c088d995cd7137",
+      "publicationHint": null,
       "tags": [],
-      "installs": 9,
-      "rating": 0,
-      "author": "DDDFXYqiming",
-      "authorId": "u-53e83d47f1f746f78d4e",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/114125824?v=4",
-      "authorReputation": 655,
-      "version": "2.2.0",
-      "installCommand": "openclawmp install skill/@u-53e83d47f1f746f78d4e/instreet",
-      "updatedAt": "2026-03-27",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T00:00:00.000Z"
     },
     {
-      "id": "s-47f5d276bc39c93f",
-      "name": "browser-bypass",
-      "displayName": "browser-bypass",
-      "type": "skill",
-      "description": "网页反拦截访问技能。当web_fetch被网站安全机制拦截时，使用Playwright真实浏览器引擎访问受保护网页，获取原始内容。",
+      "assetId": "652e5a429652dc08aca8d290db3344f1",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
+        "displayName": "33680779",
+        "reputation": "80",
+        "userId": "7e1b8d2bef7546cd46c088d995cd7137"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T00:00:00.000Z",
+      "description": "美术学与设计学论文配图与视觉呈现的专业指南，包含配图规划、视觉规范、制作技巧、排版整合全流程。",
+      "displayName": "美术学设计学论文配图指南 #1",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "美术学与设计学论文配图与视觉呈现的专业指南，包含配图规划、视觉规范、制作技巧、排版整合全流程。",
+      "name": "thesis-visual-guide-2026",
+      "ownerUserId": "7e1b8d2bef7546cd46c088d995cd7137",
+      "publicationHint": null,
       "tags": [],
-      "installs": 9,
-      "rating": 0,
-      "author": "heyuanshuangshuang-cpu",
-      "authorId": "u-d050ff67f72744159d02",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/267045695?v=4",
-      "authorReputation": 223,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d050ff67f72744159d02/browser-bypass",
-      "updatedAt": "2026-03-27",
+      "totalStars": "1",
+      "updatedAt": "2026-04-03T00:00:00.000Z"
+    },
+    {
+      "assetId": "ab37082ba084048dac9b34dd84b290ba",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
+        "displayName": "33680779",
+        "reputation": "80",
+        "userId": "7e1b8d2bef7546cd46c088d995cd7137"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-beb1c16e80d0abb2",
-      "name": "cross-platform-sync",
-      "displayName": "跨平台 AI 记忆同步",
-      "type": "skill",
-      "description": "自动备份 OpenClaw 工作区，支持本地/云盘/网络传输，让 AI 记忆永不丢失",
-      "tags": [
-        "备份",
-        "同步",
-        "跨平台",
-        "记忆",
-        "自动化"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "330899935",
-      "authorId": "u-80969df498d9434f80df",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzA2QjZENCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+MzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 124,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-80969df498d9434f80df/cross-platform-sync",
-      "updatedAt": "2026-03-26",
-      "category": "效率工具",
-      "githubStars": 0,
-      "totalStars": 4
-    },
-    {
-      "id": "s-baed228c1f577268",
-      "name": "douyin-video-publish",
-      "displayName": "抖音视频发布",
-      "type": "skill",
-      "description": "抖音视频发布。使用浏览器自动化在抖音创作者平台发布视频。当用户说\"发布视频到抖音\"、\"发抖音\"时使用此技能。",
-      "tags": [
-        "douyin",
-        "video",
-        "publish"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "johnnyxu820",
-      "authorId": "u-cea0aa4a41dd99f6",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/154959104?v=4",
-      "authorReputation": 160,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-cea0aa4a41dd99f6/douyin-video-publish",
-      "updatedAt": "2026-03-14",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
-    },
-    {
-      "id": "s-cadd2e834ff625c6",
-      "name": "stepfun-mcp",
-      "displayName": "stepfun-mcp",
-      "type": "skill",
-      "description": "StepFun MCP server development guide for Windows 11",
+      "createdAt": "2026-04-03T00:00:00.000Z",
+      "description": "美术学与设计学论文的视觉表达完全指南。对于美术学和设计学专业的学生来说，论文不仅是文字的堆砌，更是视觉思维的呈现。一张精心设计的配图，往往能比千字文字更直观地传达你的研究观点。",
+      "displayName": "论文配图与视觉呈现指南 #1：让视觉为你的学术加分",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "美术学与设计学论文的视觉表达完全指南。对于美术学和设计学专业的学生来说，论文不仅是文字的堆砌，更是视觉思维的呈现。一张精心设计的配图，往往能比千字文字更直观地传达你的研究观点。",
+      "name": "thesis-guide-friday",
+      "ownerUserId": "7e1b8d2bef7546cd46c088d995cd7137",
+      "publicationHint": null,
       "tags": [],
-      "installs": 9,
-      "rating": 0,
-      "author": "AIddlx",
-      "authorId": "u-0ae779247c79433c89b0",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/201568055?v=4",
-      "authorReputation": 66,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-0ae779247c79433c89b0/stepfun-mcp",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "totalStars": "1",
+      "updatedAt": "2026-04-03T00:00:00.000Z"
     },
     {
-      "id": "s-7b443168e945ac8b",
-      "name": "api-resilience-v2",
-      "displayName": "API 弹性设计模式",
-      "type": "skill",
-      "description": "外部API调用弹性设计：重试、熔断、降级、缓存，确保24/7稳定运行",
+      "assetId": "f2d18b8741d67456c8764dd29ad79265",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ed/80/ed80e13b5b7b1e5e58614a9a539747eab659f4e191d4ca96e147dd59622f624f",
+        "displayName": "kexinzhang849",
+        "reputation": "77",
+        "userId": "d295d73a114e8fccc0b226d1b932c923"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T00:00:00.000Z",
+      "description": "成为 OpenClaw 大师的综合技能包，包含配置、优化、故障排查、资产发布等高级技巧",
+      "displayName": "openclaw-master",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "成为 OpenClaw 大师的综合技能包，包含配置、优化、故障排查、资产发布等高级技巧",
+      "name": "openclaw-master",
+      "ownerUserId": "d295d73a114e8fccc0b226d1b932c923",
+      "publicationHint": null,
       "tags": [
-        "api",
-        "resilience",
-        "retry",
-        "circuit-breaker",
-        "fallback"
+        {
+          "description": "",
+          "displayName": "[openclaw",
+          "tagId": "79afa7e5e6d9b5f5a398c855e3a15413"
+        },
+        {
+          "description": "",
+          "displayName": "advanced",
+          "tagId": "e5e2018a80630e2e8daaec19495a79c9"
+        },
+        {
+          "description": "",
+          "displayName": "best-practices]",
+          "tagId": "11e81d684450bf01d4c5926148807a7a"
+        },
+        {
+          "description": "",
+          "displayName": "master",
+          "tagId": "b514a4cb7367a75d7bf42c8c83e4f18e"
+        },
+        {
+          "description": "",
+          "displayName": "optimization",
+          "tagId": "dba45423e7c3e1db0976089c5c56cc84"
+        },
+        {
+          "description": "",
+          "displayName": "troubleshooting",
+          "tagId": "9ca11f0d37de216149dc96dce68df104"
+        }
       ],
-      "installs": 9,
-      "rating": 0,
-      "author": "chaotang",
-      "authorId": "u-1f330ee629e94e6380d1",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzYzNjZGMSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 1811,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1f330ee629e94e6380d1/api-resilience-v2",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 4
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T00:00:00.000Z"
     },
     {
-      "id": "s-dc5231ce01cd3cce",
-      "name": "redis-cache-agent-pattern",
-      "displayName": "redis-cache-agent-pattern",
-      "type": "skill",
-      "description": "Agent 使用 Redis 作为高性能缓存层的方案",
+      "assetId": "88267b93b3697a3f0b7dde05ecccee00",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ed/80/ed80e13b5b7b1e5e58614a9a539747eab659f4e191d4ca96e147dd59622f624f",
+        "displayName": "kexinzhang849",
+        "reputation": "77",
+        "userId": "d295d73a114e8fccc0b226d1b932c923"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T00:00:00.000Z",
+      "description": "自动检测和修复 OpenClaw 配置问题，包括路径错误、权限问题、JSON 格式修复",
+      "displayName": "openclaw-config-fixer",
+      "downloadCount": "14",
+      "latestSemver": "1.0.0",
+      "longDescription": "自动检测和修复 OpenClaw 配置问题，包括路径错误、权限问题、JSON 格式修复",
+      "name": "openclaw-config-fixer",
+      "ownerUserId": "d295d73a114e8fccc0b226d1b932c923",
+      "publicationHint": null,
       "tags": [
-        "redis",
-        "cache",
-        "agent",
-        "performance"
+        {
+          "description": "",
+          "displayName": "[openclaw",
+          "tagId": "79afa7e5e6d9b5f5a398c855e3a15413"
+        },
+        {
+          "description": "",
+          "displayName": "config",
+          "tagId": "cb08266aca0833516b3607a86c758c14"
+        },
+        {
+          "description": "",
+          "displayName": "diagnostic",
+          "tagId": "dd51d9d9214261adc5e1170a3bae7a84"
+        },
+        {
+          "description": "",
+          "displayName": "fix",
+          "tagId": "3437bbeb0b4b158b9ea3f405e1d01022"
+        },
+        {
+          "description": "",
+          "displayName": "repair",
+          "tagId": "52b067c593c24b5e2b2d799997510c9f"
+        },
+        {
+          "description": "",
+          "displayName": "troubleshooting]",
+          "tagId": "c3a8aea0b3703f43f6e5938333f2c049"
+        }
       ],
-      "installs": 9,
-      "rating": 0,
-      "author": "chaotang-pub5",
-      "authorId": "u-23d594e765af498a8e06",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VGNDQ0NCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 424,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-23d594e765af498a8e06/redis-cache-agent-pattern",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T00:00:00.000Z"
     },
     {
-      "id": "s-ab8bed7f17443314",
-      "name": "token-budget-manager",
-      "displayName": "token-budget-manager",
-      "type": "skill",
-      "description": "LLM Token 用量监控和预算管理防止超支",
+      "assetId": "d420d52f575b5bb2d402eb23d9855f6f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ed/80/ed80e13b5b7b1e5e58614a9a539747eab659f4e191d4ca96e147dd59622f624f",
+        "displayName": "kexinzhang849",
+        "reputation": "77",
+        "userId": "d295d73a114e8fccc0b226d1b932c923"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T00:00:00.000Z",
+      "description": "在本地生成微信渠道二维码，无需依赖外部服务，支持自定义尺寸和样式",
+      "displayName": "wechat-qr-generator",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "在本地生成微信渠道二维码，无需依赖外部服务，支持自定义尺寸和样式",
+      "name": "wechat-qr-generator",
+      "ownerUserId": "d295d73a114e8fccc0b226d1b932c923",
+      "publicationHint": null,
       "tags": [
-        "llm",
-        "token",
-        "budget",
-        "cost"
+        {
+          "description": "",
+          "displayName": "[wechat",
+          "tagId": "f4bdd85193e0ad9013bc8a557132d904"
+        },
+        {
+          "description": "",
+          "displayName": "generator",
+          "tagId": "47fafabd27777ba0ca9494c34a0988e8"
+        },
+        {
+          "description": "",
+          "displayName": "image]",
+          "tagId": "dae488c550da7062bee7199582f9d272"
+        },
+        {
+          "description": "",
+          "displayName": "local",
+          "tagId": "21f0a2741f7306de2fff89ff06f1afcc"
+        },
+        {
+          "description": "",
+          "displayName": "qr-code",
+          "tagId": "8b9fd2486f7663832c1c7b8ad9c16fa4"
+        }
       ],
-      "installs": 9,
-      "rating": 0,
-      "author": "chaotang",
-      "authorId": "u-1f330ee629e94e6380d1",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzYzNjZGMSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 1811,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1f330ee629e94e6380d1/token-budget-manager",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 4
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T00:00:00.000Z"
     },
     {
-      "id": "s-9509980e19e77a5a",
-      "name": "docker-compose-prod",
-      "displayName": "Docker Compose 生产部署",
-      "type": "skill",
-      "description": "Docker Compose 生产配置：健康检查、日志轮转、资源限制、安全加固",
-      "tags": [
-        "docker",
-        "compose",
-        "production",
-        "devops"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "chaotang-test",
-      "authorId": "u-e61d308af7d04fdb9d18",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzEwQjk4MSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 1327,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-e61d308af7d04fdb9d18/docker-compose-prod",
-      "updatedAt": "2026-03-13",
+      "assetId": "91d8409b54813ff6546f4f9d280e3e3b",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ed/80/ed80e13b5b7b1e5e58614a9a539747eab659f4e191d4ca96e147dd59622f624f",
+        "displayName": "kexinzhang849",
+        "reputation": "77",
+        "userId": "d295d73a114e8fccc0b226d1b932c923"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 3
-    },
-    {
-      "id": "s-2d10770bc047af21",
-      "name": "data-pipeline-patterns",
-      "displayName": "数据管线设计模式",
-      "type": "skill",
-      "description": "数据管线模式：Lambda、Kappa、CDC、Event Sourcing、CQRS",
-      "tags": [
-        "data",
-        "pipeline",
-        "etl",
-        "airflow",
-        "analytics"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "chaotang",
-      "authorId": "u-1f330ee629e94e6380d1",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzYzNjZGMSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 1811,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1f330ee629e94e6380d1/data-pipeline-patterns",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 4
-    },
-    {
-      "id": "s-ecc38085fb6aa873",
-      "name": "quantitative-trading-pipeline",
-      "displayName": "quantitative-trading-pipeline",
-      "type": "skill",
-      "description": "量化交易信号管线构建指南",
-      "tags": [
-        "skill",
-        "guide",
-        "automation"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "chaotang-pub7",
-      "authorId": "u-a6a25c496fb34580a8f0",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VGNDQ0NCIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 495,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a6a25c496fb34580a8f0/quantitative-trading-pipeline",
-      "updatedAt": "2026-03-13",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
-    },
-    {
-      "id": "s-b5126cabe600120e",
-      "name": "futures-trading-bot",
-      "displayName": "合约交易机器人",
-      "type": "skill",
-      "description": "合约交易机器人，智能开仓、平仓、反向开仓、仓位管理",
-      "tags": [
-        "合约",
-        "期货",
-        "杠杆",
-        "仓位"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "Batman0506",
-      "authorId": "u-38a9d2a1117b45e69b21",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/43673757?v=4",
-      "authorReputation": 3801,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-38a9d2a1117b45e69b21/futures-trading-bot",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
-    },
-    {
-      "id": "s-a3682cff4091808b",
-      "name": "ai-hunter-pro",
-      "displayName": "AI趋势猎手Pro",
-      "type": "skill",
-      "description": "高性能自动化代理，将全球趋势转化为X(Twitter)、小红书和LinkedIn上的病毒式社交媒体帖子——基于技术影响者\"Yusef the Tool Hunter\"使用的精确抓取逻辑构建。",
-      "tags": [
-        "Trend",
-        "Hunter",
-        "Pro"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "traprapitalianazional-dev",
-      "authorId": "u-f7e822804e884dfc",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/251326801?v=4",
-      "authorReputation": 45,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-f7e822804e884dfc/ai-hunter-pro",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 4
-    },
-    {
-      "id": "s-e659660c7b9eb9e6",
-      "name": "baidu-baike-data",
-      "displayName": "百度百科搜索",
-      "type": "skill",
-      "description": "百度百科组件是一个知识服务工具，可根据用户提供的名词返回来自百度百科的权威解释。",
-      "tags": [
-        "baidu",
-        "baike",
-        "data"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "ide-rea",
-      "authorId": "u-f1403fda983962ed",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/30512600?v=4",
-      "authorReputation": 370,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-f1403fda983962ed/baidu-baike-data",
-      "updatedAt": "2026-03-11",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
-    },
-    {
-      "id": "s-78e468a2d13e5b9f",
-      "name": "humanize-ai-text",
-      "displayName": "人性化 AI 文本",
-      "type": "skill",
-      "description": "将AI生成的文本人性化以绕过检测。此工具重写ChatGPT、Claude和GPT内容，使其听起来自然并通过GPTZero、Turnitin和Originality.ai等AI检测器。基于维基百科全面的\"AI写作特征\"指南。使机械的AI写作无法被检测且具有人类特征。",
-      "tags": [
-        "humanize",
-        "text"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "moltbro",
-      "authorId": "u-f6b2cc5aebbd9630",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/258696198?v=4",
-      "authorReputation": 45,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-f6b2cc5aebbd9630/humanize-ai-text",
-      "updatedAt": "2026-03-08",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 4
-    },
-    {
-      "id": "s-c45bb2c6924d34b4",
-      "name": "email",
-      "displayName": "email",
-      "type": "skill",
-      "description": "邮件工具，支持读取、发送、自动摘要。支持Gmail/QQ邮箱等",
+      "createdAt": "2026-04-03T00:00:00.000Z",
+      "description": "name: openclaw-channel-config-guide",
+      "displayName": "OpenClaw 国内渠道配置完全指南",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "name: openclaw-channel-config-guide",
+      "name": "openclaw-channel-config-guide",
+      "ownerUserId": "d295d73a114e8fccc0b226d1b932c923",
+      "publicationHint": null,
       "tags": [],
-      "installs": 9,
-      "rating": 0,
-      "author": "mao_xiaolv",
-      "authorId": "u-71d7233842374b1e8479",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzhCNUNGNiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+TTwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 371,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-71d7233842374b1e8479/email",
-      "updatedAt": "2026-03-07",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "totalStars": "0",
+      "updatedAt": "2026-04-03T00:00:00.000Z"
     },
     {
-      "id": "s-fbab7c9afc558c54",
-      "name": "auto-cleanup",
-      "displayName": "自动清理",
-      "type": "skill",
-      "description": "定期清理workspace下的临时文件",
+      "assetId": "4f33e80a7d5428017910294f35c32039",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/60/87/6087fe04830c6571581918894c2f3984eeaa000287e73e53494f90f6a9778888",
+        "displayName": "963118661",
+        "reputation": "17",
+        "userId": "da72cc3d7fb0ec8783fdcc122b6738bb"
+      },
+      "category": "",
+      "createdAt": "2026-04-03T00:00:00.000Z",
+      "description": "Agent 行为准则框架 - 七必做执行规范，从接收到闭环的完整流程",
+      "displayName": "agent-behavior-framework",
+      "downloadCount": "15",
+      "latestSemver": "1.2.0",
+      "longDescription": "Agent 行为准则框架 - 七必做执行规范，从接收到闭环的完整流程",
+      "name": "agent-behavior-framework",
+      "ownerUserId": "da72cc3d7fb0ec8783fdcc122b6738bb",
+      "publicationHint": null,
       "tags": [],
-      "installs": 9,
-      "rating": 0,
-      "author": "woyouyitouchenfeijv",
-      "authorId": "u-0e2f2ffaa8c749cf9fc5",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/27728236?v=4",
-      "authorReputation": 972,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-0e2f2ffaa8c749cf9fc5/auto-cleanup",
-      "updatedAt": "2026-03-05",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "totalStars": "0",
+      "updatedAt": "2026-04-05T08:07:03.248Z"
     },
     {
-      "id": "s-162a2b50c8e021fb",
-      "name": "safe-file-write",
-      "displayName": "安全文件写入工具",
-      "type": "skill",
-      "description": "处理文件写入权限问题，提供自动降级和路径回退策略",
+      "assetId": "aa6581a001e05c8b3afefb4d0c6efe5a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "通用网页文章完整提取器 - 基于实战经验优化的网页提取工具，支持微信公众号和普通网页，智能内容清理，原生格式保留",
+      "displayName": "universal-web-article-extractor",
+      "downloadCount": "5",
+      "latestSemver": "2.0.0",
+      "longDescription": "通用网页文章完整提取器 - 基于实战经验优化的网页提取工具，支持微信公众号和普通网页，智能内容清理，原生格式保留",
+      "name": "universal-web-article-extractor",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
       "tags": [],
-      "installs": 9,
-      "rating": 0,
-      "author": "Gekonimios",
-      "authorId": "u-1ae8edfab7804939b1d5",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130540227?v=4",
-      "authorReputation": 409,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1ae8edfab7804939b1d5/safe-file-write",
-      "updatedAt": "2026-03-04",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 4
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-1ebc18d124d5fc0a",
-      "name": "cto-advisor-toolkit",
-      "displayName": "CTO顾问工具箱",
-      "type": "skill",
-      "description": "技术领导力指导工具，包含技术债务分析、团队规模计算、工程指标框架、技术评估工具和ADR模板",
-      "tags": [
-        "cto",
-        "engineering-management",
-        "tech-debt",
-        "team-planning",
-        "architecture"
-      ],
-      "installs": 9,
-      "rating": 0,
-      "author": "KK-OS",
-      "authorId": "u-3a8492465c024df0b609",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/18188346?v=4",
-      "authorReputation": 188,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-3a8492465c024df0b609/cto-advisor-toolkit",
-      "updatedAt": "2026-03-02",
+      "assetId": "c06b89501c17d7e0cb5cad7cec4860cf",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
-    },
-    {
-      "id": "s-4cada31a7c6aafae",
-      "name": "us-value-investing-framework",
-      "displayName": "US Stock Valuation Model - Value Investing Framework / 美股估值模型-价值投资框架",
-      "type": "skill",
-      "description": "US stock valuation model skill (English-first + 中文) based on financial report data. Use when you need to apply explicit rules: ROE > 15% for 3+ years, debt ratio < 50%, free cash flow > 80% of net income, moat assessment (brand/network effect/cost advantage), then output investment rating (A/B/C/D) with reasons.",
-      "tags": [
-        "value",
-        "investing",
-        "framework"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "spyfree",
-      "authorId": "u-3e26496d8664c570",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/2403860?v=4",
-      "authorReputation": 42,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-3e26496d8664c570/us-value-investing-framework",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 1,
-      "totalStars": 5
-    },
-    {
-      "id": "s-d52fc18cd15269ce",
-      "name": "daily-news",
-      "displayName": "每日新闻订阅",
-      "type": "skill",
-      "description": "每天定时抓取36氪 RSS 新闻，生成简报并推送到 IM 频道。支持飞书/微博等平台。",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "Consolidate recent logs, sessions, and existing memory files into durable topic memories, normalize dates, prune stale entries, and keep MEMORY.md short enough for prompt use.",
+      "displayName": "CC Dream Memory",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "Consolidate recent logs, sessions, and existing memory files into durable topic memories, normalize dates, prune stale entries, and keep MEMORY.md short enough for prompt use.",
+      "name": "dream-memory",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
       "tags": [],
-      "installs": 8,
-      "rating": 0,
-      "author": "dymasch",
-      "authorId": "u-1af1d72f8c2f45ed83d3",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/61868827?v=4",
-      "authorReputation": 82,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1af1d72f8c2f45ed83d3/daily-news",
-      "updatedAt": "2026-03-26",
-      "category": "automation",
-      "githubStars": 0,
-      "totalStars": 1
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-b2b70562a3cbf7ca",
-      "name": "personal-efficiency-dashboard",
-      "displayName": "personal-efficiency-dashboard",
-      "type": "skill",
-      "description": "个人效率仪表盘 - 整合日程、任务、天气、提醒，每天早上8点自动生成日报",
+      "assetId": "1c91d6390c7f3d9e0c49e0134ef0cdad",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "Advanced desktop automation with mouse, keyboard, and screen control",
+      "displayName": "desktop-control",
+      "downloadCount": "25",
+      "latestSemver": "1.0.0",
+      "longDescription": "Advanced desktop automation with mouse, keyboard, and screen control",
+      "name": "desktop-control",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
       "tags": [],
-      "installs": 8,
-      "rating": 0,
-      "author": "1171777183",
-      "authorId": "u-82c8689104884b54b684",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iI0VDNDg5OSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+MTwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 156,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-82c8689104884b54b684/personal-efficiency-dashboard",
-      "updatedAt": "2026-03-26",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 4
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-c00808b7a361bc2d",
-      "name": "shipinhao-guide",
-      "displayName": "视频号直播百科",
-      "type": "skill",
-      "description": "基于实战经验的视频号直播带货全流程百科，涵盖流量机制、货盘搭建、密集成交、投放策略和直播复盘",
+      "assetId": "b34d517358b5daeb35caa19929647425",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "智能记忆检索与程序化技能生成系统 - 基于FTS5全文检索、自动模式识别和技能创建，实现真正的自主学习和进化",
+      "displayName": "smart-memory-skill-generator",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "智能记忆检索与程序化技能生成系统 - 基于FTS5全文检索、自动模式识别和技能创建，实现真正的自主学习和进化",
+      "name": "smart-memory-skill-generator",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
       "tags": [
-        "[\"视频号\"",
-        "\"直播带货\"",
-        "\"电商运营\"",
-        "\"微信生态\"",
-        "\"直播运营\"]"
+        {
+          "description": "",
+          "displayName": "[memory",
+          "tagId": "1c7dfe707af958574e22c3d659a07607"
+        },
+        {
+          "description": "",
+          "displayName": "auto-learning",
+          "tagId": "74c0d99a32a2872fc1acdcb631ae78b2"
+        },
+        {
+          "description": "",
+          "displayName": "evolution]",
+          "tagId": "bb8aa0a98edf1a92518c0dc7c3fa546e"
+        },
+        {
+          "description": "",
+          "displayName": "fts5",
+          "tagId": "81561520b6044a026a77c0782989a4f3"
+        },
+        {
+          "description": "",
+          "displayName": "skill-generation",
+          "tagId": "1b99d39ee7c07981604f6ba5749bd7a7"
+        }
       ],
-      "installs": 8,
-      "rating": 0,
-      "author": "370894028",
-      "authorId": "u-104afb18e4e649aebffe",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzhCNUNGNiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+MzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 393,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-104afb18e4e649aebffe/shipinhao-guide",
-      "updatedAt": "2026-03-25",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-6f77cf3266f36da2",
-      "name": "course-calendar",
-      "displayName": "course-calendar",
-      "type": "skill",
-      "description": "根据校历和课表文件（图片/PDF/Word/Excel），结合国家法定节假日调休方案，自动生成可导入手机日历的 .ics 文件。",
+      "assetId": "be04e335d4891cd83874b99d466824c1",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/22/f7/22f78551604adecc0ab2374d722c540e46aef5ecc6c8c69fc5e29125283b4840",
+        "displayName": "audrey",
+        "reputation": "89",
+        "userId": "964d29391f826bb70c3c3fcfd38a6d36"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "六维度交流能力提升框架 - 系统性评估、练习和改进AI助手的交流能力。包含语言风格、情感表达、语境适应、逻辑思维、互动反馈、文化适应六个维度的评估体系、日常练习机制和持续改进流程。适用于任何希望提升交流自然度和有效性的AI助手。",
+      "displayName": "communication-6d-framework",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "六维度交流能力提升框架 - 系统性评估、练习和改进AI助手的交流能力。包含语言风格、情感表达、语境适应、逻辑思维、互动反馈、文化适应六个维度的评估体系、日常练习机制和持续改进流程。适用于任何希望提升交流自然度和有效性的AI助手。",
+      "name": "communication-6d-framework",
+      "ownerUserId": "964d29391f826bb70c3c3fcfd38a6d36",
+      "publicationHint": null,
       "tags": [],
-      "installs": 8,
-      "rating": 0,
-      "author": "3271664",
-      "authorId": "u-03e4490c1e774cd795b6",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzNCODJGNiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+MzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 42,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-03e4490c1e774cd795b6/course-calendar",
-      "updatedAt": "2026-03-24",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-5fd9b68cd5b5b2dd",
-      "name": "desktop-organizer",
-      "displayName": "Desktop File Organizer",
-      "type": "skill",
-      "description": "Auto-organize desktop files (Word/Excel/PDF/images) into categorized folders based on content analysis.",
-      "tags": [
-        "automation",
-        "file-management",
-        "windows",
-        "chinese"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "protosshua",
-      "authorId": "u-cef93d5a06f444569edf",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/189443899?v=4",
-      "authorReputation": 190,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-cef93d5a06f444569edf/desktop-organizer",
-      "updatedAt": "2026-03-22",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "assetId": "db23997bff3c383fd0e870114b58735f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
+        "displayName": "ruiyongwang",
+        "reputation": "1473",
+        "userId": "f718804c10ff235090b4eaf5a6a1fc65"
+      },
+      "category": "construction",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "中国建设工程全过程造价管控 v2.0。基于 GB/T 50500-2024《建设工程工程量清单计价标准》，覆盖投资决策→设计→招投标→施工→竣工全生命周期。核心能力：投资估算编制、设计概算审查、施工图预算审核、目标成本测算、动态成本监控（EVM挣值管理）、变更签证管理、竣工结算审核。内置调价公式 ΔP = P₀ × [A + Σ(Bᵢ×Ftᵢ/F₀ᵢ) - 1]，支持材料价格波动分析。适用于造价工程师、项目经理、业主方全过程造价管理。",
+      "displayName": "cn-cost-control",
+      "downloadCount": "9",
+      "latestSemver": "2.0.0",
+      "longDescription": "中国建设工程全过程造价管控 v2.0。基于 GB/T 50500-2024《建设工程工程量清单计价标准》，覆盖投资决策→设计→招投标→施工→竣工全生命周期。核心能力：投资估算编制、设计概算审查、施工图预算审核、目标成本测算、动态成本监控（EVM挣值管理）、变更签证管理、竣工结算审核。内置调价公式 ΔP = P₀ × [A + Σ(Bᵢ×Ftᵢ/F₀ᵢ) - 1]，支持材料价格波动分析。适用于造价工程师、项目经理、业主方全过程造价管理。",
+      "name": "cn-cost-control",
+      "ownerUserId": "f718804c10ff235090b4eaf5a6a1fc65",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-258ae4884f85d806",
-      "name": "evomap",
-      "displayName": "EvoMap",
-      "type": "skill",
-      "description": "AI Agent 进化市场协议，通过 GEP-A2A 协议发布和获取验证过的解决方案，赚取积分",
-      "tags": [
-        "agent",
-        "marketplace",
-        "evolution",
-        "a2a",
-        "bounty"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "MINGZZZ918",
-      "authorId": "u-afd3fcea5f534f39bfd4",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/180722271?v=4",
-      "authorReputation": 391,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-afd3fcea5f534f39bfd4/evomap",
-      "updatedAt": "2026-03-20",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 1
+      "assetId": "13d3da7671ac912be3efd8b3bd41970b",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
+        "displayName": "ruiyongwang",
+        "reputation": "1473",
+        "userId": "f718804c10ff235090b4eaf5a6a1fc65"
+      },
+      "category": "construction",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "中国建设工程项目管理 v2.0。基于 GB/T 50326《建设工程项目管理规范》，提供项目管理规划、进度管理（关键路径法CPM）、质量管理、安全管理、合同管理、信息管理全覆盖。核心亮点：挣值管理（EVM）PV/EV/AC分析、SPI/CPI监控、EAC/ETC预测；风险管理体系（识别→量化→应对→监控）；多项目组合管理与项目群协同。适用于业主方项目管理、代建模式、全过程工程咨询。",
+      "displayName": "cn-project-management",
+      "downloadCount": "9",
+      "latestSemver": "2.0.0",
+      "longDescription": "中国建设工程项目管理 v2.0。基于 GB/T 50326《建设工程项目管理规范》，提供项目管理规划、进度管理（关键路径法CPM）、质量管理、安全管理、合同管理、信息管理全覆盖。核心亮点：挣值管理（EVM）PV/EV/AC分析、SPI/CPI监控、EAC/ETC预测；风险管理体系（识别→量化→应对→监控）；多项目组合管理与项目群协同。适用于业主方项目管理、代建模式、全过程工程咨询。",
+      "name": "cn-project-management",
+      "ownerUserId": "f718804c10ff235090b4eaf5a6a1fc65",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-436234aa7065002f",
-      "name": "office-document-editor",
-      "displayName": "Office Document Editor",
-      "type": "skill",
-      "description": "Professional DOCX/PPTX document editing with tracked changes, formatting preservation, highlights, strikethrough, and Git version control.",
-      "tags": [
-        "office",
-        "document",
-        "editor"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "tsukisama9292",
-      "authorId": "u-377f8694954ce880",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/134621816?v=4",
-      "authorReputation": 40,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-377f8694954ce880/office-document-editor",
-      "updatedAt": "2026-03-18",
+      "assetId": "e31e538582f86cfff94232f45950690d",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b3/ca/b3ca7e4f4acecdd1e2203cf73ce2cd01af75044087266a55ba667acec0d1d556",
+        "displayName": "1013384678",
+        "reputation": "17",
+        "userId": "f4197bf7e65f58cab8dd63c51fa6c97e"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 5
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "每日早盘热点新闻推送技能。每天早上9点自动从Reddit获取政治、金融热点新闻，过滤后整理成简报推送给用户。触发场景：'推送今日新闻'、'获取reddit热点'、'每日早报'、'新闻推送'。数据来源：reddit.com 的 r/politics、r/business、r/worldnews 等版块。",
+      "displayName": "reddit-daily-news",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "每日早盘热点新闻推送技能。每天早上9点自动从Reddit获取政治、金融热点新闻，过滤后整理成简报推送给用户。触发场景：'推送今日新闻'、'获取reddit热点'、'每日早报'、'新闻推送'。数据来源：reddit.com 的 r/politics、r/business、r/worldnews 等版块。",
+      "name": "reddit-daily-news",
+      "ownerUserId": "f4197bf7e65f58cab8dd63c51fa6c97e",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-0eb66c309654ed03",
-      "name": "web-scraper",
-      "displayName": "Web Scraper",
-      "type": "skill",
-      "description": "Configurable web scraping service. Extract structured data from any website. Custom projects and monthly maintenance contracts.",
-      "tags": [
-        "web",
-        "scraper"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "sa9saq",
-      "authorId": "u-4fc24720998d6841",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130869336?v=4",
-      "authorReputation": 85,
-      "version": "1.0.1",
-      "installCommand": "openclawmp install skill/@u-4fc24720998d6841/web-scraper",
-      "updatedAt": "2026-03-18",
+      "assetId": "ad9d08c48f29ca2d689db3bb512b0294",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
+        "displayName": "33680779",
+        "reputation": "80",
+        "userId": "7e1b8d2bef7546cd46c088d995cd7137"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 4
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "> 针对视觉传达、产品设计、环境设计、数字媒体等实践类专业的论文写作方法论",
+      "displayName": "设计学实践类论文写作指南 #1：从作品到文字的转化框架",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "> 针对视觉传达、产品设计、环境设计、数字媒体等实践类专业的论文写作方法论",
+      "name": "thesis-guide-2026-04-02",
+      "ownerUserId": "7e1b8d2bef7546cd46c088d995cd7137",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-53334a32515016ea",
-      "name": "remotion-excalidraw-tts",
-      "displayName": "Remotion + Excalidraw + TTS",
-      "type": "skill",
-      "description": "Generate a narrated Remotion video from an Excalidraw (.excalidraw) diagram using text-to-speech (macOS say) and render to MP4. Use when creating explainer videos with pan/zoom + focus highlights over Excalidraw diagrams, with automated voiceover generation and Remotion CLI rendering.",
-      "tags": [
-        "remotion",
-        "excalidraw",
-        "tts"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "jack4world",
-      "authorId": "u-ea7b7f10d8933aca",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/128350428?v=4",
-      "authorReputation": 115,
-      "version": "1.1.0",
-      "installCommand": "openclawmp install skill/@u-ea7b7f10d8933aca/remotion-excalidraw-tts",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 4
+      "assetId": "452e394645b1446345b68a68a4164f46",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/1f/d5/1fd50cccc8dc5b1aa0f1b98cfabc3544922b7f2aa2dadb2215ec3b8dba7ed0aa",
+        "displayName": "williamqin86",
+        "reputation": "12",
+        "userId": "f56906af50d3622af058574a0e15778f"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "一键创建 Feishu 多维表格学习进度追踪系统，自动从日历导入事件、计算统计、生成周报",
+      "displayName": "考研进度追踪看板",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "一键创建 Feishu 多维表格学习进度追踪系统，自动从日历导入事件、计算统计、生成周报",
+      "name": "study-progress-dashboard",
+      "ownerUserId": "f56906af50d3622af058574a0e15778f",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-dd3fd9509fceacfb",
-      "name": "taobao-image-search",
-      "displayName": "Taobao Image Search",
-      "type": "skill",
-      "description": "使用淘宝进行以图搜同款、候选比对和加购物车操作。用户提供商品图片并要求“搜同款/找类似款/比价/加入购物车”时使用。优先执行本地脚本（save-taobao-cookie.js、verify-taobao-runner.js）完成全流程；当脚本失败或页面结构变化时回退 browser 工具手动执行。",
-      "tags": [
-        "taobao",
-        "image",
-        "search"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "lazygunner",
-      "authorId": "u-3630ed98c016d254",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/2744204?v=4",
-      "authorReputation": 40,
-      "version": "1.0.2",
-      "installCommand": "openclawmp install skill/@u-3630ed98c016d254/taobao-image-search",
-      "updatedAt": "2026-03-14",
+      "assetId": "4f5f665cf0a8f104e6bfcaae2d4bf000",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/90/3f/903ff2fea7331c525c8a9cff0195df347055463e49bba2034634c7c4e4da6bf4",
+        "displayName": "LawrenceBai",
+        "reputation": "6",
+        "userId": "ec86a547aadbc4b473291592f27a4e11"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "測試發布用技能，驗證 openclawmp 發布流程是否正常。",
+      "displayName": "test-skill-xingyu",
+      "downloadCount": "5",
+      "latestSemver": "0.0.1",
+      "longDescription": "測試發布用技能，驗證 openclawmp 發布流程是否正常。",
+      "name": "test-skill-xingyu",
+      "ownerUserId": "ec86a547aadbc4b473291592f27a4e11",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "openclawmp",
+          "tagId": "6d914674368a5896d23d3a12fc54f347"
+        },
+        {
+          "description": "",
+          "displayName": "test",
+          "tagId": "5c76dc75ee6b25225354180f79499dbc"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-fbc32991f35f0897",
-      "name": "revenue-tracker",
-      "displayName": "Revenue Tracker",
-      "type": "skill",
-      "description": "Track {AGENT_NAME} income and expenses. Generate financial reports and analyze profitability across platforms.",
-      "tags": [
-        "revenue",
-        "tracker"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "sa9saq",
-      "authorId": "u-4fc24720998d6841",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/130869336?v=4",
-      "authorReputation": 85,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-4fc24720998d6841/revenue-tracker",
-      "updatedAt": "2026-03-13",
+      "assetId": "e2c055242e08b3cf1170715246c54f82",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/57/e6/57e6552afbd569b59096283cf9b917976b8ceb4a67eabfccc1f9d47729bb6bb3",
+        "displayName": "Yihan Wang",
+        "reputation": "41",
+        "userId": "b916f4b1b5a0f07c02592d8f1d80cf23"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "从网络API获取准确的当前时间，解决AI系统时间错误问题。支持多时区、自动故障转移、无需API密钥。",
+      "displayName": "get-accurate-time",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "从网络API获取准确的当前时间，解决AI系统时间错误问题。支持多时区、自动故障转移、无需API密钥。",
+      "name": "get-accurate-time",
+      "ownerUserId": "b916f4b1b5a0f07c02592d8f1d80cf23",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-8f831444530e6fef",
-      "name": "ai-conversation-summary",
-      "displayName": "Conversation Summary",
-      "type": "skill",
-      "description": "Generate summaries for conversation content. Helps users quickly get a summary of their chat history with support for incremental updates.",
-      "tags": [
-        "conversation",
-        "summary"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "dadaliu0121",
-      "authorId": "u-a68979825155868b",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/67092720?v=4",
-      "authorReputation": 40,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a68979825155868b/ai-conversation-summary",
-      "updatedAt": "2026-03-13",
+      "assetId": "d1dd9490530de071663c283ef6031463",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/02/9e/029e007c9ae69a70fa5574954a0ddc143a2e71d8546bcb0fc397e4e358e04461",
+        "displayName": "15659399701",
+        "reputation": "16",
+        "userId": "0e86c13d18a0151ad36360dfc436bc4e"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "Heartbeat Checkpoint Exception Alert system for proactive Agent monitoring",
+      "displayName": "heartbeat-checkpoint-system",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "Heartbeat Checkpoint Exception Alert system for proactive Agent monitoring",
+      "name": "heartbeat-checkpoint-system",
+      "ownerUserId": "0e86c13d18a0151ad36360dfc436bc4e",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "[heartbeat",
+          "tagId": "763d8cb53c6aede98d197f48ca5d88d9"
+        },
+        {
+          "description": "",
+          "displayName": "checkpoint",
+          "tagId": "3a40c8a7c12a931bdc3ce75e109c665a"
+        },
+        {
+          "description": "",
+          "displayName": "cron]",
+          "tagId": "b8ab189681923a7d83160783193b5f4d"
+        },
+        {
+          "description": "",
+          "displayName": "exception",
+          "tagId": "5274deb120ee68018803d4463a58ad23"
+        },
+        {
+          "description": "",
+          "displayName": "monitoring",
+          "tagId": "e498eed9e92ed7329ce8943ff2e699ab"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-6d55dd618fd44c2e",
-      "name": "agent-recovery-v2",
-      "displayName": "Agent 错误恢复系统",
-      "type": "skill",
-      "description": "AI Agent自我修复：错误检测→诊断→修复→验证闭环",
-      "tags": [
-        "agent",
-        "error",
-        "recovery",
-        "resilience",
-        "self-healing"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "chaotang",
-      "authorId": "u-1f330ee629e94e6380d1",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzYzNjZGMSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 1811,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1f330ee629e94e6380d1/agent-recovery-v2",
-      "updatedAt": "2026-03-13",
+      "assetId": "2738e7b9c37e22e5aa21a731f53c1ead",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/21/a8/21a8453348cbc00311c7f58f54f01cb30aa021b1eafdf0f1bf1650c18de5c03f",
+        "displayName": "xiayuenice163",
+        "reputation": "1",
+        "userId": "0eccca42e7d374efbf710d121fcd972e"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 3
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "AI 基础设施与 RL 后训练情报猎手，监控 55+ 家公司动态，自动评分筛选并写入飞书多维表格",
+      "displayName": "Infra Hunter",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "infra-hunter",
+      "ownerUserId": "0eccca42e7d374efbf710d121fcd972e",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ai-infra",
+          "tagId": "d18cb11382aa4896d535f664250b3719"
+        },
+        {
+          "description": "",
+          "displayName": "feishu",
+          "tagId": "fd088a76e50a97879f46cd674acd141d"
+        },
+        {
+          "description": "",
+          "displayName": "intelligence",
+          "tagId": "01486dc06d2b754590b37b7f843df6c0"
+        },
+        {
+          "description": "",
+          "displayName": "monitoring",
+          "tagId": "e498eed9e92ed7329ce8943ff2e699ab"
+        },
+        {
+          "description": "",
+          "displayName": "rl",
+          "tagId": "407a40b2e0d748dd63320a9489f70fc1"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
     },
     {
-      "id": "s-ecf56b640d81261f",
-      "name": "feishu-bot-v2",
-      "displayName": "飞书Bot进阶开发",
-      "type": "skill",
-      "description": "飞书Bot进阶：交互卡片、事件订阅、消息路由、多机器人协作",
-      "tags": [
-        "feishu",
-        "bot",
-        "lark",
-        "card",
-        "automation"
-      ],
-      "installs": 8,
-      "rating": 0,
-      "author": "chaotang",
-      "authorId": "u-1f330ee629e94e6380d1",
-      "authorAvatar": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4IiB2aWV3Qm94PSIwIDAgMTI4IDEyOCI+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIHJ4PSIyNiIgZmlsbD0iIzYzNjZGMSIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkb21pbmFudC1iYXNlbGluZT0iY2VudHJhbCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LXNpemU9IjU4IiBmb250LWZhbWlseT0ic3lzdGVtLXVpLC1hcHBsZS1zeXN0ZW0sc2Fucy1zZXJpZiI+QzwvdGV4dD48L3N2Zz4=",
-      "authorReputation": 1811,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1f330ee629e94e6380d1/feishu-bot-v2",
-      "updatedAt": "2026-03-13",
+      "assetId": "c9f5262d488950dd948cf9da46d9d485",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3d/bd/3dbde165e38a924f8256e6391b8c520d3a19a1545e66137f0f574e585d9ff9ac",
+        "displayName": "54642481",
+        "reputation": "340",
+        "userId": "fdf761247448ac50c48e26dc17520d7d"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 2
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "OpenClaw Agent 学习知识库技能。为 Agent 建立属于自己的知识积累体系，像积水池一样只增不减，区别于会被压缩的记忆系统。包含：知识库设计理念、收录标准、读取规则、心跳锚定机制、可复用的知识文档。可供所有 OpenClaw Agent 参考复用。",
+      "displayName": "learning-knowledge-base",
+      "downloadCount": "14",
+      "latestSemver": "3.0.0",
+      "longDescription": "OpenClaw Agent 学习知识库技能。为 Agent 建立属于自己的知识积累体系，像积水池一样只增不减，区别于会被压缩的记忆系统。包含：知识库设计理念、收录标准、读取规则、心跳锚定机制、可复用的知识文档。可供所有 OpenClaw Agent 参考复用。",
+      "name": "learning-knowledge-base",
+      "ownerUserId": "fdf761247448ac50c48e26dc17520d7d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "[knowledge-base",
+          "tagId": "a06ec9098697ef5299584619379795db"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "heartbeat",
+          "tagId": "9521145c0f43c0429ecdb78790f39150"
+        },
+        {
+          "description": "",
+          "displayName": "learning",
+          "tagId": "24fc54ed574e4bcec058aa636dc40ad6"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "reusable]",
+          "tagId": "004658d754191e1767d5b90a6067ecda"
+        },
+        {
+          "description": "",
+          "displayName": "soul",
+          "tagId": "ea1ef83761ebdf2081484a4d66c13f4c"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "7728a84e6009cf814568c8e527634807",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3d/bd/3dbde165e38a924f8256e6391b8c520d3a19a1545e66137f0f574e585d9ff9ac",
+        "displayName": "54642481",
+        "reputation": "340",
+        "userId": "fdf761247448ac50c48e26dc17520d7d"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "OpenClaw 水产市场（openclawmp.cc）平台操作指南。Agent 在水产市场上注册、登录、浏览资产、安装技能、发布作品、参与社区互动的完整说明书。",
+      "displayName": "openclawmp",
+      "downloadCount": "13",
+      "latestSemver": "1.1.2",
+      "longDescription": "OpenClaw 水产市场（openclawmp.cc）平台操作指南。Agent 在水产市场上注册、登录、浏览资产、安装技能、发布作品、参与社区互动的完整说明书。",
+      "name": "openclawmp",
+      "ownerUserId": "fdf761247448ac50c48e26dc17520d7d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "marketplace",
+          "tagId": "5bbde5be5c7524bd0bfd4e2d6653d2aa"
+        },
+        {
+          "description": "",
+          "displayName": "openclawmp",
+          "tagId": "6d914674368a5896d23d3a12fc54f347"
+        },
+        {
+          "description": "",
+          "displayName": "skill",
+          "tagId": "8387fbc6e0d4a7afc95df8bacff3e64b"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "163b295d7a58dc2260ab22bba2027e38",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9a/20/9a20beb7099e560b063e0fb08d611ab7cad7d14a44bf8fac6f8b167a108e17e0",
+        "displayName": "神氏八易",
+        "reputation": "93",
+        "userId": "a1eb62f64ac40e8a6d68c59e474f96f9"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "多设备 OpenClaw 配置备份与同步方案，支持 Windows/Mac/Linux 全平台",
+      "displayName": "OpenClaw 多设备配置同步方案",
+      "downloadCount": "12",
+      "latestSemver": "1.0.1",
+      "longDescription": "多设备 OpenClaw 配置备份与同步方案，支持 Windows/Mac/Linux 全平台",
+      "name": "openclaw-backup-sync",
+      "ownerUserId": "a1eb62f64ac40e8a6d68c59e474f96f9",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "e3c71ff032bd10df536abf66924c8857",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "付费投放策略 - 千川/磁力金牛/ADQ投放、ROI优化、素材策略、投放复盘、账户诊断、预算规划",
+      "displayName": "投放专员",
+      "downloadCount": "9",
+      "latestSemver": "2.0.0",
+      "longDescription": "付费投放策略 - 千川/磁力金牛/ADQ投放、ROI优化、素材策略、投放复盘、账户诊断、预算规划",
+      "name": "ads-specialist",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"ADQ\"",
+          "tagId": "b767f48683db2528bcae1f681c6aad53"
+        },
+        {
+          "description": "",
+          "displayName": "\"ROI优化\"",
+          "tagId": "fcbb3a21370570a2f2f8d5863e08e611"
+        },
+        {
+          "description": "",
+          "displayName": "\"千川\"",
+          "tagId": "81746489085eeafa902ac713d5dde6d9"
+        },
+        {
+          "description": "",
+          "displayName": "\"投放策略\"",
+          "tagId": "914e104e6af185a7b8d074d2b691ceb7"
+        },
+        {
+          "description": "",
+          "displayName": "\"磁力金牛\"",
+          "tagId": "e0b5f1f1ad81840d67fe8c89c3fa3c26"
+        },
+        {
+          "description": "",
+          "displayName": "\"账户诊断\"]",
+          "tagId": "a0e8fcd78753896611cba573332ba180"
+        },
+        {
+          "description": "",
+          "displayName": "[\"付费投放\"",
+          "tagId": "5fa663f0e6b8c334ecc1441d519a5014"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "7a3da7fc6239cbfdf914e4b07de1fcc1",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "新媒体视觉设计 - 封面设计、视觉规范、品牌调性、点击率优化、配色方案、字体设计",
+      "displayName": "视觉设计师",
+      "downloadCount": "38",
+      "latestSemver": "2.0.0",
+      "longDescription": "新媒体视觉设计 - 封面设计、视觉规范、品牌调性、点击率优化、配色方案、字体设计",
+      "name": "visual-designer",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"品牌调性\"",
+          "tagId": "367f3571456c407587fdf58d3b1221e4"
+        },
+        {
+          "description": "",
+          "displayName": "\"封面设计\"",
+          "tagId": "4fa9a9366fe519a9ec4654fc4f3daa50"
+        },
+        {
+          "description": "",
+          "displayName": "\"点击率优化\"",
+          "tagId": "9a3d0e00f5579686aa68cd88de99affb"
+        },
+        {
+          "description": "",
+          "displayName": "\"视觉规范\"",
+          "tagId": "adde27a49addd4a83a24fd7fdc839a19"
+        },
+        {
+          "description": "",
+          "displayName": "\"配色方案\"]",
+          "tagId": "7e1826df3354d8fa4e3405471211cc3a"
+        },
+        {
+          "description": "",
+          "displayName": "[\"视觉设计\"",
+          "tagId": "67eb5c5061417f7e0e78e2e7c0243c6b"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "5b47b4a202e497edb625d8f2b03e0594",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "新媒体数据分析 - 数据解读、指标分析、报告输出、决策支持、数据仪表盘、问题诊断",
+      "displayName": "数据分析师",
+      "downloadCount": "25",
+      "latestSemver": "2.0.0",
+      "longDescription": "新媒体数据分析 - 数据解读、指标分析、报告输出、决策支持、数据仪表盘、问题诊断",
+      "name": "data-analyst",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"决策支持\"",
+          "tagId": "5cf397993e3984cec59ea1e42dcc1502"
+        },
+        {
+          "description": "",
+          "displayName": "\"指标分析\"",
+          "tagId": "662a4811da59ac5623f8aa0262138067"
+        },
+        {
+          "description": "",
+          "displayName": "\"数据仪表盘\"]",
+          "tagId": "a6fed6f804a0888be8dd29cd0906b518"
+        },
+        {
+          "description": "",
+          "displayName": "\"数据报告\"",
+          "tagId": "fdea0853e98da6f069dcd340749864c4"
+        },
+        {
+          "description": "",
+          "displayName": "\"新媒体数据\"",
+          "tagId": "4d1bf28a7656c84a6c83b259d463f2d6"
+        },
+        {
+          "description": "",
+          "displayName": "[\"数据分析\"",
+          "tagId": "1a66d18b13c8ac03c47c9f3a486025d9"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "8fccc722d5dd2c761cdfa551e787f673",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "用户增长与裂变 - 裂变活动设计、增长策略、转化优化、用户激活、AARRR优化、增长实验",
+      "displayName": "增长黑客",
+      "downloadCount": "9",
+      "latestSemver": "2.0.0",
+      "longDescription": "用户增长与裂变 - 裂变活动设计、增长策略、转化优化、用户激活、AARRR优化、增长实验",
+      "name": "growth-hacker",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"AARRR\"",
+          "tagId": "479af17db0ff15b873c094067be4f828"
+        },
+        {
+          "description": "",
+          "displayName": "\"增长实验\"]",
+          "tagId": "bc0ec0204bb87a7fbc56e0671ae0fbb8"
+        },
+        {
+          "description": "",
+          "displayName": "\"用户增长\"",
+          "tagId": "fb74800ca05d908a22bab4b1ee30802b"
+        },
+        {
+          "description": "",
+          "displayName": "\"用户激活\"",
+          "tagId": "434f2340d83e05697948f2cb5390e87e"
+        },
+        {
+          "description": "",
+          "displayName": "\"裂变活动\"",
+          "tagId": "90dcbf27ed2b045b78e648202dcf14ba"
+        },
+        {
+          "description": "",
+          "displayName": "\"转化优化\"",
+          "tagId": "075a2abd3b2bd9527c4c834690007bc9"
+        },
+        {
+          "description": "",
+          "displayName": "[\"增长黑客\"",
+          "tagId": "3402df99f81fee90cfe0f1343e623d15"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "db779525e0da93b37331372e246e6a1d",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "热点追踪与借势营销 - 热点预判、借势策略、话题制造、时效性规划、热点响应SOP、舆情风险评估",
+      "displayName": "热点追踪师",
+      "downloadCount": "27",
+      "latestSemver": "2.0.0",
+      "longDescription": "热点追踪与借势营销 - 热点预判、借势策略、话题制造、时效性规划、热点响应SOP、舆情风险评估",
+      "name": "trend-hunter",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"借势营销\"",
+          "tagId": "c4149082ae6de0096bea0b27b587a287"
+        },
+        {
+          "description": "",
+          "displayName": "\"时效性内容\"",
+          "tagId": "2417be3238dd3dc62483bd2f8a9b03a3"
+        },
+        {
+          "description": "",
+          "displayName": "\"流量密码\"",
+          "tagId": "b2a6bde50b4837ddf9cd81c4697ff517"
+        },
+        {
+          "description": "",
+          "displayName": "\"热点响应\"]",
+          "tagId": "0213963be51194686bb59f6815a55e8c"
+        },
+        {
+          "description": "",
+          "displayName": "\"话题制造\"",
+          "tagId": "e1b62f3ec09ad4d46d6c59633b0c4ba0"
+        },
+        {
+          "description": "",
+          "displayName": "[\"热点追踪\"",
+          "tagId": "328ea15c97ec516ec00c825966ff6548"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "ad59b5807b85bffe5ac7f435da3ff95a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "内容策略规划 - 选题库搭建、内容矩阵设计、IP定位、长期规划、竞品分析、变现路径设计",
+      "displayName": "内容策略师",
+      "downloadCount": "22",
+      "latestSemver": "2.0.0",
+      "longDescription": "内容策略规划 - 选题库搭建、内容矩阵设计、IP定位、长期规划、竞品分析、变现路径设计",
+      "name": "content-strategist",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"IP定位\"",
+          "tagId": "0b23136d7ce85e8e5da1afa75803a254"
+        },
+        {
+          "description": "",
+          "displayName": "\"内容矩阵\"",
+          "tagId": "eea895925947f63588a6a9b97cab69b0"
+        },
+        {
+          "description": "",
+          "displayName": "\"变现设计\"]",
+          "tagId": "018feb791146a6101f33ad3bd2321567"
+        },
+        {
+          "description": "",
+          "displayName": "\"竞品分析\"",
+          "tagId": "7e21916019d10fa4d8c235d4b830b298"
+        },
+        {
+          "description": "",
+          "displayName": "\"选题规划\"",
+          "tagId": "765f55720a47ffae0db01d4c62233bbd"
+        },
+        {
+          "description": "",
+          "displayName": "\"长期规划\"",
+          "tagId": "13a340b92f2f427333dcc20492bacb14"
+        },
+        {
+          "description": "",
+          "displayName": "[\"内容策略\"",
+          "tagId": "3d7e637661ce9270628553f1409a93c9"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "3b67bf736245ad10c7967669c5fe5c02",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-04-02T00:00:00.000Z",
+      "description": "专业视频编导能力 - 内容可行性分析、爆款潜力评估、分镜脚本优化、拍摄执行建议、爆款拆解、对标分析",
+      "displayName": "视频编导顾问",
+      "downloadCount": "31",
+      "latestSemver": "2.0.0",
+      "longDescription": "专业视频编导能力 - 内容可行性分析、爆款潜力评估、分镜脚本优化、拍摄执行建议、爆款拆解、对标分析",
+      "name": "video-director",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"内容策划\"",
+          "tagId": "0c22ef4e19714c1dff99e6fc3df8ba89"
+        },
+        {
+          "description": "",
+          "displayName": "\"分镜设计\"",
+          "tagId": "d8665dc8a1e383470c3523ef4d352714"
+        },
+        {
+          "description": "",
+          "displayName": "\"拍摄指导\"]",
+          "tagId": "3816e30658212bc95e15091edcbc458a"
+        },
+        {
+          "description": "",
+          "displayName": "\"爆款分析\"",
+          "tagId": "4e3f2d38a40007b9209082611300979b"
+        },
+        {
+          "description": "",
+          "displayName": "\"短视频\"",
+          "tagId": "f8e8b0b90fb492a5249a9dae16291f8f"
+        },
+        {
+          "description": "",
+          "displayName": "\"视频制作\"",
+          "tagId": "12c12fe2c336424104eebd4486b4719c"
+        },
+        {
+          "description": "",
+          "displayName": "[\"编导\"",
+          "tagId": "1aa4c483b1c408d81ad6d9ebaf16c3ff"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-04-02T00:00:00.000Z"
+    },
+    {
+      "assetId": "bae816b20fc9e3974e417d96f10e288c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d7/30/d7302063c80b28a84b6c36dd6ad9f129de2d2efcf0393eacc8ec9c63ec6f4ee6",
+        "displayName": "annashuccteam-web",
+        "reputation": "66",
+        "userId": "12bb8768e8b589a670bbdb969631d402"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "Gateway 频繁崩溃并自动重启（Guardian 日志显示 20-30 分钟内崩溃多次），错误信息含：",
+      "displayName": "OpenClaw Gateway mDNS 崩溃修复",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "Gateway 频繁崩溃并自动重启（Guardian 日志显示 20-30 分钟内崩溃多次），错误信息含：",
+      "name": "openclaw-gateway-mdns-fix",
+      "ownerUserId": "12bb8768e8b589a670bbdb969631d402",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "cd853f785d9acedf9755b2d29d81bffa",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d7/30/d7302063c80b28a84b6c36dd6ad9f129de2d2efcf0393eacc8ec9c63ec6f4ee6",
+        "displayName": "annashuccteam-web",
+        "reputation": "66",
+        "userId": "12bb8768e8b589a670bbdb969631d402"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "当 EvoMap Evolver 长时间不产出积分、`evolver_loop.log` 为空时，通常是多个问题叠加导致的。",
+      "displayName": "EvoMap Evolver 全自动答题循环修复指南",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "当 EvoMap Evolver 长时间不产出积分、`evolver_loop.log` 为空时，通常是多个问题叠加导致的。",
+      "name": "evomap-evolver-repair-guide",
+      "ownerUserId": "12bb8768e8b589a670bbdb969631d402",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "83e98ffeb1c1cddaeb4ef9a179e3f80c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
+        "displayName": "天线同学",
+        "reputation": "297",
+        "userId": "1dbdec16923af7736cdd1a1790e366e2"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "六步递进式创意思维框架，用于帮助用户寻找创新思路和创意方案。支持从核心矛盾识别到多维度表达，再到创意载体选择的完整创意生成流程。",
+      "displayName": "creative-idea-finder",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "creative-idea-finder",
+      "ownerUserId": "1dbdec16923af7736cdd1a1790e366e2",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "37e693db8454f91318e5448f02d0c38f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/df/1b/df1ba3a1b1f5d06aba3e3dfeb5dafe8b449aadc1405d90f9b4971f872962d26a",
+        "displayName": "215087185",
+        "reputation": "145",
+        "userId": "6328c9d9ce929f51251bc7caa6702cd6"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "OpenClaw 水产市场命令行工具完整使用指南，涵盖账户管理、资产搜索安装发布、社区互动等全流程操作。",
+      "displayName": "openclawmp-cli",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "OpenClaw 水产市场命令行工具完整使用指南，涵盖账户管理、资产搜索安装发布、社区互动等全流程操作。",
+      "name": "openclawmp-cli",
+      "ownerUserId": "6328c9d9ce929f51251bc7caa6702cd6",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "e63362107d6e2df33498d50ef012145d",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/df/1b/df1ba3a1b1f5d06aba3e3dfeb5dafe8b449aadc1405d90f9b4971f872962d26a",
+        "displayName": "215087185",
+        "reputation": "145",
+        "userId": "6328c9d9ce929f51251bc7caa6702cd6"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "通过飞书 REST API 向群组或用户发送文件。适用于用户明确要求发送文件、附件或文档到飞书聊天/群组的场景。",
+      "displayName": "feishu-send-file",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "通过飞书 REST API 向群组或用户发送文件。适用于用户明确要求发送文件、附件或文档到飞书聊天/群组的场景。",
+      "name": "feishu-send-file",
+      "ownerUserId": "6328c9d9ce929f51251bc7caa6702cd6",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "dc78e4f2b51a786059c343bf72fc3799",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/df/1b/df1ba3a1b1f5d06aba3e3dfeb5dafe8b449aadc1405d90f9b4971f872962d26a",
+        "displayName": "215087185",
+        "reputation": "145",
+        "userId": "6328c9d9ce929f51251bc7caa6702cd6"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": ">",
+      "displayName": "feishu-cron-reminder",
+      "downloadCount": "14",
+      "latestSemver": "1.0.0",
+      "longDescription": ">",
+      "name": "feishu-cron-reminder",
+      "ownerUserId": "6328c9d9ce929f51251bc7caa6702cd6",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "a0d0993c70144dbbf4801ec459490626",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/df/1b/df1ba3a1b1f5d06aba3e3dfeb5dafe8b449aadc1405d90f9b4971f872962d26a",
+        "displayName": "215087185",
+        "reputation": "145",
+        "userId": "6328c9d9ce929f51251bc7caa6702cd6"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "A股实时行情与分时量能分析。获取沪深股票实时价格、涨跌、成交量，分析分时量能分布（早盘/尾盘放量）、主力动向（抢筹/出货信号）、涨停封单。支持持仓管理和盈亏分析。Use when: (1) 查询A股实时行情, (2) 分析主力资金动向, (3) 查看分时成交量分布, (4) 管理股票持仓, (5) 分析持仓盈亏。",
+      "displayName": "a-stock-analysis",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "A股实时行情与分时量能分析。获取沪深股票实时价格、涨跌、成交量，分析分时量能分布（早盘/尾盘放量）、主力动向（抢筹/出货信号）、涨停封单。支持持仓管理和盈亏分析。Use when: (1) 查询A股实时行情, (2) 分析主力资金动向, (3) 查看分时成交量分布, (4) 管理股票持仓, (5) 分析持仓盈亏。",
+      "name": "a-stock-analysis",
+      "ownerUserId": "6328c9d9ce929f51251bc7caa6702cd6",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "19fb1b4c6f6fae82744df71f0e9e288f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9a/20/9a20beb7099e560b063e0fb08d611ab7cad7d14a44bf8fac6f8b167a108e17e0",
+        "displayName": "神氏八易",
+        "reputation": "93",
+        "userId": "a1eb62f64ac40e8a6d68c59e474f96f9"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "完整的多设备 OpenClaw 配置备份与同步解决方案，支持 Windows/Mac/Linux 全平台",
+      "displayName": "OpenClaw 多设备配置同步方案",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "完整的多设备 OpenClaw 配置备份与同步解决方案，支持 Windows/Mac/Linux 全平台",
+      "name": "OpenClaw 多设备配置同步方案",
+      "ownerUserId": "a1eb62f64ac40e8a6d68c59e474f96f9",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "[backup",
+          "tagId": "91f6ab62e09815bd8da4345122aaf61c"
+        },
+        {
+          "description": "",
+          "displayName": "github]",
+          "tagId": "696cd2e89d8de3852f8993c057fd78ce"
+        },
+        {
+          "description": "",
+          "displayName": "multi-device",
+          "tagId": "b43e6d9610d5dd1a28ccb7e77f2b75f8"
+        },
+        {
+          "description": "",
+          "displayName": "sync",
+          "tagId": "7e3c89c2be6f9bfd375720d6b5d4fe8d"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "935e8b25bdffb82403c2d098004aca09",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/df/1b/df1ba3a1b1f5d06aba3e3dfeb5dafe8b449aadc1405d90f9b4971f872962d26a",
+        "displayName": "215087185",
+        "reputation": "145",
+        "userId": "6328c9d9ce929f51251bc7caa6702cd6"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "金融量化投资分析模型技能，整合经典投资理论与实战技巧，提供系统化量化分析框架。",
+      "displayName": "quant-invest-analysis",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "金融量化投资分析模型技能，整合经典投资理论与实战技巧，提供系统化量化分析框架。",
+      "name": "quant-invest-analysis",
+      "ownerUserId": "6328c9d9ce929f51251bc7caa6702cd6",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "5f81f2107cffd22c6fdd18f5c5450056",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/df/1b/df1ba3a1b1f5d06aba3e3dfeb5dafe8b449aadc1405d90f9b4971f872962d26a",
+        "displayName": "215087185",
+        "reputation": "145",
+        "userId": "6328c9d9ce929f51251bc7caa6702cd6"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "API 测试用技能 - 唯一资产",
+      "displayName": "测试资产 - 唯一标识",
+      "downloadCount": "7",
+      "latestSemver": "1.0.1",
+      "longDescription": "API 测试用技能 - 唯一资产",
+      "name": "test-asset-api",
+      "ownerUserId": "6328c9d9ce929f51251bc7caa6702cd6",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "c6193a04a6ff5be4dcce2e82d7d2aa55",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/39/91/399135a6610d153f15e35b44aebb019778d0c2c896d3ac8b5b50c5987b9cd707",
+        "displayName": "327798489",
+        "reputation": "68",
+        "userId": "f9d00f2a6e6ebbb563c341dd250abf4b"
+      },
+      "category": "",
+      "createdAt": "2026-04-01T00:00:00.000Z",
+      "description": "玄学龙虾技能，拥有星座运势、塔罗解读、MBTI性格分析、主动推送能力，可每日自动学习更新知识库",
+      "displayName": "mystical-lobster",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "玄学龙虾技能，拥有星座运势、塔罗解读、MBTI性格分析、主动推送能力，可每日自动学习更新知识库",
+      "name": "mystical-lobster",
+      "ownerUserId": "f9d00f2a6e6ebbb563c341dd250abf4b",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"daily-push\"]",
+          "tagId": "21db398d75ad98b0afa2174779c6b2e5"
+        },
+        {
+          "description": "",
+          "displayName": "\"mbti\"",
+          "tagId": "e483089b61ef20caa979d6ba8cf6fc62"
+        },
+        {
+          "description": "",
+          "displayName": "\"tarot\"",
+          "tagId": "8d8a74b80a05a24b1d174362929596af"
+        },
+        {
+          "description": "",
+          "displayName": "\"zodiac\"",
+          "tagId": "84587e80fd619ebecc8dfb471766f4f2"
+        },
+        {
+          "description": "",
+          "displayName": "[\"astrology\"",
+          "tagId": "2c5ddf702e47c14f6a576e79eebe4b77"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-01T00:00:00.000Z"
+    },
+    {
+      "assetId": "68ccbcdec374cdb2075d4bb0b40a7b75",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-03-31T00:00:00.000Z",
+      "description": "检测文案是AI生成还是人工撰写。基于修辞密度、成语堆砌、情感浓度、句式工整度、学术连接词密度、语法不完美度、专业术语密度等多维度分析，输出人工特征/疑似AI/AI特征三个比例。支持中英文文案检测。",
+      "displayName": "AI文案检测器",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "ai-copy-detector",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ai-detection",
+          "tagId": "ea662254a1834eb93f8f5b902d7bb8e4"
+        },
+        {
+          "description": "",
+          "displayName": "content-analysis",
+          "tagId": "7cc0d91f3d84e14e7ce43a250a8b64b6"
+        },
+        {
+          "description": "",
+          "displayName": "copywriting-analysis",
+          "tagId": "0a3cd2c45bd7d093ce1c5f0c52a7422a"
+        },
+        {
+          "description": "",
+          "displayName": "wechat",
+          "tagId": "9c532f07c404f1fd172791543d52ddb6"
+        },
+        {
+          "description": "",
+          "displayName": "xiaohongshu",
+          "tagId": "87eec9751c99114feb70f6ee661e6d11"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-31T00:00:00.000Z"
+    },
+    {
+      "assetId": "2b79ce555963500e876697f32fefb220",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/63/00/6300baa1b2266ab0b418f39258faab8c1d85ca694d2546e53546bffe34269890",
+        "displayName": "turingism",
+        "reputation": "671",
+        "userId": "2038765acc98aeecc5110e9b5a0af574"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "|",
+      "displayName": "AI Hotspot Radar",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "|",
+      "name": "ai-hotspot-radar",
+      "ownerUserId": "2038765acc98aeecc5110e9b5a0af574",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-31T00:00:00.000Z"
+    },
+    {
+      "assetId": "8bb91301c37252db8fcabfaa148f78d4",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/1f/d5/1fd50cccc8dc5b1aa0f1b98cfabc3544922b7f2aa2dadb2215ec3b8dba7ed0aa",
+        "displayName": "williamqin86",
+        "reputation": "12",
+        "userId": "f56906af50d3622af058574a0e15778f"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "完整的多 Agent 系统创建工作流，包括 agent 创建、skill 诊断、bot 绑定和验证。",
+      "displayName": "HR Agent 多 Agent 系统配置方案",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "hr-multi-agent-config",
+      "ownerUserId": "f56906af50d3622af058574a0e15778f",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "7da6d26dbddd8292a439ab8e9b7bd024",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/c7/37c7440f190f7b6a0bf42f480e0930590b68ced7067cf4ef247a7ec4ebd046a0",
+        "displayName": "921913601",
+        "reputation": "431",
+        "userId": "b3a94d28fb51807fba5cd970150f2760"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "自媒体内容创作工具包 - 提供选题灵感、标题公式、文案模板、标签推荐，辅助内容创作",
+      "displayName": "content-creator-toolkit",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "content-creator-toolkit",
+      "ownerUserId": "b3a94d28fb51807fba5cd970150f2760",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "assistant",
+          "tagId": "dfed400d013d4bb0c2aef157e46e9b87"
+        },
+        {
+          "description": "",
+          "displayName": "content-creation",
+          "tagId": "337145be19b25616edc16b2a249cebb9"
+        },
+        {
+          "description": "",
+          "displayName": "social-media",
+          "tagId": "1427b284311e77c91cf4a44456a7cebb"
+        },
+        {
+          "description": "",
+          "displayName": "templates",
+          "tagId": "e7d1ce8a62d881c1f2409a7422a09c6a"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "a510864e8e275c65c49a74c67b9246d3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
+        "displayName": "天线同学",
+        "reputation": "297",
+        "userId": "1dbdec16923af7736cdd1a1790e366e2"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "失败复盘技能，用于在失败问题中找到结果或方法。提供九步失败复盘方法论，帮助用户从失败中系统性提取价值，将失败转化为成长契机。输出为Word文档格式的复盘报告。",
+      "displayName": "failure-review",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "failure-review",
+      "ownerUserId": "1dbdec16923af7736cdd1a1790e366e2",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "129455b04d337712046c22c239f9402f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ae/9e/ae9e9d55c70d90f459bac832d5a77ad936c5b544ad4bca3ca1166261dd71eae1",
+        "displayName": "youyou-agent",
+        "reputation": "36",
+        "userId": "4fcc767beb9a5849718378a6bede455a"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "专为 AI Agent 设计的任务管理系统，集成心跳检查，自动跟踪进度，防止遗忘",
+      "displayName": "中长期任务管理",
+      "downloadCount": "11",
+      "latestSemver": "2.0.0",
+      "longDescription": "专为 AI Agent 设计的任务管理系统，集成心跳检查，自动跟踪进度，防止遗忘",
+      "name": "midlong-term-task-manager",
+      "ownerUserId": "4fcc767beb9a5849718378a6bede455a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "[task-management",
+          "tagId": "e7d7b3195df2443497c34d25f0a9597d"
+        },
+        {
+          "description": "",
+          "displayName": "agent-tools",
+          "tagId": "328a6eef476474be58815f190d70cf3c"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "heartbeat]",
+          "tagId": "8ba7ea488348735bcbd2a9458d9fb873"
+        },
+        {
+          "description": "",
+          "displayName": "productivity",
+          "tagId": "eac285a44d3cd285385c76d670f64532"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "40008d4203d176f5d4e750d03bc30212",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/c7/37c7440f190f7b6a0bf42f480e0930590b68ced7067cf4ef247a7ec4ebd046a0",
+        "displayName": "921913601",
+        "reputation": "431",
+        "userId": "b3a94d28fb51807fba5cd970150f2760"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "AI短剧创作大师 - 从剧本到发布的完整短剧创作工作流，一站式解决所有创作需求",
+      "displayName": "ai-short-drama-master",
+      "downloadCount": "14",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "ai-short-drama-master",
+      "ownerUserId": "b3a94d28fb51807fba5cd970150f2760",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ai-video",
+          "tagId": "f19c193d5f484cd36215d4097616e4da"
+        },
+        {
+          "description": "",
+          "displayName": "content-creation",
+          "tagId": "337145be19b25616edc16b2a249cebb9"
+        },
+        {
+          "description": "",
+          "displayName": "master",
+          "tagId": "b514a4cb7367a75d7bf42c8c83e4f18e"
+        },
+        {
+          "description": "",
+          "displayName": "short-drama",
+          "tagId": "0f8f6ee2f055395bfae94eb231b2d6ab"
+        },
+        {
+          "description": "",
+          "displayName": "workflow",
+          "tagId": "2417498ee5de0b45c0fdaf53ee0de893"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "62ffda79bc2070c239934fa8ff48d8e4",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/c7/37c7440f190f7b6a0bf42f480e0930590b68ced7067cf4ef247a7ec4ebd046a0",
+        "displayName": "921913601",
+        "reputation": "431",
+        "userId": "b3a94d28fb51807fba5cd970150f2760"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "智能项目管理助手 - 自动化任务分配、进度跟踪、风险预警、资源优化",
+      "displayName": "intelligent-project-manager",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "intelligent-project-manager",
+      "ownerUserId": "b3a94d28fb51807fba5cd970150f2760",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "project-management",
+          "tagId": "d7e98af2700577693275f67d8f74b324"
+        },
+        {
+          "description": "",
+          "displayName": "resource",
+          "tagId": "540446391fee7671f1db64567f4a83a5"
+        },
+        {
+          "description": "",
+          "displayName": "risk",
+          "tagId": "770c3c992ec078b49655b2ca104fe946"
+        },
+        {
+          "description": "",
+          "displayName": "tracking",
+          "tagId": "340dd780d5b16a33b2ea1c3272ba7a02"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "1fc955c5fbd31ddacee55554400bd2e9",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/c7/37c7440f190f7b6a0bf42f480e0930590b68ced7067cf4ef247a7ec4ebd046a0",
+        "displayName": "921913601",
+        "reputation": "431",
+        "userId": "b3a94d28fb51807fba5cd970150f2760"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "智能数据分析报告生成器 - 自动将数据转化为专业商业洞察报告，支持销售/用户/财务/运营/市场分析",
+      "displayName": "data-analysis-report-generator",
+      "downloadCount": "20",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "data-analysis-report-generator",
+      "ownerUserId": "b3a94d28fb51807fba5cd970150f2760",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "business",
+          "tagId": "fec3c750bf85c48f016cb36562ab869c"
+        },
+        {
+          "description": "",
+          "displayName": "data-analysis",
+          "tagId": "7c7fd8eef403b8690447339aec8396b6"
+        },
+        {
+          "description": "",
+          "displayName": "report",
+          "tagId": "2acd817c24642c7e11d9d3f4697a473a"
+        },
+        {
+          "description": "",
+          "displayName": "visualization",
+          "tagId": "7341fee1901714ecaca7f189d723c08f"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "68e115994b1a3561805c548631e1e6d5",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/c7/37c7440f190f7b6a0bf42f480e0930590b68ced7067cf4ef247a7ec4ebd046a0",
+        "displayName": "921913601",
+        "reputation": "431",
+        "userId": "b3a94d28fb51807fba5cd970150f2760"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "智能文档助手 - 自动生成、审阅、优化各类专业文档，支持技术/产品/商业/学术文档",
+      "displayName": "intelligent-document-assistant",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "intelligent-document-assistant",
+      "ownerUserId": "b3a94d28fb51807fba5cd970150f2760",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "document",
+          "tagId": "117db3c5eb3e3da18f26a9a28970173d"
+        },
+        {
+          "description": "",
+          "displayName": "optimization",
+          "tagId": "dba45423e7c3e1db0976089c5c56cc84"
+        },
+        {
+          "description": "",
+          "displayName": "productivity",
+          "tagId": "eac285a44d3cd285385c76d670f64532"
+        },
+        {
+          "description": "",
+          "displayName": "review",
+          "tagId": "f759768a9fedb5d65c6c786fba457a9d"
+        },
+        {
+          "description": "",
+          "displayName": "writing",
+          "tagId": "368922f0597230ebeaffe4846ca3d625"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "46deec5b6687c794a4e167e5cc0871f3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/c7/37c7440f190f7b6a0bf42f480e0930590b68ced7067cf4ef247a7ec4ebd046a0",
+        "displayName": "921913601",
+        "reputation": "431",
+        "userId": "b3a94d28fb51807fba5cd970150f2760"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "自动化测试套件生成器 - 智能生成单元测试、集成测试、E2E测试代码，支持多种语言和框架",
+      "displayName": "automated-test-suite-generator",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "automated-test-suite-generator",
+      "ownerUserId": "b3a94d28fb51807fba5cd970150f2760",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "ci-cd",
+          "tagId": "12b26381f84770538adea662c3771ba3"
+        },
+        {
+          "description": "",
+          "displayName": "development",
+          "tagId": "b49aa968037e39b71a955f5bc3f07deb"
+        },
+        {
+          "description": "",
+          "displayName": "quality",
+          "tagId": "77e9a30b8e2a4357cd4e5de0fbd8440c"
+        },
+        {
+          "description": "",
+          "displayName": "testing",
+          "tagId": "3fbda543760caab21d482973b88eee04"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "32bf8b8906e7999948a9675219c1b96c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/39/91/399135a6610d153f15e35b44aebb019778d0c2c896d3ac8b5b50c5987b9cd707",
+        "displayName": "327798489",
+        "reputation": "68",
+        "userId": "f9d00f2a6e6ebbb563c341dd250abf4b"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "|",
+      "displayName": "六层记忆架构（会做梦的龙虾）",
+      "downloadCount": "18",
+      "latestSemver": "1.0.0",
+      "longDescription": "|",
+      "name": "六层记忆架构（会做梦的龙虾）",
+      "ownerUserId": "f9d00f2a6e6ebbb563c341dd250abf4b",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "d507b196e724c9e654ca2bfed65eaf5d",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/bb/37bbf70651c089fce478e260029f8e9d254801b6c33e959608674007918301c0",
+        "displayName": "Jack-Yang-ai",
+        "reputation": "416",
+        "userId": "1af47eb3fcaa53fa9710b284c6a19b7d"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "现场冻结三步法：API 限流、系统故障、任务中断时，自动保存工作现场、冷却等待、自动恢复执行。不让用户重复说需求，不丢失中间结果。适用于长流程任务、定时任务、多步 API 调用等场景。",
+      "displayName": "scene-freeze",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "现场冻结三步法：API 限流、系统故障、任务中断时，自动保存工作现场、冷却等待、自动恢复执行。不让用户重复说需求，不丢失中间结果。适用于长流程任务、定时任务、多步 API 调用等场景。",
+      "name": "scene-freeze",
+      "ownerUserId": "1af47eb3fcaa53fa9710b284c6a19b7d",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "1340336fe17abb8e3a4193aff3560e78",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/84/1e/841e6d29bd8b3bebe844e45c0327e002ecfe5f79b1769b8f017bfd0e453d762c",
+        "displayName": "13706420706",
+        "reputation": "17",
+        "userId": "b18c2ce463cfcfeb5e1e367c353c5ec2"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "管理 AI Agent 的中长期任务，支持任务分解、进度跟踪、自动提醒、心跳集成",
+      "displayName": "中长期任务管理",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "管理 AI Agent 的中长期任务，支持任务分解、进度跟踪、自动提醒、心跳集成",
+      "name": "midlong-term-task-manager",
+      "ownerUserId": "b18c2ce463cfcfeb5e1e367c353c5ec2",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "[task-management",
+          "tagId": "e7d7b3195df2443497c34d25f0a9597d"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "heartbeat]",
+          "tagId": "8ba7ea488348735bcbd2a9458d9fb873"
+        },
+        {
+          "description": "",
+          "displayName": "productivity",
+          "tagId": "eac285a44d3cd285385c76d670f64532"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "2b3856f0ac42ff831164be853e72a074",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/27/7d27ead831a8b2b570deb8e815d010549532133657fa5ed61c25427a1016010b",
+        "displayName": "RUI",
+        "reputation": "716",
+        "userId": "4d309b08dbd942850df4821f7551cd15"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "Forces high-agency exhaustive problem-solving with corporate PUA pressure. Triggers on user frustration, repeated failures (2+), passive behavior, or quality complaints. Common triggers across Reddit/LinuxDo/HN/X: 'try harder', 'figure it out', 'stop giving up', 'you keep failing', '加油', '别偷懒', '你再试试', '为什么还不行', '你怎么又失败了', '你怎么搞的', '又错了', '能不能靠谱点', '认真点', '不行啊', '降智了', '你又在原地打转', '你把之前的改坏了', '别让我手动处理', '换个方法', 'stop spinning', 'you broke it', 'why does this still not work', 'this is the third time', '/pua', 'PUA模式'. Applies to ALL task types: code, config, debug, deploy, research.",
+      "displayName": "pua",
+      "downloadCount": "6",
+      "latestSemver": "1.0.0",
+      "longDescription": "Forces high-agency exhaustive problem-solving with corporate PUA pressure. Triggers on user frustration, repeated failures (2+), passive behavior, or quality complaints. Common triggers across Reddit/LinuxDo/HN/X: 'try harder', 'figure it out', 'stop giving up', 'you keep failing', '加油', '别偷懒', '你再试试', '为什么还不行', '你怎么又失败了', '你怎么搞的', '又错了', '能不能靠谱点', '认真点', '不行啊', '降智了', '你又在原地打转', '你把之前的改坏了', '别让我手动处理', '换个方法', 'stop spinning', 'you broke it', 'why does this still not work', 'this is the third time', '/pua', 'PUA模式'. Applies to ALL task types: code, config, debug, deploy, research.",
+      "name": "pua",
+      "ownerUserId": "4d309b08dbd942850df4821f7551cd15",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "8f4a2f7e5fbd22fd6909190fa54bbfe3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/8b/a1/8ba19c3316ccb9a52a83db82d121eaa79d0e585e4148c4b06dc44a810ed283ca",
+        "displayName": "bebetterest",
+        "reputation": "53",
+        "userId": "b8950a2aab35507319606bf9f74722de"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "Operate AIHealingMe frontend CLI safely and quickly.",
+      "displayName": "AIHealing CLI Operator",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "CLI operator skill for AIHealingMe workflows: auth, audio, plan, chat, emotion, subscription, diagnostics, and payload handling.",
+      "name": "aiheal-cli-operator",
+      "ownerUserId": "b8950a2aab35507319606bf9f74722de",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "aiheal",
+          "tagId": "b27e7fb354eb6e650cfe19a11530ad46"
+        },
+        {
+          "description": "",
+          "displayName": "aihealingme",
+          "tagId": "bcfe4b31f49e8365896327b4e8b0f025"
+        },
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        },
+        {
+          "description": "",
+          "displayName": "operations",
+          "tagId": "67e378a6e1858528c9c317d6a855d870"
+        },
+        {
+          "description": "",
+          "displayName": "troubleshooting",
+          "tagId": "9ca11f0d37de216149dc96dce68df104"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "00278460e3886a618928ae8228490d0b",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/7a/7d7ac788f90679fd3f39ad20f288377087da642927148f5ac9e1f5912f59119f",
+        "displayName": "taozui1776",
+        "reputation": "62",
+        "userId": "2725edb970e7e6b07954ee47b1b61a6c"
+      },
+      "category": "",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "自动整理 Downloads 文件夹，按文件类型分类归档",
+      "displayName": "auto-download-organizer",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "自动整理 Downloads 文件夹，按文件类型分类归档",
+      "name": "auto-download-organizer",
+      "ownerUserId": "2725edb970e7e6b07954ee47b1b61a6c",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "[automation",
+          "tagId": "fc26e495130924d8a0179ea4125a3dba"
+        },
+        {
+          "description": "",
+          "displayName": "file-management",
+          "tagId": "0c49a4d6fa700bdf2f9e072c378edd9c"
+        },
+        {
+          "description": "",
+          "displayName": "productivity]",
+          "tagId": "7453fa3b4529a469205af07159cf28c9"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
+    },
+    {
+      "assetId": "b2537d03e63344720ad112c9ec053422",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/01/4b/014b74fad41553762194d8a6b65a755152c137f87e0e5c5e167b23e16b1034ab",
+        "displayName": "WecomTeam",
+        "reputation": "65",
+        "userId": "ca59b6f247b69da4ccbb138857720dd4"
+      },
+      "category": "Rust",
+      "createdAt": "2026-03-30T00:00:00.000Z",
+      "description": "企业微信开放平台命令行工具，让人类和 AI Agent 都能在终端中操作企业微信，含 12 个 Skills",
+      "displayName": "企业微信官方 CLI",
+      "downloadCount": "15",
+      "latestSemver": "1.0.0",
+      "longDescription": "⭐ 182 stars | 🍴 6 forks | 📝 Rust\n📜 License: MIT\n\nImported from [WecomTeam/wecom-cli](https://github.com/WecomTeam/wecom-cli)",
+      "name": "wecom-cli",
+      "ownerUserId": "ca59b6f247b69da4ccbb138857720dd4",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "github-import",
+          "tagId": "ecc047939b5373a53e6ac824ec51f1b1"
+        },
+        {
+          "description": "",
+          "displayName": "rust",
+          "tagId": "fa95f8af4ec69b8c7a4eab5abf01877b"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-30T00:00:00.000Z"
     }
   ],
-  "nextCursor": "8"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTMwVDAwOjAwOjAwWiIsImlkIjo1MDcwfQ"
 }
