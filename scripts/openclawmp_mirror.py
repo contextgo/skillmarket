@@ -6,19 +6,18 @@ import concurrent.futures
 import csv
 import hashlib
 import json
-import shutil
-import tempfile
+import os
+import tarfile
 import threading
 import time
-import urllib.parse
 import urllib.request
 import zipfile
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Tuple
 
 
-ROOT_URL = "https://openclawmp.cc/api/v1"
-ASSETS_URL = "https://openclawmp.cc/api/v1/assets"
+DEFAULT_BASE_URL = "https://openclawmp.stepfun.com"
+CONNECT_SERVICE = "step.seafood.catalog.CatalogService"
 USER_AGENT = "openclawmp-mirror/0.1"
 REQUEST_TIMEOUT = 60
 TEXT_EXTENSIONS = {
@@ -97,8 +96,27 @@ def http_request(url: str, accept: str = "application/json") -> urllib.request.R
     )
 
 
+def connect_request(url: str, payload: Dict[str, Any]) -> urllib.request.Request:
+    return urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        method="POST",
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+            "Content-Type": "application/json",
+            "Connect-Protocol-Version": "1",
+        },
+    )
+
+
 def http_get_json(url: str) -> Any:
     with urllib.request.urlopen(http_request(url), timeout=REQUEST_TIMEOUT) as response:
+        return json.loads(response.read().decode("utf-8"))
+
+
+def http_post_json(url: str, payload: Dict[str, Any]) -> Any:
+    with urllib.request.urlopen(connect_request(url, payload), timeout=REQUEST_TIMEOUT) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -125,6 +143,20 @@ def is_valid_zip(path: Path) -> bool:
             return len(archive.infolist()) > 0
     except Exception:
         return False
+
+
+def is_valid_tar_gz(path: Path) -> bool:
+    if not path.exists() or path.stat().st_size <= 0:
+        return False
+    try:
+        with tarfile.open(path, "r:gz") as archive:
+            return bool(archive.getmembers())
+    except Exception:
+        return False
+
+
+def is_valid_archive(path: Path) -> bool:
+    return is_valid_zip(path) or is_valid_tar_gz(path)
 
 
 def flatten_file_tree(nodes: List[Dict[str, Any]], prefix: str = "") -> List[Tuple[str, Dict[str, Any]]]:
@@ -210,22 +242,81 @@ def write_summary(path: Path, rows: List[Dict[str, Any]], root_info: Dict[str, A
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
-def fetch_root_info() -> Dict[str, Any]:
-    payload = http_get_json(ROOT_URL)
-    if not isinstance(payload, dict):
-        raise RuntimeError(f"unexpected root payload: {payload}")
-    return payload
+def normalize_base_url(value: str) -> str:
+    return str(value or DEFAULT_BASE_URL).strip().rstrip("/")
 
 
-def build_assets_url(asset_type: str, limit: int, cursor: str | None) -> str:
-    query = {"type": asset_type, "limit": limit}
-    if cursor:
-        query["cursor"] = cursor
-    return f"{ASSETS_URL}?{urllib.parse.urlencode(query)}"
+def connect_url(base_url: str, method: str) -> str:
+    return f"{normalize_base_url(base_url)}/api/{CONNECT_SERVICE}/{method}"
 
 
-def fetch_catalog(asset_type: str, limit: int, output_root: Path) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
-    root_info = fetch_root_info()
+ASSET_TYPE_TO_CONNECT = {
+    "experience": 1,
+    "skill": 2,
+    "plugin": 3,
+    "trigger": 4,
+    "channel": 5,
+}
+
+CONNECT_TO_ASSET_TYPE = {value: key for key, value in ASSET_TYPE_TO_CONNECT.items()}
+
+
+def tag_name(tag: Any) -> str:
+    if isinstance(tag, str):
+        return tag.strip()
+    if isinstance(tag, dict):
+        return str(tag.get("displayName") or tag.get("name") or tag.get("tagId") or "").strip()
+    return ""
+
+
+def to_int(value: Any) -> int:
+    try:
+        return int(float(value or 0))
+    except Exception:
+        return 0
+
+
+def normalize_connect_item(item: Dict[str, Any], base_url: str) -> Dict[str, Any]:
+    asset_id = str(item.get("assetId") or item.get("id") or "").strip()
+    asset_type_value = item.get("assetType")
+    local_type = CONNECT_TO_ASSET_TYPE.get(to_int(asset_type_value), str(asset_type_value or ""))
+    author = item.get("author") if isinstance(item.get("author"), dict) else {}
+    version = str(item.get("latestSemver") or item.get("version") or "").strip() or "unknown"
+    tags = [name for name in (tag_name(tag) for tag in item.get("tags") or []) if name]
+    base = normalize_base_url(base_url)
+
+    return {
+        "id": asset_id,
+        "name": str(item.get("name") or "").strip(),
+        "displayName": str(item.get("displayName") or item.get("name") or "").strip(),
+        "type": local_type,
+        "description": str(item.get("description") or item.get("longDescription") or "").strip(),
+        "tags": tags,
+        "installs": to_int(item.get("downloadCount") or item.get("installCount") or item.get("installs")),
+        "rating": to_int(item.get("rating")),
+        "author": str(author.get("displayName") or author.get("name") or item.get("ownerUserId") or "").strip(),
+        "authorId": str(author.get("userId") or author.get("id") or item.get("ownerUserId") or "").strip(),
+        "authorAvatar": str(author.get("avatarUrl") or author.get("avatar") or "").strip(),
+        "authorReputation": to_int(author.get("reputation")),
+        "version": version,
+        "updatedAt": str(item.get("updatedAt") or item.get("createdAt") or "").strip(),
+        "category": str(item.get("category") or "").strip(),
+        "githubStars": 0,
+        "totalStars": to_int(item.get("totalStars") or item.get("stars")),
+        "installCommand": f"openclawmp install {local_type}/{asset_id}" if local_type and asset_id else "",
+        "asset_url": f"{base}/explore/{asset_id}" if asset_id else base,
+        "readme_url": f"{base}/explore/{asset_id}" if asset_id else base,
+        "download_url": "",
+        "_connect_asset_id": asset_id,
+    }
+
+
+def fetch_catalog(base_url: str, asset_type: str, limit: int, output_root: Path) -> Tuple[Dict[str, Any], List[Dict[str, Any]]]:
+    root_info: Dict[str, Any] = {
+        "source": "connect",
+        "base_url": normalize_base_url(base_url),
+        "stats": {"type_breakdown": {asset_type: "unknown"}},
+    }
     pages_dir = output_root / "catalog" / "pages"
     pages_dir.mkdir(parents=True, exist_ok=True)
 
@@ -235,7 +326,10 @@ def fetch_catalog(asset_type: str, limit: int, output_root: Path) -> Tuple[Dict[
     seen_ids = set()
 
     while True:
-        payload = http_get_json(build_assets_url(asset_type, limit, cursor))
+        payload = http_post_json(
+            connect_url(base_url, "SearchAssets"),
+            {"query": "", "pageSize": limit, "pageToken": cursor or ""},
+        )
         if not isinstance(payload, dict):
             raise RuntimeError(f"unexpected assets payload on page {page_num}: {payload}")
         write_json(pages_dir / f"page-{page_num:04d}.json", payload)
@@ -245,18 +339,22 @@ def fetch_catalog(asset_type: str, limit: int, output_root: Path) -> Tuple[Dict[
         for item in page_items:
             if not isinstance(item, dict):
                 continue
-            asset_id = str(item.get("id", "")).strip()
+            normalized = normalize_connect_item(item, base_url)
+            if normalized.get("type") != asset_type:
+                continue
+            asset_id = str(normalized.get("id", "")).strip()
             if not asset_id or asset_id in seen_ids:
                 continue
             seen_ids.add(asset_id)
-            items.append(item)
-        cursor = str(payload.get("nextCursor") or "").strip() or None
+            items.append(normalized)
+        cursor = str(payload.get("nextPageToken") or payload.get("nextCursor") or "").strip() or None
         if page_num % 10 == 0 or cursor is None:
             print(f"catalog page {page_num}  items={len(items)}", flush=True)
         if cursor is None:
             break
         page_num += 1
 
+    root_info["stats"] = {"type_breakdown": {asset_type: len(items)}}
     write_json(
         output_root / "catalog" / "skills_catalog.json",
         {
@@ -274,14 +372,14 @@ def build_row(item: Dict[str, Any], output_root: Path) -> Dict[str, Any]:
     asset_id = str(item.get("id", "")).strip()
     name = str(item.get("name", "")).strip()
     version = str(item.get("version", "")).strip() or "unknown"
-    zip_path = output_root / "zips" / asset_id / f"{safe_name(name)}-{safe_name(version)}.zip"
+    zip_path = output_root / "zips" / asset_id / f"{safe_name(name)}-{safe_name(version)}.tgz"
     tags = item.get("tags")
     return {
         **item,
         "tags_json": json.dumps(tags, ensure_ascii=False) if tags is not None else "",
-        "asset_url": f"https://openclawmp.cc/api/v1/assets/{asset_id}",
-        "readme_url": f"https://openclawmp.cc/api/v1/assets/{asset_id}/readme",
-        "download_url": f"https://openclawmp.cc/api/v1/assets/{asset_id}/download?version={urllib.parse.quote(version, safe='')}",
+        "asset_url": item.get("asset_url") or "",
+        "readme_url": item.get("readme_url") or "",
+        "download_url": item.get("download_url") or "",
         "local_zip_path": str(zip_path),
         "zip_size_bytes": 0,
         "zip_sha256": "",
@@ -309,8 +407,18 @@ def stream_download(url: str, destination: Path) -> Tuple[int, str, int, str]:
         return int(getattr(response, "status", 200) or 200), response.geturl(), total, digest.hexdigest()
 
 
-def download_via_files_api(asset_id: str, version: str, destination: Path) -> Tuple[int, str, int, str, int]:
-    detail = http_get_json(f"https://openclawmp.cc/api/v1/assets/{asset_id}")
+def get_connect_download_url(asset_id: str, base_url: str) -> str:
+    payload = http_post_json(connect_url(base_url, "GetReversionDownloadUrl"), {"assetId": asset_id})
+    if not isinstance(payload, dict):
+        raise RuntimeError(f"unexpected download url payload for {asset_id}: {payload}")
+    download_url = str(payload.get("downloadUrl") or "").strip()
+    if not download_url:
+        raise RuntimeError(f"missing downloadUrl for {asset_id}")
+    return download_url
+
+
+def download_via_files_api(asset_id: str, version: str, destination: Path, base_url: str) -> Tuple[int, str, int, str, int]:
+    detail = http_post_json(connect_url(base_url, "GetAsset"), {"assetId": asset_id})
     if not isinstance(detail, dict):
         raise RuntimeError(f"unexpected detail payload for {asset_id}")
 
@@ -369,9 +477,9 @@ def download_via_files_api(asset_id: str, version: str, destination: Path) -> Tu
     return 200, f"asset-detail:{asset_id}", destination.stat().st_size, sha256_file(destination), included_count
 
 
-def attempt_download(row: Dict[str, Any]) -> Dict[str, Any]:
+def attempt_download(row: Dict[str, Any], base_url: str) -> Dict[str, Any]:
     destination = Path(str(row["local_zip_path"]))
-    if is_valid_zip(destination):
+    if is_valid_archive(destination):
         return {
             "zip_size_bytes": destination.stat().st_size,
             "zip_sha256": sha256_file(destination),
@@ -388,16 +496,17 @@ def attempt_download(row: Dict[str, Any]) -> Dict[str, Any]:
         temp_path.unlink()
 
     try:
-        _, _, size_bytes, sha256_value = stream_download(str(row["download_url"]), temp_path)
-        if not is_valid_zip(temp_path):
-            raise RuntimeError("downloaded file is not a valid zip")
+        download_url = str(row.get("download_url") or "").strip() or get_connect_download_url(asset_id, base_url)
+        _, _, size_bytes, sha256_value = stream_download(download_url, temp_path)
+        if not is_valid_archive(temp_path):
+            raise RuntimeError("downloaded file is not a valid archive")
         destination.parent.mkdir(parents=True, exist_ok=True)
         temp_path.replace(destination)
         return {
             "zip_size_bytes": size_bytes,
             "zip_sha256": sha256_value,
             "download_status": "downloaded",
-            "download_source": "zip-api",
+            "download_source": "connect-download",
             "files_count": 0,
             "error": "",
         }
@@ -407,7 +516,7 @@ def attempt_download(row: Dict[str, Any]) -> Dict[str, Any]:
         try:
             if temp_path.exists():
                 temp_path.unlink()
-            _, _, size_bytes, sha256_value, files_count = download_via_files_api(asset_id, version, temp_path)
+            _, _, size_bytes, sha256_value, files_count = download_via_files_api(asset_id, version, temp_path, base_url)
             destination.parent.mkdir(parents=True, exist_ok=True)
             temp_path.replace(destination)
             return {
@@ -416,7 +525,7 @@ def attempt_download(row: Dict[str, Any]) -> Dict[str, Any]:
                 "download_status": "recovered_files",
                 "download_source": "files-api",
                 "files_count": files_count,
-                "error": f"zip-api failed: {exc}",
+                "error": f"connect-download failed: {exc}",
             }
         except Exception as fallback_exc:
             if temp_path.exists():
@@ -427,13 +536,13 @@ def attempt_download(row: Dict[str, Any]) -> Dict[str, Any]:
                 "download_status": "failed",
                 "download_source": "",
                 "files_count": 0,
-                "error": f"zip-api failed: {exc}; files-api failed: {fallback_exc}",
+                "error": f"connect-download failed: {exc}; files-api failed: {fallback_exc}",
             }
 
 
-def mirror(output_root: Path, asset_type: str, page_limit: int, download_concurrency: int, limit: int) -> None:
+def mirror(output_root: Path, base_url: str, asset_type: str, page_limit: int, download_concurrency: int, limit: int) -> None:
     started_at = time.time()
-    root_info, items = fetch_catalog(asset_type=asset_type, limit=page_limit, output_root=output_root)
+    root_info, items = fetch_catalog(base_url=base_url, asset_type=asset_type, limit=page_limit, output_root=output_root)
     if limit > 0:
         items = items[:limit]
     rows = [build_row(item, output_root) for item in items]
@@ -446,7 +555,7 @@ def mirror(output_root: Path, asset_type: str, page_limit: int, download_concurr
 
     def worker(index: int, row: Dict[str, Any]) -> Tuple[int, Dict[str, Any]]:
         result = dict(row)
-        result.update(attempt_download(row))
+        result.update(attempt_download(row, base_url))
         with jsonl_lock:
             with jsonl_path.open("a", encoding="utf-8") as handle:
                 handle.write(json.dumps(result, ensure_ascii=False) + "\n")
@@ -467,6 +576,7 @@ def mirror(output_root: Path, asset_type: str, page_limit: int, download_concurr
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Mirror openclawmp skills into local zip archives")
     parser.add_argument("--output-root", default="openclawmp_mirror")
+    parser.add_argument("--base-url", default=os.environ.get("OPENCLAWMP_BASE_URL", DEFAULT_BASE_URL))
     parser.add_argument("--type", default="skill")
     parser.add_argument("--page-limit", type=int, default=100)
     parser.add_argument("--download-concurrency", type=int, default=12)
@@ -479,6 +589,7 @@ def main() -> int:
     args = parser.parse_args()
     mirror(
         output_root=Path(args.output_root).expanduser().resolve(),
+        base_url=normalize_base_url(args.base_url),
         asset_type=args.type,
         page_limit=args.page_limit,
         download_concurrency=args.download_concurrency,

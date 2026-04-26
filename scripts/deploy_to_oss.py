@@ -138,6 +138,15 @@ def guess_type(path: str) -> str:
     return mime or 'application/octet-stream'
 
 
+def package_content_type(path: Path) -> str:
+    name = path.name.lower()
+    if name.endswith(('.tgz', '.tar.gz')):
+        return 'application/gzip'
+    if name.endswith('.zip'):
+        return 'application/zip'
+    return guess_type(path.name)
+
+
 def iter_files(base: Path) -> Iterable[Path]:
     for path in sorted(base.rglob('*')):
         if path.is_file():
@@ -185,10 +194,10 @@ def build_upload_items(site_url: str, include_site: bool, include_packages: bool
     if include_packages:
         for path in iter_files(ROOT / 'mirror' / 'zips'):
             rel = path.relative_to(ROOT / 'mirror' / 'zips')
-            items.append(UploadItem(path, f'packages/skillhub/{rel.as_posix()}', 'application/zip', 'public,max-age=31536000,immutable'))
+            items.append(UploadItem(path, f'packages/skillhub/{rel.as_posix()}', package_content_type(path), 'public,max-age=31536000,immutable'))
         for path in iter_files(ROOT / 'openclawmp_mirror' / 'zips'):
             rel = path.relative_to(ROOT / 'openclawmp_mirror' / 'zips')
-            items.append(UploadItem(path, f'packages/openclawmp/{rel.as_posix()}', 'application/zip', 'public,max-age=31536000,immutable'))
+            items.append(UploadItem(path, f'packages/openclawmp/{rel.as_posix()}', package_content_type(path), 'public,max-age=31536000,immutable'))
     return items
 
 
