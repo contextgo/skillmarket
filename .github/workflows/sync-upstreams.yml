@@ -61,6 +61,7 @@ jobs:
         id: detect_changes
         run: |
           git add mirror openclawmp_mirror market/data
+          git reset -- mirror/reports/download_results.jsonl openclawmp_mirror/reports/download_results.jsonl
           if git diff --cached --quiet; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No upstream changes detected."
