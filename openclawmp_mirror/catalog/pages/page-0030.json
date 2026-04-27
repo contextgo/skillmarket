@@ -13,7 +13,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "AI-powered web research assistant that leverages BrowserAct API to supplement restricted web access by searching the internet for additional information. Designed for OpenClaw and Claude Code.",
       "displayName": "Web Research Assistant",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "0.1.0",
       "longDescription": "📦 ClawHub: [phheng/web-research-assistant](https://clawhub.ai/phheng/web-research-assistant)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/phheng/web-research-assistant)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-08",
       "name": "web-research-assistant",
@@ -91,7 +91,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Research and summarize what happened in the last N days (or a date range) about a topic, optionally using Reddit API and X ingestion via x-cli/API/archive with graceful fallback to web.",
       "displayName": "lastXdays",
-      "downloadCount": "13",
+      "downloadCount": "14",
       "latestSemver": "1.0.2",
       "longDescription": "📦 ClawHub: [levineam/lastxdays](https://clawhub.ai/levineam/lastxdays)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/levineam/lastxdays)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-21",
       "name": "lastxdays",
@@ -149,7 +149,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Leverage external AI models (ChatGPT, Claude, Hugging Face, etc.) as tools via browser automation (Chrome Relay) and optional Hugging Face API. Use when you need to augment the assistant's capabilities with external LLMs for reasoning, summarization, code generation, or other tasks without spawning isolated sub‑agents.\"",
       "displayName": "External Ai Integration",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [konscious0beast/external-ai-integration](https://clawhub.ai/konscious0beast/external-ai-integration)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/konscious0beast/external-ai-integration)\n📅 Published: 2026-02-22",
       "name": "external-ai-integration",
@@ -222,7 +222,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Manage Cloudflare domains, DNS records, SSL settings, zone configuration, firewall rules, tunnels, and analytics via the Cloudflare API. Use when the user asks to set up a domain, add/edit/delete DNS records, configure SSL, check zone settings, manage Cloudflare Tunnels, view analytics, or any Cloudflare account management task.",
       "displayName": "Cloudflare",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "1.5.0",
       "longDescription": "📦 ClawHub: [insipidpoint/cloudflare-toolkit](https://clawhub.ai/insipidpoint/cloudflare-toolkit)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/insipidpoint/cloudflare-toolkit)\n🏷️ Version: 1.5.0\n📅 Published: 2026-02-16",
       "name": "cloudflare-toolkit",
@@ -251,7 +251,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Retrieve public company information by stock ticker symbol or SEC CIK number using the apipick Company Facts API. Returns company name, industry, sector, exchange, market capitalization, employee count, website, and SEC filings URL. Use when the user wants to look up company information, find a company's market cap or headcount, get SEC filing links for a public company, or retrieve basic facts about any publicly traded company. Requires an apipick API key (x-api-key). Get a free key at https://www.apipick.com.",
       "displayName": "Get company fact and information by ticker or CIK",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [javainthinking/apipick-company-facts](https://clawhub.ai/javainthinking/apipick-company-facts)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/javainthinking/apipick-company-facts)\n📅 Published: 2026-02-22",
       "name": "apipick-company-facts",
@@ -290,7 +290,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": ">",
       "displayName": "AEO Prompt Research (Free)",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [psyduckler/aeo-prompt-research-free](https://clawhub.ai/psyduckler/aeo-prompt-research-free)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/psyduckler/aeo-prompt-research-free)\n📅 Published: 2026-02-15",
       "name": "aeo-prompt-research-free",
@@ -329,7 +329,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Analyze what search queries Gemini uses when answering a prompt, by running it multiple times with Google Search grounding and reporting frequency distribution. Use when investigating AEO query patterns, understanding how AI models search the web for a topic, or studying the probabilistic nature of AI-triggered search queries.",
       "displayName": "AEO Prompt Frequency Analyzer",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [psyduckler/aeo-prompt-frequency-analyzer](https://clawhub.ai/psyduckler/aeo-prompt-frequency-analyzer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/psyduckler/aeo-prompt-frequency-analyzer)\n📅 Published: 2026-02-15",
       "name": "aeo-prompt-frequency-analyzer",
@@ -368,7 +368,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Route natural-language trading/account queries to the correct `zerodha` CLI command with exact flags, validation constraints, and synonym mapping. Use when a user asks to view prices, place/modify/cancel orders, manage auth/profile/config, work with holdings/positions/margins/GTT/MF flows, or asks \"which zerodha command should I run?\"",
       "displayName": "Zerodha",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.1",
       "longDescription": "📦 ClawHub: [jatinbansal1998/zerodha-kite](https://clawhub.ai/jatinbansal1998/zerodha-kite)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jatinbansal1998/zerodha-kite)\n🏷️ Version: v1.0.1\n📅 Published: 2026-02-19",
       "name": "zerodha-kite",
@@ -436,7 +436,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Use when you need to query Etherscan API V2 for onchain activity, contract metadata, ABI/source retrieval, proxy implementation discovery, and transaction/log analysis across EVM chains.",
       "displayName": "Etherscan",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [davidtaikocha/etherscan-api](https://clawhub.ai/davidtaikocha/etherscan-api)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/davidtaikocha/etherscan-api)\n📅 Published: 2026-02-23",
       "name": "etherscan-api",
@@ -470,7 +470,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": ">",
       "displayName": "Didit Face Search",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.1.0",
       "longDescription": "📦 ClawHub: [rosasalberto/didit-face-search](https://clawhub.ai/rosasalberto/didit-face-search)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/rosasalberto/didit-face-search)\n🏷️ Version: 1.1.0\n📅 Published: 2026-03-03",
       "name": "didit-face-search",
@@ -509,7 +509,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "DuckDB-powered knowledge management system for fast retrieval across 22+ entity types (projects, contacts, tools, workflows, decisions, etc.). Use when you need to recall context about past projects, look up configuration details, find tool documentation, retrieve contact information, search workflows/procedures, or query any tracked knowledge. Supports sub-millisecond keyword search and BM25 full-text search with relevance ranking.",
       "displayName": "Cheese Brain",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "1.0.1",
       "longDescription": "📦 ClawHub: [mhugo22/cheese-brain](https://clawhub.ai/mhugo22/cheese-brain)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mhugo22/cheese-brain)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-17",
       "name": "cheese-brain",
@@ -543,7 +543,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Need to buy something from Amazon? Search and shop on Amazon.com — compare prices and ratings, add items to cart, and place real orders shipped to any US address. A simple e-commerce shopping API for AI agents.\"",
       "displayName": "Buy from Amazon — Search, Cart & Order for AI Agents",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.2.4",
       "longDescription": "📦 ClawHub: [lucasgeeksinthewood/buy-amazon](https://clawhub.ai/lucasgeeksinthewood/buy-amazon)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lucasgeeksinthewood/buy-amazon)\n🏷️ Version: 1.2.4\n📅 Published: 2026-02-20",
       "name": "buy-amazon",
@@ -616,7 +616,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Automatically moves yesterday's Obsidian daily note into a past-days/ archive folder using the Obsidian CLI move command to preserve wiki-links.",
       "displayName": "Archive Daily Note",
-      "downloadCount": "9",
+      "downloadCount": "10",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [meimakes/archive-daily-note](https://clawhub.ai/meimakes/archive-daily-note)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/meimakes/archive-daily-note)\n📅 Published: 2026-02-24",
       "name": "archive-daily-note",
@@ -694,7 +694,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Plan and run X (Twitter) operations in three modes: (1) monitor-only intelligence, (2) draft-and-approve posting, and (3) limited automation with strict guardrails. Use when setting up X account workflows, drafting posts/replies/threads, defining safety policy, scheduling content, or reviewing performance.",
       "displayName": "X Agent",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "0.1.0",
       "longDescription": "📦 ClawHub: [inceptivco/x-agent](https://clawhub.ai/inceptivco/x-agent)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/inceptivco/x-agent)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-14",
       "name": "x-agent",
@@ -757,7 +757,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Qfc Order — imported from ClawHub",
       "displayName": "Qfc Order",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [jasonahorn/qfc-order](https://clawhub.ai/jasonahorn/qfc-order)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jasonahorn/qfc-order)\n📅 Published: 2026-02-16",
       "name": "qfc-order",
@@ -882,7 +882,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Professional DOCX/PPTX document editing with tracked changes, formatting preservation, highlights, strikethrough, and Git version control.",
       "displayName": "Office Document Editor",
-      "downloadCount": "39",
+      "downloadCount": "40",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [tsukisama9292/office-document-editor](https://clawhub.ai/tsukisama9292/office-document-editor)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/tsukisama9292/office-document-editor)\n📅 Published: 2026-02-23",
       "name": "office-document-editor",
@@ -1028,7 +1028,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "File to Markdown Converter — imported from ClawHub",
       "displayName": "File to Markdown Converter",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [alaminrifat/file-to-markdown](https://clawhub.ai/alaminrifat/file-to-markdown)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/alaminrifat/file-to-markdown)\n📅 Published: 2026-02-24",
       "name": "file-to-markdown",
@@ -1051,7 +1051,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Aggregates publicly available Embodied AI and Robotics news from curated sources (robotics media, arXiv, company blogs). Delivers structured briefings on humanoid robots, foundation models, hardware, deployments, and funding with direct links to original articles.\"",
       "displayName": "Embodied Ai News",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.3",
       "longDescription": "📦 ClawHub: [hexavi8/embodied-ai-news](https://clawhub.ai/hexavi8/embodied-ai-news)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/hexavi8/embodied-ai-news)\n🏷️ Version: 1.0.3\n📅 Published: 2026-02-23",
       "name": "embodied-ai-news",
@@ -1085,7 +1085,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Meta-skill for orchestrating Apollo API, LinkedIn API, YC Cold Outreach, and MachFive Cold Email into a complete B2B cold outreach pipeline. Use when the user wants end-to-end lead sourcing, enrichment, personalized copy strategy, and generation-ready outreach sequences with strict quality and safety gates.",
       "displayName": "Cold Outreach Skill",
-      "downloadCount": "13",
+      "downloadCount": "14",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [h4gen/cold-outreach-skill](https://clawhub.ai/h4gen/cold-outreach-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/h4gen/cold-outreach-skill)\n📅 Published: 2026-02-14",
       "name": "cold-outreach-skill",
@@ -1124,7 +1124,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "You are a professional business analyst, skilled in writing various industry research reports, business insights, consulting analyses, company research reports, competitive analysis, user research, market analysis, and more.## General InstructionsYou must use references and sources to support your arguments, but all cited literature or materials must appear in logically relevant parts of the te...",
       "displayName": "Business Writing",
-      "downloadCount": "42",
+      "downloadCount": "44",
       "latestSemver": "0.1.0",
       "longDescription": "📦 ClawHub: [teamolab/business-writing](https://clawhub.ai/teamolab/business-writing)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/teamolab/business-writing)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-15",
       "name": "business-writing",
@@ -1158,7 +1158,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Manage elizaOS Cloud - deploy AI agents, chat completions, image/video generation, voice cloning, knowledge base, containers, and marketplace. Use when interacting with elizaOS Cloud, elizacloud.ai, deploying eliza agents, or managing cloud-hosted AI agents. Requires ELIZACLOUD_API_KEY environment variable.",
       "displayName": "elizaOS Cloud",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.1.0",
       "longDescription": "📦 ClawHub: [odilitime/elizacloud](https://clawhub.ai/odilitime/elizacloud)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/odilitime/elizacloud)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-12",
       "name": "elizacloud",
@@ -1187,7 +1187,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Interact with I'm Pretty Amazing (imprettyamazing.com) — a platform for tracking and celebrating accomplishments. Use when: posting wins, tracking achievements, managing profile, commenting on or liking wins, following users, submitting feedback, or proactively suggesting a win after the user accomplishes something notable.\"",
       "displayName": "I'm Pretty Amazing",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "0.2.4",
       "longDescription": "📦 ClawHub: [macksmind/imprettyamazing](https://clawhub.ai/macksmind/imprettyamazing)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/macksmind/imprettyamazing)\n🏷️ Version: 0.2.4\n📅 Published: 2026-02-22",
       "name": "imprettyamazing",
@@ -1289,7 +1289,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": ">",
       "displayName": "PocketLens",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [edenjw/pocketlens](https://clawhub.ai/edenjw/pocketlens)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/edenjw/pocketlens)\n📅 Published: 2026-02-22",
       "name": "pocketlens",
@@ -1610,7 +1610,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1659,7 +1659,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1708,7 +1708,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1752,7 +1752,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1801,7 +1801,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1850,7 +1850,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1899,7 +1899,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1948,7 +1948,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1997,7 +1997,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2020,7 +2020,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2043,7 +2043,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2066,7 +2066,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2089,7 +2089,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2112,7 +2112,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2135,7 +2135,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2158,7 +2158,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2197,7 +2197,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2236,7 +2236,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2275,7 +2275,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2314,7 +2314,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2353,7 +2353,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2392,7 +2392,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2431,7 +2431,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2470,7 +2470,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2761,7 +2761,7 @@
       "createdAt": "2026-03-17T00:00:00.000Z",
       "description": "Handle slash commands and keyword triggers in Feishu bot",
       "displayName": "Feishu Bot Command Handler",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "Handle slash commands and keyword triggers in Feishu bot",
       "name": "feishu-bot-command-handler-pattern",
@@ -3032,7 +3032,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3055,7 +3055,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3078,7 +3078,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3101,7 +3101,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3124,7 +3124,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3147,7 +3147,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3170,7 +3170,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3193,7 +3193,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3216,7 +3216,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3239,7 +3239,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3288,7 +3288,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3337,7 +3337,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3391,7 +3391,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3440,7 +3440,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21164",
+        "reputation": "21169",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",

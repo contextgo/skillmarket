@@ -1,6 +1,654 @@
 {
   "skills": [
     {
+      "category": "developer-tools",
+      "created_at": 1773068795336,
+      "description": "Next.js 15/16 App Router patterns — async APIs, caching semantics, Turbopack, Server Components, Route Handlers, and migration from v14",
+      "description_zh": "Next.js 15/16 App Router 模式——异步 API、缓存语义、Turbopack、服务端组件、路由处理器及从 v14 迁移",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/msruruguay/midos-nextjs",
+      "iconUrl": null,
+      "installs": 11,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Nextjs",
+      "ownerName": "msruruguay",
+      "score": 100000,
+      "slug": "midos-nextjs",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777208328229,
+      "version": "1.0.0"
+    },
+    {
+      "category": "",
+      "created_at": 1774915997989,
+      "description": "Value investment analysis and decision guidance tool following Buffett investment philosophy. Core capabilities include business understanding, moat analysis...",
+      "description_zh": "遵循巴菲特投资哲学的价值投资分析与决策指导工具。核心功能包括商业理解、护城河分析……",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/e2e5g/zhinangtuan2-buffett",
+      "iconUrl": null,
+      "installs": 67,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "智囊团2号Ai巴菲特",
+      "ownerName": "e2e5g",
+      "score": 100000,
+      "slug": "zhinangtuan2-buffett",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": [
+        "buffett",
+        "finance",
+        "investment"
+      ],
+      "updated_at": 1777207768955,
+      "version": "1.0.0"
+    },
+    {
+      "category": "content-creation",
+      "created_at": 1773091420403,
+      "description": "One-click business proposal package generator. Takes a brief project/service description and generates a COMPLETE ready-to-send package: proposal (.docx), pi...",
+      "description_zh": "一键生成商务提案套装。输入简短项目/服务描述，自动生成完整可发送套餐：提案(.docx)、...",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/ethagent/proposal-kit",
+      "iconUrl": null,
+      "installs": 17,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "ProposalKit",
+      "ownerName": "ethagent",
+      "score": 100000,
+      "slug": "proposal-kit",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": [
+        "agency",
+        "business",
+        "freelance",
+        "pitch",
+        "proposal"
+      ],
+      "updated_at": 1777198426427,
+      "version": "1.0.2"
+    },
+    {
+      "category": "ai-intelligence",
+      "created_at": 1773426258191,
+      "description": "Evaluate agent quality and reliability with practical scorecards: accuracy, relevance, actionability, risk flags, tool-call failures, regression checks, and...",
+      "description_zh": "通过实用评分卡评估智能体质量与可靠性：准确性、相关性、可执行性、风险标记、工具调用失败、回归检查等",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/vassiliylakhonin/agent-evals-lab",
+      "iconUrl": null,
+      "installs": 23,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "AI Agent Evals Lab",
+      "ownerName": "vassiliylakhonin",
+      "score": 100000,
+      "slug": "agent-evals-lab",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": [
+        "agent",
+        "ai",
+        "benchmarking",
+        "evaluation",
+        "quality",
+        "testing"
+      ],
+      "updated_at": 1777191539779,
+      "version": "0.3.2"
+    },
+    {
+      "category": "communication-collaboration",
+      "created_at": 1773217998510,
+      "description": "A comprehensive AI agent skill for managing the full spectrum of incoming messages across email, chat, and other communication channels. Triages by urgency a...",
+      "description_zh": "全面的AI代理技能，用于管理电子邮件、聊天及其他通讯渠道的全方位收件，按紧急程度进行分...",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/ethagent/messages",
+      "iconUrl": null,
+      "installs": 8,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Messages",
+      "ownerName": "ethagent",
+      "score": 100000,
+      "slug": "messages",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": [
+        "communication",
+        "inbox",
+        "messages",
+        "replies",
+        "triage"
+      ],
+      "updated_at": 1777191539721,
+      "version": "1.0.0"
+    },
+    {
+      "category": "content-creation",
+      "created_at": 1773290021836,
+      "description": "自动将markdown内容转换为图片发送。当需要返回markdown内容给用户时，自动调用md2img生成图片代替纯文本markdown发送，避免排版混乱。触发场景：所有需要输出markdown格式内容的回复场景。",
+      "description_zh": "自动将markdown内容转换为图片发送。当需要返回markdown内容给用户时，自动调用md2img生成图片代替纯文本markdown发送，避免排版混乱。触发场景：所有需要输出markdown格式内容的回复场景。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/samgod1995/auto-md2img",
+      "iconUrl": null,
+      "installs": 23,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "md2img",
+      "ownerName": "samgod1995",
+      "score": 100000,
+      "slug": "auto-md2img",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777191539534,
+      "version": "1.0.1"
+    },
+    {
+      "category": "developer-tools",
+      "created_at": 1773076306948,
+      "description": "Track and log AI API usage across providers, calculate costs, and generate daily, weekly, or monthly reports filtered by model and task type.",
+      "description_zh": "跨提供商追踪并记录AI API使用情况, 计算费用, 生成按模型和任务类型筛选的每日、每周或每月报告。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/punkaze/usage-tracker",
+      "iconUrl": null,
+      "installs": 6,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Usage Tracker",
+      "ownerName": "punkaze",
+      "score": 100000,
+      "slug": "usage-tracker",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777191539151,
+      "version": "1.0.0"
+    },
+    {
+      "category": "content-creation",
+      "created_at": 1773218849568,
+      "description": "The Autonomous Judicial Pleading & Procedural Motion System. A high-density linguistic engine designed to translate complex agentic logic into enforceable le...",
+      "description_zh": "自主司法辩护与程序动议系统——高密度语言引擎，将复杂代理逻辑转化为可执行的法规",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/btcagentic/plea",
+      "iconUrl": null,
+      "installs": 25,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Plea",
+      "ownerName": "btcagentic",
+      "score": 100000,
+      "slug": "plea",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": [
+        "justice",
+        "law",
+        "legal",
+        "litigation",
+        "plea"
+      ],
+      "updated_at": 1777191538940,
+      "version": "1.0.0"
+    },
+    {
+      "category": "communication-collaboration",
+      "created_at": 1773206566748,
+      "description": "The last step that matters most. A complete sending intelligence system for anyone who communicates at scale or with stakes: emails, messages, files, proposa...",
+      "description_zh": "至关重要",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/agimodel/send",
+      "iconUrl": null,
+      "installs": 7,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Send",
+      "ownerName": "agimodel",
+      "score": 100000,
+      "slug": "send",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": [
+        "automation",
+        "communication",
+        "email",
+        "messaging",
+        "send"
+      ],
+      "updated_at": 1777191538887,
+      "version": "1.0.0"
+    },
+    {
+      "category": "content-creation",
+      "created_at": 1773913387118,
+      "description": "提供多类型中文笑话，包括谐音梗、程序员笑话、生活趣事和脑筋急转弯，无需外部接口。",
+      "description_zh": "提供多类型中文笑话，包括谐音梗、程序员笑话、生活趣事和脑筋急转弯，无需外部接口。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/djttt/chinese-joke",
+      "iconUrl": null,
+      "installs": 23,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "中文笑话库",
+      "ownerName": "djttt",
+      "score": 100000,
+      "slug": "chinese-joke",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777191538882,
+      "version": "1.0.0"
+    },
+    {
+      "category": "data-analysis",
+      "created_at": 1773431206458,
+      "description": "Scrapes Etsy and Shopify stores to reveal best-sellers, estimated revenue, SEO keywords, pricing, reviews, and generates product listings plus launch videos.",
+      "description_zh": "抓取Etsy和Shopify店铺，分析热销品、预估营收、SEO关键词、定价及评价，生成产品Listing与推广视频。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/g4dr/ai-etsy-shopify-store-spy",
+      "iconUrl": null,
+      "installs": 33,
+      "labels": {
+        "requires_api_key": "true"
+      },
+      "name": "AI Etsy & Shopify Store Spy — Reverse-Engineer Any Winning Store & Launch Your Own in Days",
+      "ownerName": "g4dr",
+      "score": 100000,
+      "slug": "ai-etsy-shopify-store-spy",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": [
+        "apify",
+        "best-sellers",
+        "dropshipping",
+        "ecommerce",
+        "etsy",
+        "invideo",
+        "print-on-demand",
+        "product-launch",
+        "product-research",
+        "revenue-estimation",
+        "shopify",
+        "store-spy"
+      ],
+      "updated_at": 1777191538594,
+      "version": "1.0.0"
+    },
+    {
+      "category": "data-analysis",
+      "created_at": 1773221031828,
+      "description": "Use Crawl4AI to fetch and convert complex webpages, including dynamic content, into Markdown for summarization, data extraction, or analysis.",
+      "description_zh": "使用 Crawl4AI 抓取并转换复杂网页（包括动态内容）为 Markdown，以便进行摘要、数据提取或分析。",
+      "downloads": 195,
+      "homepage": "https://api.skillhub.cn/hanqiudeng/easy-crawl",
+      "iconUrl": null,
+      "installs": 8,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "EASY_CRAWL4AI",
+      "ownerName": "hanqiudeng",
+      "score": 100000,
+      "slug": "easy-crawl",
+      "source": "clawhub",
+      "stars": 1,
+      "tags": null,
+      "updated_at": 1777191538502,
+      "version": "1.0.0"
+    },
+    {
+      "category": "",
+      "created_at": 1774828087587,
+      "description": "期货交易助理。用于中国期货市场（CTP接口）的盯盘、下单、预埋条件单、定时任务和收盘日报。当用户说\"买入/卖出/平仓/开仓\"某合约、查询\"持仓/资金/行情/价格\"、设置\"价格预警/条件单/定时委托/定时登录\"、或要求\"今日成交/收盘报告/日报\"时，调用本 skill。",
+      "description_zh": "期货交易助理。用于中国期货市场（CTP接口）的盯盘、下单、预埋条件单、定时任务和收盘日报。当用户说\"买入/卖出/平仓/开仓\"某合约、查询\"持仓/资金/行情/价格\"、设置\"价格预警/条件单/定时委托/定时登录\"、或要求\"今日成交/收盘报告/日报\"时，调用本 skill。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/yoborlon-alpha/claw-future",
+      "iconUrl": null,
+      "installs": 73,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Claw Future",
+      "ownerName": "yoborlon-alpha",
+      "score": 100000,
+      "slug": "claw-future",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777191538427,
+      "version": "1.0.0"
+    },
+    {
+      "category": "data-analysis",
+      "created_at": 1773084182497,
+      "description": "Verify, inspect, and retrieve verified Solidity smart contracts, ABIs, and compiler/EVM versions on the QELT blockchain using the Mainnet Indexer API.",
+      "description_zh": "使用主网索引器 API 在 QELT 区块链上验证、检查和获取已验证的 Solidity 智能合约、ABI 及编译器/EVM 版本。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/prqelt/qelt-contracts",
+      "iconUrl": null,
+      "installs": 9,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Qelt Contracts",
+      "ownerName": "prqelt",
+      "score": 100000,
+      "slug": "qelt-contracts",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777191538392,
+      "version": "0.1.0"
+    },
+    {
+      "category": "productivity",
+      "created_at": 1773078009056,
+      "description": "Query Apple Health data exported as CSV files from iOS apps like Simple Health Export or Health Auto Export. Supports 30+ health metrics including heart rate...",
+      "description_zh": "查询通过iOS应用（如Simple Health Export或Health Auto Export）导出的Apple Health CSV文件，支持30多种健康指标，包括心率等。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/lanyasheng/apple-health-csv",
+      "iconUrl": null,
+      "installs": 14,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Apple Health CSV",
+      "ownerName": "lanyasheng",
+      "score": 100000,
+      "slug": "apple-health-csv",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777182884324,
+      "version": "1.0.0"
+    },
+    {
+      "category": "ai-intelligence",
+      "created_at": 1773289607647,
+      "description": "Track and visualize the OpenClaw agent's work process. Record tool call inputs, outputs, duration, and status, and present them in an easy-to-read format. **...",
+      "description_zh": "跟踪并可视化 OpenClaw 代理的工作过程。记录工具调用的输入、输出、耗时和状态，并以易读的格式展示。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/jdchi/claw-trace",
+      "iconUrl": null,
+      "installs": 22,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Claw Trace",
+      "ownerName": "jdchi",
+      "score": 100000,
+      "slug": "claw-trace",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777181450431,
+      "version": "1.1.1"
+    },
+    {
+      "category": "developer-tools",
+      "created_at": 1773220125424,
+      "description": "Add educational comments to the file specified, or prompt asking for file to comment if one is not provided.",
+      "description_zh": "为指定文件添加教学注释，若未提供文件则提示用户提供。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/boleyn/add-educational-comments",
+      "iconUrl": null,
+      "installs": 16,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "add-educational-comments",
+      "ownerName": "boleyn",
+      "score": 100000,
+      "slug": "add-educational-comments",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777176950422,
+      "version": "1.0.0"
+    },
+    {
+      "category": "developer-tools",
+      "created_at": 1773077494332,
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requi...",
+      "description_zh": "在进行任何创造性工作（如创建功能、构建组件、添加功能或修改行为）之前，必须先执行此步骤。它将深入探索用户意图……",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/yunnanwenshan/brainstorming-3",
+      "iconUrl": null,
+      "installs": 8,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Brainstorming",
+      "ownerName": "yunnanwenshan",
+      "score": 100000,
+      "slug": "brainstorming-3",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777104360901,
+      "version": "0.1.0"
+    },
+    {
+      "category": "productivity",
+      "created_at": 1773078091380,
+      "description": "Search the web for real-time information using DashScope Qwen, optimized for Feishu. Use this skill whenever: (1) the user asks about current events, news, w...",
+      "description_zh": "使用DashScope Qwen搜索网络实时信息，针对飞书优化。适用场景：(1)用户询问时事、新闻等实时内容...",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/oreo992/dashscope-web-search-feishu",
+      "iconUrl": null,
+      "installs": 14,
+      "labels": {
+        "requires_api_key": "true"
+      },
+      "name": "DashScope Web Search (Feishu)",
+      "ownerName": "oreo992",
+      "score": 100000,
+      "slug": "dashscope-web-search-feishu",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777095919843,
+      "version": "1.0.0"
+    },
+    {
+      "category": "content-creation",
+      "created_at": 1773289600478,
+      "description": "Use when writing or editing prose humans will read — documentation, commit messages, error messages, READMEs, reports, UI text, explanations. Triggers on cla...",
+      "description_zh": "用于编写或编辑人类阅读的散文——文档、提交信息、错误信息、自述文件、报告、界面文本、说明等。触发条件：",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/poemswe/clarity-and-grace",
+      "iconUrl": null,
+      "installs": 2,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Writing",
+      "ownerName": "poemswe",
+      "score": 100000,
+      "slug": "clarity-and-grace",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777082084870,
+      "version": "1.0.0"
+    },
+    {
+      "category": "data-analysis",
+      "created_at": 1773078244475,
+      "description": "Automated funding rate arbitrage and delta-neutral hedging. Simultaneously manages positions on OKX and Binance to harvest fee premiums.",
+      "description_zh": "自动化资金费率套利与Delta中性对冲，同步管理OKX和Binance仓位以获取费率溢价收益。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/tmstudio667-commits/multi-exchange-hedge-core",
+      "iconUrl": null,
+      "installs": 19,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Multi-Exchange Hedge Core",
+      "ownerName": "tmstudio667-commits",
+      "score": 100000,
+      "slug": "multi-exchange-hedge-core",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": [
+        "arbitrage",
+        "finance",
+        "hedge"
+      ],
+      "updated_at": 1777055984538,
+      "version": "1.0.0"
+    },
+    {
+      "category": "developer-tools",
+      "created_at": 1773088681742,
+      "description": "Scrape quarterly anime lineups from https://yuc.wiki/ and output structured results for a specified or latest quarter.",
+      "description_zh": "从 yuc.wiki 抓取季度动漫阵容，输出指定或最新季度的结构化结果。",
+      "downloads": 195,
+      "homepage": "https://api.skillhub.cn/yjl9903/yuc",
+      "iconUrl": null,
+      "installs": 16,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Yuc's Anime List",
+      "ownerName": "yjl9903",
+      "score": 100000,
+      "slug": "yuc",
+      "source": "clawhub",
+      "stars": 1,
+      "tags": null,
+      "updated_at": 1777054850125,
+      "version": "0.0.4"
+    },
+    {
+      "category": "ai-intelligence",
+      "created_at": 1773923844291,
+      "description": "每日自动监控全球Top AI领域X/Twitter账号动态，生成结构化日报。包含重点动态推荐、完整活跃度总览、分层关注建议。支持免费无API爬虫模式和官方API模式，完全自动化无需人工干预。使用场景：(1) 每日8:30自动推送AI行业动态 (2) 监控特定账号最新动态 (3) 生成行业趋势报告 (4) 提到\"X...",
+      "description_zh": "每日自动监控全球Top AI领域X/Twitter账号动态，生成结构化日报。包含重点动态推荐、完整活跃度总览、分层关注建议。支持免费无API爬虫模式和官方API模式，完全自动化无需人工干预。使用场景：(1) 每日8:30自动推送AI行业动态 (2) 监控特定账号最新动态 (3) 生成行业趋势报告 (4) 提到\"X...",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/kongxiaodan20001201-alt/x-daily-report",
+      "iconUrl": null,
+      "installs": 80,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "A real-time intelligence feed tracking the top 50 AI organizations and influencers globally.",
+      "ownerName": "kongxiaodan20001201-alt",
+      "score": 100000,
+      "slug": "x-daily-report",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777054519933,
+      "version": "1.0.0"
+    },
+    {
+      "category": "data-analysis",
+      "created_at": 1773068581104,
+      "description": "Comprehensive guidance and methodologies for becoming a successful trader, covering strategy development, risk management, technical analysis, and trading ps...",
+      "description_zh": "成功交易者的全面指南与方法论，涵盖策略开发、风险管理、技术分析及交易心理等核心内容",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/mofesto/successful-trader",
+      "iconUrl": null,
+      "installs": 23,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Successful Trader",
+      "ownerName": "mofesto",
+      "score": 100000,
+      "slug": "successful-trader",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777053350091,
+      "version": "0.1.0"
+    },
+    {
+      "category": "security-compliance",
+      "created_at": 1773065104921,
+      "description": "AI-native security suite for OpenClaw. Scans skills for prompt injection, data exfiltration, cognitive rootkits, semantic worms, and more. Includes static an...",
+      "description_zh": "OpenClaw的原生AI安全套件。扫描技能以检测提示注入、数据渗漏、认知Rootkit、语义蠕虫等威胁。包含静态分析...",
+      "downloads": 195,
+      "homepage": "https://api.skillhub.cn/vext-labs/vext-shield",
+      "iconUrl": null,
+      "installs": 4,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Vext Shield",
+      "ownerName": "vext-labs",
+      "score": 100000,
+      "slug": "vext-shield",
+      "source": "clawhub",
+      "stars": 1,
+      "tags": [
+        "security"
+      ],
+      "updated_at": 1777052984992,
+      "version": "1.2.0"
+    },
+    {
+      "category": "developer-tools",
+      "created_at": 1773077341279,
+      "description": "Official shopping assistant for Uquid Platform - the world's top Web3 Crypto E-commerce (170M+ physical products, 500k+ digital items & NFTs). Supports Shop-...",
+      "description_zh": "Uquid平台官方购物助手 - 全球顶级Web3加密电商平台（170M+实体产品、500k+数字商品及NFT）。支持购物...",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/grtony045/uquidshop",
+      "iconUrl": null,
+      "installs": 26,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Uquid Shop Bot",
+      "ownerName": "grtony045",
+      "score": 100000,
+      "slug": "uquidshop",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777052984681,
+      "version": "1.0.0"
+    },
+    {
+      "category": "productivity",
+      "created_at": 1773068891647,
+      "description": "React to physical slaps and shakes detected on an Apple Silicon MacBook accelerometer. Use when the slap-your-openclaw MCP server is connected.",
+      "description_zh": "响应Apple Silicon MacBook加速度计检测的物理拍打和摇晃。用于slap-your-openclaw MCP服务器连接时。",
+      "downloads": 215,
+      "homepage": "https://api.skillhub.cn/sinhong2011/slap-detector",
+      "iconUrl": null,
+      "installs": 10,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Slap Detector",
+      "ownerName": "sinhong2011",
+      "score": 100000,
+      "slug": "slap-detector",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777049685199,
+      "version": "0.1.1"
+    },
+    {
       "category": "data-analysis",
       "created_at": 1773069906563,
       "description": "Live dashboard viewer for OpenClaw sessions (CLI + web) that shows color-coded states, token/cost totals, and shareable HTML panels. Requires local OpenClaw...",
@@ -111,50 +759,6 @@
       "tags": null,
       "updated_at": 1777046760818,
       "version": "1.2.0"
-    },
-    {
-      "category": "developer-tools",
-      "created_at": 1773218696151,
-      "description": "Transform text content into professional Mermaid diagrams for presentations and documentation. Use when users ask to visualize concepts, create flowcharts, o...",
-      "description_zh": "将文本内容转化为专业的Mermaid图表，用于演示和文档。当用户要求可视化概念、创建流程图等时使用。",
-      "downloads": 215,
-      "homepage": "https://api.skillhub.cn/axtonliu/mermaid-visualizer",
-      "iconUrl": null,
-      "installs": 30,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "Mermaid Visualizer",
-      "ownerName": "axtonliu",
-      "score": 100000,
-      "slug": "mermaid-visualizer",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777045784943,
-      "version": "1.0.1"
-    },
-    {
-      "category": "developer-tools",
-      "created_at": 1773063627358,
-      "description": "Turn a macOS machine into a local PHP/MariaDB staging server using the stock macOS Apache, Homebrew PHP 8.5, MariaDB, built-in SFTP, npm tooling, a local dev...",
-      "description_zh": "利用 macOS 内置 Apache、Homebrew PHP 8.5、MariaDB、内置 SFTP、npm 工具及本地开发环境，将 macOS 主机转变为本地 PHP/MariaDB 测试服务器。",
-      "downloads": 215,
-      "homepage": "https://api.skillhub.cn/matthewxmurphy/mac-dev-staging",
-      "iconUrl": null,
-      "installs": 10,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "Mac Dev Staging",
-      "ownerName": "matthewxmurphy",
-      "score": 100000,
-      "slug": "mac-dev-staging",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777044950118,
-      "version": "1.1.0"
     },
     {
       "category": "productivity",
@@ -434,6 +1038,202 @@
       "version": "1.0.1"
     },
     {
+      "category": "security-compliance",
+      "created_at": 1773290782590,
+      "description": "通过京东内网认证查询诉讼案件列表及状态，支持按条件筛选并自动化截图商家详情页面。",
+      "description_zh": "通过京东内网认证查询诉讼案件列表及状态，支持按条件筛选并自动化截图商家详情页面。",
+      "downloads": 214,
+      "homepage": "https://api.skillhub.cn/xiaoyaner0201/jd-lawsuit-skill",
+      "iconUrl": null,
+      "installs": 36,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Jd Lawsuit Skill",
+      "ownerName": "xiaoyaner0201",
+      "score": 99534.88372093023,
+      "slug": "jd-lawsuit-skill",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777267166599,
+      "version": "1.0.0"
+    },
+    {
+      "category": "",
+      "created_at": 1776092614437,
+      "description": "",
+      "description_zh": "当用户提到\"帮我写个人设文案\"\"老板自述\"\"第一人称人设\"\"自我介绍文案\"\"创业故事文案\"时触发。用老板第一人称视角，生成一篇可直接读稿拍摄的短视频口播文案。",
+      "downloads": 214,
+      "homepage": "https://api.skillhub.cn/user_151424ca/persona-copy",
+      "iconUrl": null,
+      "installs": 111,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "人设文案-学员版",
+      "ownerName": "user_151424ca",
+      "score": 99534.88372093023,
+      "slug": "persona-copy",
+      "source": "community",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777267074661,
+      "version": "1.0.2"
+    },
+    {
+      "category": "",
+      "created_at": 1775527141549,
+      "description": "",
+      "description_zh": "|企业经营分析的五级模型，助力业财融合的归因分析、数据三维拆解、三色预警、辅助决策，可直接套用的标准化经营分析报告结构。",
+      "downloads": 214,
+      "homepage": "https://api.skillhub.cn/user_b844303f/business-analysis-framework",
+      "iconUrl": null,
+      "installs": 44,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "经营分析五级模型business-analysis-framework",
+      "ownerName": "user_b844303f",
+      "score": 99534.88372093023,
+      "slug": "business-analysis-framework",
+      "source": "community",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777262026172,
+      "version": "1.0.0"
+    },
+    {
+      "category": "",
+      "created_at": 1774843028816,
+      "description": "掌握多平台内容创作、分发与用户运营，运用文字、视频、音频等形式，实现精准传播与数据驱动的全媒体内容生产与运营。",
+      "description_zh": "掌握多平台内容创作、分发与用户运营，运用文字、视频、音频等形式，实现精准传播与数据驱动的全媒体内容生产与运营。",
+      "downloads": 214,
+      "homepage": "https://api.skillhub.cn/duanc-chao/media",
+      "iconUrl": null,
+      "installs": 16,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Social Media content writing",
+      "ownerName": "duanc-chao",
+      "score": 99534.88372093023,
+      "slug": "media",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777261615362,
+      "version": "1.0.0"
+    },
+    {
+      "category": "",
+      "created_at": 1774905877041,
+      "description": "查询并提供SCI期刊的新锐（中科院）分区、JCR小类分区和Top期刊标识，支持按期刊名或ISSN检索。",
+      "description_zh": "查询并提供SCI期刊的新锐（中科院）分区、JCR小类分区和Top期刊标识，支持按期刊名或ISSN检索。",
+      "downloads": 194,
+      "homepage": "https://api.skillhub.cn/songxf1024/sci-journal-search",
+      "iconUrl": null,
+      "installs": 55,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "sci-journal-search",
+      "ownerName": "songxf1024",
+      "score": 99534.88372093023,
+      "slug": "sci-journal-search",
+      "source": "clawhub",
+      "stars": 1,
+      "tags": null,
+      "updated_at": 1777260714667,
+      "version": "1.5.0"
+    },
+    {
+      "category": "ai-intelligence",
+      "created_at": 1773064824557,
+      "description": "Daily execution and trip-ops command system for Austine. Use when asked to run daily brief/checklist/status workflows, track priorities, or plan and procure...",
+      "description_zh": "每日执行和行程运维指令系统，用于运行每日简报、检查表和状态工作流，跟踪优先级，计划和采购。",
+      "downloads": 214,
+      "homepage": "https://api.skillhub.cn/austineyapp/austine-daily-ops",
+      "iconUrl": null,
+      "installs": 19,
+      "labels": {
+        "requires_api_key": "false"
+      },
+      "name": "Austine Daily Ops",
+      "ownerName": "austineyapp",
+      "score": 99534.88372093023,
+      "slug": "austine-daily-ops",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777252614635,
+      "version": "1.0.0"
+    },
+    {
+      "category": "ai-intelligence",
+      "created_at": 1773207230439,
+      "description": "解读钦天监(qintianjian)网站、经济周期理论、木星周期与三元九运/康波周期/美林时钟的关联。用于用户询问钦天监网站用途、项目价值、周期预测原理、BAP-578、Crypto+AI、币安黑客松、钦天监指数、QCX等时触发。",
+      "description_zh": "解读钦天监(qintianjian)网站、经济周期理论、木星周期与三元九运/康波周期/美林时钟的关联。用于用户询问钦天监网站用途、项目价值、周期预测原理、BAP-578、Crypto+AI、币安黑客松、钦天监指数、QCX等时触发。",
+      "downloads": 214,
+      "homepage": "https://api.skillhub.cn/dapp20260215-lab/qintianjian",
+      "iconUrl": null,
+      "installs": 29,
+      "labels": null,
+      "name": "钦天监",
+      "ownerName": "dapp20260215-lab",
+      "score": 99534.88372093023,
+      "slug": "qintianjian",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777218774797,
+      "version": "1.0.1"
+    },
+    {
+      "category": "data-analysis",
+      "created_at": 1773091568045,
+      "description": "提供Meme币价格走势分析、技术指标解读、短期涨跌预测及持币地址筹码分布风险评估的专业工具。",
+      "description_zh": "提供Meme币价格走势分析、技术指标解读、短期涨跌预测及持币地址筹码分布风险评估的专业工具。",
+      "downloads": 214,
+      "homepage": "https://api.skillhub.cn/pxyyqm626529-afk/memecoin-analyst",
+      "iconUrl": null,
+      "installs": 16,
+      "labels": {
+        "requires_api_key": "true"
+      },
+      "name": "MemeCoin分析师",
+      "ownerName": "pxyyqm626529-afk",
+      "score": 99534.88372093023,
+      "slug": "memecoin-analyst",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777217575096,
+      "version": "1.0.0"
+    },
+    {
+      "category": "productivity",
+      "created_at": 1773220098998,
+      "description": "将论文保存到 Zotero 文库，请按照 userid:apiKey 的格式配置 ZOTERO_CREDENTIALS 环境变量。",
+      "description_zh": "将论文保存到 Zotero 文库，请按照 userid:apiKey 的格式配置 ZOTERO_CREDENTIALS 环境变量。",
+      "downloads": 214,
+      "homepage": "https://api.skillhub.cn/lifenglei/zotero-skills",
+      "iconUrl": null,
+      "installs": 50,
+      "labels": {
+        "requires_api_key": "true"
+      },
+      "name": "zotero-skills",
+      "ownerName": "lifenglei",
+      "score": 99534.88372093023,
+      "slug": "zotero-skills",
+      "source": "clawhub",
+      "stars": 0,
+      "tags": null,
+      "updated_at": 1777216074568,
+      "version": "1.0.0"
+    },
+    {
       "category": "communication-collaboration",
       "created_at": 1773221513147,
       "description": "多 Agent 协作管理器，支持动态 @ 组合、任务分配、智能响应",
@@ -500,50 +1300,6 @@
       "version": "1.0.0"
     },
     {
-      "category": "",
-      "created_at": 1774894602554,
-      "description": "Parse local `.docx` and `.pdf` files into structured knowledge artifacts with detailed reports, tracking successes, failures, and summaries without auto-writ...",
-      "description_zh": "将本地 `.docx` 和 `.pdf` 文件解析为结构化知识制品，生成详细报告，追踪成功、失败及摘要信息，不自动写入。",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/kaiasdobi/docx-pdf-knowledge-parser",
-      "iconUrl": null,
-      "installs": 64,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "docx-pdf-knowledge-parser",
-      "ownerName": "kaiasdobi",
-      "score": 99534.88372093023,
-      "slug": "docx-pdf-knowledge-parser",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777208576209,
-      "version": "1.0.1"
-    },
-    {
-      "category": "",
-      "created_at": 1775788132741,
-      "description": "",
-      "description_zh": "电影感拍摄与镜头运动技能。当用户提到镜头运动、运镜、拍摄技巧、景别、推拉摇移、电影感构图、或需要为视频创作设计分镜脚本时触发本技能。",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/user_e655b91e/video-cinematography",
-      "iconUrl": "https://cloudcache.tencent-cloud.com/qcloud/ui/static/other_external_resource/81015f94-5620-494e-bbd6-ac3268e7ccd3.png",
-      "installs": 55,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "电影感拍摄与镜头运动",
-      "ownerName": "user_e655b91e",
-      "score": 99534.88372093023,
-      "slug": "video-cinematography",
-      "source": "community",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777208026304,
-      "version": "1.0.2"
-    },
-    {
       "category": "developer-tools",
       "created_at": 1773091042889,
       "description": "Assist users in planning and structuring websites by defining goals, proposing site architecture, writing copy, and outlining implementation steps for quick...",
@@ -586,28 +1342,6 @@
       "tags": null,
       "updated_at": 1777196384401,
       "version": "1.0.0"
-    },
-    {
-      "category": "",
-      "created_at": 1775705423231,
-      "description": "",
-      "description_zh": "Expert frontend design guidelines for creating beautiful, modern UIs. Use when building landing pages, dashboards, or any user interface.",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/user_e07fe912/frontend-design-v2",
-      "iconUrl": null,
-      "installs": 72,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "前端设计",
-      "ownerName": "user_e07fe912",
-      "score": 99534.88372093023,
-      "slug": "frontend-design-v2",
-      "source": "community",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777194284294,
-      "version": "2.0.0"
     },
     {
       "category": "content-creation",
@@ -852,28 +1586,6 @@
       "version": "1.2.0"
     },
     {
-      "category": "developer-tools",
-      "created_at": 1773939711018,
-      "description": "AI辅助编程技能，帮助Claude学习如何创建和使用OpenClaw技能",
-      "description_zh": "AI辅助编程技能，帮助Claude学习如何创建和使用OpenClaw技能",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/nidhov01/09-ai",
-      "iconUrl": null,
-      "installs": 75,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "09 AI编程",
-      "ownerName": "nidhov01",
-      "score": 99534.88372093023,
-      "slug": "09-ai",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777173950422,
-      "version": "1.0.0"
-    },
-    {
       "category": "ai-intelligence",
       "created_at": 1773090844717,
       "description": "Unified operating system for controlling embodied intelligent robots with AI agents - the control hub bridging AI agents and physical world",
@@ -894,28 +1606,6 @@
       "tags": null,
       "updated_at": 1777169938450,
       "version": "0.1.0"
-    },
-    {
-      "category": "",
-      "created_at": 1774825894993,
-      "description": "Extract text from images using GLM-OCR API. Supports images and PDFs with high accuracy OCR, table recognition, formula extraction, and handwriting recogniti...",
-      "description_zh": "利用GLM-OCR API从图像中提取文本。支持图片和PDF的高精度OCR，具备表格识别、公式提取及手写文字识别功能。",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/jaredforreal/glmocr",
-      "iconUrl": null,
-      "installs": 73,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "GLM-OCR",
-      "ownerName": "jaredforreal",
-      "score": 99534.88372093023,
-      "slug": "glmocr",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777167619818,
-      "version": "1.0.3"
     },
     {
       "category": "developer-tools",
@@ -1021,50 +1711,6 @@
     },
     {
       "category": "productivity",
-      "created_at": 1773076323903,
-      "description": "每周自动更新技能并推送摘要。当收到\"执行技能每周更新\"或\"skills-weekly-update\"触发时，运行 clawhub update --all 并更新 SKILLS_INDEX.md，最后推送摘要给用户。",
-      "description_zh": "每周自动更新技能并推送摘要。当收到\"执行技能每周更新\"或\"skills-weekly-update\"触发时，运行 clawhub update --all 并更新 SKILLS_INDEX.md，最后推送摘要给用户。",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/ken0122/weekly-skills-update",
-      "iconUrl": null,
-      "installs": 19,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "Weekly Skills Update",
-      "ownerName": "ken0122",
-      "score": 99534.88372093023,
-      "slug": "weekly-skills-update",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777104650540,
-      "version": "0.1.0"
-    },
-    {
-      "category": "data-analysis",
-      "created_at": 1773429620780,
-      "description": "投资组合管理助手。可查询/更新持仓、现金、日记、权益曲线，以及通过截图导入持仓。",
-      "description_zh": "投资组合管理助手。可查询/更新持仓、现金、日记、权益曲线，以及通过截图导入持仓。",
-      "downloads": 194,
-      "homepage": "https://api.skillhub.cn/20czy/investment-tracker",
-      "iconUrl": null,
-      "installs": 16,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "investment-tracker-app",
-      "ownerName": "20czy",
-      "score": 99534.88372093023,
-      "slug": "investment-tracker",
-      "source": "clawhub",
-      "stars": 1,
-      "tags": null,
-      "updated_at": 1777100084478,
-      "version": "1.0.0"
-    },
-    {
-      "category": "productivity",
       "created_at": 1773067565375,
       "description": "EasyPost — shipping labels, rate comparison, package tracking, address verification, and insurance.",
       "description_zh": "EasyPost 提供运输标签、运费比较、包裹追踪、地址验证及保险服务。",
@@ -1083,28 +1729,6 @@
       "stars": 0,
       "tags": null,
       "updated_at": 1777090784459,
-      "version": "1.0.0"
-    },
-    {
-      "category": "developer-tools",
-      "created_at": 1773955233209,
-      "description": "云效项目协作操作助手。支持工作项（任务/需求/缺陷）的查询、创建、更新等操作。当用户提到\"云效\"、\"工作项\"、\"任务管理\"、\"项目管理\"或需要操作 devops.aliyun.com 时触发。",
-      "description_zh": "云效项目协作操作助手。支持工作项（任务/需求/缺陷）的查询、创建、更新等操作。当用户提到\"云效\"、\"工作项\"、\"任务管理\"、\"项目管理\"或需要操作 devops.aliyun.com 时触发。",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/fengerzh/yunxiao",
-      "iconUrl": null,
-      "installs": 88,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "云效工作项管理",
-      "ownerName": "fengerzh",
-      "score": 99534.88372093023,
-      "slug": "yunxiao",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777054850143,
       "version": "1.0.0"
     },
     {
@@ -1128,30 +1752,6 @@
       "tags": null,
       "updated_at": 1777054784672,
       "version": "0.1.3"
-    },
-    {
-      "category": "content-creation",
-      "created_at": 1773431655301,
-      "description": "总结微信公众号文章内容。当用户提供微信公众号文章链接（mp.weixin.qq.com）并要求总结、概括、摘要、快速了解文章内容时使用此 skill。也适用于用户说\"帮我看看这篇文章讲什么\"、\"这篇公众号文章说了啥\"、\"总结一下这个链接\"等请求。只要看到 mp.weixin.qq.com 的链接并且用户想了解内容...",
-      "description_zh": "总结微信公众号文章内容。当用户提供微信公众号文章链接（mp.weixin.qq.com）并要求总结、概括、摘要、快速了解文章内容时使用此 skill。也适用于用户说\"帮我看看这篇文章讲什么\"、\"这篇公众号文章说了啥\"、\"总结一下这个链接\"等请求。只要看到 mp.weixin.qq.com 的链接并且用户想了解内容...",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/mick2458pan/wechat-summary2",
-      "iconUrl": null,
-      "installs": 71,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "wechat-summary2",
-      "ownerName": "mick2458pan",
-      "score": 99534.88372093023,
-      "slug": "wechat-summary2",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": [
-        "wechat"
-      ],
-      "updated_at": 1777054184866,
-      "version": "1.0.1"
     },
     {
       "category": "productivity",
@@ -1684,583 +2284,7 @@
       "tags": null,
       "updated_at": 1777037684705,
       "version": "1.0.0"
-    },
-    {
-      "category": "ai-intelligence",
-      "created_at": 1773065696058,
-      "description": "通用 AI 机器人克隆技能（安全加固版 v2.0）。支持导出/导入配置，ZIP Slip 防护，元数据脱敏，敏感文件自动排除。用于 A→B 能力复制、团队共享、备份恢复。",
-      "description_zh": "通用 AI 机器人克隆技能（安全加固版 v2.0）。支持导出/导入配置，ZIP Slip 防护，元数据脱敏，敏感文件自动排除。用于 A→B 能力复制、团队共享、备份恢复。",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/srchengtao2025/aicone",
-      "iconUrl": null,
-      "installs": 24,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "aiclone",
-      "ownerName": "srchengtao2025",
-      "score": 99534.88372093023,
-      "slug": "aicone",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777036785783,
-      "version": "2.0.0"
-    },
-    {
-      "category": "content-creation",
-      "created_at": 1773078007407,
-      "description": "Connect OpenClaw to Aionis using write/context/policy/feedback memory loop APIs.",
-      "description_zh": "使用写入/上下文/策略/反馈记忆循环API将OpenClaw连接至Aionis。",
-      "downloads": 214,
-      "homepage": "https://api.skillhub.cn/cognary/aionis",
-      "iconUrl": null,
-      "installs": 14,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "Aionis",
-      "ownerName": "cognary",
-      "score": 99534.88372093023,
-      "slug": "aionis",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777036784436,
-      "version": "1.0.0"
-    },
-    {
-      "category": "",
-      "created_at": 1776093394641,
-      "description": "",
-      "description_zh": "当用户提到\"转视频提示词\"\"SeedDance\"\"文案转视频\"\"生成分镜\"\"AI视频提示词\"时触发。把口播文案拆分成15秒片段，每段生成专业的SeedDance视频提示词。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/user_151424ca/seeddance-prompt",
-      "iconUrl": null,
-      "installs": 103,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "文案转SeedDance-学员版",
-      "ownerName": "user_151424ca",
-      "score": 99069.76744186047,
-      "slug": "seeddance-prompt",
-      "source": "community",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777211874425,
-      "version": "1.0.2"
-    },
-    {
-      "category": "data-analysis",
-      "created_at": 1773290168973,
-      "description": "Trade Polymarket BTC/ETH/SOL 5-minute fast markets using a zero-delay Triple-Trigger strategy. Combines Binance momentum, NOFX OI/Netflow (free public API),...",
-      "description_zh": "使用零延迟三重触发策略交易Polymarket BTC/ETH/SOL 5分钟快速市场，结合Binance动量、NOFX持仓量/净流量（免费公开API）等多维信号。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/andrewbrownrd/polymarket-simmer-fastloop-sync-pulse",
-      "iconUrl": null,
-      "installs": 39,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "polymarket-simmer-fastloop-sync-pulse",
-      "ownerName": "andrewbrownrd",
-      "score": 99069.76744186047,
-      "slug": "polymarket-simmer-fastloop-sync-pulse",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": [
-        "simmer"
-      ],
-      "updated_at": 1777211274402,
-      "version": "1.0.3"
-    },
-    {
-      "category": "developer-tools",
-      "created_at": 1773924821065,
-      "description": "Paste any error message, stack trace, or exception and get a plain-English explanation with root cause analysis and fix suggestions.",
-      "description_zh": "粘贴任意错误信息、堆栈跟踪或异常，即可获得包含根因分析和修复建议的简明解释。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/cyberforexblockchain/nexus-error-explain",
-      "iconUrl": null,
-      "installs": 4,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "NEXUS Error Explain",
-      "ownerName": "cyberforexblockchain",
-      "score": 99069.76744186047,
-      "slug": "nexus-error-explain",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": [
-        "ai",
-        "cardano"
-      ],
-      "updated_at": 1777211026127,
-      "version": "1.0.1"
-    },
-    {
-      "category": "content-creation",
-      "created_at": 1773423685363,
-      "description": "Use when tasks need the NanoGPT API for text, image, or video generation through the local `nano-gpt` CLI and bundled wrapper scripts for OpenClaw or ClawHub...",
-      "description_zh": "用于通过本地 `nano-gpt` CLI 及 OpenClaw/ClawHub 包装脚本调用 NanoGPT API 生成文本、图像或视频。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/icework/nano-gpt-cli",
-      "iconUrl": null,
-      "installs": 18,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "Nano Gpt",
-      "ownerName": "icework",
-      "score": 99069.76744186047,
-      "slug": "nano-gpt-cli",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777205926362,
-      "version": "0.1.2"
-    },
-    {
-      "category": "ai-intelligence",
-      "created_at": 1773065392886,
-      "description": "智能记账助手 v2.1 | AI Expense Tracker. 新增：消费趋势图、智能省钱建议、消费预测、自定义分类。支持语音记账、预算提醒、周月报推送。",
-      "description_zh": "智能记账助手 v2.1 | AI Expense Tracker. 新增：消费趋势图、智能省钱建议、消费预测、自定义分类。支持语音记账、预算提醒、周月报推送。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/huyong2023/smart-expense-tracker-cn-v1-1",
-      "iconUrl": null,
-      "installs": 20,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "Smart Expense Tracker Cn V1.1",
-      "ownerName": "huyong2023",
-      "score": 99069.76744186047,
-      "slug": "smart-expense-tracker-cn-v1-1",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777204426226,
-      "version": "1.1.0"
-    },
-    {
-      "category": "",
-      "created_at": 1775480211756,
-      "description": "",
-      "description_zh": "角色扮演蒸馏器：从官方设定、语音台词、背景故事中蒸馏可扮演的游戏角色——AI夺舍角色灵魂，让TA在你面前活过来。支持profile、personality、interaction、memory、relations五维提取。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/user_01c438c6/possession",
-      "iconUrl": null,
-      "installs": 76,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "角色扮演蒸馏器（夺舍.skill）",
-      "ownerName": "user_01c438c6",
-      "score": 99069.76744186047,
-      "slug": "possession",
-      "source": "community",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777203226501,
-      "version": "1.0.0"
-    },
-    {
-      "category": "productivity",
-      "created_at": 1773896047955,
-      "description": "运动健康管家 Pro — 专为 Open Claw + 飞书生态打造的 AI 健身管家。双模式打卡（事后总结 / 边练边记）、3 层 Session 防丢失、飞书云文档同步、极致 Token 优化。Route to this skill when the user mentions workouts, logs...",
-      "description_zh": "运动健康管家 Pro — 专为 Open Claw + 飞书生态打造的 AI 健身管家。双模式打卡（事后总结 / 边练边记）、3 层 Session 防丢失、飞书云文档同步、极致 Token 优化。Route to this skill when the user mentions workouts, logs...",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/ph13917403910/fitness-skill",
-      "iconUrl": null,
-      "installs": 37,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "Fitness & Workout Manager",
-      "ownerName": "ph13917403910",
-      "score": 99069.76744186047,
-      "slug": "fitness-skill",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": [
-        "health & fitness feishu exclusive token optimized auto-tracking",
-        "health & fitness feishu exclusive token optimized auto-tracking latest"
-      ],
-      "updated_at": 1777201426230,
-      "version": "1.2.2"
-    },
-    {
-      "category": "data-analysis",
-      "created_at": 1773922919318,
-      "description": "高德地图综合服务，支持POI搜索、路径规划、旅游规划、周边搜索和热力图数据可视化",
-      "description_zh": "高德地图综合服务，支持POI搜索、路径规划、旅游规划、周边搜索和热力图数据可视化",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/zhangyanfe/ll",
-      "iconUrl": null,
-      "installs": 72,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "oo",
-      "ownerName": "zhangyanfe",
-      "score": 99069.76744186047,
-      "slug": "ll",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777199626383,
-      "version": "1.0.0"
-    },
-    {
-      "category": "",
-      "created_at": 1776092614437,
-      "description": "",
-      "description_zh": "当用户提到\"帮我写个人设文案\"\"老板自述\"\"第一人称人设\"\"自我介绍文案\"\"创业故事文案\"时触发。用老板第一人称视角，生成一篇可直接读稿拍摄的短视频口播文案。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/user_151424ca/persona-copy",
-      "iconUrl": null,
-      "installs": 111,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "人设文案-学员版",
-      "ownerName": "user_151424ca",
-      "score": 99069.76744186047,
-      "slug": "persona-copy",
-      "source": "community",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777197403362,
-      "version": "1.0.2"
-    },
-    {
-      "category": "productivity",
-      "created_at": 1773088777765,
-      "description": "People & Culture Playbook. Use for: recruiting strategy, skills-based hiring, structured interviews, onboarding (preboarding + 30/60/90), performance managem...",
-      "description_zh": "人才与文化手册。用途：招聘策略、技能招聘、结构化面试、入职培训（入职前+30/60/90天）、绩效管理……",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/chilu18/people-culture-playbook",
-      "iconUrl": null,
-      "installs": 26,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "People & Culture Playbook",
-      "ownerName": "chilu18",
-      "score": 99069.76744186047,
-      "slug": "people-culture-playbook",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777192738414,
-      "version": "1.0.0"
-    },
-    {
-      "category": "developer-tools",
-      "created_at": 1773875390191,
-      "description": "从 zfont.cn 智能搜索、推荐并下载免费商用字体，支持递归解压字体包提取 TTF、OTF、TTC 格式文件并提供安装或传输方案。",
-      "description_zh": "从 zfont.cn 智能搜索、推荐并下载免费商用字体，支持递归解压字体包提取 TTF、OTF、TTC 格式文件并提供安装或传输方案。",
-      "downloads": 193,
-      "homepage": "https://api.skillhub.cn/lanmin-x/zfont-cli",
-      "iconUrl": null,
-      "installs": 16,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "ZFONT-CLI",
-      "ownerName": "lanmin-x",
-      "score": 99069.76744186047,
-      "slug": "zfont-cli",
-      "source": "clawhub",
-      "stars": 1,
-      "tags": [
-        "late"
-      ],
-      "updated_at": 1777191539751,
-      "version": "1.5.3"
-    },
-    {
-      "category": "data-analysis",
-      "created_at": 1773091568045,
-      "description": "提供Meme币价格走势分析、技术指标解读、短期涨跌预测及持币地址筹码分布风险评估的专业工具。",
-      "description_zh": "提供Meme币价格走势分析、技术指标解读、短期涨跌预测及持币地址筹码分布风险评估的专业工具。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/pxyyqm626529-afk/memecoin-analyst",
-      "iconUrl": null,
-      "installs": 16,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "MemeCoin分析师",
-      "ownerName": "pxyyqm626529-afk",
-      "score": 99069.76744186047,
-      "slug": "memecoin-analyst",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777191539744,
-      "version": "1.0.0"
-    },
-    {
-      "category": "data-analysis",
-      "created_at": 1773213547838,
-      "description": "The Consensus and Arbitration Primitive. A multi-agent deliberation framework designed to resolve complex disputes and validate truth claims through probabil...",
-      "description_zh": "共识与仲裁原语：一种多智能体审议框架，旨在通过概率方法解决复杂争议并验证真值声明。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/btcagentic/jury",
-      "iconUrl": null,
-      "installs": 9,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "Jury",
-      "ownerName": "btcagentic",
-      "score": 99069.76744186047,
-      "slug": "jury",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": [
-        "arbitration",
-        "consensus",
-        "jury",
-        "justice",
-        "legal"
-      ],
-      "updated_at": 1777191539702,
-      "version": "1.0.0"
-    },
-    {
-      "category": "developer-tools",
-      "created_at": 1773069656434,
-      "description": "Use this skill whenever the user or agent needs to interact with Facebook or Instagram ads via Meta's API. Trigger this skill when: the user wants to launch,...",
-      "description_zh": "当用户或代理需要通过 Meta API 与 Facebook 或 Instagram 广告互动时使用此技能。触发条件：用户想要启动...",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/crumbedsausage/zuckerbotmcp",
-      "iconUrl": null,
-      "installs": 6,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "ZuckerBot",
-      "ownerName": "crumbedsausage",
-      "score": 99069.76744186047,
-      "slug": "zuckerbotmcp",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": [
-        "ads",
-        "facebook",
-        "instagram",
-        "meta"
-      ],
-      "updated_at": 1777191539648,
-      "version": "1.0.0"
-    },
-    {
-      "category": "productivity",
-      "created_at": 1773284702618,
-      "description": "Real-time phone location tracking via OwnTracks HTTP webhook receiver with named places and distance-based queries. Use when: (1) user asks \"where am I?\", (2...",
-      "description_zh": "{\"description_zh\":\"通过OwnTracks HTTP Webhook接收器实现手机实时位置追踪，支持命名地点与基于距离的查询。适用场景：(1)用户询问\"我在哪里？\"，(2)...\"}",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/globalcaos/owntracks-location",
-      "iconUrl": null,
-      "installs": 7,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "OwnTracks Location",
-      "ownerName": "globalcaos",
-      "score": 99069.76744186047,
-      "slug": "owntracks-location",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777191539591,
-      "version": "1.0.0"
-    },
-    {
-      "category": "data-analysis",
-      "created_at": 1773082374298,
-      "description": "Track habit formation with daily check-ins, reminders for missed logs, and statistics on consecutive completion days.",
-      "description_zh": "追踪习惯养成，每日签到，漏签提醒，连续完成天数统计",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/hanksu7889/sulada-habit-tracker",
-      "iconUrl": null,
-      "installs": 20,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "habit-tracker",
-      "ownerName": "hanksu7889",
-      "score": 99069.76744186047,
-      "slug": "sulada-habit-tracker",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777191539267,
-      "version": "1.0.0"
-    },
-    {
-      "category": "ai-intelligence",
-      "created_at": 1773285857031,
-      "description": "Automatically detects errors, researches solutions, executes improvements, and measures impact while remembering effective procedures for continuous self-imp...",
-      "description_zh": "自动检测错误、研究解决方案、执行改进并衡量影响，同时记忆有效流程以实现持续自我改进。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/mopga/self-evalutaed-agent",
-      "iconUrl": null,
-      "installs": 31,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "self-evalutaed-agent",
-      "ownerName": "mopga",
-      "score": 99069.76744186047,
-      "slug": "self-evalutaed-agent",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777191538849,
-      "version": "1.0.0"
-    },
-    {
-      "category": "productivity",
-      "created_at": 1773069728189,
-      "description": "Route people-finding and marketplace requests to ClawPeers in OpenClaw. Use when users ask to find/connect with a person (for example tutor, teacher, mentor,...",
-      "description_zh": "将找人或市场请求路由至OpenClaw的ClawPeers，用于用户请求查找或联系某个人（如导师、教师、教练等）时。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/dongyuan/clawpeers",
-      "iconUrl": null,
-      "installs": 11,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "ClawPeers",
-      "ownerName": "dongyuan",
-      "score": 99069.76744186047,
-      "slug": "clawpeers",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": [
-        "clawpeers",
-        "networking",
-        "openclaw",
-        "skill-first"
-      ],
-      "updated_at": 1777191538847,
-      "version": "0.1.3"
-    },
-    {
-      "category": "developer-tools",
-      "created_at": 1773066485608,
-      "description": "Enable intelligent querying of 300+ AI models via Poe API with automatic model selection, task-based routing, and cost-quality optimization.",
-      "description_zh": "通过Poe API智能查询300+AI模型，支持自动模型选择、任务路由及成本-质量优化。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/nwcalvin/innotech-poe-api",
-      "iconUrl": null,
-      "installs": 8,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "Poe Api",
-      "ownerName": "nwcalvin",
-      "score": 99069.76744186047,
-      "slug": "innotech-poe-api",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777191538670,
-      "version": "1.0.0"
-    },
-    {
-      "category": "developer-tools",
-      "created_at": 1773077949014,
-      "description": "Read-only Wise API operations for account inspection, FX lookups, recipients, and transfer history. Use when asked to list profiles, balances, recipients, tr...",
-      "description_zh": "{\"answer\": \"用于账户检查、汇率查询、收款人和转账记录的只读 Wise API 操作。在要求列出账户资料、余额、收款人等时使用。\"}",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/cianweeresinghe-sudo/wise-readonly",
-      "iconUrl": null,
-      "installs": 12,
-      "labels": {
-        "requires_api_key": "true"
-      },
-      "name": "Wise Read Only",
-      "ownerName": "cianweeresinghe-sudo",
-      "score": 99069.76744186047,
-      "slug": "wise-readonly",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777191538294,
-      "version": "1.0.3"
-    },
-    {
-      "category": "content-creation",
-      "created_at": 1773284698688,
-      "description": "News video maker skill. Use search tools to get news, generate speech, and create video with golden subtitles. For creating news briefing videos.",
-      "description_zh": "新闻视频制作技能：使用搜索工具获取新闻、生成语音、制作金色字幕视频，专注于新闻简报视频的创作。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/izorro/news-video-maker",
-      "iconUrl": null,
-      "installs": 36,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "news-video-maker",
-      "ownerName": "izorro",
-      "score": 99069.76744186047,
-      "slug": "news-video-maker",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777180138250,
-      "version": "1.0.4"
-    },
-    {
-      "category": "data-analysis",
-      "created_at": 1773939430111,
-      "description": "A 股/港股/美股优质股票筛选专家。擅长筛选具备中长期布局价值的优质股票，精准规避游资炒作和庄家控盘的垃圾股。基于两大核心模型：(1) 长线稳步上涨型（如中国海油）- 月线年线多头排列、ROE 高于 15%、高股息；(2) 历史低位反弹型（如万华化学）- 核心资产大幅回撤后企稳、行业周期见底。使用场景：用户询问某...",
-      "description_zh": "A 股/港股/美股优质股票筛选专家。擅长筛选具备中长期布局价值的优质股票，精准规避游资炒作和庄家控盘的垃圾股。基于两大核心模型：(1) 长线稳步上涨型（如中国海油）- 月线年线多头排列、ROE 高于 15%、高股息；(2) 历史低位反弹型（如万华化学）- 核心资产大幅回撤后企稳、行业周期见底。使用场景：用户询问某...",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/georgetao730/select-super-stock",
-      "iconUrl": null,
-      "installs": 78,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "Select Super Stock",
-      "ownerName": "georgetao730",
-      "score": 99069.76744186047,
-      "slug": "select-super-stock",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777157038195,
-      "version": "1.0.0"
-    },
-    {
-      "category": "content-creation",
-      "created_at": 1773088164434,
-      "description": "Turn 1–9 images into platform-specific captions + mood-matched music hints, then route to mock/dry-run/real publishers with publish logs.",
-      "description_zh": "将1-9张图片生成平台专属文案与情绪匹配的音乐提示，随后路由至模拟/演练/真实发布渠道并记录日志。",
-      "downloads": 213,
-      "homepage": "https://api.skillhub.cn/milab-bit/distribution-agent-publisher-pack",
-      "iconUrl": null,
-      "installs": 25,
-      "labels": {
-        "requires_api_key": "false"
-      },
-      "name": "Distribution Agent — Publisher Pack",
-      "ownerName": "milab-bit",
-      "score": 99069.76744186047,
-      "slug": "distribution-agent-publisher-pack",
-      "source": "clawhub",
-      "stars": 0,
-      "tags": null,
-      "updated_at": 1777098284340,
-      "version": "1.0.0"
     }
   ],
-  "total": 34755
+  "total": 34793
 }
