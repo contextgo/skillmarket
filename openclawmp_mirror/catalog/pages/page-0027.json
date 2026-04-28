@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "assetId": "07e3276756b1f4f58e08664ffcc8623c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ed/fb/edfbe3492d0fa4e4eaba74919df67fc8b7fa149c63af74a22ff97b35c9edf145",
+        "displayName": "toxicpine",
+        "reputation": "10",
+        "userId": "27ae6da73c9a1c00669ab52bc8904920"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "'Use this skill for any task involving the ambit CLI: creating or destroying private networks, deploying apps to a private network, checking network or router health, listing routers, or diagnosing connectivity problems. Trigger phrases include \"create a network\", \"set up ambit\", \"deploy with ambit\", \"ambit create\", \"ambit deploy\", \"ambit doctor\", \"check router status\", \"destroy a network\", and similar.'",
+      "displayName": "Ambit Cli",
+      "downloadCount": "8",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [toxicpine/ambit-cli](https://clawhub.ai/toxicpine/ambit-cli)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/toxicpine/ambit-cli)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-23",
+      "name": "ambit-cli",
+      "ownerUserId": "27ae6da73c9a1c00669ab52bc8904920",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ambit",
+          "tagId": "2cd8e34632b52ef0fc80b77d4da1fb17"
+        },
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "bb5290e4ada11985a26def694a2bcffb",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7a/02/7a02c138fa700a1bbb7c4b24c607960a7b6d7d6c658ccdb8ae6e7170e3482e00",
+        "displayName": "rustyorb",
+        "reputation": "10",
+        "userId": "dd56e3f0bfd7919d3a938645e528fde8"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring—where even top agents achieve less than 50% on real-world benchmarks Use when: agent testing, agent evaluation, benchmark agents, agent reliability, test agent.\"",
+      "displayName": "Agent Evaluation",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [rustyorb/agent-evaluation](https://clawhub.ai/rustyorb/agent-evaluation)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/rustyorb/agent-evaluation)\n📅 Published: 2026-02-09",
+      "name": "agent-evaluation",
+      "ownerUserId": "dd56e3f0bfd7919d3a938645e528fde8",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "evaluation",
+          "tagId": "dd9485b5c1bb701135184779df7fb234"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "df3d1fd428134d5ffeda413a1cee55eb",
       "assetType": 3,
       "author": {
@@ -770,7 +838,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/fb/affb3de334633aa6a2d9c7e7d242fad626ac481893a187f8bb7e4f71aae33490",
         "displayName": "andyxinweiminicloud",
-        "reputation": "170",
+        "reputation": "175",
         "userId": "065e0a81b4ca4368a88389941bb20cb7"
       },
       "category": "",
@@ -1101,14 +1169,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5a/90/5a905708a48961343a1285b52ea542d45b8750d3a0b9a551ff029663a81523f8",
         "displayName": "bowen31337",
-        "reputation": "275",
+        "reputation": "280",
         "userId": "f39d34d14bf06ca2423942c6fd7379a6"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "TypeScript language server providing type checking, code intelligence, and LSP diagnostics for .ts, .tsx, .js, .jsx, .mts, .cts, .mjs, .cjs files. Use when working with TypeScript or JavaScript code that needs type checking, autocomplete, error detection, refactoring support, or code navigation.",
       "displayName": "TypeScript LSP",
-      "downloadCount": "11",
+      "downloadCount": "13",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [bowen31337/typescript-lsp](https://clawhub.ai/bowen31337/typescript-lsp)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/bowen31337/typescript-lsp)\n📅 Published: 2026-02-09",
       "name": "typescript-lsp",
@@ -1477,7 +1545,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Advanced filesystem operations for listing files, searching content, batch processing, and directory analysis. Supports recursive search, file type filtering, size analysis, and batch operations like copy/move/delete. Use when you need to: list directory contents, search for files by name or content, analyze directory structures, perform batch file operations, or analyze file sizes and distribution.",
       "displayName": "Filesystem",
-      "downloadCount": "28",
+      "downloadCount": "30",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [amaofx/filesystem](https://clawhub.ai/amaofx/filesystem)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/amaofx/filesystem)\n📅 Published: 2026-02-12",
       "name": "filesystem",
@@ -1499,7 +1567,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3781",
+        "reputation": "3786",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1538,7 +1606,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3781",
+        "reputation": "3786",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1606,7 +1674,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3781",
+        "reputation": "3786",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1645,7 +1713,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3781",
+        "reputation": "3786",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1684,7 +1752,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3781",
+        "reputation": "3786",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1723,7 +1791,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3781",
+        "reputation": "3786",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1762,7 +1830,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3781",
+        "reputation": "3786",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1801,7 +1869,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3781",
+        "reputation": "3786",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1840,7 +1908,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1863,7 +1931,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1886,7 +1954,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1909,7 +1977,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1932,7 +2000,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1955,7 +2023,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1978,7 +2046,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2001,7 +2069,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2024,7 +2092,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2047,7 +2115,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2070,7 +2138,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2093,7 +2161,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2116,7 +2184,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2139,7 +2207,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2162,7 +2230,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2185,7 +2253,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2208,7 +2276,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2231,7 +2299,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2254,7 +2322,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2277,7 +2345,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2300,7 +2368,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2323,7 +2391,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2346,7 +2414,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2369,7 +2437,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2392,7 +2460,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2415,7 +2483,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2438,7 +2506,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2461,7 +2529,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2484,7 +2552,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2507,7 +2575,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2530,7 +2598,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2553,7 +2621,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2669,7 +2737,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2692,7 +2760,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2715,7 +2783,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2738,7 +2806,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2761,7 +2829,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2784,7 +2852,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2807,7 +2875,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2830,7 +2898,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2853,7 +2921,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21169",
+        "reputation": "21194",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2892,80 +2960,7 @@
       "tags": [],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "9c7974e750120d8a532fbd3a8f045164",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/40/27/402764bbb77c629508cd0ed9c5b1e1475fc4d6ed4cb3776885d022ddc49d77e0",
-        "displayName": "jk-0001",
-        "reputation": "679",
-        "userId": "3e05b3467962d557cd0911d2cdda6f63"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Set and track goals for a solopreneur business using OKRs (Objectives and Key Results) and related frameworks. Use when defining business goals, creating quarterly or annual targets, building KPIs, tracking progress, or aligning daily work with strategic direction. Covers OKR methodology adapted for solo operators, goal hierarchy (vision → annual → quarterly → weekly), and review cadences. Trigger on \"set goals\", \"OKRs\", \"business goals\", \"quarterly goals\", \"KPIs\", \"goal setting\", \"how to track progress\", \"annual goals\", \"prioritize my work\", \"what should I focus on\".",
-      "displayName": "Goal Setting Okrs",
-      "downloadCount": "9",
-      "latestSemver": "0.1.0",
-      "longDescription": "📦 ClawHub: [jk-0001/goal-setting-okrs](https://clawhub.ai/jk-0001/goal-setting-okrs)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jk-0001/goal-setting-okrs)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-16",
-      "name": "goal-setting-okrs",
-      "ownerUserId": "3e05b3467962d557cd0911d2cdda6f63",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "goal",
-          "tagId": "856bd7a58ca04d3e592af6cf54701bc0"
-        },
-        {
-          "description": "",
-          "displayName": "okrs",
-          "tagId": "51a9cb0bd0e2a37341c32a416d369d37"
-        },
-        {
-          "description": "",
-          "displayName": "setting",
-          "tagId": "f7530983ca6dc26fde9511263c2d6243"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "a1a31003458c6b55856cc5cb410a3ed6",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/84/05/84055f6eeb6560854e01eb4a144f1a66f6b5ffce129b53f0a92fe90fb53289a8",
-        "displayName": "clarezoe",
-        "reputation": "45",
-        "userId": "04b7938654b7f72012a3868d706dc4e1"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "End-of-session workflow for shipping changes, consolidating memory, applying self-improvements, and preparing publishable outputs with safety gates.",
-      "displayName": "Close Loop",
-      "downloadCount": "9",
-      "latestSemver": "2.1.1",
-      "longDescription": "📦 ClawHub: [clarezoe/close-loop](https://clawhub.ai/clarezoe/close-loop)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/clarezoe/close-loop)\n🏷️ Version: 2.1.1\n📅 Published: 2026-02-23",
-      "name": "close-loop",
-      "ownerUserId": "04b7938654b7f72012a3868d706dc4e1",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "close",
-          "tagId": "4ae85ccb92c2f7928dd2198cde080d2e"
-        },
-        {
-          "description": "",
-          "displayName": "loop",
-          "tagId": "1d0198cd7487427f6cec65b9aa83adf8"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozMDcwfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozMDcyfQ"
 }

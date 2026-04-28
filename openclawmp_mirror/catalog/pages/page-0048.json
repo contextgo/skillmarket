@@ -1,6 +1,78 @@
 {
   "items": [
     {
+      "assetId": "317d15b9d2b42cd65512aeaacfcd091e",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a5/b6/a5b602a8f205563c495a4a0363ba98534d9eb289d9d11e6d84f605d0d34d54fe",
+        "displayName": "mrnsmh",
+        "reputation": "0",
+        "userId": "c152ef8384635cf1f7b2c5e15cedf63e"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "Nexus Brain — imported from ClawHub",
+      "displayName": "Nexus Brain",
+      "downloadCount": "3",
+      "latestSemver": "0.1.1",
+      "longDescription": "📦 ClawHub: [mrnsmh/nexus-brain](https://clawhub.ai/mrnsmh/nexus-brain)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mrnsmh/nexus-brain)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-24",
+      "name": "nexus-brain",
+      "ownerUserId": "c152ef8384635cf1f7b2c5e15cedf63e",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "0",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "assetId": "d34308fc8d59bd5c2dcde668f2dc0ee0",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/47/4f/474f381f951f71f627825b58059221ece8b787cd9e70e676626f76562b512ec5",
+        "displayName": "Sonny",
+        "reputation": "251",
+        "userId": "89cd1dc1b6409150dd923bf5282fff0f"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "强大的自适应Python网页爬虫框架，支持基础HTTP、隐身模式、动态页面、并发爬虫",
+      "displayName": "Scrapling 智能爬虫",
+      "downloadCount": "108",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "scrapling",
+      "ownerUserId": "89cd1dc1b6409150dd923bf5282fff0f",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "crawler",
+          "tagId": "64686d9293927f1a3c0cee826b99e087"
+        },
+        {
+          "description": "",
+          "displayName": "python",
+          "tagId": "00a735cad87f34381cccd7affd9c00ee"
+        },
+        {
+          "description": "",
+          "displayName": "scraping",
+          "tagId": "335093b8b4c4d18cccaa4b21ac03af74"
+        },
+        {
+          "description": "",
+          "displayName": "web",
+          "tagId": "a6c04fc047e0d9e02df87e54ee20ba0b"
+        }
+      ],
+      "totalStars": "16",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
       "assetId": "0cd77c7ac28e2f88fa89344f7670f3c4",
       "assetType": 3,
       "author": {
@@ -990,14 +1062,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6e/c3/6ec3fa505fe723b5a2ae81f3f0505ad8320be4130a37d503e18aae71409ba354",
         "displayName": "jonathanliu811026",
-        "reputation": "60",
+        "reputation": "65",
         "userId": "76ec9d2f0d0658b02435cd49652caa7e"
       },
       "category": "",
       "createdAt": "2026-03-11T00:00:00.000Z",
       "description": "Audit agent skills for security threats before installing them. Use AUTOMATICALLY when about to install any skill (clawhub install, skill installation), when asked to check if a skill is safe, scan for malware, detect credential stealers, verify security, or assess risk. Also triggers on \"is this skill safe?\", \"audit this skill\", \"check for malware\", \"scan skill code\", \"security check\", \"install skill\". Calls the SkillGuard x402 API (paid USDC or free credit/IOU). IMPORTANT - always audit skills BEFORE installing them.",
       "displayName": "SkillGuard - Agent Skill Security Auditor",
-      "downloadCount": "16",
+      "downloadCount": "17",
       "latestSemver": "0.3.0",
       "longDescription": "📦 ClawHub: [jonathanliu811026/skillguard-audit](https://clawhub.ai/jonathanliu811026/skillguard-audit)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jonathanliu811026/skillguard-audit)\n🏷️ Version: 0.3.0\n📅 Published: 2026-02-17",
       "name": "skillguard-audit",
@@ -2025,7 +2097,7 @@
       "createdAt": "2026-03-11T00:00:00.000Z",
       "description": "Set up a complete multi-brand social media management team on OpenClaw. Scaffolds 5 specialized agents (Leader, Creator, Worker, Researcher, Engineer) + on-demand Reviewer in a star topology with persistent A2A sessions, 3-layer memory system, shared knowledge base, approval workflows, and brand isolation. Use when setting up a new social media operations team, adding the multi-agent framework to an existing OpenClaw instance, or when the user mentions social media management, multi-brand operations, or content team setup.",
       "displayName": "Social Media Ops",
-      "downloadCount": "19",
+      "downloadCount": "20",
       "latestSemver": "3.2.0",
       "longDescription": "📦 ClawHub: [kuan0808/social-media-ops](https://clawhub.ai/kuan0808/social-media-ops)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/kuan0808/social-media-ops)\n🏷️ Version: 3.2.0\n📅 Published: 2026-03-09",
       "name": "social-media-ops",
@@ -2667,14 +2739,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7b/3c/7b3c2e18bdda4ba72108f2dc3fca7243df604ffe1e5f37b4f1c2e3721c318bf1",
         "displayName": "gracelungu",
-        "reputation": "40",
+        "reputation": "45",
         "userId": "9c351b149bf14021c912f46ff6f265d0"
       },
       "category": "",
       "createdAt": "2026-03-11T00:00:00.000Z",
       "description": "Recreate low-budget AI video ad workflows using Nano Banana image generation plus Kling 3.0 video synthesis with dialogue, including prompt design, scene planning, cost control, and export handoff. Use when a user wants to produce a cinematic ad quickly (often in a few hours) with a small credit budget, or asks for a Deon-style Nano Banana + Kling pipeline.",
       "displayName": "Nano Banana Kling Ad Workflow",
-      "downloadCount": "15",
+      "downloadCount": "16",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [gracelungu/nano-banana-kling-ad-workflow](https://clawhub.ai/gracelungu/nano-banana-kling-ad-workflow)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/gracelungu/nano-banana-kling-ad-workflow)\n📅 Published: 2026-02-09",
       "name": "nano-banana-kling-ad-workflow",
@@ -3176,69 +3248,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "02d6f363aaf4b95e324e0d6b65db1000",
-      "assetType": 3,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d7/0f/d70f16fe9adbe96480c8bedf08c8975ae5b8ecfdac362e3d489921f45dcf7683",
-        "displayName": "sperekrestova",
-        "reputation": "15",
-        "userId": "fa42bd99d1616d9094953c6c33132812"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": "Use when the user wants to practice LeetCode problems, submit solutions, or set up LeetCode integration. Covers MCP server installation, learning-guided practice flow, solution submission, and authentication.",
-      "displayName": "Interactive LeetCode practice",
-      "downloadCount": "6",
-      "latestSemver": "1.0.3",
-      "longDescription": "📦 ClawHub: [sperekrestova/interactive-leetcode](https://clawhub.ai/sperekrestova/interactive-leetcode)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/sperekrestova/interactive-leetcode)\n🏷️ Version: 1.0.3\n📅 Published: 2026-02-10",
-      "name": "interactive-leetcode",
-      "ownerUserId": "fa42bd99d1616d9094953c6c33132812",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "interactive",
-          "tagId": "b23d1bb7e16c66947a3be6522f07613c"
-        },
-        {
-          "description": "",
-          "displayName": "leetcode",
-          "tagId": "3ce62002cf2f65c1efbbd06a50058991"
-        },
-        {
-          "description": "",
-          "displayName": "MCP",
-          "tagId": "7f82cd7d22fcc8d86d2ef57721d02967"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "222f4f70baf5fa358a68add7ac58171b",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/80/bc/80bccc2d2f02412ed572fe414e6b26ef4b19ddf2e0af46c1bbdbb60345d2d4df",
-        "displayName": "hsantana",
-        "reputation": "15",
-        "userId": "272d6a250052b480bbf1535a4c027263"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": "Indexy — imported from ClawHub",
-      "displayName": "Indexy",
-      "downloadCount": "9",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [hsantana/indexy](https://clawhub.ai/hsantana/indexy)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/hsantana/indexy)\n📅 Published: 2026-02-18",
-      "name": "indexy",
-      "ownerUserId": "272d6a250052b480bbf1535a4c027263",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTExVDAwOjAwOjAwWiIsImlkIjo5NzB9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTExVDAwOjAwOjAwWiIsImlkIjo5NzJ9"
 }

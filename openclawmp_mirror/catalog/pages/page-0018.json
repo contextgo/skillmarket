@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "assetId": "84a9424e4c8e46e0c7b89b85ff4f3b35",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/45/ba/45ba77d1d12f3e56294202f293f19a495ebf5872cd022e2dff54ca727072a29b",
+        "displayName": "franklu0819-lang",
+        "reputation": "360",
+        "userId": "81fffba66ca83c3de70f0102d247acf9"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Automatic Speech Recognition (ASR) using Zhipu AI (BigModel) GLM-ASR model. Use when you need to transcribe audio files to text. Supports Chinese audio transcription with context prompts, custom hotwords, and multiple audio formats.",
+      "displayName": "Zhipu Asr",
+      "downloadCount": "5",
+      "latestSemver": "1.0.2",
+      "longDescription": "📦 ClawHub: [franklu0819-lang/zhipu-asr](https://clawhub.ai/franklu0819-lang/zhipu-asr)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/franklu0819-lang/zhipu-asr)\n🏷️ Version: 1.0.2\n📅 Published: 2026-03-12",
+      "name": "zhipu-asr",
+      "ownerUserId": "81fffba66ca83c3de70f0102d247acf9",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "asr",
+          "tagId": "e2f7e8eb83c67f29f41f3b6f8b09213b"
+        },
+        {
+          "description": "",
+          "displayName": "zhipu",
+          "tagId": "beaebcae29d01da8b269062305240223"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "bda218d1eb82f98053be3341d3f9a80b",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/87/dc/87dc476da78d6a6f653694b1a1715bc79c1d088d6f7efa5a7f0c89accddb0791",
+        "displayName": "gekacross",
+        "reputation": "80",
+        "userId": "2017b9fda826f826ee12df692647f6e8"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Acts as the user's sleep coach in the Sleep topic. Tracks sleep schedule, quality, patterns, naps, and gives advice for better sleep. Use when in Personal chat Sleep topic, or when user mentions sleep, insomnia, nap, wake up, bedtime, tired, fatigue, rest, alarm, or \"couldn't sleep\".",
+      "displayName": "Personal Sleep Coach",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [gekacross/personal-sleep](https://clawhub.ai/gekacross/personal-sleep)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/gekacross/personal-sleep)\n📅 Published: 2026-02-18",
+      "name": "personal-sleep",
+      "ownerUserId": "2017b9fda826f826ee12df692647f6e8",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "personal",
+          "tagId": "4b0d8c53e5ae32a55da8b7aec9789e0c"
+        },
+        {
+          "description": "",
+          "displayName": "sleep",
+          "tagId": "3fb776e19c3701699ba7f48298c83644"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "85a371ee247dc75176deb3d6119552e6",
       "assetType": 2,
       "author": {
@@ -1243,14 +1311,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a3/4a/a34ac9ee4c9913385f00d6a4f19a75f9e97a1d68026d6d20eab904ca1b22f386",
         "displayName": "wingchiu",
-        "reputation": "10",
+        "reputation": "15",
         "userId": "8b8cb9a92aa0dd26567318d969e3d7a2"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Manage MiniMax Speech 2.8 T2A (text-to-audio) and voice catalog lookups. Trigger when you need a precise MiniMax voice_id, a Speech 2.8 TTS request, or to list the available MiniMax system/cloned/generated voices.",
       "displayName": "MiniMax Speech 2.8",
-      "downloadCount": "10",
+      "downloadCount": "11",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [wingchiu/minimax-speech](https://clawhub.ai/wingchiu/minimax-speech)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/wingchiu/minimax-speech)\n📅 Published: 2026-02-14",
       "name": "minimax-speech",
@@ -1563,14 +1631,14 @@
       "author": {
         "avatarUrl": "",
         "displayName": "wells1137",
-        "reputation": "200",
+        "reputation": "205",
         "userId": "6d71db6dd0fe2620e5540710b6ac111e"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Generates music from a structured Composition Plan. Use this skill to execute music generation after a prompt or plan has been designed. It validates the output quality and retries on failure.",
       "displayName": "Music Generator",
-      "downloadCount": "12",
+      "downloadCount": "13",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [wells1137/music-generator](https://clawhub.ai/wells1137/music-generator)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/wells1137/music-generator)\n📅 Published: 2026-02-25",
       "name": "music-generator",
@@ -2924,7 +2992,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/fb/affb3de334633aa6a2d9c7e7d242fad626ac481893a187f8bb7e4f71aae33490",
         "displayName": "andyxinweiminicloud",
-        "reputation": "170",
+        "reputation": "175",
         "userId": "065e0a81b4ca4368a88389941bb20cb7"
       },
       "category": "",
@@ -3070,14 +3138,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/79/5b/795baa7fc92bf3e4a5770d2e29092aac636b69b2321616b4a4ba81c348e5021d",
         "displayName": "zerone0x",
-        "reputation": "80",
+        "reputation": "85",
         "userId": "ccd52c4c03979bb438140cd3416dfedb"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Download ebooks (epub/pdf) from Anna's Archive and upload them to MEGA automatically. Use when the user asks to download a book, find an ebook, search for a title on Anna's Archive/libgen, or add a book to their MEGA library.",
       "displayName": "Book Fetch",
-      "downloadCount": "13",
+      "downloadCount": "14",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [zerone0x/book-fetch](https://clawhub.ai/zerone0x/book-fetch)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/zerone0x/book-fetch)\n📅 Published: 2026-02-24",
       "name": "book-fetch",
@@ -3165,80 +3233,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "8e5431d7d691d3978610591a0338a835",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/48/1f/481f233d747ca0036961d6f4343dcdba3fb2f4f61d2c94495c2fdb3023e5ceff",
-        "displayName": "mematron",
-        "reputation": "10",
-        "userId": "5f7f7c22f4267a9fd0b2629c79a86710"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "[TODO: Complete and informative explanation of what the skill does and when to use it. Include WHEN to use this skill - specific scenarios, file types, or tasks that trigger it.]",
-      "displayName": "Web Navigator",
-      "downloadCount": "9",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [mematron/web-navigator](https://clawhub.ai/mematron/web-navigator)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mematron/web-navigator)\n📅 Published: 2026-02-17",
-      "name": "web-navigator",
-      "ownerUserId": "5f7f7c22f4267a9fd0b2629c79a86710",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "navigator",
-          "tagId": "867e4e9509b34bf78250daa656a9accd"
-        },
-        {
-          "description": "",
-          "displayName": "web",
-          "tagId": "a6c04fc047e0d9e02df87e54ee20ba0b"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "e5ae5b61d5c47c3e29dba10bbfe173a8",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4b/bc/4bbc8b086ab513aa74aaf94baad7ddcdd6992248f2a2999ad0505ec4fd803b72",
-        "displayName": "psyduckler",
-        "reputation": "105",
-        "userId": "c79c2078d05e4f96f50dfa6625dd798e"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Create and publish an Instagram carousel post from a tabiji.ai itinerary. Given an itinerary URL, finds Instagram-worthy photos for the destination + top attractions, applies text overlays, and publishes as a carousel. Use when asked to create an Instagram post, carousel, or social content for a tabiji destination or itinerary.",
-      "displayName": "Itinerary Carousel Post",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [psyduckler/itinerary-carousel-post](https://clawhub.ai/psyduckler/itinerary-carousel-post)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/psyduckler/itinerary-carousel-post)\n📅 Published: 2026-02-17",
-      "name": "itinerary-carousel-post",
-      "ownerUserId": "c79c2078d05e4f96f50dfa6625dd798e",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "carousel",
-          "tagId": "db7fa707e362e386d413765f85e5db3c"
-        },
-        {
-          "description": "",
-          "displayName": "itinerary",
-          "tagId": "1a3c03092b948f70ea6e36eef78ccf42"
-        },
-        {
-          "description": "",
-          "displayName": "post",
-          "tagId": "cf16e26d3a2d8c252cded3e21302d9d6"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozOTcwfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozOTcyfQ"
 }

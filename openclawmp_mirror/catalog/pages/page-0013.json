@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "assetId": "46a7bd605a85cb9a9b0e31ff9f5a8e29",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4e/80/4e80acc05aeb4a3d5c705b35909a55cd674ceaf8c880d83cc9c94bb14a19b531",
+        "displayName": "ryanfren",
+        "reputation": "5",
+        "userId": "70d3aa469bfa5f664fb9cbe9d3e86279"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Secure email proxy for AI agents. Search, read, and draft emails via MCP with server-side credential isolation, PII redaction, prompt injection detection, and content filtering. Unlike raw Gmail/IMAP skills, your agent never sees passwords or unfiltered content. Self-host or use the hosted version.\"",
+      "displayName": "AgentCloak - Email Proxy that filters PII, 2FA, and password resets",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [ryanfren/agentcloak-email-proxy](https://clawhub.ai/ryanfren/agentcloak-email-proxy)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/ryanfren/agentcloak-email-proxy)\n📅 Published: 2026-02-19",
+      "name": "agentcloak-email-proxy",
+      "ownerUserId": "70d3aa469bfa5f664fb9cbe9d3e86279",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agentcloak",
+          "tagId": "1652f49577473110e4ed080be26b8e1b"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "0da1cc9114ae5519a21b1a5d223f57bd",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/16/cb/16cb0e63bbaedf27dc2f1c0701ea9ad65241380c5f7e438228b869385dc7a9ad",
+        "displayName": "gh-xj",
+        "reputation": "10",
+        "userId": "0b5d378c4ee41c0936d2aff3e1286a2d"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"agentcli-go framework reference for building Go CLI tools. Use when working on agentcli-go itself, scaffolding new CLI projects, adding commands, integrating the library, or debugging framework behavior. Triggers on: agentcli-go, scaffold new CLI, add command, cobrax, configx, AppContext, RunLifecycle, agentcli.\"",
+      "displayName": "Agentcli Go",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [gh-xj/agentcli-go](https://clawhub.ai/gh-xj/agentcli-go)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/gh-xj/agentcli-go)\n📅 Published: 2026-02-23",
+      "name": "agentcli-go",
+      "ownerUserId": "0b5d378c4ee41c0936d2aff3e1286a2d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agentcli",
+          "tagId": "995a7ced2762e0b6e75b5e4aebf2df22"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "34b0581a2328f738a5d38350e095ac7c",
       "assetType": 2,
       "author": {
@@ -290,7 +348,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fa/f4/faf4823f82acf85cfb528fa4c64ec035506f222ac4693ef53cda49e7e472f272",
         "displayName": "sharbelayy",
-        "reputation": "35",
+        "reputation": "40",
         "userId": "595091f591d8c49f86a972b2f4d23a3b"
       },
       "category": "",
@@ -983,7 +1041,7 @@
       "author": {
         "avatarUrl": "",
         "displayName": "wells1137",
-        "reputation": "200",
+        "reputation": "205",
         "userId": "6d71db6dd0fe2620e5540710b6ac111e"
       },
       "category": "",
@@ -1120,14 +1178,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4e/fb/4efb08a515ab49828b42dc4759224c66fd201a11b9a4316fd28de0bbeb4bf46a",
         "displayName": "gustavoziaugra",
-        "reputation": "15",
+        "reputation": "20",
         "userId": "ec67604120dee37abac585870e133864"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Personal daily briefing and productivity assistant. Generates morning briefings with priorities, habits, and self-care reminders. Use when starting your day, planning tasks, or maintaining daily routines and personal development. A minimalist personal productivity skill focused on you.",
       "displayName": "Personal Assistant",
-      "downloadCount": "14",
+      "downloadCount": "16",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [gustavoziaugra/personal-assistant](https://clawhub.ai/gustavoziaugra/personal-assistant)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/gustavoziaugra/personal-assistant)\n📅 Published: 2026-02-11",
       "name": "personal-assistant",
@@ -1510,7 +1568,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Return system metrics (CPU, RAM, disk, processes) using psutil.",
       "displayName": "Local System Info",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "1.1.0",
       "longDescription": "📦 ClawHub: [iyeque/local-system-info](https://clawhub.ai/iyeque/local-system-info)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/iyeque/local-system-info)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-17",
       "name": "local-system-info",
@@ -3070,59 +3128,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "15e21c344674b853e740c3dcd34d14f6",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b8/b9/b8b93733a8446f40c3cb57f3e03c8590fd1fc71bc93914ddf533206de4387d6c",
-        "displayName": "yx2601816404-sys",
-        "reputation": "10",
-        "userId": "abdb00f2d0cea0ad59b8070455b27cb2"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Quest Board — imported from ClawHub",
-      "displayName": "Quest Board",
-      "downloadCount": "8",
-      "latestSemver": "0.1.0",
-      "longDescription": "📦 ClawHub: [yx2601816404-sys/quest-board](https://clawhub.ai/yx2601816404-sys/quest-board)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/yx2601816404-sys/quest-board)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-19",
-      "name": "quest-board",
-      "ownerUserId": "abdb00f2d0cea0ad59b8070455b27cb2",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "32e7f340af6929141c0387540e7d016e",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9e/7b/9e7b75b57a39671024f6cbcebc266af9a00c57c285c805217c2d960bb113df45",
-        "displayName": "smadgerano",
-        "reputation": "14",
-        "userId": "9be12627d18c9297dbc2c73e0649f409"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "|",
-      "displayName": "Feast - Intelligent meal planning, region and season aware shopping lists, respects dietary requirements, provides recipes, and generates immersive mealtime playlists",
-      "downloadCount": "5",
-      "latestSemver": "1.0.2",
-      "longDescription": "📦 ClawHub: [smadgerano/feast](https://clawhub.ai/smadgerano/feast)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/smadgerano/feast)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-02",
-      "name": "feast",
-      "ownerUserId": "9be12627d18c9297dbc2c73e0649f409",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "feast",
-          "tagId": "2e4b9999243f4f4a22b8ff3b6b4e31e4"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0NDcwfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0NDcyfQ"
 }

@@ -1,6 +1,79 @@
 {
   "items": [
     {
+      "assetId": "59f1d614c8225e383671d2710dbd32bb",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ff/54/ff54742416398a6019db6d3595d8807b5b98abe064aba8f09660ffa930b7ffbf",
+        "displayName": "nextaltair",
+        "reputation": "75",
+        "userId": "dcb7a599a03d561a1b0bdb1221e69e2f"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "Build sessions_spawn command payloads from JSON profiles. Use when you want reusable subagent profiles (model/thinking/timeout/cleanup/agentId/label) and command-ready JSON without executing spawn.",
+      "displayName": "Subagent Spawn Command Builder",
+      "downloadCount": "16",
+      "latestSemver": "0.1.2",
+      "longDescription": "📦 ClawHub: [nextaltair/subagent-spawn-command-builder](https://clawhub.ai/nextaltair/subagent-spawn-command-builder)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/nextaltair/subagent-spawn-command-builder)\n🏷️ Version: 0.1.2\n📅 Published: 2026-02-14",
+      "name": "subagent-spawn-command-builder",
+      "ownerUserId": "dcb7a599a03d561a1b0bdb1221e69e2f",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "command",
+          "tagId": "4069119835776199fdeea9c50a7dd9cc"
+        },
+        {
+          "description": "",
+          "displayName": "spawn",
+          "tagId": "9d77a877c2aa5178dd356ebef355d797"
+        },
+        {
+          "description": "",
+          "displayName": "subagent",
+          "tagId": "3b2d16fd745818c1fcda516d877e310b"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "assetId": "ab51bea01b28e62a60868cd323f027ed",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fa/f7/faf7829096b039d7ea5cb755de2b5786a6ab8b4f0cb0a557e543504d028c1c73",
+        "displayName": "a2mus",
+        "reputation": "35",
+        "userId": "c620a367b9748900761a867734d14491"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "Design, preview, and generate UI code using Google Stitch (via MCP). Helps developers choose the best UI by generating previews first, allowing iteration, and then exporting code.",
+      "displayName": "Stitch Ui Designer",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [a2mus/stitch-ui-designer](https://clawhub.ai/a2mus/stitch-ui-designer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/a2mus/stitch-ui-designer)\n📅 Published: 2026-02-08",
+      "name": "stitch-ui-designer",
+      "ownerUserId": "c620a367b9748900761a867734d14491",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "designer",
+          "tagId": "5dda9fd9f2dc6e01d70d88d075095617"
+        },
+        {
+          "description": "",
+          "displayName": "stitch",
+          "tagId": "1a06a30dcbec9f8326bc95d893f1c433"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
       "assetId": "2fc13cfdcb910180aaaf04160582f0d5",
       "assetType": 3,
       "author": {
@@ -1127,7 +1200,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "\"Guide skill for controlling native Windows apps (UIA) and web browsers (Playwright) via the handsfree-windows CLI. Use when you need to automate or test desktop applications or websites on a Windows machine: launching apps from Start menu, discovering UI controls without guessing, clicking/typing in native apps, opening/snapshotting/clicking in browsers, recording and replaying YAML macros that mix desktop and web steps. REQUIRES handsfree-windows CLI (auto-installed on first use via setup.py).\"",
       "displayName": "Handsfree Windows Control",
-      "downloadCount": "25",
+      "downloadCount": "26",
       "latestSemver": "1.3.0",
       "longDescription": "📦 ClawHub: [lijinlar/handsfree-windows-control](https://clawhub.ai/lijinlar/handsfree-windows-control)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lijinlar/handsfree-windows-control)\n🏷️ Version: 1.3.0\n📅 Published: 2026-02-20",
       "name": "handsfree-windows-control",
@@ -2902,7 +2975,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/fb/affb3de334633aa6a2d9c7e7d242fad626ac481893a187f8bb7e4f71aae33490",
         "displayName": "andyxinweiminicloud",
-        "reputation": "170",
+        "reputation": "175",
         "userId": "065e0a81b4ca4368a88389941bb20cb7"
       },
       "category": "",
@@ -3215,65 +3288,7 @@
       ],
       "totalStars": "5",
       "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "c37b186831c00ba70814823d5a2e09d4",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0a/5f/0a5f4848bd3a65805519ec40e4fbf25d28f43858b0d54076704068e9bff6e6f1",
-        "displayName": "akhmittra",
-        "reputation": "94",
-        "userId": "269d3eed3591a17bd154a1fe09437a74"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Generate creative code names and encode/decode secret messages using classic and sophisticated ciphers. Blends nostalgic decoder ring fun with modern cryptographic techniques. Includes Caesar, Vigenère, Polybius, Rail Fence, and hybrid methods. Provides keys for secure message sharing between trusted parties.",
-      "displayName": "SecretCodex",
-      "downloadCount": "9",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [akhmittra/secretcodex](https://clawhub.ai/akhmittra/secretcodex)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/akhmittra/secretcodex)\n📅 Published: 2026-02-11",
-      "name": "secretcodex",
-      "ownerUserId": "269d3eed3591a17bd154a1fe09437a74",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "secretcodex",
-          "tagId": "44ffb2fb97ffefbd36c74da1538f06a9"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "16095173778a9f39135e1e48d9d05a61",
-      "assetType": 3,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4c/e2/4ce2e4d44d4399d7139b9368ece74479c6d27e4996a0decc08b88989b4c91893",
-        "displayName": "yaooooooooooooooo",
-        "reputation": "0",
-        "userId": "a9317422c3400da992287fecc7de5ee8"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Agent trust intelligence for Moltbook and x402 Bazaar. Use when you need to check if an agent or service is trustworthy before paying, compare agents side-by-side, scan feeds for quality agents, or make trust-gated USDC payments. Answers the question \"should I pay this agent?\" with research-backed scoring across 6 dimensions.",
-      "displayName": "Scout",
-      "downloadCount": "2",
-      "latestSemver": "1.0.2",
-      "longDescription": "📦 ClawHub: [yaooooooooooooooo/scout](https://clawhub.ai/yaooooooooooooooo/scout)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/yaooooooooooooooo/scout)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-07",
-      "name": "scout",
-      "ownerUserId": "a9317422c3400da992287fecc7de5ee8",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "scout",
-          "tagId": "b450a961ae677bc8c03ef78d8f23bf1e"
-        }
-      ],
-      "totalStars": "0",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo2NzB9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo2NzJ9"
 }

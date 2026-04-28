@@ -1,6 +1,79 @@
 {
   "items": [
     {
+      "assetId": "9c7974e750120d8a532fbd3a8f045164",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/40/27/402764bbb77c629508cd0ed9c5b1e1475fc4d6ed4cb3776885d022ddc49d77e0",
+        "displayName": "jk-0001",
+        "reputation": "679",
+        "userId": "3e05b3467962d557cd0911d2cdda6f63"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Set and track goals for a solopreneur business using OKRs (Objectives and Key Results) and related frameworks. Use when defining business goals, creating quarterly or annual targets, building KPIs, tracking progress, or aligning daily work with strategic direction. Covers OKR methodology adapted for solo operators, goal hierarchy (vision → annual → quarterly → weekly), and review cadences. Trigger on \"set goals\", \"OKRs\", \"business goals\", \"quarterly goals\", \"KPIs\", \"goal setting\", \"how to track progress\", \"annual goals\", \"prioritize my work\", \"what should I focus on\".",
+      "displayName": "Goal Setting Okrs",
+      "downloadCount": "9",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [jk-0001/goal-setting-okrs](https://clawhub.ai/jk-0001/goal-setting-okrs)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jk-0001/goal-setting-okrs)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-16",
+      "name": "goal-setting-okrs",
+      "ownerUserId": "3e05b3467962d557cd0911d2cdda6f63",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "goal",
+          "tagId": "856bd7a58ca04d3e592af6cf54701bc0"
+        },
+        {
+          "description": "",
+          "displayName": "okrs",
+          "tagId": "51a9cb0bd0e2a37341c32a416d369d37"
+        },
+        {
+          "description": "",
+          "displayName": "setting",
+          "tagId": "f7530983ca6dc26fde9511263c2d6243"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "a1a31003458c6b55856cc5cb410a3ed6",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/84/05/84055f6eeb6560854e01eb4a144f1a66f6b5ffce129b53f0a92fe90fb53289a8",
+        "displayName": "clarezoe",
+        "reputation": "45",
+        "userId": "04b7938654b7f72012a3868d706dc4e1"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "End-of-session workflow for shipping changes, consolidating memory, applying self-improvements, and preparing publishable outputs with safety gates.",
+      "displayName": "Close Loop",
+      "downloadCount": "9",
+      "latestSemver": "2.1.1",
+      "longDescription": "📦 ClawHub: [clarezoe/close-loop](https://clawhub.ai/clarezoe/close-loop)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/clarezoe/close-loop)\n🏷️ Version: 2.1.1\n📅 Published: 2026-02-23",
+      "name": "close-loop",
+      "ownerUserId": "04b7938654b7f72012a3868d706dc4e1",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "close",
+          "tagId": "4ae85ccb92c2f7928dd2198cde080d2e"
+        },
+        {
+          "description": "",
+          "displayName": "loop",
+          "tagId": "1d0198cd7487427f6cec65b9aa83adf8"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "6edc716f7dbe9e2cfa52a04de95d1f60",
       "assetType": 2,
       "author": {
@@ -1300,7 +1373,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Autonomous web research agent that performs multi-step searches, follows links, extracts data, and synthesizes findings into structured reports. Use when asked to research a topic, find information across multiple sources, compare options, gather market data, compile lists, or answer questions requiring deep web investigation beyond a single search.",
       "displayName": "Web Searcher",
-      "downloadCount": "19",
+      "downloadCount": "20",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [kassimisai/web-searcher](https://clawhub.ai/kassimisai/web-searcher)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/kassimisai/web-searcher)\n📅 Published: 2026-02-11",
       "name": "web-searcher",
@@ -1334,7 +1407,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Configurable web scraping service. Extract structured data from any website. Custom projects and monthly maintenance contracts.",
       "displayName": "Web Scraper",
-      "downloadCount": "22",
+      "downloadCount": "23",
       "latestSemver": "1.0.1",
       "longDescription": "📦 ClawHub: [sa9saq/web-scraper](https://clawhub.ai/sa9saq/web-scraper)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/sa9saq/web-scraper)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-11",
       "name": "web-scraper",
@@ -2540,7 +2613,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Complete task tracking system with SQLite persistence, automatic creation, notifications, heartbeat monitoring, and stuck task recovery. Replaces task-queue-heartbeat, auto-track, and notification skills. Use for all task management needs.",
       "displayName": "Task System",
-      "downloadCount": "13",
+      "downloadCount": "14",
       "latestSemver": "1.0.1",
       "longDescription": "📦 ClawHub: [npmisantosh/task-system](https://clawhub.ai/npmisantosh/task-system)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/npmisantosh/task-system)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-14",
       "name": "task-system",
@@ -2930,7 +3003,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5a/90/5a905708a48961343a1285b52ea542d45b8750d3a0b9a551ff029663a81523f8",
         "displayName": "bowen31337",
-        "reputation": "275",
+        "reputation": "280",
         "userId": "f39d34d14bf06ca2423942c6fd7379a6"
       },
       "category": "",
@@ -3173,70 +3246,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "974d672f8ef8c2c19684e12060ce0c63",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3e/13/3e13c094fbee1a91e455804ecbdb8adf72f69ec8a075412b8cfe5298ef343d21",
-        "displayName": "mikeholownych",
-        "reputation": "10",
-        "userId": "e39e5d8b27da15243edf6187dae7bf3c"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Mandatory strict-mode execution wrapper for autonomous operations with evidence logging and policy enforcement",
-      "displayName": "Governance.Wrapper",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [mikeholownych/governance-wrapper](https://clawhub.ai/mikeholownych/governance-wrapper)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mikeholownych/governance-wrapper)\n📅 Published: 2026-02-24",
-      "name": "governance-wrapper",
-      "ownerUserId": "e39e5d8b27da15243edf6187dae7bf3c",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "governance.wrapper",
-          "tagId": "8a6335e0aa0221e6d8d0de9e32152697"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "b056997a7b8441074c75a1f913f8b86a",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ea/3a/ea3af8361212e8df9c82f0e1cf61c44882f5de13021f2a67bdef538410ff852c",
-        "displayName": "glucksberg",
-        "reputation": "20",
-        "userId": "f9807fbd7a7bca38ce02c9bd7eaf7200"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Manage forks with open PRs - sync upstream, rebase branches, track PR status, and maintain production branches with pending contributions. Supports automatic conflict resolution via --auto-resolve flag (spawns AI subagents to resolve rebase conflicts). Use when syncing forks, rebasing PR branches, building production branches that combine all open PRs, reviewing closed/rejected PRs, or managing local patches kept outside upstream. Requires Git and GitHub CLI (gh).",
-      "displayName": "Fork Manager",
-      "downloadCount": "9",
-      "latestSemver": "2.0.1",
-      "longDescription": "📦 ClawHub: [glucksberg/fork-manager](https://clawhub.ai/glucksberg/fork-manager)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/glucksberg/fork-manager)\n🏷️ Version: 2.0.1\n📅 Published: 2026-02-28",
-      "name": "fork-manager",
-      "ownerUserId": "f9807fbd7a7bca38ce02c9bd7eaf7200",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "fork",
-          "tagId": "6507d687c152dc4730ee4b946919f601"
-        },
-        {
-          "description": "",
-          "displayName": "manager",
-          "tagId": "61490ada7413eb5ba019beb2dae8099c"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjoyOTcwfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjoyOTcyfQ"
 }
