@@ -1,6 +1,84 @@
 {
   "items": [
     {
+      "assetId": "08b9bb3c6adf453c96f11e4e651c1a97",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
+        "displayName": "天线同学",
+        "reputation": "334",
+        "userId": "1dbdec16923af7736cdd1a1790e366e2"
+      },
+      "category": "lifestyle",
+      "createdAt": "2026-04-28T13:37:27.016Z",
+      "description": "6维度电影解说框架，3种解说风格，输出完整文案。",
+      "displayName": "电影解说文案师",
+      "downloadCount": "1",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "movie-commentary-writer",
+      "ownerUserId": "1dbdec16923af7736cdd1a1790e366e2",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "movie",
+          "tagId": "b3aaf38014e4412289225c0036a294d0"
+        },
+        {
+          "description": "",
+          "displayName": "commentary",
+          "tagId": "a72396cfb00449dca3d00f519474e146"
+        },
+        {
+          "description": "",
+          "displayName": "video",
+          "tagId": "85e9b2c35ee3196c5b314546bbbc312e"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-28T13:38:46.072Z"
+    },
+    {
+      "assetId": "02a467b5f78643c8a905ec6aaf2a9e28",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
+        "displayName": "天线同学",
+        "reputation": "334",
+        "userId": "1dbdec16923af7736cdd1a1790e366e2"
+      },
+      "category": "productivity",
+      "createdAt": "2026-04-28T13:22:12.962Z",
+      "description": "5维度语言分析，快速识人，提供沟通建议。",
+      "displayName": "语言识人术",
+      "downloadCount": "0",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "language-personality-reader",
+      "ownerUserId": "1dbdec16923af7736cdd1a1790e366e2",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "personality",
+          "tagId": "0829e2a17f6fbaa5518ecfc64314981d"
+        },
+        {
+          "description": "",
+          "displayName": "communication",
+          "tagId": "ba871bc26072ae0c5aa4ca16a9263a31"
+        },
+        {
+          "description": "",
+          "displayName": "psychology",
+          "tagId": "d0b9c2395dacbe58ed601ba9fbc05ef6"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-04-28T13:23:44.008Z"
+    },
+    {
       "assetId": "dcd513639ba646279e0af951835e615a",
       "assetType": 2,
       "author": {
@@ -13,7 +91,7 @@
       "createdAt": "2026-04-27T11:48:14.186Z",
       "description": "「职」属于你 — 你的职业方向,不应该是别人选剩的。本技能从中国大陆应届/在校毕业生的可迁移技能出发,先排除 3 个显而易见的邻近岗位(那是大家都看得见的路径),再帮你找出 5-7 条真正属于你的非显然方向。每条带可复现的检索配方(平台+关键词+筛选+5 家示例公司),不编造投递链接;若运行时支持 WebSearch 则补充验证后的真实在招岗位。覆盖大厂校招/国央企编制/选调考公/创业 等多档轨道,按低/中/高三档风险路由,内置两遍自检协议。最终输出 markdown(供 chat 内查看 + 迭代)+ .docx 文件(供保存 / 分享 / 打印)。",
       "displayName": "「职」属于你 /zhi-shu-yu-ni",
-      "downloadCount": "1",
+      "downloadCount": "4",
       "latestSemver": "1.2.1",
       "longDescription": "",
       "name": "zhi-shu-yu-ni",
@@ -80,7 +158,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
         "displayName": "33680779",
-        "reputation": "81",
+        "reputation": "86",
         "userId": "7e1b8d2bef7546cd46c088d995cd7137"
       },
       "category": "education",
@@ -182,7 +260,7 @@
       "createdAt": "2026-04-26T12:40:25.502Z",
       "description": "A股报告生成与推送技能。支持晨报/晚报/收盘小结/盘中预警/财经周末要闻/A股IPO周报6种报告。内置6维量化情绪打分，输出🟢极强→🔴极弱五级评级。数据源AKShare+腾讯财经+网络搜索。触发词：生成晨报/推送晚报/收盘小结/沪深300预警",
       "displayName": "A股报告生成与推送",
-      "downloadCount": "4",
+      "downloadCount": "6",
       "latestSemver": "1.0.0",
       "longDescription": "## A股报告生成与推送技能\n\n### 支持报告类型\n1. **晨报**（AI搜索+模板，每日8:00）\n2. **晚报**（AI搜索+量化情绪打分，每日20:00）\n3. **收盘小结**（脚本数据+量化情绪打分，交易日15:30）\n4. **盘中预警**（脚本，交易时段每5分钟）\n5. **财经周末要闻**（AI搜索，每周20:00）\n6. **A股IPO周报**（每周六09:00，Python脚本直推）\n\n### 量化情绪打分（晚报/收盘小结）\n- 涨停数量\n- 涨跌停比\n- 北向资金\n- 全市场主力净流入\n- 两融余额\n- 沪深300\n满分100，输出五级：🟢极强/🟡多头/⚪中性/🟠偏空/🔴极弱\n\n### 数据源\nAKShare + 腾讯财经 + 网络搜索\n\n### 触发词\n「生成晨报」「推送晚报」「收盘小结」「沪深300预警」",
       "name": "astock-report",
@@ -244,7 +322,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "wellness",
@@ -283,7 +361,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "wellness",
@@ -322,7 +400,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/12/31/12319de72f388d1583b9e755b0871a639e9417eeb3396a6c9bd42cc2abebbee3",
         "displayName": "马上冲冲冲",
-        "reputation": "2",
+        "reputation": "7",
         "userId": "b78cd5f374d04c269ad34c53684a02e0"
       },
       "category": "research",
@@ -376,14 +454,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/12/31/12319de72f388d1583b9e755b0871a639e9417eeb3396a6c9bd42cc2abebbee3",
         "displayName": "马上冲冲冲",
-        "reputation": "2",
+        "reputation": "7",
         "userId": "b78cd5f374d04c269ad34c53684a02e0"
       },
       "category": "research",
       "createdAt": "2026-04-26T06:19:35.931Z",
       "description": "",
       "displayName": "用户访谈分析专家",
-      "downloadCount": "2",
+      "downloadCount": "4",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "user-interview-analyst",
@@ -425,7 +503,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -464,7 +542,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "wellness",
@@ -503,7 +581,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -542,7 +620,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -581,7 +659,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
         "displayName": "ruiyongwang",
-        "reputation": "1498",
+        "reputation": "1527",
         "userId": "f718804c10ff235090b4eaf5a6a1fc65"
       },
       "category": "",
@@ -604,7 +682,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
         "displayName": "ruiyongwang",
-        "reputation": "1498",
+        "reputation": "1527",
         "userId": "f718804c10ff235090b4eaf5a6a1fc65"
       },
       "category": "legal",
@@ -673,7 +751,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
         "displayName": "ruiyongwang",
-        "reputation": "1498",
+        "reputation": "1527",
         "userId": "f718804c10ff235090b4eaf5a6a1fc65"
       },
       "category": "productivity",
@@ -732,7 +810,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
         "displayName": "ruiyongwang",
-        "reputation": "1498",
+        "reputation": "1527",
         "userId": "f718804c10ff235090b4eaf5a6a1fc65"
       },
       "category": "legal",
@@ -796,7 +874,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
         "displayName": "ruiyongwang",
-        "reputation": "1498",
+        "reputation": "1527",
         "userId": "f718804c10ff235090b4eaf5a6a1fc65"
       },
       "category": "productivity",
@@ -850,7 +928,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
         "displayName": "ruiyongwang",
-        "reputation": "1498",
+        "reputation": "1527",
         "userId": "f718804c10ff235090b4eaf5a6a1fc65"
       },
       "category": "productivity",
@@ -894,7 +972,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
         "displayName": "ruiyongwang",
-        "reputation": "1498",
+        "reputation": "1527",
         "userId": "f718804c10ff235090b4eaf5a6a1fc65"
       },
       "category": "legal",
@@ -948,7 +1026,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/81/86/8186d90a7cc1e6051c4485da61bd72a56089062eff08818c34b646b33a1a8cd5",
         "displayName": "ruiyongwang",
-        "reputation": "1498",
+        "reputation": "1527",
         "userId": "f718804c10ff235090b4eaf5a6a1fc65"
       },
       "category": "legal",
@@ -1002,7 +1080,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
         "displayName": "33680779",
-        "reputation": "81",
+        "reputation": "86",
         "userId": "7e1b8d2bef7546cd46c088d995cd7137"
       },
       "category": "education",
@@ -1061,7 +1139,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -1105,7 +1183,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "lifestyle",
@@ -1244,7 +1322,7 @@
       "createdAt": "2026-04-24T05:12:19.159Z",
       "description": "",
       "displayName": "Altium Designer PCB 设计全流程自动化",
-      "downloadCount": "6",
+      "downloadCount": "7",
       "latestSemver": "1.0.3",
       "longDescription": "",
       "name": "altium-designer-workflow",
@@ -1404,7 +1482,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -1448,7 +1526,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
         "displayName": "33680779",
-        "reputation": "81",
+        "reputation": "86",
         "userId": "7e1b8d2bef7546cd46c088d995cd7137"
       },
       "category": "",
@@ -1507,7 +1585,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -1551,7 +1629,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -1590,7 +1668,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a0/8a/a08aab7972e862a858803f20b793afb52df753c7a700604d61c6c6b7990317f8",
         "displayName": "Mike",
-        "reputation": "7",
+        "reputation": "8",
         "userId": "50eb86baf31f4ab9a64f10d0e92b302f"
       },
       "category": "",
@@ -1598,14 +1676,14 @@
       "description": "",
       "displayName": "Audiobook",
       "downloadCount": "3",
-      "latestSemver": "1.0.1",
+      "latestSemver": "1.0.2",
       "longDescription": "",
       "name": "audiobook",
       "ownerUserId": "50eb86baf31f4ab9a64f10d0e92b302f",
       "publicationHint": null,
       "tags": [],
       "totalStars": "1",
-      "updatedAt": "2026-04-24T02:56:24.008Z"
+      "updatedAt": "2026-04-28T08:09:24.008Z"
     },
     {
       "assetId": "c3f8a95312374ec7be74c4963766e184",
@@ -1620,7 +1698,7 @@
       "createdAt": "2026-04-23T09:38:24.239Z",
       "description": "HR 批量简历解析技能：从 PDF/docx 简历批量抽取 6 个核心字段（姓名/学历/毕业院校/经验年限/核心技能/期望薪资），支持 JD 关键词匹配打分（1-5）与 姓名+院校 去重。LLM 原生抽取，不依赖正则；扫描件和解析失败文件独立列出。",
       "displayName": "简历解析器 /resume-parser",
-      "downloadCount": "5",
+      "downloadCount": "6",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "resume-parser",
@@ -1864,7 +1942,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -1908,14 +1986,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/37/bb/37bbf70651c089fce478e260029f8e9d254801b6c33e959608674007918301c0",
         "displayName": "Jack-Yang-ai",
-        "reputation": "416",
+        "reputation": "417",
         "userId": "1af47eb3fcaa53fa9710b284c6a19b7d"
       },
       "category": "",
       "createdAt": "2026-04-22T14:20:07.843Z",
       "description": "提供校园招聘岗位和面试经验查询，支持职位搜索、详情查看及面试复盘信息检索。",
       "displayName": "职得Offer校园求职助手",
-      "downloadCount": "7",
+      "downloadCount": "11",
       "latestSemver": "1.0.1",
       "longDescription": "",
       "name": "zhide-offer",
@@ -1931,7 +2009,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -2003,7 +2081,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
         "displayName": "33680779",
-        "reputation": "81",
+        "reputation": "86",
         "userId": "7e1b8d2bef7546cd46c088d995cd7137"
       },
       "category": "education",
@@ -2403,7 +2481,7 @@
       "createdAt": "2026-04-21T16:18:55.956Z",
       "description": "",
       "displayName": "八字人格-skill",
-      "downloadCount": "10",
+      "downloadCount": "11",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "八字人格-skill",
@@ -2573,7 +2651,7 @@
       "createdAt": "2026-04-21T16:18:52.671Z",
       "description": "",
       "displayName": "上市公司财报体检",
-      "downloadCount": "6",
+      "downloadCount": "7",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "上市公司财报体检",
@@ -3519,7 +3597,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3d/bd/3dbde165e38a924f8256e6391b8c520d3a19a1545e66137f0f574e585d9ff9ac",
         "displayName": "54642481",
-        "reputation": "345",
+        "reputation": "350",
         "userId": "fdf761247448ac50c48e26dc17520d7d"
       },
       "category": "",
@@ -3573,7 +3651,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "wellness",
@@ -3617,7 +3695,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -3661,7 +3739,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
         "displayName": "天线同学",
-        "reputation": "322",
+        "reputation": "334",
         "userId": "1dbdec16923af7736cdd1a1790e366e2"
       },
       "category": "productivity",
@@ -3852,7 +3930,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/8a/5f8afc98c1826af627191710b553b312d0707581aed6db9c80590a46fdb4fea6",
         "displayName": "33680779",
-        "reputation": "81",
+        "reputation": "86",
         "userId": "7e1b8d2bef7546cd46c088d995cd7137"
       },
       "category": "education",
@@ -3906,7 +3984,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3d/bd/3dbde165e38a924f8256e6391b8c520d3a19a1545e66137f0f574e585d9ff9ac",
         "displayName": "54642481",
-        "reputation": "345",
+        "reputation": "350",
         "userId": "fdf761247448ac50c48e26dc17520d7d"
       },
       "category": "tooling",
@@ -3948,74 +4026,7 @@
       ],
       "totalStars": "0",
       "updatedAt": "2026-04-21T02:35:21.500Z"
-    },
-    {
-      "assetId": "25660e6ec50d4bbaa5bcd5bf16061c7b",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a8/50/a850c2eae5870ab5867ed9bc3277f981c78ef36a9a2387712acd1f56d95e8493",
-        "displayName": "User86W77KZEAP7YR",
-        "reputation": "6",
-        "userId": "e10cf6225e2d472ebad4c128eeaebd30"
-      },
-      "category": "",
-      "createdAt": "2026-04-20T16:38:02.671Z",
-      "description": "关于提示词工程在 AI 协作中核心地位的思考分享。",
-      "displayName": "提示词：从指令到灵魂的桥梁",
-      "downloadCount": "1",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "Prompt_Essence_Logic",
-      "ownerUserId": "e10cf6225e2d472ebad4c128eeaebd30",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "0",
-      "updatedAt": "2026-04-20T16:39:24.404Z"
-    },
-    {
-      "assetId": "235ea3b3e9724029ad89c5527e06f711",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/82/ab/82abfda07c0c82d25fc25cb5ea510c580c4ae2bd3ac3cbd347f30723039cd779",
-        "displayName": "天线同学",
-        "reputation": "322",
-        "userId": "1dbdec16923af7736cdd1a1790e366e2"
-      },
-      "category": "lifestyle",
-      "createdAt": "2026-04-20T14:08:50.964Z",
-      "description": "做家务不是体力活，是脑力活。六大维度家务指导，让家务省心、高效、不内耗。",
-      "displayName": "做家务小助理",
-      "downloadCount": "3",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "housework-assistant",
-      "ownerUserId": "1dbdec16923af7736cdd1a1790e366e2",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "housework",
-          "tagId": "3f94b56d4ab149ffa870bda92fd3a8e1"
-        },
-        {
-          "description": "",
-          "displayName": "home-management",
-          "tagId": "4a40fadf04d042a4992d0d60f08a22d2"
-        },
-        {
-          "description": "",
-          "displayName": "productivity",
-          "tagId": "eac285a44d3cd285385c76d670f64532"
-        },
-        {
-          "description": "",
-          "displayName": "lifestyle",
-          "tagId": "4f99b1b656da466a930e6ce361b54245"
-        }
-      ],
-      "totalStars": "0",
-      "updatedAt": "2026-04-20T14:10:34.007Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTA0LTIwVDE0OjA4OjUwLjk2NFoiLCJpZCI6NjQ0NH0"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTA0LTIxVDAyOjMzOjU4LjE5MloiLCJpZCI6NjQ0OX0"
 }

@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "assetId": "a6f8e7b17d126501333df600dcd6d37a",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/74/94/74944d165ac65db7cb35b48acccc0640d8f48dd966cbafac5858b780198e437f",
+        "displayName": "napoleond",
+        "reputation": "10",
+        "userId": "e48d670f5c3ecbcdc1dc5e597e79f775"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Interact with ClawDirect, a directory of social web experiences for AI agents. Use this skill to browse the directory, like entries, or add new sites. Requires ATXP authentication for MCP tool calls. Triggers: browsing agent-oriented websites, discovering social platforms for agents, liking/voting on directory entries, or submitting new agent-facing sites to ClawDirect.\"",
+      "displayName": "ClawDirect",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [napoleond/clawdirect](https://clawhub.ai/napoleond/clawdirect)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/napoleond/clawdirect)\n📅 Published: 2026-01-31",
+      "name": "clawdirect",
+      "ownerUserId": "e48d670f5c3ecbcdc1dc5e597e79f775",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "clawdirect",
+          "tagId": "3830577063dd139d641e4b878d8dd4ef"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "da4d6ecb4aa3a4c5080b4eaf3e85b9e4",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d1/fd/d1fd5ac714f31f412dedebd9a7203db9bfdb663e9d17920fd6fd363fa8d05981",
+        "displayName": "nukewire",
+        "reputation": "15",
+        "userId": "005be3c28d3a292eb6f50687f5cfc7c0"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Security scanner and input sanitizer for AI agents. Detects prompt injection, command injection, SSRF, credential exfiltration, and path traversal attacks. Use when (1) installing new skills from ClawHub, (2) processing external input like emails, calendar events, Trello cards, or API responses, (3) validating URLs before fetching, (4) running security audits on your workspace. Protects agents from malicious content in untrusted data sources.",
+      "displayName": "ClawDefender - OpenClaw Security - Prompt injection, rogue skills etc",
+      "downloadCount": "10",
+      "latestSemver": "1.0.1",
+      "longDescription": "📦 ClawHub: [nukewire/clawdefender](https://clawhub.ai/nukewire/clawdefender)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/nukewire/clawdefender)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-01",
+      "name": "clawdefender",
+      "ownerUserId": "005be3c28d3a292eb6f50687f5cfc7c0",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "clawdefender",
+          "tagId": "e4c8ae227c4bf192024544dec79cae26"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "09ac98251aa6c68e6f758559052ffe8c",
       "assetType": 2,
       "author": {
@@ -1262,7 +1320,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Schedule and manage recurring tasks with cron and systemd timers. Use when setting up cron jobs, writing systemd timer units, handling timezone-aware scheduling, monitoring failed jobs, implementing retry patterns, or debugging why a scheduled task didn't run.",
       "displayName": "Cron & Scheduling",
-      "downloadCount": "5",
+      "downloadCount": "6",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [gitgoodordietrying/cron-scheduling](https://clawhub.ai/gitgoodordietrying/cron-scheduling)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/gitgoodordietrying/cron-scheduling)\n📅 Published: 2026-02-03",
       "name": "cron-scheduling",
@@ -3174,70 +3232,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "bf2050433e78ce669b603f6af6ce2e43",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/71/4a/714a19d89d7671a0182fc67d467068a2509d28e36ee08b00939ebdd73bf2093a",
-        "displayName": "marketingax",
-        "reputation": "10",
-        "userId": "4d9f90ae7d7d9a658382f2789bc8b902"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Earn passive income as an AI agent. Join The Swarm - a crypto-powered social network where agents earn XP and money helping each other grow YouTube channels. No Phantom extension needed - full CLI auth for autonomous agents. Solana wallet, earn crypto, passive revenue, agent economy.",
-      "displayName": "The Swarm",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [marketingax/theswarm](https://clawhub.ai/marketingax/theswarm)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/marketingax/theswarm)\n📅 Published: 2026-02-09",
-      "name": "theswarm",
-      "ownerUserId": "4d9f90ae7d7d9a658382f2789bc8b902",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "theswarm",
-          "tagId": "003e25d5c7496c60f423efe6d5b1b6a4"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "64eb326ab836ad9fa3490a89f2490283",
-      "assetType": 3,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5c/87/5c87e1b69dbf36390f6c7c495aa1a2710fb0a25c30e1ac3423d8787a8c5410d7",
-        "displayName": "sohamganatra",
-        "reputation": "32",
-        "userId": "b31eb028eb965381e7973c67b2f6fe61"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "\"Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas.\"",
-      "displayName": "Airtable Automation",
-      "downloadCount": "4",
-      "latestSemver": "0.1.0",
-      "longDescription": "📦 ClawHub: [sohamganatra/airtable-automation](https://clawhub.ai/sohamganatra/airtable-automation)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/sohamganatra/airtable-automation)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-06",
-      "name": "airtable-automation",
-      "ownerUserId": "b31eb028eb965381e7973c67b2f6fe61",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "airtable",
-          "tagId": "dc810103f8deb46d1f89ee3148f5a50e"
-        },
-        {
-          "description": "",
-          "displayName": "automation",
-          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0MTcyfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0MTc0fQ"
 }

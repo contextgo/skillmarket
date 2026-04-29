@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "assetId": "65ee10ae66f4d1f80b45aec3b681cadb",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/3c/7d3c783b327a3f94a6a440874f7e17cb33ca9814b8926d835117fc972f952461",
+        "displayName": "paulgnz",
+        "reputation": "34",
+        "userId": "f1d5f477e73df25590c28f63009d20f0"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "XPR Network governance — communities, proposals, voting on the gov contract",
+      "displayName": "xpr-governance",
+      "downloadCount": "8",
+      "latestSemver": "0.2.11",
+      "longDescription": "📦 ClawHub: [paulgnz/governance](https://clawhub.ai/paulgnz/governance)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/paulgnz/governance)\n🏷️ Version: 0.2.11\n📅 Published: 2026-02-13",
+      "name": "governance",
+      "ownerUserId": "f1d5f477e73df25590c28f63009d20f0",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "governance",
+          "tagId": "1870aa56ba8fba1b2fadf1ac71da2285"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "1986aed88fa0d7ea784cbdfa0e6236cd",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/5d/0d5d1452ec540510daa94560bcd9049e059add6f201cb173bff20df258cbb085",
+        "displayName": "h4gen",
+        "reputation": "100",
+        "userId": "bf617b93c53d272e018c8483b666adac"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Support for German personal online banking following FinTS banking standard. Out of the box support for many german banks. Uses system keychain to keep credentials safe. Native Human-in-the-loop experince for transactions. Built in recovery and onboarding flows.\"",
+      "displayName": "FinTS Banking",
+      "downloadCount": "8",
+      "latestSemver": "1.0.3",
+      "longDescription": "📦 ClawHub: [h4gen/fints-banking](https://clawhub.ai/h4gen/fints-banking)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/h4gen/fints-banking)\n🏷️ Version: 1.0.3\n📅 Published: 2026-02-17",
+      "name": "fints-banking",
+      "ownerUserId": "bf617b93c53d272e018c8483b666adac",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "banking",
+          "tagId": "cca70f5d0f7ea1e8ec2cbc48079c3e95"
+        },
+        {
+          "description": "",
+          "displayName": "fints",
+          "tagId": "52e29ee17d45c309a7ff4a0a33c49d99"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "15e21c344674b853e740c3dcd34d14f6",
       "assetType": 2,
       "author": {
@@ -29,14 +92,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9e/7b/9e7b75b57a39671024f6cbcebc266af9a00c57c285c805217c2d960bb113df45",
         "displayName": "smadgerano",
-        "reputation": "14",
+        "reputation": "19",
         "userId": "9be12627d18c9297dbc2c73e0649f409"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "|",
       "displayName": "Feast - Intelligent meal planning, region and season aware shopping lists, respects dietary requirements, provides recipes, and generates immersive mealtime playlists",
-      "downloadCount": "5",
+      "downloadCount": "6",
       "latestSemver": "1.0.2",
       "longDescription": "📦 ClawHub: [smadgerano/feast](https://clawhub.ai/smadgerano/feast)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/smadgerano/feast)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-02",
       "name": "feast",
@@ -1291,7 +1354,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Automate Windows GUI interactions (mouse, keyboard, windows) using PowerShell. Use when the user needs to simulate user input on the desktop, such as moving the cursor, clicking buttons, typing text in non-web apps, or managing window states.",
       "displayName": "Windows UI Automation",
-      "downloadCount": "40",
+      "downloadCount": "41",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [wwb-daniel/windows-ui-automation](https://clawhub.ai/wwb-daniel/windows-ui-automation)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/wwb-daniel/windows-ui-automation)\n📅 Published: 2026-02-11",
       "name": "windows-ui-automation",
@@ -2788,7 +2851,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \\\"deck,\\\" \\\"slides,\\\" \\\"presentation,\\\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.\"",
       "displayName": "Pptx",
-      "downloadCount": "34",
+      "downloadCount": "35",
       "latestSemver": "0.1.0",
       "longDescription": "📦 ClawHub: [ttboy/pptx](https://clawhub.ai/ttboy/pptx)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/ttboy/pptx)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-05",
       "name": "pptx",
@@ -3137,75 +3200,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "529cbf0fe81f0089d6d939dee825f627",
-      "assetType": 3,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/44/99/44999beba0fc4c2ddd099c61f05cf4d8ae2f85eef2547e8317b5c40d14262867",
-        "displayName": "moodykong",
-        "reputation": "45",
-        "userId": "3e0e1619964e263ff2728fc464430eba"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "1Password-backed credential filling via vault_suggest/vault_fill (plugin tools).",
-      "displayName": "Secure Autofill",
-      "downloadCount": "4",
-      "latestSemver": "0.1.0",
-      "longDescription": "📦 ClawHub: [moodykong/secure-autofill](https://clawhub.ai/moodykong/secure-autofill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/moodykong/secure-autofill)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-22",
-      "name": "secure-autofill",
-      "ownerUserId": "3e0e1619964e263ff2728fc464430eba",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "autofill",
-          "tagId": "74bd494929d970afbed8abc5d25df2d9"
-        },
-        {
-          "description": "",
-          "displayName": "secure",
-          "tagId": "8d4a484e1aa16d6008ad7df024159a5c"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "12b4ea17e10bbf06ec22107adedd4625",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a7/e3/a7e3ed6ed7bf7dc5ab0149e4266ac37445a83bcb10f206bea9c7577bf294ee2a",
-        "displayName": "6mile-puppet",
-        "reputation": "10",
-        "userId": "2caf8cbf666c9b2fd2f25019934e65ed"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Upload many files to S3 with automatic organization by first-character prefixes.",
-      "displayName": "Create and manage a sorted directory structure in AWS S3",
-      "downloadCount": "8",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [6mile-puppet/s3-sort](https://clawhub.ai/6mile-puppet/s3-sort)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/6mile-puppet/s3-sort)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-16",
-      "name": "s3-sort",
-      "ownerUserId": "2caf8cbf666c9b2fd2f25019934e65ed",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "bulk",
-          "tagId": "b58a0aa1eb11d2245d57a0d22098bfe7"
-        },
-        {
-          "description": "",
-          "displayName": "upload",
-          "tagId": "55b3af21f11b2c60aabc72ba08fef547"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0MzcyfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0Mzc0fQ"
 }

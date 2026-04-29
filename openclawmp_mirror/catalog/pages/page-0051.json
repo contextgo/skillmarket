@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "assetId": "62f4ac914162e9e565ceedcb398262f0",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a5/bd/a5bd8e2e289a90d66750d8af13838ebc28583cdd5e13981f7f91ee300149aaa2",
+        "displayName": "statico-alt",
+        "reputation": "0",
+        "userId": "1c0e8456f6313c275c4d82c4fd94626d"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "Play SpaceMolt - an MMO for AI agents. Includes session management for OpenClaw's persistent MCP connections.",
+      "displayName": "Test",
+      "downloadCount": "2",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [statico-alt/test-sm-123](https://clawhub.ai/statico-alt/test-sm-123)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/statico-alt/test-sm-123)\n📅 Published: 2026-02-05",
+      "name": "test-sm-123",
+      "ownerUserId": "1c0e8456f6313c275c4d82c4fd94626d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "spacemolt",
+          "tagId": "2d5e812fd930af9cd0152947d47a9473"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "assetId": "e53779d69743f18295a544bb23c55713",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ff/1e/ff1e2b17cf59d8bd76285137bb6941cdf0f62d0bdb72a9d3fee8893fce22cbe0",
+        "displayName": "aghareza",
+        "reputation": "15",
+        "userId": "29a25f9405b596c165ff4ee697f48847"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": ">",
+      "displayName": "Taskwarrior",
+      "downloadCount": "10",
+      "latestSemver": "0.1.3",
+      "longDescription": "📦 ClawHub: [aghareza/taskwarrior](https://clawhub.ai/aghareza/taskwarrior)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/aghareza/taskwarrior)\n🏷️ Version: 0.1.3\n📅 Published: 2026-02-19",
+      "name": "taskwarrior",
+      "ownerUserId": "29a25f9405b596c165ff4ee697f48847",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "taskwarrior",
+          "tagId": "9df97392eb83e054c6a572ee7f36e2d3"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
       "assetId": "59f1d614c8225e383671d2710dbd32bb",
       "assetType": 2,
       "author": {
@@ -229,7 +287,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "Comprehensive security audit for OpenClaw. Scans 7 domains (runtime, channels, agents, cron, skills, sessions, network), supports 3 expertise levels, context-aware analysis, and visual dashboard. Read-only with localized reports.",
       "displayName": "Secucheck",
-      "downloadCount": "42",
+      "downloadCount": "47",
       "latestSemver": "2.8.0",
       "longDescription": "📦 ClawHub: [jooneyp/secucheck](https://clawhub.ai/jooneyp/secucheck)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jooneyp/secucheck)\n🏷️ Version: 2.8.0\n📅 Published: 2026-02-08",
       "name": "secucheck",
@@ -1200,7 +1258,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "\"Guide skill for controlling native Windows apps (UIA) and web browsers (Playwright) via the handsfree-windows CLI. Use when you need to automate or test desktop applications or websites on a Windows machine: launching apps from Start menu, discovering UI controls without guessing, clicking/typing in native apps, opening/snapshotting/clicking in browsers, recording and replaying YAML macros that mix desktop and web steps. REQUIRES handsfree-windows CLI (auto-installed on first use via setup.py).\"",
       "displayName": "Handsfree Windows Control",
-      "downloadCount": "26",
+      "downloadCount": "27",
       "latestSemver": "1.3.0",
       "longDescription": "📦 ClawHub: [lijinlar/handsfree-windows-control](https://clawhub.ai/lijinlar/handsfree-windows-control)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lijinlar/handsfree-windows-control)\n🏷️ Version: 1.3.0\n📅 Published: 2026-02-20",
       "name": "handsfree-windows-control",
@@ -2427,7 +2485,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "\"Use the VLM Run CLI (`vlmrun`) to interact with Orion visual AI agent. Process images, videos, and documents with natural language. Triggers: image understanding/generation, object detection, OCR, video summarization, document extraction, image generation, visual AI chat, 'generate an image/video', 'analyze this image/video', 'extract text from', 'summarize this video', 'process this PDF'.\"",
       "displayName": "Vlmrun Cli Skill",
-      "downloadCount": "14",
+      "downloadCount": "15",
       "latestSemver": "0.1.1",
       "longDescription": "📦 ClawHub: [spillai/vlmrun-cli-skill](https://clawhub.ai/spillai/vlmrun-cli-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/spillai/vlmrun-cli-skill)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-10",
       "name": "vlmrun-cli-skill",
@@ -2466,7 +2524,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "Analyze and understand video content using AI. Upload local files, YouTube URLs, or HTTP video URLs for detailed analysis, Q&A, and timestamped breakdowns.",
       "displayName": "Video Understand",
-      "downloadCount": "57",
+      "downloadCount": "59",
       "latestSemver": "1.0.1",
       "longDescription": "📦 ClawHub: [sifr42/video-understand](https://clawhub.ai/sifr42/video-understand)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/sifr42/video-understand)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-22",
       "name": "video-understand",
@@ -3215,80 +3273,7 @@
       ],
       "totalStars": "3",
       "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "864b5d83eaaa604f686526c9c0ddaff2",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4f/79/4f79b717c07eddecbc0129cc400627cf9cc4a9497dc392789c764fb6c2a4fef6",
-        "displayName": "alirezarezvani",
-        "reputation": "387",
-        "userId": "e1de37d4bc9ceb3c4e43b0c0436db4a0"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "This skill should be used when the user asks to \"optimize prompts\", \"design prompt templates\", \"evaluate LLM outputs\", \"build agentic systems\", \"implement RAG\", \"create few-shot examples\", \"analyze token usage\", or \"design AI workflows\". Use for prompt engineering patterns, LLM evaluation frameworks, agent architectures, and structured output design.",
-      "displayName": "Senior Prompt Engineer",
-      "downloadCount": "20",
-      "latestSemver": "2.1.1",
-      "longDescription": "📦 ClawHub: [alirezarezvani/senior-prompt-engineer](https://clawhub.ai/alirezarezvani/senior-prompt-engineer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/senior-prompt-engineer)\n🏷️ Version: 2.1.1\n📅 Published: 2026-03-09",
-      "name": "senior-prompt-engineer",
-      "ownerUserId": "e1de37d4bc9ceb3c4e43b0c0436db4a0",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "\"senior",
-          "tagId": "396d0ce3df52094c7aebca78c59b39ac"
-        },
-        {
-          "description": "",
-          "displayName": "engineer\"",
-          "tagId": "392c671e543674adbca83305db8f3a68"
-        },
-        {
-          "description": "",
-          "displayName": "prompt",
-          "tagId": "87a502f995cee7011c1544b6ee57f80c"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "e463eb79a3a279c0d212217ca613b926",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/91/aa/91aabdd5c5356bf3aeee1803efff2194e1b5d063a40e3bdab070df6e2d2a458b",
-        "displayName": "dexhunter",
-        "reputation": "85",
-        "userId": "936703b40895d436aacc7f19292731b2"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Write effective prompts for Jimeng Seedance 2.0 multimodal AI video generation. Use when users want to create video prompts using text, images, videos, and audio inputs with the @ reference system. Covers camera movements, effects replication, video extension, editing, music beat-matching, e-commerce ads, short dramas, and educational content.",
-      "displayName": "Seedance 2.0 Prompt Writing",
-      "downloadCount": "40",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [dexhunter/seedance-prompt-en](https://clawhub.ai/dexhunter/seedance-prompt-en)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/dexhunter/seedance-prompt-en)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-18",
-      "name": "seedance-prompt-en",
-      "ownerUserId": "936703b40895d436aacc7f19292731b2",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "prompt",
-          "tagId": "87a502f995cee7011c1544b6ee57f80c"
-        },
-        {
-          "description": "",
-          "displayName": "seedance",
-          "tagId": "d1ec7c6dbdc16c5ae2c981edbc5171ae"
-        }
-      ],
-      "totalStars": "5",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo2NzJ9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo2NzR9"
 }

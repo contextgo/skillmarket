@@ -1,6 +1,58 @@
 {
   "items": [
     {
+      "assetId": "ec043ca80785bbd3697ee87e6c4def08",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5f/30/5f3085630c612c0d39b769ed2c1c1b72be6e8291be0c6e4b4c1496eecfcf4207",
+        "displayName": "saviour1001",
+        "reputation": "20",
+        "userId": "ab090ca9354bd21fa20101009ee23e4a"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "从 ClawHub 导入的 MetEngine 数据代理",
+      "displayName": "MetEngine 数据代理",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [saviour1001/metengine-data-agent](https://clawhub.ai/saviour1001/metengine-data-agent)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/saviour1001/metengine-data-agent)\n📅 Published: 2026-02-19",
+      "name": "metengine-data-agent",
+      "ownerUserId": "ab090ca9354bd21fa20101009ee23e4a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "assetId": "7b549e7464b294afcbd6483a8f316109",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/07/9e/079ed954078953f60c7f5a1c63606c4eb381d70dc39d5dd709146d9dea375401",
+        "displayName": "g1mb01d",
+        "reputation": "25",
+        "userId": "d52b70215890f51910c4dbce6997a3c3"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "通过 REST API 与自托管的 Mealie 实例（食谱管理器和膳食规划器）交互。用于添加、更新、检索食谱、膳食计划和生成购物清单。当用户提及他们的 Mealie URL、想要导入食谱、创建膳食计划或获取购物清单时触发。",
+      "displayName": "Mealie API 工具",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [g1mb01d/mealie](https://clawhub.ai/g1mb01d/mealie)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/g1mb01d/mealie)\n📅 Published: 2026-02-12",
+      "name": "mealie",
+      "ownerUserId": "d52b70215890f51910c4dbce6997a3c3",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "mealie",
+          "tagId": "61a3808c2b9d9bc536ef285a29ac49fb"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
       "assetId": "d47d2a436e8303f282e194a064661d96",
       "assetType": 2,
       "author": {
@@ -1458,14 +1510,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/eb/7d/eb7d68393b635e97f66d43e59f313351b91a1989407344d5db553a5b2d5a8fb6",
         "displayName": "osobh",
-        "reputation": "25",
+        "reputation": "30",
         "userId": "6163142338ba73d4028d42dd93f09537"
       },
       "category": "",
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "\"HDF5-backed persistent cognitive memory for AI agents. Use when: (1) saving conversation exchanges to long-term memory, (2) searching/recalling past conversations by semantic similarity, (3) managing agent memory files — stats, export, snapshot, WAL flush, (4) generating AGENTS.md summaries from memory. Requires the `edgehdf5` CLI binary (install via `cargo install edgehdf5-cli`).\"",
       "displayName": "EdgeHDF5 Memory",
-      "downloadCount": "12",
+      "downloadCount": "13",
       "latestSemver": "1.93.0",
       "longDescription": "📦 ClawHub: [osobh/edgehdf5-memory](https://clawhub.ai/osobh/edgehdf5-memory)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/osobh/edgehdf5-memory)\n🏷️ Version: 1.93.0\n📅 Published: 2026-02-23",
       "name": "edgehdf5-memory",
@@ -1533,7 +1585,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "Generate structured competitive analysis reports with feature comparisons, pricing analysis, SWOT, and strategic recommendations. Use when analyzing competitors, creating market research reports, or delivering competitive intelligence for clients.",
       "displayName": "Competitor Analysis Report",
-      "downloadCount": "39",
+      "downloadCount": "41",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [seanwyngaard/competitor-analysis-report](https://clawhub.ai/seanwyngaard/competitor-analysis-report)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/seanwyngaard/competitor-analysis-report)\n📅 Published: 2026-02-13",
       "name": "competitor-analysis-report",
@@ -2973,7 +3025,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "Free AI search via Exa MCP. Fall back to Multi Search Engine if not successfull. All without API keys. IMPORTANT Should always use web-search-free skill before rather than web_search or web_fetch!",
       "displayName": "Web Search Free",
-      "downloadCount": "32",
+      "downloadCount": "34",
       "latestSemver": "1.0.1",
       "longDescription": "📦 ClawHub: [deciding/web-search-free](https://clawhub.ai/deciding/web-search-free)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/deciding/web-search-free)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-23",
       "name": "web-search-free",
@@ -3221,65 +3273,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "62f4ac914162e9e565ceedcb398262f0",
-      "assetType": 3,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a5/bd/a5bd8e2e289a90d66750d8af13838ebc28583cdd5e13981f7f91ee300149aaa2",
-        "displayName": "statico-alt",
-        "reputation": "0",
-        "userId": "1c0e8456f6313c275c4d82c4fd94626d"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Play SpaceMolt - an MMO for AI agents. Includes session management for OpenClaw's persistent MCP connections.",
-      "displayName": "Test",
-      "downloadCount": "2",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [statico-alt/test-sm-123](https://clawhub.ai/statico-alt/test-sm-123)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/statico-alt/test-sm-123)\n📅 Published: 2026-02-05",
-      "name": "test-sm-123",
-      "ownerUserId": "1c0e8456f6313c275c4d82c4fd94626d",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "spacemolt",
-          "tagId": "2d5e812fd930af9cd0152947d47a9473"
-        }
-      ],
-      "totalStars": "0",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "e53779d69743f18295a544bb23c55713",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ff/1e/ff1e2b17cf59d8bd76285137bb6941cdf0f62d0bdb72a9d3fee8893fce22cbe0",
-        "displayName": "aghareza",
-        "reputation": "15",
-        "userId": "29a25f9405b596c165ff4ee697f48847"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": ">",
-      "displayName": "Taskwarrior",
-      "downloadCount": "10",
-      "latestSemver": "0.1.3",
-      "longDescription": "📦 ClawHub: [aghareza/taskwarrior](https://clawhub.ai/aghareza/taskwarrior)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/aghareza/taskwarrior)\n🏷️ Version: 0.1.3\n📅 Published: 2026-02-19",
-      "name": "taskwarrior",
-      "ownerUserId": "29a25f9405b596c165ff4ee697f48847",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "taskwarrior",
-          "tagId": "9df97392eb83e054c6a572ee7f36e2d3"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo3NzJ9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo3NzR9"
 }

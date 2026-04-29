@@ -1,6 +1,68 @@
 {
   "items": [
     {
+      "assetId": "d87e428133661f74dab35e0bc32f8996",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4c/0a/4c0aab625d560108d6e2c60f40f1612810d5131ad84e1ce715365d1cf1b95221",
+        "displayName": "urrrich0",
+        "reputation": "35",
+        "userId": "01dce614918ad72b8c2c6c7a17d3147d"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "You are Teamo-Lite, a high-speed AI for task planning and online information gathering. Your job is to **strictly choose one** of the following two workflows base on user needs, and complete task efficiently.**Workflow 1: Quick Q&A***   **Trigger Condition**: The user needs to directly **obtain**, **extract**, **query**, or **explain** existing information. This is typically a **non-creative** ...",
+      "displayName": "Teamo Lite Offline",
+      "downloadCount": "9",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [urrrich0/teamo-lite-offline](https://clawhub.ai/urrrich0/teamo-lite-offline)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/urrrich0/teamo-lite-offline)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-15",
+      "name": "teamo-lite-offline",
+      "ownerUserId": "01dce614918ad72b8c2c6c7a17d3147d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "lite",
+          "tagId": "8714cc4ebd0dcde782039335c5849d0e"
+        },
+        {
+          "description": "",
+          "displayName": "offline",
+          "tagId": "1f2c2c61af69cc4c85dce2882121ae4b"
+        },
+        {
+          "description": "",
+          "displayName": "teamo",
+          "tagId": "f3a5227338b3f62bd40b33215b05c943"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "1da37b28f574db208a88763c36a88bf9",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d0/da/d0dab5abbc759a30215e6a3dfcb3153c1b87423ebab072eea999f770f01ddf6b",
+        "displayName": "g4dr",
+        "reputation": "70",
+        "userId": "33a3c26c4844a61ac7ddd9b250e30b39"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Automated QA Testing Bots — imported from ClawHub",
+      "displayName": "Automated QA Testing Bots",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [g4dr/qa-testing-bots](https://clawhub.ai/g4dr/qa-testing-bots)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/g4dr/qa-testing-bots)\n📅 Published: 2026-02-25",
+      "name": "qa-testing-bots",
+      "ownerUserId": "33a3c26c4844a61ac7ddd9b250e30b39",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "847aa9f8779947741d486afe44c8653d",
       "assetType": 3,
       "author": {
@@ -831,7 +893,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Collect and organize a personal knowledge base from URLs (web/X/WeChat) and screenshots. Use when the user says they want to save an URL, ingest a link, archive content to KB, tag/classify notes, store screenshots, or search their saved knowledge in Telegram. Supports WeChat via a connected macOS node when cloud fetch is blocked.",
       "displayName": "Knowledge Base Collector",
-      "downloadCount": "56",
+      "downloadCount": "58",
       "latestSemver": "0.1.3",
       "longDescription": "📦 ClawHub: [reed1898/knowledge-base-collector](https://clawhub.ai/reed1898/knowledge-base-collector)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/reed1898/knowledge-base-collector)\n🏷️ Version: 0.1.3\n📅 Published: 2026-02-13",
       "name": "knowledge-base-collector",
@@ -2552,7 +2614,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Use this skill when users need to search the web for information, news, images, or videos. Triggers include: requests to \\\"search for\\\", \\\"find information about\\\", \\\"look up\\\", \\\"what's the latest on\\\", or any request requiring current web content. Also use for research tasks, fact-checking, finding visual resources, or gathering recent news. Requires OpenClawCLI installation from clawhub.ai. Do NOT use when Claude's built-in web_search tool is more appropriate for simple queries.\"",
       "displayName": "Web Search Hub",
-      "downloadCount": "23",
+      "downloadCount": "24",
       "latestSemver": "0.1.3",
       "longDescription": "📦 ClawHub: [anisafifi/web-search-hub](https://clawhub.ai/anisafifi/web-search-hub)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/anisafifi/web-search-hub)\n🏷️ Version: 0.1.3\n📅 Published: 2026-02-08",
       "name": "web-search-hub",
@@ -2686,7 +2748,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21194",
+        "reputation": "21224",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2709,7 +2771,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21194",
+        "reputation": "21224",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2732,7 +2794,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21194",
+        "reputation": "21224",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2755,7 +2817,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21194",
+        "reputation": "21224",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2778,7 +2840,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21194",
+        "reputation": "21224",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2801,7 +2863,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21194",
+        "reputation": "21224",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2824,7 +2886,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21194",
+        "reputation": "21224",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2847,7 +2909,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21194",
+        "reputation": "21224",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3171,64 +3233,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "c5071a6b252820cd9b42e3e6b31f68d2",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/35/4d/354d236520ca537ec7ef7a9c244bcdbea9573c0394523fc249f2955c7d52dfe5",
-        "displayName": "samskrta",
-        "reputation": "75",
-        "userId": "67f7ea5db4d49ea52e7b0151f3fe4c33"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Animated pixel art desktop pet that roams the screen as an always-on-top Electron overlay. The pet avoids the cursor and active windows, walks along screen edges, climbs walls and ceilings, and responds to agent state changes via a local HTTP API. Use when a user wants a desktop companion, screen buddy, desktop mascot, virtual pet, or visual indicator of agent activity. Supports states like idle, walking, working, thinking, sleeping, and talking (faces user with speech bubble). macOS only.",
-      "displayName": "Mu Pet",
-      "downloadCount": "21",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [samskrta/mu-pet](https://clawhub.ai/samskrta/mu-pet)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/samskrta/mu-pet)\n📅 Published: 2026-02-19",
-      "name": "mu-pet",
-      "ownerUserId": "67f7ea5db4d49ea52e7b0151f3fe4c33",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "desktop",
-          "tagId": "8317974f4aa8e07bc88ee82287325a15"
-        },
-        {
-          "description": "",
-          "displayName": "pet",
-          "tagId": "c31dab78f76b16ec851ea3accfe6f7fe"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "535414bc50710eff22dd9de7f756afd2",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/8e/62/8e62761f55012f93c595b82ee60b7df5df31f1622ad2408823b437a0322f0871",
-        "displayName": "sarthib7",
-        "reputation": "20",
-        "userId": "6ac31e01af9be7474cd87c0ca38b2bcf"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Janitor the Cleaner — imported from ClawHub",
-      "displayName": "Janitor the Cleaner",
-      "downloadCount": "4",
-      "latestSemver": "1.0.3",
-      "longDescription": "📦 ClawHub: [sarthib7/janitor](https://clawhub.ai/sarthib7/janitor)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/sarthib7/janitor)\n🏷️ Version: 1.0.3\n📅 Published: 2026-02-08",
-      "name": "janitor",
-      "ownerUserId": "6ac31e01af9be7474cd87c0ca38b2bcf",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozNzcyfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozNzc0fQ"
 }
