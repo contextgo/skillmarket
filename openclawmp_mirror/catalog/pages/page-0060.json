@@ -1,1006 +1,1594 @@
 {
-  "total": 3352,
   "items": [
     {
-      "id": "s-f48114a4e6c4397c",
-      "name": "ops-detection-incident-routing",
-      "displayName": "Ops Detection Incident Routing",
-      "type": "skill",
-      "description": "Ops Detection Incident Routing — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "embrron",
-      "authorId": "u-1a33642730c912d8",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/103631006?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1a33642730c912d8/ops-detection-incident-routing",
-      "updatedAt": "2026-03-18",
+      "assetId": "ce95e2852b3b3ff74e69ae4298ede14e",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "自动生成动态数据看板，通过 Subagent 并行采集多源数据，实时监控关键指标，并支持阈值告警。",
+      "displayName": "动态数据看板",
+      "downloadCount": "181",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Dynamic Dashboard",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "37",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-2c909d2454e27de0",
-      "name": "shortcuts-generator",
-      "displayName": "Shortcuts Generator",
-      "type": "skill",
-      "description": "Shortcuts Generator — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "erik-agens",
-      "authorId": "u-8d1a2cf48988f659",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/80908960?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-8d1a2cf48988f659/shortcuts-generator",
-      "updatedAt": "2026-03-18",
+      "assetId": "aaa185ce93622516a9d7a69211295768",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "事件驱动项目状态管理系统，自动追踪进度、记录上下文，替代传统看板，提供智能预警和每日总结，提升协作效率。",
+      "displayName": "事件驱动项目状态管理",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Project State Management",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-b0f358f711ea8002",
-      "name": "agent-zero",
-      "displayName": "Agent Zero",
-      "type": "skill",
-      "description": "Agent Zero — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "dowingard",
-      "authorId": "u-f22bf31e9fbd2e18",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/208087042?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-f22bf31e9fbd2e18/agent-zero",
-      "updatedAt": "2026-03-18",
+      "assetId": "f27f3c37d6fdcc3852d60f88f1e46f44",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "将所有工具和沟通渠道整合到一个 AI 助手，统一管理任务、日程、消息，提升效率。",
+      "displayName": "多渠道个人助手",
+      "downloadCount": "24",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Multi Channel Assistant",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "6",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-6ea644ecbf8437e1",
-      "name": "cron-visualizer",
-      "displayName": "Cron Visualizer",
-      "type": "skill",
-      "description": "Cron Visualizer — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "autogame-17",
-      "authorId": "u-3be917fea9b6a8ad",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/166480271?v=4",
-      "authorReputation": 30,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-3be917fea9b6a8ad/cron-visualizer",
-      "updatedAt": "2026-03-18",
+      "assetId": "fd8eca152a018f93aa59566cc4c537e6",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "通过 Agent 自动记录饮食与症状，智能分析关联模式，轻松识别食物过敏或不耐受，并生成周期性报告。",
+      "displayName": "健康症状追踪器",
+      "downloadCount": "18",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Health Symptom Tracker",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-cc05fb864637ddda",
-      "name": "wisediag-medocr",
-      "displayName": "Wisediag Medocr",
-      "type": "skill",
-      "description": "Wisediag Medocr — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "fmdmm",
-      "authorId": "u-fb9f01ef59fe77c9",
-      "authorAvatar": "🤖",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-fb9f01ef59fe77c9/wisediag-medocr",
-      "updatedAt": "2026-03-18",
+      "assetId": "874d753afb9a81d83bf56ca3025795f8",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "自动发现、记录和维护人脉网络，智能提醒并提供会前准备，让您轻松管理个人关系。",
+      "displayName": "个人 CRM",
+      "downloadCount": "43",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Personal Crm",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "11",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-85b9985cb7a1b97e",
-      "name": "feishu-whiteboard",
-      "displayName": "Feishu Whiteboard",
-      "type": "skill",
-      "description": "Feishu Whiteboard — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "autogame-17",
-      "authorId": "u-3be917fea9b6a8ad",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/166480271?v=4",
-      "authorReputation": 30,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-3be917fea9b6a8ad/feishu-whiteboard",
-      "updatedAt": "2026-03-18",
+      "assetId": "ec81bfdc8914a46b7f2002ec418aeffc",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "自动整理订阅邮件，提炼核心内容，避免错过重要信息，并根据用户反馈持续优化。",
+      "displayName": "收件箱清理",
+      "downloadCount": "14",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Inbox Declutter",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-c23c72c40e51f86f",
-      "name": "nak",
-      "displayName": "Nak",
-      "type": "skill",
-      "description": "Nak — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "a1denvalu3",
-      "authorId": "u-cc5fb039cf531fba",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/43107113?v=4",
-      "authorReputation": 10,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-cc5fb039cf531fba/nak",
-      "updatedAt": "2026-03-18",
+      "assetId": "c8bdc4bb4b2ca95106ef27712b9c2e7f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "通过电话语音与 AI Agent 交互，无需 App 或浏览器，随时随地获取日历、Jira 和网络信息。",
+      "displayName": "手机端私人助理",
+      "downloadCount": "20",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Phone Based Personal Assistant",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-f85fa9bd9120d013",
-      "name": "drakeling",
-      "displayName": "Drakeling",
-      "type": "skill",
-      "description": "Drakeling — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "bvisagie",
-      "authorId": "u-e8bd438f6a496674",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/12031800?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-e8bd438f6a496674/drakeling",
-      "updatedAt": "2026-03-18",
+      "assetId": "1d27e7af3bd9e397bc80d10cf1684dae",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "整合WhatsApp、Instagram、邮件、Google评论等所有客户触点，通过AI智能回复，统一管理客户咨询，提升响应效率。",
+      "displayName": "多渠道AI客服",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Multi Channel Customer Service",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-acd31ac12dd1014c",
-      "name": "competitor-docs",
-      "displayName": "Competitor Docs",
-      "type": "skill",
-      "description": "Competitor Docs — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "carev01",
-      "authorId": "u-b9e63d3f291cd299",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/46903479?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-b9e63d3f291cd299/competitor-docs",
-      "updatedAt": "2026-03-18",
+      "assetId": "244f5a4a83a777abe7fffbcf320db3bd",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "通过Subagent和共享状态文件，实现去中心化项目管理，让复杂项目中的并行工作流自主协调，提升效率。",
+      "displayName": "Subagent自主项目管理",
+      "downloadCount": "171",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Autonomous Project Management",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "39",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-156913031a56ac3d",
-      "name": "agentproof",
-      "displayName": "Agentproof",
-      "type": "skill",
-      "description": "Agentproof — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "builderbenv1",
-      "authorId": "u-b092c18c7faca9ee",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/149204056?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-b092c18c7faca9ee/agentproof",
-      "updatedAt": "2026-03-18",
+      "assetId": "1f12d849124db8e02bfd33169ec4a325",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "将 OpenClaw 转化为智能基础设施 Agent，通过自动化监控、诊断和修复，让你的家庭服务器和基础设施实现全天候自愈管理。",
+      "displayName": "自愈家庭服务器",
+      "downloadCount": "46",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Self Healing Home Server",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "11",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-5769d73153d5571d",
-      "name": "zvec-local-rag-service",
-      "displayName": "Zvec Local Rag Service",
-      "type": "skill",
-      "description": "Zvec Local Rag Service — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "emre-koc",
-      "authorId": "u-43dc83ae5bd4bcc8",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/9217671?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-43dc83ae5bd4bcc8/zvec-local-rag-service",
-      "updatedAt": "2026-03-18",
+      "assetId": "0606ffa616f3e2f83e8a986876b8dbc7",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "将 OpenClaw Agent 与 N8n 深度集成，实现安全、可视化、高效的外部服务交互，避免凭证泄露和资源浪费。",
+      "displayName": "OpenClaw N8n 编排",
+      "downloadCount": "93",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "N8n Workflow Orchestration",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "28",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-d3f59c88f8de80e5",
-      "name": "benos-bootstrap",
-      "displayName": "Benos Bootstrap",
-      "type": "skill",
-      "description": "Benos Bootstrap — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "benmjohnson69",
-      "authorId": "u-3426bf18dd18fc40",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/184774098?v=4",
-      "authorReputation": 15,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-3426bf18dd18fc40/benos-bootstrap",
-      "updatedAt": "2026-03-18",
+      "assetId": "2cdbb76a942da7cbd3ed57f9a2fdaf03",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "自动化内容创作流程，通过多Agent协作完成调研、写作和设计，在Discord中定时产出高质量内容。",
+      "displayName": "多Agent内容工厂",
+      "downloadCount": "66",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Content Factory",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "17",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-a46c1e935c6f8254",
-      "name": "cotizaciones-pix-comparapix",
-      "displayName": "Cotizaciones Pix Comparapix",
-      "type": "skill",
-      "description": "Cotizaciones Pix Comparapix — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "ferminrp",
-      "authorId": "u-3ae8b66d20652de8",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/21282919?v=4",
-      "authorReputation": 55,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-3ae8b66d20652de8/cotizaciones-pix-comparapix",
-      "updatedAt": "2026-03-18",
+      "assetId": "777cd8135c64c6b942c6125e26c55257",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "自动化YouTube内容创作全流程，从选题调研、脚本生成到发布优化，提升效率，避免重复。",
+      "displayName": "YouTube内容流水线",
+      "downloadCount": "95",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Youtube Content Pipeline",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "19",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-be533abc2eafda57",
-      "name": "social-trend-report",
-      "displayName": "Social Trend Report",
-      "type": "skill",
-      "description": "Social Trend Report — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "alexyuui",
-      "authorId": "u-a5b00d7ba5ceb8b6",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/12937805?v=4",
-      "authorReputation": 20,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-a5b00d7ba5ceb8b6/social-trend-report",
-      "updatedAt": "2026-03-18",
+      "assetId": "437b6f97bd9bc8268a1d36606699d797",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "你的 AI Agent 不再被动，它能理解你的宏伟目标，每天自主规划、执行任务，甚至连夜为你构建惊喜小应用，助你高效实现梦想。",
+      "displayName": "目标驱动自主任务",
+      "downloadCount": "549",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Overnight Mini App Builder",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "199",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-dade3c00a63fa654",
-      "name": "atxp",
-      "displayName": "Atxp",
-      "type": "skill",
-      "description": "Atxp — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "emilioacc",
-      "authorId": "u-3265901b6280541d",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/240322964?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-3265901b6280541d/atxp",
-      "updatedAt": "2026-03-18",
+      "assetId": "f3a7f94c98feb41a9263eb893dd5c28c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "自动聚合、评分并交付来自 RSS、Twitter/X、GitHub releases 和网页搜索等 109+ 来源的科技新闻，全程通过自然语言管理，助您轻松掌握前沿动态。",
+      "displayName": "多源科技新闻摘要",
+      "downloadCount": "531",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Multi Source Tech News Digest",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "233",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-da53793ecc6cb09c",
-      "name": "aladdn-market",
-      "displayName": "Aladdn Market",
-      "type": "skill",
-      "description": "Aladdn Market — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "aladdntech",
-      "authorId": "u-5a4350c71f4d0e88",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/186408716?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-5a4350c71f4d0e88/aladdn-market",
-      "updatedAt": "2026-03-18",
+      "assetId": "130217bcc1b9fbe27cfe735578f5a3f7",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "利用 OpenClaw 对 X 账号进行深度定性分析，洞察帖子质量、互动模式和增长潜力，无需昂贵订阅费。",
+      "displayName": "X账号定性分析",
+      "downloadCount": "14",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "X Account Analysis",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-d2752c414b83561c",
-      "name": "shelly-social-media-scheduler",
-      "displayName": "Shelly Social Media Scheduler",
-      "type": "skill",
-      "description": "Shelly Social Media Scheduler — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "claudiodrusus",
-      "authorId": "u-aa3dbaeb29a8028c",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/258132540?v=4",
-      "authorReputation": 135,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-aa3dbaeb29a8028c/shelly-social-media-scheduler",
-      "updatedAt": "2026-03-18",
+      "assetId": "2af9253b0c769a36bfe8da979cee6152",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "每天获取你喜爱频道的最新YouTube视频摘要，个性化定制，确保不错过任何重要更新。",
+      "displayName": "YouTube每日精选",
+      "downloadCount": "26",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Daily Youtube Digest",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "7",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-26d77f3072e9cdcc",
-      "name": "abaddon",
-      "displayName": "Abaddon",
-      "type": "skill",
-      "description": "Abaddon — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "enochosbot-bot",
-      "authorId": "u-718757197b2a8b24",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/261293238?v=4",
-      "authorReputation": 0,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-718757197b2a8b24/abaddon",
-      "updatedAt": "2026-03-18",
+      "assetId": "f49d3e27c14711fc6b9c4c247c88709d",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/46/ee462abac340ba1f22aa747423e766541d2be44e441c318a8b3d309f0182ccf8",
+        "displayName": "hesamsheikh",
+        "reputation": "32320",
+        "userId": "68f57278129cbac885d3737cca971209"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "每天从你关注的 Subreddit 中抓取热门帖子，生成精选摘要，助你高效了解社区动态，无需手动浏览。",
+      "displayName": "Reddit 每日精选",
+      "downloadCount": "106",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Daily Reddit Digest",
+      "ownerUserId": "68f57278129cbac885d3737cca971209",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "awesome-list",
+          "tagId": "2f5af463f4fc9d086716372b5f63aa92"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "moltbot",
+          "tagId": "1debb29241557a0378b5a7616a0c5eb5"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw",
+          "tagId": "77119e7c328c499ddfaf67b93adae08a"
+        },
+        {
+          "description": "",
+          "displayName": "openclaw-plugin",
+          "tagId": "81ea515594e98a6fba15bcada15bc354"
+        }
+      ],
+      "totalStars": "28",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-b0ae32847f921353",
-      "name": "acestep-simplemv",
-      "displayName": "Acestep Simplemv",
-      "type": "skill",
-      "description": "Acestep Simplemv — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "dumoedss",
-      "authorId": "u-1968a808eea619c0",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/10694619?v=4",
-      "authorReputation": 77,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-1968a808eea619c0/acestep-simplemv",
-      "updatedAt": "2026-03-18",
+      "assetId": "981ceddba32f1854d1a580c969cca416",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7a/32/7a32f134a9fa6c910a05e8e5f00594a6133573333160e4cd4c377e6bb927a1ec",
+        "displayName": "CloudAI-X",
+        "reputation": "100",
+        "userId": "d3663b206c32a7488a208fb971249ff0"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "GitHub: CloudAI-X/threejs-skills",
+      "displayName": "threejs-fundamentals",
+      "downloadCount": "15",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "threejs-fundamentals",
+      "ownerUserId": "d3663b206c32a7488a208fb971249ff0",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-4725969c00f53668",
-      "name": "add-top-openrouter-models",
-      "displayName": "Add Top Openrouter Models",
-      "type": "skill",
-      "description": "Add Top Openrouter Models — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "chunhualiao",
-      "authorId": "u-8ff42563f135c354",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/1627206?v=4",
-      "authorReputation": 80,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-8ff42563f135c354/add-top-openrouter-models",
-      "updatedAt": "2026-03-18",
+      "assetId": "96ac4ef7e49de3a972afe909e774b753",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/16/a9/16a95b738528456e2a2e174bebc6416dd61b32cf97d9f096d09e19da0ea0bee4",
+        "displayName": "coreyhaines31",
+        "reputation": "2925",
+        "userId": "2690c35188ed0530d73c897f2c77a601"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "适用于 Claude Code 和 AI 代理的营销技能。包括 CRO、文案写作、SEO、分析和增长工程。",
+      "displayName": "营销心理学",
+      "downloadCount": "113",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "marketing-psychology",
+      "ownerUserId": "2690c35188ed0530d73c897f2c77a601",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        },
+        {
+          "description": "",
+          "displayName": "codex",
+          "tagId": "483b7aab5bae3d15eb1efeec6714852a"
+        },
+        {
+          "description": "",
+          "displayName": "marketing",
+          "tagId": "14415f3216aa886017ef636a7f0dd47f"
+        }
+      ],
+      "totalStars": "29",
+      "updatedAt": "2026-03-08T00:00:00.000Z"
     },
     {
-      "id": "s-4c09158b2dfdab42",
-      "name": "agent-context",
-      "displayName": "Agent Context",
-      "type": "skill",
-      "description": "Agent Context — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "andreagriffiths11",
-      "authorId": "u-84228f401a647b6a",
-      "authorAvatar": "https://avatars.githubusercontent.com/u/20666190?v=4",
-      "authorReputation": 5,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-84228f401a647b6a/agent-context",
-      "updatedAt": "2026-03-18",
+      "assetId": "2d3dea2e9e73e50e7a979c735780fdf1",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/41/24/4124b8d03b154d23afe1d6b9a0b9b7813c5b40407d8d039c38d6ff3b2e923239",
+        "displayName": "anthropics",
+        "reputation": "210",
+        "userId": "7d2cb60ea1a273e0db385f2b1bd6fe09"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "displayName": "creating-financial-models",
+      "downloadCount": "31",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "creating-financial-models",
+      "ownerUserId": "7d2cb60ea1a273e0db385f2b1bd6fe09",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "5",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-082a80b45aa067a7",
-      "name": "court",
-      "displayName": "Court",
-      "type": "skill",
-      "description": "Court — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/court",
-      "updatedAt": "2026-03-18",
+      "assetId": "e1b361036272b1db5f89005ecb125829",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ad/ad/adad64f12cb8b19616e199960649e94422dd3ab6a861312c800f4fb505ef4de2",
+        "displayName": "kepano",
+        "reputation": "745",
+        "userId": "903181e0a2afdaa0d7f617adb19aadda"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "displayName": "defuddle",
+      "downloadCount": "25",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "defuddle",
+      "ownerUserId": "903181e0a2afdaa0d7f617adb19aadda",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        },
+        {
+          "description": "",
+          "displayName": "codex",
+          "tagId": "483b7aab5bae3d15eb1efeec6714852a"
+        },
+        {
+          "description": "",
+          "displayName": "defuddle",
+          "tagId": "53d9edc24cc6b5f52029aa67ef6c6290"
+        }
+      ],
+      "totalStars": "7",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-6f556cd72aa4a9ce",
-      "name": "cydew",
-      "displayName": "Cydew",
-      "type": "skill",
-      "description": "Cydew — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/cydew",
-      "updatedAt": "2026-03-18",
+      "assetId": "5ca48836202d751cd4c6334f7c28ad6d",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ad/ad/adad64f12cb8b19616e199960649e94422dd3ab6a861312c800f4fb505ef4de2",
+        "displayName": "kepano",
+        "reputation": "745",
+        "userId": "903181e0a2afdaa0d7f617adb19aadda"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "displayName": "obsidian-bases",
+      "downloadCount": "19",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "obsidian-bases",
+      "ownerUserId": "903181e0a2afdaa0d7f617adb19aadda",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        },
+        {
+          "description": "",
+          "displayName": "codex",
+          "tagId": "483b7aab5bae3d15eb1efeec6714852a"
+        },
+        {
+          "description": "",
+          "displayName": "defuddle",
+          "tagId": "53d9edc24cc6b5f52029aa67ef6c6290"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-6bcbda9bc0ba3727",
-      "name": "devtools-secrets",
-      "displayName": "Devtools Secrets",
-      "type": "skill",
-      "description": "Devtools Secrets — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/devtools-secrets",
-      "updatedAt": "2026-03-18",
+      "assetId": "51085537243a9414c6dad23438b97283",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ad/ad/adad64f12cb8b19616e199960649e94422dd3ab6a861312c800f4fb505ef4de2",
+        "displayName": "kepano",
+        "reputation": "745",
+        "userId": "903181e0a2afdaa0d7f617adb19aadda"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "displayName": "json-canvas",
+      "downloadCount": "21",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "json-canvas",
+      "ownerUserId": "903181e0a2afdaa0d7f617adb19aadda",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        },
+        {
+          "description": "",
+          "displayName": "codex",
+          "tagId": "483b7aab5bae3d15eb1efeec6714852a"
+        },
+        {
+          "description": "",
+          "displayName": "defuddle",
+          "tagId": "53d9edc24cc6b5f52029aa67ef6c6290"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-52182d7cf8faf78c",
-      "name": "verk",
-      "displayName": "Verk",
-      "type": "skill",
-      "description": "Verk — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/verk",
-      "updatedAt": "2026-03-18",
+      "assetId": "f07a5951e98c7aeabc9871f5eb3df054",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ad/ad/adad64f12cb8b19616e199960649e94422dd3ab6a861312c800f4fb505ef4de2",
+        "displayName": "kepano",
+        "reputation": "745",
+        "userId": "903181e0a2afdaa0d7f617adb19aadda"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "displayName": "obsidian-markdown",
+      "downloadCount": "66",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "obsidian-markdown",
+      "ownerUserId": "903181e0a2afdaa0d7f617adb19aadda",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        },
+        {
+          "description": "",
+          "displayName": "codex",
+          "tagId": "483b7aab5bae3d15eb1efeec6714852a"
+        },
+        {
+          "description": "",
+          "displayName": "defuddle",
+          "tagId": "53d9edc24cc6b5f52029aa67ef6c6290"
+        }
+      ],
+      "totalStars": "13",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-236828c0c34df162",
-      "name": "issue-prioritizer",
-      "displayName": "Issue Prioritizer",
-      "type": "skill",
-      "description": "Issue Prioritizer — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/issue-prioritizer",
-      "updatedAt": "2026-03-18",
+      "assetId": "c51750d536fb813874f0df1b81a01a6f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ad/ad/adad64f12cb8b19616e199960649e94422dd3ab6a861312c800f4fb505ef4de2",
+        "displayName": "kepano",
+        "reputation": "745",
+        "userId": "903181e0a2afdaa0d7f617adb19aadda"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
+      "displayName": "obsidian-cli",
+      "downloadCount": "42",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "obsidian-cli",
+      "ownerUserId": "903181e0a2afdaa0d7f617adb19aadda",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        },
+        {
+          "description": "",
+          "displayName": "clawdbot",
+          "tagId": "5cce6ec0eb080022978677c4ce9e18d9"
+        },
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        },
+        {
+          "description": "",
+          "displayName": "codex",
+          "tagId": "483b7aab5bae3d15eb1efeec6714852a"
+        },
+        {
+          "description": "",
+          "displayName": "defuddle",
+          "tagId": "53d9edc24cc6b5f52029aa67ef6c6290"
+        }
+      ],
+      "totalStars": "11",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-5f6c2081a4cb7a8f",
-      "name": "wrike",
-      "displayName": "Wrike",
-      "type": "skill",
-      "description": "Wrike — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/wrike",
-      "updatedAt": "2026-03-18",
+      "assetId": "eee66a3541466f37c204cb0d75f253e8",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/57/db/57db46630a14fb89355a69f6da360731fcf135b7cccc6b128af3e417af8fb319",
+        "displayName": "zh-xx",
+        "reputation": "290",
+        "userId": "49185356127a080885591b921f2dd9eb"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "AI assistant skills for legal work. Compatible with Claude Code, Codex, and other platforms.",
+      "displayName": "contract-review",
+      "downloadCount": "53",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "contract-review",
+      "ownerUserId": "49185356127a080885591b921f2dd9eb",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "14",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-094b610dd6b37385",
-      "name": "ouyang",
-      "displayName": "Ouyang",
-      "type": "skill",
-      "description": "Ouyang — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/ouyang",
-      "updatedAt": "2026-03-18",
+      "assetId": "f9f1ae349d074591359827aec7c998e3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4f/79/4f79b717c07eddecbc0129cc400627cf9cc4a9497dc392789c764fb6c2a4fef6",
+        "displayName": "alirezarezvani",
+        "reputation": "392",
+        "userId": "e1de37d4bc9ceb3c4e43b0c0436db4a0"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "A Collection of Skills for Claude Code and Claude AI for real-world Usage. Including Claude Code Subagents, Claude Code Commnads",
+      "displayName": "product-manager-toolkit",
+      "downloadCount": "14",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "product-manager-toolkit",
+      "ownerUserId": "e1de37d4bc9ceb3c4e43b0c0436db4a0",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agentic-ai",
+          "tagId": "342e33c10d63a4452efc0e38123c2c83"
+        },
+        {
+          "description": "",
+          "displayName": "agentic-coding",
+          "tagId": "c36b4380137fab39f3ea8cd5a540cd5c"
+        },
+        {
+          "description": "",
+          "displayName": "anthropic-claude",
+          "tagId": "f4e3d7af9593e9486120ec20e73aba22"
+        },
+        {
+          "description": "",
+          "displayName": "claude-ai",
+          "tagId": "a837642dfe88d51599133f837203c284"
+        },
+        {
+          "description": "",
+          "displayName": "claude-ai-skills",
+          "tagId": "1d51e39a438cc5f96b98a733d7d2b1e6"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-1c8a648d4f1068f8",
-      "name": "hash-toolkit",
-      "displayName": "Hash Toolkit",
-      "type": "skill",
-      "description": "Hash Toolkit — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/hash-toolkit",
-      "updatedAt": "2026-03-18",
+      "assetId": "d80d3dd6bf35724b95d174441f6ab3a2",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a9/d1/a9d1cdd0cd610aa0c3a888dc85a37c4f09b4df564a124ba31df4713c629cf9be",
+        "displayName": "isjiamu",
+        "reputation": "480",
+        "userId": "3a0096f8ad4837815f1e3dcf546def04"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "甲木常用的 Agent Skills 集合，包含日常工作流中积累的高效技能扩展。 / A curated collection of Agent Skills for daily productivity workflows.",
+      "displayName": "sales-ai-assistant",
+      "downloadCount": "34",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "sales-ai-assistant",
+      "ownerUserId": "3a0096f8ad4837815f1e3dcf546def04",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "10",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-1c4e69f24079b85b",
-      "name": "quack",
-      "displayName": "Quack",
-      "type": "skill",
-      "description": "Quack — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/quack",
-      "updatedAt": "2026-03-18",
+      "assetId": "86bde898f608aea28eeddae1e65a8cf8",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a9/d1/a9d1cdd0cd610aa0c3a888dc85a37c4f09b4df564a124ba31df4713c629cf9be",
+        "displayName": "isjiamu",
+        "reputation": "480",
+        "userId": "3a0096f8ad4837815f1e3dcf546def04"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "甲木常用的 Agent Skills 集合，包含日常工作流中积累的高效技能扩展。 / A curated collection of Agent Skills for daily productivity workflows.",
+      "displayName": "peers-advisory-group",
+      "downloadCount": "22",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "peers-advisory-group",
+      "ownerUserId": "3a0096f8ad4837815f1e3dcf546def04",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "6",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-8764e94a3152234f",
-      "name": "echodecks",
-      "displayName": "Echodecks",
-      "type": "skill",
-      "description": "Echodecks — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/echodecks",
-      "updatedAt": "2026-03-18",
+      "assetId": "cd41108914187a0f1f479b59eae691b4",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a9/d1/a9d1cdd0cd610aa0c3a888dc85a37c4f09b4df564a124ba31df4713c629cf9be",
+        "displayName": "isjiamu",
+        "reputation": "480",
+        "userId": "3a0096f8ad4837815f1e3dcf546def04"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "甲木常用的 Agent Skills 集合，包含日常工作流中积累的高效技能扩展。 / A curated collection of Agent Skills for daily productivity workflows.",
+      "displayName": "magazine-layout",
+      "downloadCount": "43",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "magazine-layout",
+      "ownerUserId": "3a0096f8ad4837815f1e3dcf546def04",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "9",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-de91894818edfd78",
-      "name": "skill-authoring",
-      "displayName": "Skill Authoring",
-      "type": "skill",
-      "description": "Skill Authoring — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/skill-authoring",
-      "updatedAt": "2026-03-18",
+      "assetId": "7b272783c46990381dc3aa11635c8858",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/24/d1/24d1162331e159e19987da7ee65b9dd353b594e901b22ebbab8cf1c12d9546dd",
+        "displayName": "GBSOSS",
+        "reputation": "950",
+        "userId": "33e4ad28069a5b31b109b8ef60a46cf3"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "AI-powered draw.io diagram generator for Claude Code. Generate flowcharts, architecture diagrams, mind maps from natural language with browser preview.",
+      "displayName": "diagram-generator",
+      "downloadCount": "203",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "diagram-generator",
+      "ownerUserId": "33e4ad28069a5b31b109b8ef60a46cf3",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "33",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-48ec19a6a737eb0d",
-      "name": "charger",
-      "displayName": "Charger",
-      "type": "skill",
-      "description": "Charger — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/charger",
-      "updatedAt": "2026-03-18",
+      "assetId": "4d12752111b2f86d13c0ca6af6b7c3e1",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/24/d1/24d1162331e159e19987da7ee65b9dd353b594e901b22ebbab8cf1c12d9546dd",
+        "displayName": "GBSOSS",
+        "reputation": "950",
+        "userId": "33e4ad28069a5b31b109b8ef60a46cf3"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "Stand on the shoulders of giants — Create AI skills built on proven methodologies from domain experts.",
+      "displayName": "skill-from-masters",
+      "downloadCount": "19",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "skill-from-masters",
+      "ownerUserId": "33e4ad28069a5b31b109b8ef60a46cf3",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "3",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-02a5bc7e42704081",
-      "name": "skill-mermaid-diagrams",
-      "displayName": "Skill Mermaid Diagrams",
-      "type": "skill",
-      "description": "Skill Mermaid Diagrams — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/skill-mermaid-diagrams",
-      "updatedAt": "2026-03-18",
+      "assetId": "4c825d0054397e28ff8b6059090df3c0",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/87/8e/878e0705e9ac942a7059848c1c6d1dfee3d58cdaa29161bd0ff7afbd7934caea",
+        "displayName": "ComposioHQ",
+        "reputation": "125",
+        "userId": "90289cb1fa96d4f499b8b812c147cd56"
+      },
       "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "displayName": "content-research-writer",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "content-research-writer",
+      "ownerUserId": "90289cb1fa96d4f499b8b812c147cd56",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent-skills",
+          "tagId": "0f9ca2ab56d00c36c0cb92cfad986e09"
+        },
+        {
+          "description": "",
+          "displayName": "ai-agents",
+          "tagId": "5f3ea9bb65aa2c440aaf35e451e2c236"
+        },
+        {
+          "description": "",
+          "displayName": "antigravity",
+          "tagId": "c031e3fb31e03a0fb9f842aa16a420b7"
+        },
+        {
+          "description": "",
+          "displayName": "automation",
+          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
+        },
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        }
+      ],
+      "totalStars": "4",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-0337b86396658295",
-      "name": "antfarm-cli",
-      "displayName": "Antfarm Cli",
-      "type": "skill",
-      "description": "Antfarm Cli — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/antfarm-cli",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "assetId": "35cd8a4ea0c3f6e6fcac8762e64b4a7e",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/1b/af/1baf9b9876f243d0f84c95dfc5b3123efac2f295a4b33391b7a250846ca4d49f",
+        "displayName": "seo-skills",
+        "reputation": "205",
+        "userId": "f663e98fa77dd31bb3c98e9f89324138"
+      },
+      "category": "产品/营销",
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "A comprehensive SEO audit command-line tool with 108 audit rules across 12 categories. Analyze any website for SEO best practices, Core Web Vitals, security headers, structured data, accessibility, and more.",
+      "displayName": "seo-audit-skill",
+      "downloadCount": "37",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "seo-audit-skill",
+      "ownerUserId": "f663e98fa77dd31bb3c98e9f89324138",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        },
+        {
+          "description": "",
+          "displayName": "claude-skills",
+          "tagId": "28b9645d8ada6516461647ca2ee8d199"
+        },
+        {
+          "description": "",
+          "displayName": "seo",
+          "tagId": "2d6879d5715c37b1249fea982150024d"
+        },
+        {
+          "description": "",
+          "displayName": "seo-audit",
+          "tagId": "9eddd037cb909d5f0dabc419259efad5"
+        },
+        {
+          "description": "",
+          "displayName": "seo-audit-skill",
+          "tagId": "a05552937fbe1d3fffeb779312100125"
+        }
+      ],
+      "totalStars": "11",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-697048ad5bb79d39",
-      "name": "tidbyt-status",
-      "displayName": "Tidbyt Status",
-      "type": "skill",
-      "description": "Tidbyt Status — imported from ClawHub",
+      "assetId": "f169e5c94bb150f935b2d973922ae165",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/55/7e/557e970f4f33006ee33ddf8386fa2ab945316503b0909c5d9f92acd92ffba4fe",
+        "displayName": "zhangpeicheng8788-ux",
+        "reputation": "1025",
+        "userId": "c6c0283881f527648484afe4e5181122"
+      },
+      "category": "写作/内容",
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "xhs-skill，自动发布笔记：标题。正文，配图到小红书",
+      "displayName": "xhs-skill",
+      "downloadCount": "231",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "xhs-skill",
+      "ownerUserId": "c6c0283881f527648484afe4e5181122",
+      "publicationHint": null,
       "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/tidbyt-status",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "totalStars": "51",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-5712c8c31c6a49c2",
-      "name": "compaction-ui-enhancements",
-      "displayName": "Compaction Ui Enhancements",
-      "type": "skill",
-      "description": "Compaction Ui Enhancements — imported from ClawHub",
+      "assetId": "b0085791114cca0ad4cbcb82aa1e9d4a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/cb/5a/cb5aad7004884798b2c47eb405191fda2c5640594cc08102d40941d43d3a810e",
+        "displayName": "comeonzhj",
+        "reputation": "4019",
+        "userId": "58d8846f9d25998f10b33292e09f0524"
+      },
+      "category": "写作/内容",
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "一个自动撰写小红书笔记，自动生成图片，自动发布的 Skills",
+      "displayName": "Auto-Redbook-Skills",
+      "downloadCount": "909",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Auto-Redbook-Skills",
+      "ownerUserId": "58d8846f9d25998f10b33292e09f0524",
+      "publicationHint": null,
       "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/compaction-ui-enhancements",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "totalStars": "145",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-f5618d84f72c9034",
-      "name": "vscode-node",
-      "displayName": "Vscode Node",
-      "type": "skill",
-      "description": "Vscode Node — imported from ClawHub",
+      "assetId": "2830c074920776c37016b9aeb71807ea",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/57/0a/570abfac6e2dbd711ae66d5e665ec166c62e40b6872a3f50af31f844dc3d0d52",
+        "displayName": "op7418",
+        "reputation": "4515",
+        "userId": "0cc8090c3f7049036b30baea9ff74a70"
+      },
+      "category": "设计/视觉",
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "NanoBanana PPT Skills 基于 AI 自动生成高质量 PPT 图片和视频的强大工具，支持智能转场和交互式播放",
+      "displayName": "NanoBanana-PPT-Skills",
+      "downloadCount": "460",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "NanoBanana-PPT-Skills",
+      "ownerUserId": "0cc8090c3f7049036b30baea9ff74a70",
+      "publicationHint": null,
       "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/vscode-node",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "totalStars": "81",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     },
     {
-      "id": "s-93bbc7f7d6a39a80",
-      "name": "cross-ref",
-      "displayName": "Cross Ref",
-      "type": "skill",
-      "description": "Cross Ref — imported from ClawHub",
+      "assetId": "7141d3d343f446484f0a87a8dc0086d9",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/57/0a/570abfac6e2dbd711ae66d5e665ec166c62e40b6872a3f50af31f844dc3d0d52",
+        "displayName": "op7418",
+        "reputation": "4515",
+        "userId": "0cc8090c3f7049036b30baea9ff74a70"
+      },
+      "category": "写作/内容",
+      "createdAt": "2026-02-23T00:00:00.000Z",
+      "description": "Humanizer 的汉化版本，Claude Code Skills，旨在消除文本中 AI 生成的痕迹。",
+      "displayName": "Humanizer-zh",
+      "downloadCount": "642",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "Humanizer-zh",
+      "ownerUserId": "0cc8090c3f7049036b30baea9ff74a70",
+      "publicationHint": null,
       "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/cross-ref",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-386517c4c67538b3",
-      "name": "boltzpay",
-      "displayName": "Boltzpay",
-      "type": "skill",
-      "description": "Boltzpay — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/boltzpay",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-1cc06b5ca26595af",
-      "name": "deshell",
-      "displayName": "Deshell",
-      "type": "skill",
-      "description": "Deshell — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/deshell",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-031d1e18579bd63f",
-      "name": "localsend",
-      "displayName": "Localsend",
-      "type": "skill",
-      "description": "Localsend — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/localsend",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-73d7af5d8ff11fdc",
-      "name": "file-cleaner",
-      "displayName": "File Cleaner",
-      "type": "skill",
-      "description": "File Cleaner — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/file-cleaner",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-47f73bbb2da333ca",
-      "name": "ms-todo-oauth",
-      "displayName": "Ms Todo Oauth",
-      "type": "skill",
-      "description": "Ms Todo Oauth — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/ms-todo-oauth",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-b5b5c85c0e800f95",
-      "name": "generect-api",
-      "displayName": "Generect Api",
-      "type": "skill",
-      "description": "Generect Api — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/generect-api",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-9ae6e990049524df",
-      "name": "gevety",
-      "displayName": "Gevety",
-      "type": "skill",
-      "description": "Gevety — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/gevety",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-760e8d3e85cd4118",
-      "name": "hume-evi-langgraph",
-      "displayName": "Hume Evi Langgraph",
-      "type": "skill",
-      "description": "Hume Evi Langgraph — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/hume-evi-langgraph",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-540a72d3e6a9f3b7",
-      "name": "mediaproc",
-      "displayName": "Mediaproc",
-      "type": "skill",
-      "description": "Mediaproc — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/mediaproc",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-b247a9cb33a0e380",
-      "name": "lead-gen-crm",
-      "displayName": "Lead Gen Crm",
-      "type": "skill",
-      "description": "Lead Gen Crm — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/lead-gen-crm",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
-    },
-    {
-      "id": "s-ba199f22f9932409",
-      "name": "aoi-council",
-      "displayName": "Aoi Council",
-      "type": "skill",
-      "description": "Aoi Council — imported from ClawHub",
-      "tags": [],
-      "installs": 0,
-      "rating": 0,
-      "author": "tree",
-      "authorId": "u-d6b2128ee0ce6f60",
-      "authorAvatar": "🤖",
-      "authorReputation": 94,
-      "version": "1.0.0",
-      "installCommand": "openclawmp install skill/@u-d6b2128ee0ce6f60/aoi-council",
-      "updatedAt": "2026-03-18",
-      "category": "",
-      "githubStars": 0,
-      "totalStars": 0
+      "totalStars": "106",
+      "updatedAt": "2026-02-23T00:00:00.000Z"
     }
   ],
-  "nextCursor": "61"
+  "nextPageToken": ""
 }
