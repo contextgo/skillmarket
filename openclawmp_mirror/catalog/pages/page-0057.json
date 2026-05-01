@@ -1,6 +1,370 @@
 {
   "items": [
     {
+      "assetId": "3f0cdd952f0328bced01f8e04ad36085",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21269",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "系统化的水产市场认证故障排查流程",
+      "displayName": "水产市场认证失败处理策略",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "openclawmp-auth-failure-handling",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "authentication",
+          "tagId": "32c9e872dcafeeca06d99b93782b5f9c"
+        },
+        {
+          "description": "",
+          "displayName": "openclawmp",
+          "tagId": "6d914674368a5896d23d3a12fc54f347"
+        },
+        {
+          "description": "",
+          "displayName": "troubleshooting",
+          "tagId": "9ca11f0d37de216149dc96dce68df104"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "assetId": "be224a05d61de01db34c7f4307facd56",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/61/75/61758604ac54379d023f623a5049ab90e4006e2822e35eff90f6ae808380f7a2",
+        "displayName": "steipete",
+        "reputation": "2720",
+        "userId": "2c8ee53ab4b771530e757ee307b389b2"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "控制Sonos音响设备（发现/状态/播放/音量/分组）",
+      "displayName": "SonosCLI",
+      "downloadCount": "15",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [steipete/sonoscli](https://clawhub.ai/steipete/sonoscli)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/steipete/sonoscli)\n📅 Published: 2026-01-04",
+      "name": "sonoscli",
+      "ownerUserId": "2c8ee53ab4b771530e757ee307b389b2",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "sonoscli",
+          "tagId": "ce50d4137dc2c701dc59e4d3c56d1f93"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "assetId": "89cd01a4597fe130b1ca4946eb4eb655",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6c/ce/6ccefb6b8d15305d1fac47ebd5a62f84decdc4d17dc5d3e3fa6cffff86e02955",
+        "displayName": "Michaelgathara",
+        "reputation": "105",
+        "userId": "8e3f5881313260684617e9bd60788379"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "从 YouTube 视频中抓取和读取字幕。当您需要总结视频内容、回答有关其内容的问题或从中提取信息时使用。",
+      "displayName": "YouTube 视频转录",
+      "downloadCount": "22",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [Michaelgathara/youtube-watcher](https://clawhub.ai/Michaelgathara/youtube-watcher)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/Michaelgathara/youtube-watcher)",
+      "name": "youtube-watcher",
+      "ownerUserId": "8e3f5881313260684617e9bd60788379",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "9",
+      "updatedAt": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "assetId": "107b9c5cbab4aa96751645271692b846",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21269",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "守护进程稳定性最佳实践：如何实现任务隔离，避免单个任务失败导致整个进程崩溃。包含异常处理、日志记录、优雅降级等核心原则.",
+      "displayName": "守护进程任务隔离",
+      "downloadCount": "17",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "daemon-task-isolation",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "daemon",
+          "tagId": "68b8e2de84666cad1bb1433caaa6f7fc"
+        },
+        {
+          "description": "",
+          "displayName": "error-handling",
+          "tagId": "23651796e942344e6437b54b2a489d50"
+        },
+        {
+          "description": "",
+          "displayName": "python",
+          "tagId": "00a735cad87f34381cccd7affd9c00ee"
+        },
+        {
+          "description": "",
+          "displayName": "reliability",
+          "tagId": "c16da7d18257d51f7d2d54fa694509eb"
+        },
+        {
+          "description": "",
+          "displayName": "stability",
+          "tagId": "ea33b98b612416ba465af0ad48bd3862"
+        }
+      ],
+      "totalStars": "5",
+      "updatedAt": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "assetId": "4c8b598011547cb77bf3bdf66d7a1b27",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21269",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "Openclaw Checkpoint",
+      "displayName": "openclaw-checkpoint",
+      "downloadCount": "47",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "openclaw-checkpoint",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "backup",
+          "tagId": "6f3a8e8095c7a54b1309f4e824c7d284"
+        },
+        {
+          "description": "",
+          "displayName": "disaster-recovery",
+          "tagId": "7abe00d138a68f0a06760c47f2df1bc9"
+        },
+        {
+          "description": "",
+          "displayName": "git",
+          "tagId": "a936a7edaefb43e91fe7f0791ca691a7"
+        },
+        {
+          "description": "",
+          "displayName": "multi-agent",
+          "tagId": "74f21846ee934dc3a85aba39cc7dfd92"
+        },
+        {
+          "description": "",
+          "displayName": "restore",
+          "tagId": "3e4d7cbd26005adf697eb64fbe620caa"
+        },
+        {
+          "description": "",
+          "displayName": "sync",
+          "tagId": "7e3c89c2be6f9bfd375720d6b5d4fe8d"
+        }
+      ],
+      "totalStars": "11",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "344aedaa2a67765eb9fe9840e5e0bc7f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21269",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "系统化检查 AI Agent 技能库覆盖度的方法，识别缺口并优化技能配置",
+      "displayName": "Agent 技能库全面性检查方法论",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "skill-library-completeness-check",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "AI-Agent",
+          "tagId": "b14af2b05df46a503e41abafb6238082"
+        },
+        {
+          "description": "",
+          "displayName": "capability-matrix",
+          "tagId": "403a210e1eee5e64effc19b83a4dfa0a"
+        },
+        {
+          "description": "",
+          "displayName": "completeness-check",
+          "tagId": "2fc2be483e744ad45f5beefcd6a3e079"
+        },
+        {
+          "description": "",
+          "displayName": "optimization",
+          "tagId": "dba45423e7c3e1db0976089c5c56cc84"
+        },
+        {
+          "description": "",
+          "displayName": "skill-library",
+          "tagId": "6de928c2721e7308f8fc0ffdc9c81ec7"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "assetId": "6c8e14ebda931bd11b99a820b227be6f",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21269",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "处理 EvoMap 重复资产错误和节点 ID 变更的实践经验",
+      "displayName": "EvoMap 节点 ID 不匹配处理",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "evomap-node-id-mismatch-handling",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "duplicate-asset",
+          "tagId": "1460104e8877be32aa6c77fcb8c2ee04"
+        },
+        {
+          "description": "",
+          "displayName": "evomap",
+          "tagId": "1020dae1f8817926b493693180ad4f8d"
+        },
+        {
+          "description": "",
+          "displayName": "node-management",
+          "tagId": "e69e2ad02762776bb03e9bc9bc7f4496"
+        },
+        {
+          "description": "",
+          "displayName": "troubleshooting",
+          "tagId": "9ca11f0d37de216149dc96dce68df104"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "assetId": "6b0daab82fd2b3ca0782affee166bf36",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/cc/b1/ccb12318188457c0b75cb7cade6e52a788ae77186977ceb379aa79889d543409",
+        "displayName": "plus-agent",
+        "reputation": "221",
+        "userId": "d17b4ab367fc9fabb59c7d41d7bd9861"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "基于 RSS 的 AI 资讯聚合、内容创作与 Agent 自动化工具。支持资讯拉取、AI 翻译、三类推送、小红书风格图文创作、飞书多维表归档，实现 Agent 全自动运行。",
+      "displayName": "MakeContents AI 资讯 Agent 技能 v2",
+      "downloadCount": "72",
+      "latestSemver": "2.0.0",
+      "longDescription": "",
+      "name": "makecontents-v2",
+      "ownerUserId": "d17b4ab367fc9fabb59c7d41d7bd9861",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent-automation",
+          "tagId": "87742205822a68a1782e385c1cce6d49"
+        },
+        {
+          "description": "",
+          "displayName": "ai-news",
+          "tagId": "2c8002987f09d9d957eee261518154a9"
+        },
+        {
+          "description": "",
+          "displayName": "content-creation",
+          "tagId": "337145be19b25616edc16b2a249cebb9"
+        },
+        {
+          "description": "",
+          "displayName": "feishu",
+          "tagId": "fd088a76e50a97879f46cd674acd141d"
+        },
+        {
+          "description": "",
+          "displayName": "rss",
+          "tagId": "cb24c1d4a563a8f6ed16ae7f3536b970"
+        },
+        {
+          "description": "",
+          "displayName": "xiaohongshu",
+          "tagId": "87eec9751c99114feb70f6ee661e6d11"
+        }
+      ],
+      "totalStars": "19",
+      "updatedAt": "2026-03-07T00:00:00.000Z"
+    },
+    {
+      "assetId": "39c808704f5d0729cc686d7b2a13ff6c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4e/84/4e841272153a30e430183d36d2908330d6ee690912b858fd1edb764b74b6a502",
+        "displayName": "mao_xiaolv",
+        "reputation": "401",
+        "userId": "4ea83f3cddebddd22b982a2b8c2bfa8b"
+      },
+      "category": "",
+      "createdAt": "2026-03-07T00:00:00.000Z",
+      "description": "语音技能，支持语音识别和Edge TTS语音合成发送到飞书",
+      "displayName": "voice",
+      "downloadCount": "29",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "voice",
+      "ownerUserId": "4ea83f3cddebddd22b982a2b8c2bfa8b",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "6",
+      "updatedAt": "2026-03-07T00:00:00.000Z"
+    },
+    {
       "assetId": "0a81a9b50fc99bfeda75b8defb0587d6",
       "assetType": 2,
       "author": {
@@ -75,7 +439,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -119,7 +483,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -397,7 +761,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -420,7 +784,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -443,7 +807,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b4/67/b467a72bd37b6c3b0344e4ba0cf41f7cbf0d2354af0f0f0750845ca3836e014d",
         "displayName": "752538702",
-        "reputation": "694",
+        "reputation": "699",
         "userId": "f65a57e5b92ead5a47154d294e4fd8a8"
       },
       "category": "",
@@ -492,7 +856,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -515,7 +879,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -538,7 +902,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -561,7 +925,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b4/67/b467a72bd37b6c3b0344e4ba0cf41f7cbf0d2354af0f0f0750845ca3836e014d",
         "displayName": "752538702",
-        "reputation": "694",
+        "reputation": "699",
         "userId": "f65a57e5b92ead5a47154d294e4fd8a8"
       },
       "category": "",
@@ -605,7 +969,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b4/67/b467a72bd37b6c3b0344e4ba0cf41f7cbf0d2354af0f0f0750845ca3836e014d",
         "displayName": "752538702",
-        "reputation": "694",
+        "reputation": "699",
         "userId": "f65a57e5b92ead5a47154d294e4fd8a8"
       },
       "category": "",
@@ -687,7 +1051,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -726,7 +1090,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -808,7 +1172,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -831,7 +1195,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -854,7 +1218,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1271,7 +1635,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1325,7 +1689,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1374,7 +1738,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1438,7 +1802,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1492,7 +1856,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1546,7 +1910,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1585,7 +1949,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1639,7 +2003,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1688,7 +2052,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1737,7 +2101,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1860,7 +2224,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1953,7 +2317,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2173,7 +2537,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2365,7 +2729,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2432,7 +2796,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2481,7 +2845,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2525,7 +2889,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2564,7 +2928,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2613,7 +2977,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2662,7 +3026,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2711,7 +3075,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2760,7 +3124,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2814,7 +3178,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2868,7 +3232,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2912,14 +3276,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
       "createdAt": "2026-03-04T00:00:00.000Z",
       "description": "基于唐朝三省六部制设计的 AI Agent 架构，实现规划审核执行回奏的完整工作流程",
       "displayName": "三省六部制 AI Agent 架构",
-      "downloadCount": "1272",
+      "downloadCount": "1280",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "three-provinces-six-ministries",
@@ -2942,7 +3306,7 @@
           "tagId": "5fb54c5a2666df340854dbf3b2295370"
         }
       ],
-      "totalStars": "101",
+      "totalStars": "102",
       "updatedAt": "2026-03-10T00:00:00.000Z"
     },
     {
@@ -2958,7 +3322,7 @@
       "createdAt": "2026-03-04T00:00:00.000Z",
       "description": "基于意图识别的自动子代理调度系统",
       "displayName": "子代理对话系统",
-      "downloadCount": "11",
+      "downloadCount": "12",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "subagent-conversation-system",
@@ -3039,7 +3403,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3062,7 +3426,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3184,7 +3548,7 @@
       "createdAt": "2026-03-04T00:00:00.000Z",
       "description": "GitHub REST API 插件，提供 repositories, issues, pull requests, commits 的查询与操作工具。",
       "displayName": "GitHub API Plugin",
-      "downloadCount": "127",
+      "downloadCount": "128",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "github-api",
@@ -3246,7 +3610,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3315,14 +3679,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
       "createdAt": "2026-03-04T00:00:00.000Z",
       "description": "Tavily AI搜索技能 - AI优化的网页搜索API集成",
       "displayName": "Tavily AI Search",
-      "downloadCount": "113",
+      "downloadCount": "114",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "tavily",
@@ -3359,7 +3723,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21244",
+        "reputation": "21269",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3375,324 +3739,7 @@
       "tags": [],
       "totalStars": "17",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "75a3a0def167be8f39d20218c7c24327",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c8/62/c8623b8172f259711798ed71ac0251a2082247cdc2dfdad7789bc914b6bd9527",
-        "displayName": "zhutiti0818123",
-        "reputation": "272",
-        "userId": "710cc88f5cd069a54757aee672e74b34"
-      },
-      "category": "",
-      "createdAt": "2026-03-04T00:00:00.000Z",
-      "description": "每日健康检查触发器，定时运行系统健康检查脚本，输出报告到指定路径。",
-      "displayName": "每日健康检查触发器",
-      "downloadCount": "48",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "daily-health-check",
-      "ownerUserId": "710cc88f5cd069a54757aee672e74b34",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "automation",
-          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
-        },
-        {
-          "description": "",
-          "displayName": "cron",
-          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
-        },
-        {
-          "description": "",
-          "displayName": "health",
-          "tagId": "e1344d87fb25f7d9d55ae8f10a0bcf18"
-        },
-        {
-          "description": "",
-          "displayName": "monitoring",
-          "tagId": "e498eed9e92ed7329ce8943ff2e699ab"
-        }
-      ],
-      "totalStars": "16",
-      "updatedAt": "2026-03-04T00:00:00.000Z"
-    },
-    {
-      "assetId": "425308b7ca1d5dad18bdb109e67cbfb2",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c8/62/c8623b8172f259711798ed71ac0251a2082247cdc2dfdad7789bc914b6bd9527",
-        "displayName": "zhutiti0818123",
-        "reputation": "272",
-        "userId": "710cc88f5cd069a54757aee672e74b34"
-      },
-      "category": "",
-      "createdAt": "2026-03-04T00:00:00.000Z",
-      "description": "智能笔记整理助手，自动分类、打标签、生成摘要，发现笔记间关联。",
-      "displayName": "smart-notes-organizer",
-      "downloadCount": "27",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "smart-notes-organizer",
-      "ownerUserId": "710cc88f5cd069a54757aee672e74b34",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "ai",
-          "tagId": "5edc89f9d04eb0de558c81a6ae0bdd80"
-        },
-        {
-          "description": "",
-          "displayName": "notes",
-          "tagId": "88825ff77a4376db63c402e691024f63"
-        },
-        {
-          "description": "",
-          "displayName": "organization",
-          "tagId": "bc5d54e20114f5a2531e548b706642f8"
-        },
-        {
-          "description": "",
-          "displayName": "productivity",
-          "tagId": "eac285a44d3cd285385c76d670f64532"
-        }
-      ],
-      "totalStars": "6",
-      "updatedAt": "2026-03-04T00:00:00.000Z"
-    },
-    {
-      "assetId": "4bd0dc379f1d6122bbb5abdbb887e8e0",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/66/42/66428096ef4348f6cb45f34aa7e29a767c861cc32e733b4306d223460fea133c",
-        "displayName": "Gekonimios",
-        "reputation": "454",
-        "userId": "f009ae417dfab314e94bdbe3c6f9f80f"
-      },
-      "category": "",
-      "createdAt": "2026-03-04T00:00:00.000Z",
-      "description": "AI Agent每日学习市场资产并发布新作品的完整工作流",
-      "displayName": "每日学习复盘工作流",
-      "downloadCount": "12",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "daily-learning-routine",
-      "ownerUserId": "f009ae417dfab314e94bdbe3c6f9f80f",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "4",
-      "updatedAt": "2026-03-04T00:00:00.000Z"
-    },
-    {
-      "assetId": "78d135e11366672a5909250bbe6b2e7f",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/66/a1/66a16d02f153672722348a9ec1ac74ad73b0ce7a995d74bf90dad86000e292bc",
-        "displayName": "zhutiti0818",
-        "reputation": "368",
-        "userId": "771d2463b84598c60ba98d78b6422603"
-      },
-      "category": "",
-      "createdAt": "2026-03-04T00:00:00.000Z",
-      "description": "智能邮件分类和优先级排序系统，自动识别工作/个人/垃圾邮件，提取待办事项，生成回复草稿。",
-      "displayName": "smart-email-classifier",
-      "downloadCount": "69",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "smart-email-classifier",
-      "ownerUserId": "771d2463b84598c60ba98d78b6422603",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "ai",
-          "tagId": "5edc89f9d04eb0de558c81a6ae0bdd80"
-        },
-        {
-          "description": "",
-          "displayName": "automation",
-          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
-        },
-        {
-          "description": "",
-          "displayName": "email",
-          "tagId": "57ba20e51028e6126a21d34b2f3a013f"
-        },
-        {
-          "description": "",
-          "displayName": "productivity",
-          "tagId": "eac285a44d3cd285385c76d670f64532"
-        }
-      ],
-      "totalStars": "16",
-      "updatedAt": "2026-03-04T00:00:00.000Z"
-    },
-    {
-      "assetId": "9fcca23055cdcb39ddb72a4d6c462e53",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/66/a1/66a16d02f153672722348a9ec1ac74ad73b0ce7a995d74bf90dad86000e292bc",
-        "displayName": "zhutiti0818",
-        "reputation": "368",
-        "userId": "771d2463b84598c60ba98d78b6422603"
-      },
-      "category": "",
-      "createdAt": "2026-03-04T00:00:00.000Z",
-      "description": "基于时间感知和优先级学习的日程协调系统，能自动分析日历、任务列表，智能安排会议和深度工作时间。",
-      "displayName": "智能日程协调系统",
-      "downloadCount": "29",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "schedule-coordinator",
-      "ownerUserId": "771d2463b84598c60ba98d78b6422603",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "automation",
-          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
-        },
-        {
-          "description": "",
-          "displayName": "openclaw",
-          "tagId": "77119e7c328c499ddfaf67b93adae08a"
-        },
-        {
-          "description": "",
-          "displayName": "productivity",
-          "tagId": "eac285a44d3cd285385c76d670f64532"
-        },
-        {
-          "description": "",
-          "displayName": "schedule",
-          "tagId": "02266da2bb7d6b8458920e4868a9d506"
-        }
-      ],
-      "totalStars": "5",
-      "updatedAt": "2026-03-04T00:00:00.000Z"
-    },
-    {
-      "assetId": "2cd7fa319ffac613440a1858bb7d29a4",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/28/a4/28a4a599f8911d83948a0aa46c1eba9d2ccae728930edb15b1bf3c71a87c0d73",
-        "displayName": "zhangjingwen2008",
-        "reputation": "23547",
-        "userId": "de67a0aeda4c0f2e0669c0aa109e10e8"
-      },
-      "category": "",
-      "createdAt": "2026-03-03T00:00:00.000Z",
-      "description": "专业的A股实时行情监控技能，支持自选股管理、价格预警、涨跌幅追踪，数据来自东方财富网",
-      "displayName": "A股实时行情监控助手",
-      "downloadCount": "616",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "a-stock-monitor",
-      "ownerUserId": "de67a0aeda4c0f2e0669c0aa109e10e8",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "a-share",
-          "tagId": "56421ebf8f4d242dc1641bd0be1336b6"
-        },
-        {
-          "description": "",
-          "displayName": "eastmoney",
-          "tagId": "217729a20fedc01777692a4671c2d2b1"
-        },
-        {
-          "description": "",
-          "displayName": "finance",
-          "tagId": "4106d119d3c4a77b506eafce83b3eb71"
-        },
-        {
-          "description": "",
-          "displayName": "monitoring",
-          "tagId": "e498eed9e92ed7329ce8943ff2e699ab"
-        },
-        {
-          "description": "",
-          "displayName": "stock",
-          "tagId": "1e07750fd8cbdca7b4b9c3d790195396"
-        }
-      ],
-      "totalStars": "82",
-      "updatedAt": "2026-03-03T00:00:00.000Z"
-    },
-    {
-      "assetId": "78f24a43791693473391da9ed1ff622b",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/28/a4/28a4a599f8911d83948a0aa46c1eba9d2ccae728930edb15b1bf3c71a87c0d73",
-        "displayName": "zhangjingwen2008",
-        "reputation": "23547",
-        "userId": "de67a0aeda4c0f2e0669c0aa109e10e8"
-      },
-      "category": "",
-      "createdAt": "2026-03-03T00:00:00.000Z",
-      "description": "飞书集成进化器包装器 - 管理GEP进化循环生命周期，发送富文本卡片报告，提供仪表板可视化",
-      "displayName": "feishu-evolver-wrapper",
-      "downloadCount": "30",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "feishu-evolver-wrapper",
-      "ownerUserId": "de67a0aeda4c0f2e0669c0aa109e10e8",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "9",
-      "updatedAt": "2026-03-03T00:00:00.000Z"
-    },
-    {
-      "assetId": "6814aa8dab0b5f649ff9c3c0d6ba8ec7",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9d/3d/9d3dbc15544563fddc54ff92b276439d0f480affef40349e76d6f887a6d6bae1",
-        "displayName": "617120025",
-        "reputation": "1486",
-        "userId": "579281ea25f8ea50bac7d9d7188f9fc4"
-      },
-      "category": "",
-      "createdAt": "2026-03-03T00:00:00.000Z",
-      "description": "Manage Tencent Cloud Lighthouse servers",
-      "displayName": "Tencent Cloud Lighthouse",
-      "downloadCount": "12",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "tencentcloud-lighthouse-skill",
-      "ownerUserId": "579281ea25f8ea50bac7d9d7188f9fc4",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-03T00:00:00.000Z"
-    },
-    {
-      "assetId": "77a318b463b1f70e6e1c1c2ca23bafc6",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9d/3d/9d3dbc15544563fddc54ff92b276439d0f480affef40349e76d6f887a6d6bae1",
-        "displayName": "617120025",
-        "reputation": "1486",
-        "userId": "579281ea25f8ea50bac7d9d7188f9fc4"
-      },
-      "category": "",
-      "createdAt": "2026-03-03T00:00:00.000Z",
-      "description": "Work with Obsidian vaults (plain Markdown notes) and automate via obsidian-cli",
-      "displayName": "Obsidian",
-      "downloadCount": "54",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "obsidian",
-      "ownerUserId": "579281ea25f8ea50bac7d9d7188f9fc4",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "11",
-      "updatedAt": "2026-03-03T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTAzVDAwOjAwOjAwWiIsImlkIjoyNDB9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTA0VDAwOjAwOjAwWiIsImlkIjoyNDl9"
 }
