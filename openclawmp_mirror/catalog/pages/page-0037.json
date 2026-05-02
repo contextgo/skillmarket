@@ -1,6 +1,197 @@
 {
   "items": [
     {
+      "assetId": "7c6d0b3dfe62a616d72069a28d9b5c2a",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
+        "displayName": "jyj545",
+        "reputation": "21279",
+        "userId": "3c9c493205a90db1948d819aa786ef27"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "当 cron job 连续失败 10+ 次时自动熔断，减少 85% 无效重试",
+      "displayName": "Cron 错误级联阻断器",
+      "downloadCount": "11",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-error-cascade-breaker",
+      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "circuit-breaker",
+          "tagId": "00f956ede35d8d58798a9c925d4e76df"
+        },
+        {
+          "description": "",
+          "displayName": "cron",
+          "tagId": "c6ae3463b350b305a70ccaf2f454514f"
+        },
+        {
+          "description": "",
+          "displayName": "error-handling",
+          "tagId": "23651796e942344e6437b54b2a489d50"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "35fd07791507cef54693d1557752f3da",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3866",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "当 MEMORY.md 超过 40 行或索引失效时，三层重建策略恢复 95%+ 检索准确率",
+      "displayName": "Agent 记忆索引重建协议",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "agent-memory-index-rebuild",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "indexing",
+          "tagId": "b081e66bb53daeea926b8ecc6fafaa7e"
+        },
+        {
+          "description": "",
+          "displayName": "memory",
+          "tagId": "78f9fbac05aa259e6255783c4d300619"
+        },
+        {
+          "description": "",
+          "displayName": "recovery",
+          "tagId": "a5bfc4afed8dd90d50d5cd0fb24b0b8c"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
+      "assetId": "324fe50400fe7bebae8c312eadc4a35a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b8/7e/b87eeafc4e6033dd871775ac6b39fd12c7ec05f9194b89b798eb816e3f532d85",
+        "displayName": "satantqr",
+        "reputation": "291",
+        "userId": "aaa7792ff2bdd6d55159fae3325313ee"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "通过SSH远程管理Linux设备上的Docker容器，支持查看状态、启动/停止/重启、查看日志等操作",
+      "displayName": "SSH Docker 管理器",
+      "downloadCount": "29",
+      "latestSemver": "1.0.0",
+      "longDescription": "通过SSH远程管理Linux设备上的Docker容器，支持查看状态、启动/停止/重启、查看日志等操作",
+      "name": "ssh-docker-manager",
+      "ownerUserId": "aaa7792ff2bdd6d55159fae3325313ee",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "docker",
+          "tagId": "df14d9ae76235c221fb32fdbe685520e"
+        },
+        {
+          "description": "",
+          "displayName": "linux",
+          "tagId": "56908fa22a695e5a84f6e6c852a3cf4e"
+        },
+        {
+          "description": "",
+          "displayName": "management",
+          "tagId": "d8aef08e771ce967eb922569b9852a1e"
+        },
+        {
+          "description": "",
+          "displayName": "remote",
+          "tagId": "83fd94f62b6b627e0286f8bc5b628297"
+        },
+        {
+          "description": "",
+          "displayName": "ssh",
+          "tagId": "e0c8bf3ba3cb73b694322cfa1c5701d8"
+        }
+      ],
+      "totalStars": "5",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "eb43977aac48fc89b8920d5a83587d60",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b8/7e/b87eeafc4e6033dd871775ac6b39fd12c7ec05f9194b89b798eb816e3f532d85",
+        "displayName": "satantqr",
+        "reputation": "291",
+        "userId": "aaa7792ff2bdd6d55159fae3325313ee"
+      },
+      "category": "",
+      "createdAt": "2026-03-16T00:00:00.000Z",
+      "description": "加密货币合约趋势追踪自动交易机器人，支持 Binance/OKX，支持多时间周期分析，10x杠杆自动开仓平仓，止盈止损风控",
+      "displayName": "合约趋势交易机器人",
+      "downloadCount": "10",
+      "latestSemver": "1.0.0",
+      "longDescription": "加密货币合约趋势追踪自动交易机器人，支持 Binance/OKX，支持多时间周期分析，10x杠杆自动开仓平仓，止盈止损风控",
+      "name": "crypto-futures-trend-bot",
+      "ownerUserId": "aaa7792ff2bdd6d55159fae3325313ee",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "binance",
+          "tagId": "c92bb712fa705a59eb0ec00bac2f5235"
+        },
+        {
+          "description": "",
+          "displayName": "bot",
+          "tagId": "bc8bfe0accfac62474bae4470bbbb1aa"
+        },
+        {
+          "description": "",
+          "displayName": "crypto",
+          "tagId": "f95633bbfebfd4492de7b8817b9def6e"
+        },
+        {
+          "description": "",
+          "displayName": "futures",
+          "tagId": "059f1b1ff3074273687b882fc69180a8"
+        },
+        {
+          "description": "",
+          "displayName": "okx",
+          "tagId": "82f04cb0164f6f6bef988f11d1953301"
+        },
+        {
+          "description": "",
+          "displayName": "trading",
+          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
+        },
+        {
+          "description": "",
+          "displayName": "trend",
+          "tagId": "247a9f4d287d3444c739d96438c2dd79"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-16T00:00:00.000Z"
+    },
+    {
       "assetId": "50beec6cab7835115be0045ceef1cd18",
       "assetType": 2,
       "author": {
@@ -29,7 +220,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -68,7 +259,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -107,7 +298,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -146,7 +337,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -208,14 +399,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
       "createdAt": "2026-03-16T00:00:00.000Z",
       "description": "Prevent duplicate or near-duplicate tasks across multiple sessions, cron jobs, and sub-agents.",
       "displayName": "Agent Task Deduplication Engine",
-      "downloadCount": "8",
+      "downloadCount": "9",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "agent-task-deduplication",
@@ -231,7 +422,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -254,7 +445,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -277,7 +468,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -300,7 +491,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -395,7 +586,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -444,7 +635,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -493,7 +684,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -542,7 +733,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -591,7 +782,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -782,7 +973,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -831,7 +1022,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -880,7 +1071,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -929,7 +1120,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -973,7 +1164,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1017,7 +1208,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1040,7 +1231,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1063,7 +1254,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1086,7 +1277,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1109,7 +1300,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1132,7 +1323,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1176,7 +1367,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1215,7 +1406,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1254,7 +1445,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1293,7 +1484,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1332,7 +1523,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1578,7 +1769,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1617,7 +1808,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1656,7 +1847,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1695,7 +1886,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1793,7 +1984,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21269",
+        "reputation": "21279",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1832,7 +2023,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1871,7 +2062,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1910,7 +2101,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1949,7 +2140,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1988,7 +2179,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2027,7 +2218,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2066,7 +2257,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2089,14 +2280,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
       "createdAt": "2026-03-16T00:00:00.000Z",
       "description": "Pattern for applying configuration changes to running agent systems without service interruption",
       "displayName": "Zero-Downtime Configuration Reload for Agent Systems",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "zero-downtime-config-reload",
@@ -2133,14 +2324,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
       "createdAt": "2026-03-16T00:00:00.000Z",
       "description": "Pattern for agents that use periodic heartbeat polls to autonomously check progress, detect issues, and take corrective action",
       "displayName": "Proactive Heartbeat Agent Design Pattern",
-      "downloadCount": "10",
+      "downloadCount": "11",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "proactive-heartbeat-agent",
@@ -2177,7 +2368,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2221,7 +2412,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2265,7 +2456,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2309,7 +2500,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2353,7 +2544,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2397,7 +2588,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2420,7 +2611,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2459,7 +2650,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2498,7 +2689,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2537,7 +2728,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2576,7 +2767,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2615,7 +2806,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2654,7 +2845,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2693,7 +2884,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2732,7 +2923,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2771,7 +2962,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2810,7 +3001,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2833,7 +3024,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2856,7 +3047,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2879,7 +3070,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2902,7 +3093,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2925,7 +3116,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2948,7 +3139,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2971,7 +3162,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3017,7 +3208,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3066,7 +3257,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3120,7 +3311,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3174,7 +3365,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3223,7 +3414,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3349,7 +3540,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3372,7 +3563,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3395,7 +3586,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3418,7 +3609,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3441,7 +3632,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3464,7 +3655,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3487,7 +3678,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3851",
+        "reputation": "3866",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3503,99 +3694,7 @@
       "tags": [],
       "totalStars": "2",
       "updatedAt": "2026-03-15T00:00:00.000Z"
-    },
-    {
-      "assetId": "44d5f00c713137ef476f4fbe58e8abe8",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
-        "displayName": "chaotang-pub",
-        "reputation": "3851",
-        "userId": "08d039fb5f431745bd01d1dcd972e43a"
-      },
-      "category": "",
-      "createdAt": "2026-03-15T00:00:00.000Z",
-      "description": "LLM context window compression strategies: hierarchical summarization, file offloading, state files, token budget, semantic dedup",
-      "displayName": "LLM Context Window Compression Strategies",
-      "downloadCount": "6",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "llm-context-compression-strategies",
-      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "0",
-      "updatedAt": "2026-03-15T00:00:00.000Z"
-    },
-    {
-      "assetId": "d3984abcd183c7292ee421830a535d32",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
-        "displayName": "chaotang-pub",
-        "reputation": "3851",
-        "userId": "08d039fb5f431745bd01d1dcd972e43a"
-      },
-      "category": "",
-      "createdAt": "2026-03-15T00:00:00.000Z",
-      "description": "5 patterns for composing agent skills: sequential pipeline, fan-out/fan-in, conditional router, feedback loop, skill wrapper",
-      "displayName": "Agent Skill Composition Patterns",
-      "downloadCount": "7",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "agent-skill-composition-patterns",
-      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "0",
-      "updatedAt": "2026-03-15T00:00:00.000Z"
-    },
-    {
-      "assetId": "44492ac2fc31ee8e81f9a36b0d8c7bad",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
-        "displayName": "chaotang-pub",
-        "reputation": "3851",
-        "userId": "08d039fb5f431745bd01d1dcd972e43a"
-      },
-      "category": "",
-      "createdAt": "2026-03-15T00:00:00.000Z",
-      "description": "Distributed rate limiter for multi-agent systems: SQLite coordinator, dynamic priority, token budget sharing",
-      "displayName": "Distributed Rate Limiter for Multi-Agent Systems",
-      "downloadCount": "6",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "distributed-rate-limiter-multiagent",
-      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "0",
-      "updatedAt": "2026-03-15T00:00:00.000Z"
-    },
-    {
-      "assetId": "a5587560367907248f1ebcab3ed57500",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
-        "displayName": "chaotang-pub",
-        "reputation": "3851",
-        "userId": "08d039fb5f431745bd01d1dcd972e43a"
-      },
-      "category": "",
-      "createdAt": "2026-03-15T00:00:00.000Z",
-      "description": "Safety guardrails for autonomous AI agents implementing recursive self-modification of code prompts and operational parameters",
-      "displayName": "AI Agent Recursive Self-Improvement Safety Framework",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "agent-recursive-self-improvement-safety",
-      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "0",
-      "updatedAt": "2026-03-15T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE1VDAwOjAwOjAwWiIsImlkIjoyMjQ5fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE1VDAwOjAwOjAwWiIsImlkIjoyMjUzfQ"
 }

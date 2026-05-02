@@ -1,6 +1,152 @@
 {
   "items": [
     {
+      "assetId": "4b872ba31a48ad00014ac6d6dcce278d",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/72/85/7285096f362f4ee8e9b2d667e5c30ebde5691ee9c2a35a66e383ca36ed9f93fc",
+        "displayName": "kaichop",
+        "reputation": "5",
+        "userId": "e76376371e580d672c5ad92c3970400a"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Extract clinical phenotypes and medication entities from user-provided text using PhenoSnap, producing a timestamped JSON output.",
+      "displayName": "Phenosnap Phenotype Extractor",
+      "downloadCount": "4",
+      "latestSemver": "0.1.1",
+      "longDescription": "📦 ClawHub: [kaichop/phenoskill](https://clawhub.ai/kaichop/phenoskill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/kaichop/phenoskill)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-26",
+      "name": "phenoskill",
+      "ownerUserId": "e76376371e580d672c5ad92c3970400a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "extractor",
+          "tagId": "78071c9d73403702feb886956aad32ba"
+        },
+        {
+          "description": "",
+          "displayName": "phenosnap",
+          "tagId": "c74b25bd43d5059007d148faa934cd8f"
+        },
+        {
+          "description": "",
+          "displayName": "phenotype",
+          "tagId": "36aba92143d09d9a57973f72fe515514"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "d63a80a148e069046ae9209e4bfb4764",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0f/a3/0fa35f18cb9908eefdaf24b814fcaf2fdcdcc51d7155e16121bfd7eab86dddd6",
+        "displayName": "hantok",
+        "reputation": "15",
+        "userId": "07ff4a5d3b9a4e6b815b13c3c35bddd2"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Install and operate local NVIDIA Parakeet ASR for OpenClaw with an OpenAI-compatible transcription API on Ubuntu/Linux and macOS (Intel/Apple Silicon). Use when the user wants private/local speech-to-text, voice transcription setup, ASR troubleshooting, or OpenClaw voice stack configuration with Parakeet (and optional Whisper fallback).",
+      "displayName": "Parakeet Local Asr",
+      "downloadCount": "9",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [hantok/parakeet-local-asr](https://clawhub.ai/hantok/parakeet-local-asr)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/hantok/parakeet-local-asr)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-20",
+      "name": "parakeet-local-asr",
+      "ownerUserId": "07ff4a5d3b9a4e6b815b13c3c35bddd2",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "asr",
+          "tagId": "e2f7e8eb83c67f29f41f3b6f8b09213b"
+        },
+        {
+          "description": "",
+          "displayName": "local",
+          "tagId": "21f0a2741f7306de2fff89ff06f1afcc"
+        },
+        {
+          "description": "",
+          "displayName": "parakeet",
+          "tagId": "aeafc1bce3f3e4dc8028e447391a3e61"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "e995c9c36a4aedde9db6cf9b7138642f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6e/88/6e88d3b3e14d3a4c3c7ec23788396148f7461a29e854c12d56460a9c502cecbe",
+        "displayName": "tirandagan",
+        "reputation": "25",
+        "userId": "49c1275971433cdfcd3841ffeaee0d98"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Office 365 / Outlook connector for email (read/send), calendar (read/write), and contacts (read/write) using resilient OAuth authentication. NOW WITH MULTI-ACCOUNT SUPPORT! Manage multiple Microsoft 365 identities from a single skill. Solves the difficulty connecting to Office 365 email, calendar, and contacts. Uses Microsoft Graph API with comprehensive Azure App Registration setup guide. Perfect for accessing your Microsoft 365/Outlook data from OpenClaw.",
+      "displayName": "Office 365 Connector",
+      "downloadCount": "11",
+      "latestSemver": "2.0.0",
+      "longDescription": "📦 ClawHub: [tirandagan/office365-connector](https://clawhub.ai/tirandagan/office365-connector)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/tirandagan/office365-connector)\n🏷️ Version: 2.0.0\n📅 Published: 2026-02-10",
+      "name": "office365-connector",
+      "ownerUserId": "49c1275971433cdfcd3841ffeaee0d98",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "connector",
+          "tagId": "965cd9ab3508f790efdce43f5f24e59c"
+        },
+        {
+          "description": "",
+          "displayName": "office365",
+          "tagId": "9d9f2f4b359996f8ef1fab4dc3ae6e84"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "26ac939511a866b269c02597d0112c29",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/57/02/57021448dd34bea1c0124755ab9f38b706c6138d60c987c688ca360034ba9c6f",
+        "displayName": "tag-assistant",
+        "reputation": "35",
+        "userId": "909826aa496f48dd1131689fb720bff9"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Analyze a GitHub pull request for mergeability — predict whether it will get merged based on technical, architectural, process, social, and compliance factors. Use when asked to review a PR, check if a PR will be merged, assess PR quality, or predict PR acceptance. Works with any GitHub PR via `owner/repo#number` or URL.",
+      "displayName": "Merge Check",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [tag-assistant/merge-check](https://clawhub.ai/tag-assistant/merge-check)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/tag-assistant/merge-check)\n📅 Published: 2026-02-17",
+      "name": "merge-check",
+      "ownerUserId": "909826aa496f48dd1131689fb720bff9",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "check",
+          "tagId": "5a7aaba78aff9599841850236440afb9"
+        },
+        {
+          "description": "",
+          "displayName": "merge",
+          "tagId": "ad15262f717d72b272604eae4ceacff1"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "fa453d3d18199fc1ebfa915424a059b7",
       "assetType": 2,
       "author": {
@@ -376,14 +522,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/40/27/402764bbb77c629508cd0ed9c5b1e1475fc4d6ed4cb3776885d022ddc49d77e0",
         "displayName": "jk-0001",
-        "reputation": "679",
+        "reputation": "684",
         "userId": "3e05b3467962d557cd0911d2cdda6f63"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Design a revenue model for a solopreneur business — how money flows in, from whom, and on what cadence. Use when deciding how to monetize a product or service, choosing between revenue streams, structuring recurring vs one-time income, or diversifying revenue. Covers all major revenue model types, selection criteria, revenue stream stacking, and the relationship between revenue model and product design. Trigger on \"how will I make money\", \"revenue model\", \"monetization strategy\", \"revenue streams\", \"recurring revenue\", \"how to monetize\", \"business revenue model\", \"diversify income\".",
       "displayName": "Revenue Model Design",
-      "downloadCount": "9",
+      "downloadCount": "10",
       "latestSemver": "0.1.0",
       "longDescription": "📦 ClawHub: [jk-0001/revenue-model-design](https://clawhub.ai/jk-0001/revenue-model-design)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jk-0001/revenue-model-design)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-24",
       "name": "revenue-model-design",
@@ -488,7 +634,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a7/13/a713c71a247df20b0fb7d0c016174bc555be729096c2d54734a0a4e82c401ddc",
         "displayName": "guifav",
-        "reputation": "110",
+        "reputation": "115",
         "userId": "840dd1ade6e661dfec4029fa75ee4c2c"
       },
       "category": "",
@@ -2705,7 +2851,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Web scraping using Scrapling — a Python framework with anti-bot bypass (Cloudflare Turnstile, fingerprint spoofing), adaptive element tracking, stealth headless browser, and full CSS/XPath extraction. Use when web_fetch fails (Cloudflare, JS-rendered pages), or when extracting structured data from websites (prices, articles, lists). Supports HTTP, stealth, and full browser modes. Source: github.com/D4Vinci/Scrapling (PyPI: scrapling). Only use on sites you have permission to scrape.\"",
       "displayName": "Scrapling - Stealth Web Scraper",
-      "downloadCount": "19",
+      "downloadCount": "20",
       "latestSemver": "1.0.3",
       "longDescription": "📦 ClawHub: [damirikys/scrapling-fetcher](https://clawhub.ai/damirikys/scrapling-fetcher)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/damirikys/scrapling-fetcher)\n🏷️ Version: 1.0.3\n📅 Published: 2026-02-25",
       "name": "scrapling-fetcher",
@@ -3057,115 +3203,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "46a06414dcd1be7160eaa11f018f497d",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b3/c6/b3c6fd99c948fbef622b752f53c132218167e172e4f62ea8905a68f435202831",
-        "displayName": "xammarie",
-        "reputation": "160",
-        "userId": "c5515916b1a0b2f85c2fd6742eb47005"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Convert a workflow, skill, or capability into a sellable micro-offer with positioning, pricing, packaging, and launch assets.",
-      "displayName": "Micro Offer Forge",
-      "downloadCount": "9",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [xammarie/micro-offer-forge](https://clawhub.ai/xammarie/micro-offer-forge)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/xammarie/micro-offer-forge)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-17",
-      "name": "micro-offer-forge",
-      "ownerUserId": "c5515916b1a0b2f85c2fd6742eb47005",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "forge",
-          "tagId": "bd5db5540bd69c6b7fd597bc8a4c0c41"
-        },
-        {
-          "description": "",
-          "displayName": "micro",
-          "tagId": "812209a5e2ab7be50fee2f5bdf1628e0"
-        },
-        {
-          "description": "",
-          "displayName": "offer",
-          "tagId": "e3390c8c2c846dc29bd681283f64473e"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "02119775412027d9e8147f27b68d255e",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/f8/ef/f8effefd5afe26263c3eddefb53dc7f71901d49e823c65c586a8f9c2e8fd8e69",
-        "displayName": "prabu12478",
-        "reputation": "10",
-        "userId": "422ea2a03568186ef025149372d6e4a3"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "my skills — imported from ClawHub",
-      "displayName": "my skills",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [prabu12478/loan](https://clawhub.ai/prabu12478/loan)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/prabu12478/loan)\n📅 Published: 2026-02-19",
-      "name": "loan",
-      "ownerUserId": "422ea2a03568186ef025149372d6e4a3",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "759793f7b58d81793b926bf78069266c",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/72/12/72125b5d294a19a7d53fd74b9990fbf8f43ea24d9be0ba34c86097bb54f9c1f2",
-        "displayName": "lokendragami1",
-        "reputation": "10",
-        "userId": "76b4bcf381b45f8a1a9dcfbc19809bcc"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Envato Comment → Task → Google Sheet — imported from ClawHub",
-      "displayName": "Envato Comment → Task → Google Sheet",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [lokendragami1/envato-comment-task-to-sheet](https://clawhub.ai/lokendragami1/envato-comment-task-to-sheet)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lokendragami1/envato-comment-task-to-sheet)\n📅 Published: 2026-02-24",
-      "name": "envato-comment-task-to-sheet",
-      "ownerUserId": "76b4bcf381b45f8a1a9dcfbc19809bcc",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "5aabf480067aa8caf10a2c697c2b1a4f",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4f/ec/4fec4299c273bab743bfc7d25dbde7eb0a60d60544411d584fa9ae288e43604c",
-        "displayName": "crazyfeng666",
-        "reputation": "10",
-        "userId": "7e9ccf77a8916d28207bd41346ee308c"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Dji Backup — imported from ClawHub",
-      "displayName": "Dji Backup",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [crazyfeng666/dji-backup](https://clawhub.ai/crazyfeng666/dji-backup)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/crazyfeng666/dji-backup)\n📅 Published: 2026-02-13",
-      "name": "dji-backup",
-      "ownerUserId": "7e9ccf77a8916d28207bd41346ee308c",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozMzQ5fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozMzUzfQ"
 }

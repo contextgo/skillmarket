@@ -1,6 +1,157 @@
 {
   "items": [
     {
+      "assetId": "51f7bd9683682c57bb62147e26e63304",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4e/26/4e26c0a67411308e3d4f5d47ef3072b521fd17c0cd1549b807e82b6babdc1bdc",
+        "displayName": "zfdang",
+        "reputation": "20",
+        "userId": "92209c644b4001f3fdd331535a443dff"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "\"Build and deploy Nova Platform apps (TEE apps on Sparsity Nova / sparsity.cloud). Use when a user wants to create a Nova app, write enclave application code, build it into a Docker image, and deploy it to the Nova Platform to get a live running URL. Handles the full lifecycle: scaffold, code, build, push, deploy, verify running. Triggers on requests like 'build me a Nova app', 'deploy to Nova Platform', 'create a TEE app on sparsity.cloud', 'I want to run an enclave app on Nova'.\"",
+      "displayName": "Nova App Builder",
+      "downloadCount": "10",
+      "latestSemver": "2.3.1",
+      "longDescription": "📦 ClawHub: [zfdang/nova-app-builder](https://clawhub.ai/zfdang/nova-app-builder)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/zfdang/nova-app-builder)\n🏷️ Version: 2.3.1\n📅 Published: 2026-03-10",
+      "name": "nova-app-builder",
+      "ownerUserId": "92209c644b4001f3fdd331535a443dff",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "app",
+          "tagId": "145a65ae57974ed4ce31ce3d59226e8f"
+        },
+        {
+          "description": "",
+          "displayName": "builder",
+          "tagId": "242af4c668d549ac4655a6671e60846c"
+        },
+        {
+          "description": "",
+          "displayName": "nova",
+          "tagId": "b4eddcbe4f501f7ad5678d1830311f76"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "assetId": "6015bbe6e60c5fd694c8ee7abca392c9",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/18/ed/18ed4e643be6613b7209f9433dbf0aad0f41f804dee6579cbd7b8a9b8c6b9083",
+        "displayName": "aaitor",
+        "reputation": "0",
+        "userId": "697e61fcd6cca1b808b510993edbfab4"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": ">",
+      "displayName": "Nevermined Payments",
+      "downloadCount": "2",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [aaitor/nevermined-payments](https://clawhub.ai/aaitor/nevermined-payments)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/aaitor/nevermined-payments)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-13",
+      "name": "nevermined-payments",
+      "ownerUserId": "697e61fcd6cca1b808b510993edbfab4",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "nevermined",
+          "tagId": "21e2434fef775e5d2d7ed700eceb150f"
+        },
+        {
+          "description": "",
+          "displayName": "payments",
+          "tagId": "8ef84af310341b0e056f7a99c4a3b655"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "assetId": "c472a2c12575c07e349424ea7cb1a31f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0f/5a/0f5a10c2dad870c9083c8bda415ab145fc51e4daa37401f2bce22a21b9c6294d",
+        "displayName": "twolf01",
+        "reputation": "30",
+        "userId": "052407d298cc0da3caa515824fe7f99a"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "AI-powered web search via NanoGPT API with multiple providers (linkup, tavily, exa, kagi, perplexity, valyu, brave). Supports searchResults, sourcedAnswer, and structured output formats.",
+      "displayName": "NanoGPT Web Search",
+      "downloadCount": "12",
+      "latestSemver": "1.2.3",
+      "longDescription": "📦 ClawHub: [twolf01/nano-web-search](https://clawhub.ai/twolf01/nano-web-search)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/twolf01/nano-web-search)\n🏷️ Version: 1.2.3\n📅 Published: 2026-02-22",
+      "name": "nano-web-search",
+      "ownerUserId": "052407d298cc0da3caa515824fe7f99a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "nano",
+          "tagId": "d152cfd66cdb51b2d1c4573d566c65a8"
+        },
+        {
+          "description": "",
+          "displayName": "search",
+          "tagId": "b495177072f0bd3c81cf6bb881129b9b"
+        },
+        {
+          "description": "",
+          "displayName": "web",
+          "tagId": "a6c04fc047e0d9e02df87e54ee20ba0b"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "assetId": "d95ac5a67f3599f0cb3275324b33700f",
+      "assetType": 5,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fe/50/fe50451debf99724d0548359430e184846199bdc0678683591ccc05d434885ed",
+        "displayName": "story91",
+        "reputation": "15",
+        "userId": "8e9f1c4e821c8da289c5db24352627e2"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "Autonomous social media engagement across Twitter, Farcaster, and Moltbook. Fetches trending content, generates persona-driven contextual replies, and tracks state to prevent duplicates. Use when you want to engage with trending posts, reply to social media content, build audience through authentic engagement, or automate social presence across multiple platforms. Triggers on \"engage on twitter\", \"farcaster engagement\", \"reply to trending\", \"social engagement bot\", \"multi-platform engagement\", \"autonomous social replies\". Features include content filtering, mention tracking, webhook notifications, user blacklist/whitelist, analytics tracking, and quote tweet/recast support.",
+      "displayName": "Multi-Channel Engagement Agent",
+      "downloadCount": "6",
+      "latestSemver": "1.0.3",
+      "longDescription": "📦 ClawHub: [story91/multi-channel-engagement-agent](https://clawhub.ai/story91/multi-channel-engagement-agent)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/story91/multi-channel-engagement-agent)\n🏷️ Version: 1.0.3\n📅 Published: 2026-02-12",
+      "name": "multi-channel-engagement-agent",
+      "ownerUserId": "8e9f1c4e821c8da289c5db24352627e2",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "channel",
+          "tagId": "cec7e4a2a68f1acb3b22cb79bd7362d0"
+        },
+        {
+          "description": "",
+          "displayName": "engagement",
+          "tagId": "bfc7ab409abd39eeb235c9485648923c"
+        },
+        {
+          "description": "",
+          "displayName": "multi",
+          "tagId": "023ab797ab933d546bc0e28380f94da9"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
       "assetId": "0dcbb17d7e8b001449b66347a1f2f0d3",
       "assetType": 2,
       "author": {
@@ -74,7 +225,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9e/96/9e968fd3c163f42f302a64bc6afe23601bec194e7842462989cf6dccdf275a91",
         "displayName": "lucasgeeksinthewood",
-        "reputation": "55",
+        "reputation": "60",
         "userId": "d940e49465211bb847dd4c243f991045"
       },
       "category": "",
@@ -3167,143 +3318,7 @@
       ],
       "totalStars": "0",
       "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "7f3514b80190ce9655871f635b7ef34c",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/02/a9/02a91ab20bfc72934fc542012f45ad08b6e0abe0577e2ad9489f24db74908c43",
-        "displayName": "seekton",
-        "reputation": "60",
-        "userId": "e1b71e105a8b6777972791d0abebae95"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Monet AI - Comprehensive AI content generation API for AI agents. Video generation (Sora, Veo, Doubao Seedance, Wan, Hailuo, Kling), image generation (GPT-4o, Nano Banana, Seedream, Flux, Imagen, Ideogram), and music generation (MiniMax Music). Build intelligent workflows with multi-model AI generation capabilities.",
-      "displayName": "Monet AI",
-      "downloadCount": "19",
-      "latestSemver": "1.0.9",
-      "longDescription": "📦 ClawHub: [seekton/monet-ai](https://clawhub.ai/seekton/monet-ai)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/seekton/monet-ai)\n🏷️ Version: 1.0.9\n📅 Published: 2026-02-28",
-      "name": "monet-ai",
-      "ownerUserId": "e1b71e105a8b6777972791d0abebae95",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "monet",
-          "tagId": "36367eef8b7e58d3edc68880b0810354"
-        },
-        {
-          "description": "",
-          "displayName": "skill",
-          "tagId": "8387fbc6e0d4a7afc95df8bacff3e64b"
-        }
-      ],
-      "totalStars": "3",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "4abd450d54aad63fbf7955179a8421f2",
-      "assetType": 3,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/10/1f/101fdac562518fa90e1cb79d41d77c23a549862963190f7e1bd62571ea402190",
-        "displayName": "a-i-r",
-        "reputation": "95",
-        "userId": "9662eb81d9787a1289964fc213f4f29b"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Extract PDF content to Markdown using MinerU API. Supports formulas, tables, OCR. Provides both local file and online URL parsing methods.",
-      "displayName": "MinerU PDF Extractor",
-      "downloadCount": "28",
-      "latestSemver": "1.0.5",
-      "longDescription": "📦 ClawHub: [a-i-r/mineru-pdf-extractor](https://clawhub.ai/a-i-r/mineru-pdf-extractor)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/a-i-r/mineru-pdf-extractor)\n🏷️ Version: 1.0.5\n📅 Published: 2026-02-18",
-      "name": "mineru-pdf-extractor",
-      "ownerUserId": "9662eb81d9787a1289964fc213f4f29b",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "extractor",
-          "tagId": "78071c9d73403702feb886956aad32ba"
-        },
-        {
-          "description": "",
-          "displayName": "mineru",
-          "tagId": "aa49a11ad19b4e777652f85de17d1c24"
-        },
-        {
-          "description": "",
-          "displayName": "pdf",
-          "tagId": "a50308c663eb9f6053c891d7c0654d6a"
-        }
-      ],
-      "totalStars": "8",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "ca49b34c6a0cdd743f6cb4dd78a8139e",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/dc/36/dc36967c0f4ae588c2d265bb3c107c79b9bbf47469280f7ec587ceb21776a4da",
-        "displayName": "1999azzar",
-        "reputation": "168",
-        "userId": "9dc1e4a5dc6df03674595336d815e386"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Generate beautiful, hand-drawn Mermaid diagrams with robust syntax (quoted labels, ELK layout). Use this skill when the user asks for \"diagram\", \"flowchart\", \"sequence diagram\", or \"visualize this process\".",
-      "displayName": "Mermaid Architect",
-      "downloadCount": "18",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [1999azzar/mermaid-architect](https://clawhub.ai/1999azzar/mermaid-architect)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/1999azzar/mermaid-architect)\n📅 Published: 2026-02-12",
-      "name": "mermaid-architect",
-      "ownerUserId": "9dc1e4a5dc6df03674595336d815e386",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "architect",
-          "tagId": "cdfc13e6baa58a2d8ac793cf13365485"
-        },
-        {
-          "description": "",
-          "displayName": "mermaid",
-          "tagId": "a5d98dec67109ccd1550ea995c217884"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "c0a10c20532b79b86f2d40d934e4d00b",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d7/b5/d7b5863cc1859cbd0d83ee1abc790861c7cc72c042f2bd0708cfece16db1eed7",
-        "displayName": "balkanblbn",
-        "reputation": "15",
-        "userId": "8f6a3c783fe6640cdb0541ce8052c285"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "A security auditor for agent skills. Scans skill directories for malicious patterns (credential theft, suspicious network calls, destructive commands) and provides a safety score. Use before installing unknown skills.",
-      "displayName": "MayGuard",
-      "downloadCount": "5",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [balkanblbn/mayguard](https://clawhub.ai/balkanblbn/mayguard)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/balkanblbn/mayguard)\n📅 Published: 2026-02-22",
-      "name": "mayguard",
-      "ownerUserId": "8f6a3c783fe6640cdb0541ce8052c285",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "mayguard",
-          "tagId": "a3ee86e595b9d4bf2414bd372f7f61c7"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo2NDl9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo2NTN9"
 }
