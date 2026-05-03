@@ -1,36 +1,36 @@
 # OpenClawMP Skill Mirror Summary
 
-- Generated at: 2026-05-02 05:27:18 UTC
-- Platform reported total skills: 3816
-- Mirrored skill rows: 3816
-- Total archive bytes: 145688667
-- Elapsed seconds: 139
-- Status counts: {"downloaded": 4, "existing": 3812}
+- Generated at: 2026-05-03 05:54:47 UTC
+- Platform reported total skills: 3818
+- Mirrored skill rows: 3818
+- Total archive bytes: 145732256
+- Elapsed seconds: 137
+- Status counts: {"downloaded": 17, "existing": 3801}
 
 ## Top 20 by installs
 
 | id | name | version | installs | stars | status | size_bytes |
 | --- | --- | --- | ---: | ---: | --- | ---: |
-| f3ab5236724cf9b7f4cbf6bda8478a6e | openclawmp | 1.0.7 | 26630 | 205 | existing | 12339 |
-| 548477fe39ee7e3765a471b555a08a49 | other-openclaw-skills | 1.0.0 | 2184 | 11 | existing | 150849 |
+| f3ab5236724cf9b7f4cbf6bda8478a6e | openclawmp | 1.0.7 | 26662 | 205 | existing | 12339 |
+| 548477fe39ee7e3765a471b555a08a49 | other-openclaw-skills | 1.0.0 | 2191 | 11 | existing | 150849 |
 | c7081169c3755769e600dc046e8a578d | skills | 1.0.0 | 2157 | 6 | existing | 16308 |
 | f380c4fcada01b950b11a04fb6796ca1 | ninebot-device-skill | 1.0.8 | 2125 | 4 | existing | 6189 |
 | 6fb2b2f72cc79ddb3747e13a48d50811 | flyai-skill | 1.0.0 | 2100 | 10 | existing | 10894 |
 | bce6d58c4838ae890cbe69af0860d9de | wechat-publish-skill | 1.0.0 | 2040 | 17 | existing | 18732 |
-| 8f15ff9aefc2c37c2ac65aa807527690 | browser-automation | 1.0.0 | 1781 | 304 | existing | 2931 |
+| 8f15ff9aefc2c37c2ac65aa807527690 | browser-automation | 1.0.0 | 1782 | 304 | existing | 2931 |
 | 1f36dbe734a701238db109a2a2187295 | trackup-food-analyze | 1.0.6 | 1582 | 13 | existing | 3517 |
-| cbf3f8af897d7374eddb440f79dd297b | smart-task-planner-skill | 1.0.0 | 1224 | 197 | existing | 1063 |
-| 6c0ef04ea24bad2cf899831ea9c7e47a | self-improving-agent | 1.0.11 | 1124 | 133 | existing | 19063 |
+| cbf3f8af897d7374eddb440f79dd297b | smart-task-planner-skill | 1.0.0 | 1225 | 197 | existing | 1063 |
+| 6c0ef04ea24bad2cf899831ea9c7e47a | self-improving-agent | 1.0.11 | 1128 | 133 | existing | 19063 |
 | b0085791114cca0ad4cbcb82aa1e9d4a | Auto-Redbook-Skills | 1.0.0 | 913 | 145 | existing | 7145 |
 | 6ccb99bf7d977a30262cfa1cd8110081 | three-tier-memory | 1.0.0 | 759 | 213 | existing | 8029 |
 | 49e63daa15818fbcba54dcf67ac7d5c2 | cross-session-memory-skill | 1.0.0 | 716 | 119 | existing | 457 |
 | 587e30476b3d5290797a93aafd04cc89 | openclaw-install-security-gate | 1.0.0 | 660 | 96 | existing | 8868 |
 | 7141d3d343f446484f0a87a8dc0086d9 | Humanizer-zh | 1.0.0 | 644 | 106 | existing | 12028 |
-| 895a13f3623b03d9105a4c7f736bcb29 | agent-debug-skill | 1.0.0 | 640 | 116 | existing | 455 |
+| 895a13f3623b03d9105a4c7f736bcb29 | agent-debug-skill | 1.0.0 | 641 | 116 | existing | 455 |
 | c6478358f08c791f104620d3aa7d0247 | baoyu-skills | 1.0.0 | 630 | 116 | existing | 16424 |
 | 3e4070f549738b432c50ff87c23968d5 | step-tts | 1.0.0 | 628 | 31 | existing | 7021 |
-| 2cd7fa319ffac613440a1858bb7d29a4 | a-stock-monitor | 1.0.0 | 621 | 82 | existing | 4559 |
-| cc5e8c5838172d733e833199399deb72 | feishu-card | 1.0.0 | 595 | 106 | existing | 6622 |
+| 2cd7fa319ffac613440a1858bb7d29a4 | a-stock-monitor | 1.0.0 | 622 | 82 | existing | 4559 |
+| cc5e8c5838172d733e833199399deb72 | feishu-card | 1.0.0 | 596 | 106 | existing | 6622 |
 
 ## First 50 failures
 

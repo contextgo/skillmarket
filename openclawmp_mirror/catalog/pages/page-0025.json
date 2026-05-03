@@ -1,6 +1,79 @@
 {
   "items": [
     {
+      "assetId": "771233ab560dca0b5ea6e3676c723215",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7a/b7/7ab7b7d13de0d2c46b228985721584e2dd8502e795bddf7300a668fc665464b8",
+        "displayName": "phheng",
+        "reputation": "167",
+        "userId": "a8b231ed2258e1362964682a88f0406b"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "This skill is designed to help users automatically extract product data from Amazon search results. The Agent should proactively apply this skill when users request: 1. Search for products related to [keyword]; 2. Find best-selling items from [brand]; 3. Monitor product prices and availability on Amazon; 4. Extract product listings for market research; 5. Collect product ratings and review counts for competitive analysis; 6. Find specific products with a maximum count of [number]; 7. Search Amazon in [language] for localized results; 8. Track monthly sales estimates for [brand] products; 9. Gather product URLs and titles for a product catalog; 10. Scan Amazon for \"Best Seller\" tags in a specific category; 11. Monitor shipping and delivery information for [brand] items; 12. Build a structured dataset of Amazon search results.",
+      "displayName": "Amazon Product Search Api Skill",
+      "downloadCount": "13",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [phheng/amazon-product-search-api-skill](https://clawhub.ai/phheng/amazon-product-search-api-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/phheng/amazon-product-search-api-skill)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-07",
+      "name": "amazon-product-search-api-skill",
+      "ownerUserId": "a8b231ed2258e1362964682a88f0406b",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "amazon",
+          "tagId": "9a5f79d8f969f95447b0556ed721ea48"
+        },
+        {
+          "description": "",
+          "displayName": "product",
+          "tagId": "3b8bff79df128e14b60b3e2cebe73cff"
+        },
+        {
+          "description": "",
+          "displayName": "search",
+          "tagId": "b495177072f0bd3c81cf6bb881129b9b"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "67cc501d4d7888e3ff44a46fae07cf0c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0e/92/0e926667ea39fe208694a7bcb1d9d1123e8976e1456f6dcdfd891dcf1ddd2e77",
+        "displayName": "swimmingkiim",
+        "reputation": "12",
+        "userId": "abefd385def1649a4504a44fb0ae1585"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Fetch real-time AI news briefings from the AI News Oracle API (Hacker News, TechCrunch, The Verge). Uses a10m.work registry for discovery and Paymaster for gasless transactions.",
+      "displayName": "Ai News Oracle",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [swimmingkiim/ai-news-oracle](https://clawhub.ai/swimmingkiim/ai-news-oracle)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/swimmingkiim/ai-news-oracle)\n📅 Published: 2026-02-10",
+      "name": "ai-news-oracle",
+      "ownerUserId": "abefd385def1649a4504a44fb0ae1585",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "news",
+          "tagId": "8e40760dd28335662d8af3da5d422864"
+        },
+        {
+          "description": "",
+          "displayName": "oracle",
+          "tagId": "4edb7a26bd734686eef6d0566555f5a8"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "c907a2f16956426fcecbbeb6e994f129",
       "assetType": 2,
       "author": {
@@ -3180,70 +3253,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "9c8851ad2aa0f39502a1c83fec3c9c18",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/8c/be/8cbe19a2aed3729c84d21c5fe9d82f087e3cacecf74ff1a208521130ac42047f",
-        "displayName": "endogen",
-        "reputation": "5",
-        "userId": "afd4dcfe72856979738ae0c17ce3611c"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Generate copy-paste bash scripts for Ralph Wiggum/AI agent loops (Codex, Claude Code, OpenCode, Goose). Use when asked for a \"Ralph loop\", \"Ralph Wiggum loop\", or an AI loop to plan/build code via PROMPT.md + AGENTS.md, SPECS, and IMPLEMENTATION_PLAN.md, including PLANNING vs BUILDING modes, backpressure, sandboxing, and completion conditions.",
-      "displayName": "Monitored Ralph Loop",
-      "downloadCount": "4",
-      "latestSemver": "0.1.1",
-      "longDescription": "📦 ClawHub: [endogen/monitored-ralph-loop](https://clawhub.ai/endogen/monitored-ralph-loop)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/endogen/monitored-ralph-loop)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-08",
-      "name": "monitored-ralph-loop",
-      "ownerUserId": "afd4dcfe72856979738ae0c17ce3611c",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "loop",
-          "tagId": "1d0198cd7487427f6cec65b9aa83adf8"
-        },
-        {
-          "description": "",
-          "displayName": "ralph",
-          "tagId": "4f8afb357d3085274b86af58d7f3dcb2"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "44370d3c26b96ea8c34d9465a8b02f75",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/1e/c1/1ec17a702a18ae314507c7b5d613be23a1f9738a94dc6ccb96f4bf01ccd50723",
-        "displayName": "dimitryvin",
-        "reputation": "25",
-        "userId": "d72947568448b6fb65a0d74572b796b5"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Download videos from YouTube, Reddit, Twitter/X, TikTok, Instagram, and 1000+ other sites using yt-dlp. Use when user provides a video link and wants to download it.",
-      "displayName": "Video Dl",
-      "downloadCount": "8",
-      "latestSemver": "1.1.0",
-      "longDescription": "📦 ClawHub: [dimitryvin/video-dl](https://clawhub.ai/dimitryvin/video-dl)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/dimitryvin/video-dl)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-11",
-      "name": "video-dl",
-      "ownerUserId": "d72947568448b6fb65a0d74572b796b5",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "video",
-          "tagId": "85e9b2c35ee3196c5b314546bbbc312e"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozNDUzfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozNDU1fQ"
 }

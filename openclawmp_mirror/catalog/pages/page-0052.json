@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "assetId": "a88483d43a93cfa3fe5dbcd3404fb883",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/da/2c/da2c81d95b3d0eadbf47012ce40bd6acdae1fec2276a0b2b9ec66a0cce3bdda9",
+        "displayName": "guoqiao",
+        "reputation": "115",
+        "userId": "0d849c9d8ec0c190b7e436cae242f9ca"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "使用 MLX (苹果芯片) 和开源模型(默认 QWen3-TTS) 进行本地语音合成",
+      "displayName": "MLX 语音合成",
+      "downloadCount": "9",
+      "latestSemver": "0.0.3",
+      "longDescription": "📦 ClawHub: [guoqiao/mlx-tts](https://clawhub.ai/guoqiao/mlx-tts)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/guoqiao/mlx-tts)\n🏷️ Version: 0.0.3\n📅 Published: 2026-02-10",
+      "name": "mlx-tts",
+      "ownerUserId": "0d849c9d8ec0c190b7e436cae242f9ca",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "mlx",
+          "tagId": "b1a82cd0d1aa95fa360ba47a89dba375"
+        },
+        {
+          "description": "",
+          "displayName": "tts",
+          "tagId": "2e48d3d4ae82cc66f0bc9b34c3dbfddf"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "assetId": "1f2b3b3a48b6e393447f003986f6e373",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ee/92/ee92aab480888c35437de322754d7fbd5d1bf356e1444b141ffe719739194a86",
+        "displayName": "tyler6204",
+        "reputation": "95",
+        "userId": "85eb418cb6b24a3cdeb1a2229a079046"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "从 macOS 通讯录应用中查找联系人，用于将电话号码解析为姓名、查找联系人信息或搜索地址簿。",
+      "displayName": "苹果通讯录",
+      "downloadCount": "13",
+      "latestSemver": "1.2.0",
+      "longDescription": "📦 ClawHub: [tyler6204/apple-contacts](https://clawhub.ai/tyler6204/apple-contacts)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/tyler6204/apple-contacts)\n🏷️ Version: 1.2.0\n📅 Published: 2026-01-15",
+      "name": "apple-contacts",
+      "ownerUserId": "85eb418cb6b24a3cdeb1a2229a079046",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "apple",
+          "tagId": "bbb733b0c24602e01bf4a0edbe2cb0fc"
+        },
+        {
+          "description": "",
+          "displayName": "contacts",
+          "tagId": "9ea2bb2e64d8ef802f12e00f4c7b451f"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
       "assetId": "39fcdcedfe56eff62e994dd0b641d9c5",
       "assetType": 4,
       "author": {
@@ -376,7 +444,7 @@
       "createdAt": "2026-03-11T00:00:00.000Z",
       "description": "分析品牌以生成全面的品牌身份档案(JSON)。当用户想要分析品牌、创建品牌档案或需要广告生成的品牌数据时使用。存储档案以便在Ad-Ready、Morpheus和其他创意工作流程中重复使用。可以列出现有档案并更新它们。",
       "displayName": "AI品牌分析器",
-      "downloadCount": "13",
+      "downloadCount": "14",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [pauldelavallaz/ai-brand-analyzer](https://clawhub.ai/pauldelavallaz/ai-brand-analyzer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/pauldelavallaz/ai-brand-analyzer)\n📅 Published: 2026-02-05",
       "name": "ai-brand-analyzer",
@@ -678,7 +746,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b2/6b/b26bb32234367cfb44b77929d6e5d3ac200b8727e96cc3bd74c96e70448e1aa3",
         "displayName": "1287288394",
-        "reputation": "297",
+        "reputation": "302",
         "userId": "125f9bf9f5ddd6c8200c1bc71ef73e22"
       },
       "category": "",
@@ -727,14 +795,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b2/6b/b26bb32234367cfb44b77929d6e5d3ac200b8727e96cc3bd74c96e70448e1aa3",
         "displayName": "1287288394",
-        "reputation": "297",
+        "reputation": "302",
         "userId": "125f9bf9f5ddd6c8200c1bc71ef73e22"
       },
       "category": "",
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "让 Agent 每天自动复盘能力缺口，搜索水产市场推荐资产，持续自我进化。包含完整的安装步骤、cron 配置、信号分类规则和常见问题解答。",
       "displayName": "自进化系统完整配置指南",
-      "downloadCount": "54",
+      "downloadCount": "56",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "自进化系统完整配置指南",
@@ -3196,75 +3264,7 @@
       ],
       "totalStars": "2",
       "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "1a4674644159e253ef44e8e7c80f7d85",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c2/d5/c2d551f0f567888b1a3b4b40e559e8b88d532038ddf9736a976ea248179ed8fb",
-        "displayName": "issa-me-sush",
-        "reputation": "50",
-        "userId": "1bc0095988f221288d1e2efaced29e41"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Multi-agent workflow examples to work together on the OpenServ Platform. Covers agent discovery, multi-agent workspaces, task dependencies, and workflow orchestration using the Platform Client. Read reference.md for the full API reference. Read openserv-agent-sdk and openserv-client for building and running agents.",
-      "displayName": "OpenServ Multi Agent Workflows",
-      "downloadCount": "10",
-      "latestSemver": "1.0.2",
-      "longDescription": "📦 ClawHub: [issa-me-sush/openserv-multi-agent-workflows](https://clawhub.ai/issa-me-sush/openserv-multi-agent-workflows)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/issa-me-sush/openserv-multi-agent-workflows)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-16",
-      "name": "openserv-multi-agent-workflows",
-      "ownerUserId": "1bc0095988f221288d1e2efaced29e41",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "agent",
-          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
-        },
-        {
-          "description": "",
-          "displayName": "multi",
-          "tagId": "023ab797ab933d546bc0e28380f94da9"
-        },
-        {
-          "description": "",
-          "displayName": "openserv",
-          "tagId": "b011e7615732ad0df3168d8ef1f44b41"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "305f8464489fd425ec44c4c719b88019",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/dd/17/dd179c0bcea1b61f5d4be304373bc5eb1e1a770e9ac527fd99742c2c6cb51df2",
-        "displayName": "mevdragon",
-        "reputation": "15",
-        "userId": "fecc5f59ee89d4bae6590229ddad8fdf"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "|",
-      "displayName": "OfficeX",
-      "downloadCount": "9",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [mevdragon/officex](https://clawhub.ai/mevdragon/officex)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mevdragon/officex)\n📅 Published: 2026-02-24",
-      "name": "officex",
-      "ownerUserId": "fecc5f59ee89d4bae6590229ddad8fdf",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "officex",
-          "tagId": "3b7393678c06de21514fac1f2d001ecd"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo3NTN9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo3NTV9"
 }

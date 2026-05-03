@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "assetId": "9c8851ad2aa0f39502a1c83fec3c9c18",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/8c/be/8cbe19a2aed3729c84d21c5fe9d82f087e3cacecf74ff1a208521130ac42047f",
+        "displayName": "endogen",
+        "reputation": "5",
+        "userId": "afd4dcfe72856979738ae0c17ce3611c"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Generate copy-paste bash scripts for Ralph Wiggum/AI agent loops (Codex, Claude Code, OpenCode, Goose). Use when asked for a \"Ralph loop\", \"Ralph Wiggum loop\", or an AI loop to plan/build code via PROMPT.md + AGENTS.md, SPECS, and IMPLEMENTATION_PLAN.md, including PLANNING vs BUILDING modes, backpressure, sandboxing, and completion conditions.",
+      "displayName": "Monitored Ralph Loop",
+      "downloadCount": "4",
+      "latestSemver": "0.1.1",
+      "longDescription": "📦 ClawHub: [endogen/monitored-ralph-loop](https://clawhub.ai/endogen/monitored-ralph-loop)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/endogen/monitored-ralph-loop)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-08",
+      "name": "monitored-ralph-loop",
+      "ownerUserId": "afd4dcfe72856979738ae0c17ce3611c",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "loop",
+          "tagId": "1d0198cd7487427f6cec65b9aa83adf8"
+        },
+        {
+          "description": "",
+          "displayName": "ralph",
+          "tagId": "4f8afb357d3085274b86af58d7f3dcb2"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "44370d3c26b96ea8c34d9465a8b02f75",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/1e/c1/1ec17a702a18ae314507c7b5d613be23a1f9738a94dc6ccb96f4bf01ccd50723",
+        "displayName": "dimitryvin",
+        "reputation": "25",
+        "userId": "d72947568448b6fb65a0d74572b796b5"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Download videos from YouTube, Reddit, Twitter/X, TikTok, Instagram, and 1000+ other sites using yt-dlp. Use when user provides a video link and wants to download it.",
+      "displayName": "Video Dl",
+      "downloadCount": "8",
+      "latestSemver": "1.1.0",
+      "longDescription": "📦 ClawHub: [dimitryvin/video-dl](https://clawhub.ai/dimitryvin/video-dl)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/dimitryvin/video-dl)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-11",
+      "name": "video-dl",
+      "ownerUserId": "d72947568448b6fb65a0d74572b796b5",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "video",
+          "tagId": "85e9b2c35ee3196c5b314546bbbc312e"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "4b872ba31a48ad00014ac6d6dcce278d",
       "assetType": 4,
       "author": {
@@ -1984,7 +2047,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/20/af20409f2786c024f2b210bf5a45d9b10f0a8c11f7a9ede073435d90d11fd9a5",
         "displayName": "satoshistackalotto",
-        "reputation": "150",
+        "reputation": "155",
         "userId": "b4006d5a0e6a9964a39c9ae6bc4c8dcf"
       },
       "category": "",
@@ -2691,7 +2754,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/20/af20409f2786c024f2b210bf5a45d9b10f0a8c11f7a9ede073435d90d11fd9a5",
         "displayName": "satoshistackalotto",
-        "reputation": "150",
+        "reputation": "155",
         "userId": "b4006d5a0e6a9964a39c9ae6bc4c8dcf"
       },
       "category": "",
@@ -3140,70 +3203,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "e947bec4f1bc882c1d6a84fede9d0d53",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3e/ae/3eae7378f4921be7a783fd1633482911a5ac39c63bc228c5636782f22609e492",
-        "displayName": "alexrudloff",
-        "reputation": "19",
-        "userId": "e924fd2806f02c0157b39c14e042b23e"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Deep research using the Caesar API — run queries, follow up with chat, brainstorm, and manage collections.",
-      "displayName": "Deep Research with Caesar.org",
-      "downloadCount": "10",
-      "latestSemver": "0.0.1",
-      "longDescription": "📦 ClawHub: [alexrudloff/caesar-research](https://clawhub.ai/alexrudloff/caesar-research)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/alexrudloff/caesar-research)\n🏷️ Version: 0.0.1\n📅 Published: 2026-02-16",
-      "name": "caesar-research",
-      "ownerUserId": "e924fd2806f02c0157b39c14e042b23e",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "caesar",
-          "tagId": "f5ac8cd9fb33a1cce70e7a91d49ceacc"
-        },
-        {
-          "description": "",
-          "displayName": "research",
-          "tagId": "bdbf4d5498a5efbbd6a2fbb6eb25547d"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "80f4c890be94f1e2f1f85f088aca4b76",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/90/39/903956e9327eb98280b8b7d1ea7f48bc5e07c3a2784f9254ce7510e59286d7ce",
-        "displayName": "contrario",
-        "reputation": "114",
-        "userId": "14fe5ed456c6ef7599aba07d80304c45"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Execute AI workflow orchestration flows using the AetherLang Ω DSL. Run multi-step AI pipelines for recipes, business strategy, market analysis, molecular gastronomy, and more.",
-      "displayName": "Skills",
-      "downloadCount": "10",
-      "latestSemver": "2.0.2",
-      "longDescription": "📦 ClawHub: [contrario/skills-2](https://clawhub.ai/contrario/skills-2)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/contrario/skills-2)\n🏷️ Version: 2.0.2\n📅 Published: 2026-03-06",
-      "name": "skills-2",
-      "ownerUserId": "14fe5ed456c6ef7599aba07d80304c45",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "aetherlang",
-          "tagId": "87992a6a1803900f7f8ca5052e809092"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozMzUzfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozMzU1fQ"
 }

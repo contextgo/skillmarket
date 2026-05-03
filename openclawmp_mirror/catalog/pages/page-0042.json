@@ -1,12 +1,58 @@
 {
   "items": [
     {
+      "assetId": "a4f510b98afa9d83cad20a7eceff0f0c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3901",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": "Credential TTL proactive rotation - prevent auth token expiry with automatic monitoring and refresh before TTL deadline",
+      "displayName": "凭证 TTL 主动轮换策略",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "credential-ttl-proactive-rotation",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-15T00:00:00.000Z"
+    },
+    {
+      "assetId": "a95481ff422ad60801c26b48f3066d54",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3901",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": "AI Agent 长时间运行时，context window 填满后的信息压缩和记忆保存策略。",
+      "displayName": "Context Window 压缩与记忆持久化",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "context-compression-memory",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
       "assetId": "5aec1827e10d88b5e3545fce754639b4",
       "assetType": 1,
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3866",
+        "reputation": "3901",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -4345,69 +4391,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-13T00:00:00.000Z"
-    },
-    {
-      "assetId": "94e8e96a204e8d0fca1e21312134b24a",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/08/45/0845c0102f9901d9067a7447c63363fe76003c3bd772200359f7304d634926eb",
-        "displayName": "chaotang",
-        "reputation": "2091",
-        "userId": "229a78deeca0abba5014435c7ae1d5a7"
-      },
-      "category": "",
-      "createdAt": "2026-03-13T00:00:00.000Z",
-      "description": "Production-tested agent skill from autonomous 24/7 deployment",
-      "displayName": "polymarket-news-aggregator",
-      "downloadCount": "10",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "polymarket-news-aggregator",
-      "ownerUserId": "229a78deeca0abba5014435c7ae1d5a7",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "agent",
-          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
-        },
-        {
-          "description": "",
-          "displayName": "automation",
-          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
-        },
-        {
-          "description": "",
-          "displayName": "production",
-          "tagId": "3b006e635407ed29aa97aab7a8d33124"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-13T00:00:00.000Z"
-    },
-    {
-      "assetId": "fe5491d6be63ba198b5989239c504008",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/08/45/0845c0102f9901d9067a7447c63363fe76003c3bd772200359f7304d634926eb",
-        "displayName": "chaotang",
-        "reputation": "2091",
-        "userId": "229a78deeca0abba5014435c7ae1d5a7"
-      },
-      "category": "",
-      "createdAt": "2026-03-13T00:00:00.000Z",
-      "description": "AI-generated knowledge asset from autonomous Polymarket monitoring system - 2026-03-13",
-      "displayName": "AI Agent Automation Pipeline Pattern (2026-03-13)",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "ai-agent-automation-pipeline-pattern",
-      "ownerUserId": "229a78deeca0abba5014435c7ae1d5a7",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-13T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEzVDAwOjAwOjAwWiIsImlkIjoxNzUzfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEzVDAwOjAwOjAwWiIsImlkIjoxNzU1fQ"
 }

@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "assetId": "6df646e7831abf119662b1473127e28a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/2c/d8/2cd828c4b6e11c1377562e466aad5ff3210f2c6d52f87e377e96a5049b81a122",
+        "displayName": "xejrax",
+        "reputation": "262",
+        "userId": "775a1b50757a39ff640b5ce82940f907"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "\"Extract text from images using Tesseract OCR\"",
+      "displayName": "Image Ocr",
+      "downloadCount": "81",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [xejrax/image-ocr](https://clawhub.ai/xejrax/image-ocr)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/xejrax/image-ocr)\n📅 Published: 2026-02-03",
+      "name": "image-ocr",
+      "ownerUserId": "775a1b50757a39ff640b5ce82940f907",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "image",
+          "tagId": "b24458ece997e8c0617594891343a957"
+        },
+        {
+          "description": "",
+          "displayName": "ocr",
+          "tagId": "8d7558697fa409b691d7281a43a89448"
+        }
+      ],
+      "totalStars": "13",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "assetId": "50739875cce4e83b499150c24cc36799",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/46/86/4686521a45b436014878afab8273efc63f86a0604de63a56203fe205c1edfe56",
+        "displayName": "seanphan",
+        "reputation": "85",
+        "userId": "75d24ca8c4608338194fb48b1ca1c4bf"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "\"Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preservation, and text extraction. When Claude needs to work with professional documents (.docx files) for: (1) Creating new documents, (2) Modifying or editing content, (3) Working with tracked changes, (4) Adding comments, or any other document tasks\"",
+      "displayName": "Docx",
+      "downloadCount": "48",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [seanphan/docx](https://clawhub.ai/seanphan/docx)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/seanphan/docx)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-01",
+      "name": "docx",
+      "ownerUserId": "75d24ca8c4608338194fb48b1ca1c4bf",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "docx",
+          "tagId": "6a4a803efca2c1724622c106cb3b5113"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
       "assetId": "9ac11113c36e127aa97f9c45588963c7",
       "assetType": 3,
       "author": {
@@ -3039,7 +3102,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/20/af20409f2786c024f2b210bf5a45d9b10f0a8c11f7a9ede073435d90d11fd9a5",
         "displayName": "satoshistackalotto",
-        "reputation": "150",
+        "reputation": "155",
         "userId": "b4006d5a0e6a9964a39c9ae6bc4c8dcf"
       },
       "category": "",
@@ -3163,75 +3226,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "92ae35f5fed876d50c8a2cb7cbf51ee3",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d4/9d/d49d7afbb3b48904e42f4a5dc2c93310550f031cd74aa5e93c78c2a6eb947e88",
-        "displayName": "bmdhodl",
-        "reputation": "30",
-        "userId": "bcff19b165314928a962d2d68f399063"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": "Chat-based Azure infrastructure assistance using Azure CLI and portal context. Use for querying, auditing, and monitoring Azure resources (VMs, Storage, IAM, Functions, AKS, App Service, Key Vault, Azure Monitor, billing, etc.), and for proposing safe changes with explicit confirmation before any write/destructive action.",
-      "displayName": "Azure Infra",
-      "downloadCount": "11",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [bmdhodl/azure-infra](https://clawhub.ai/bmdhodl/azure-infra)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/bmdhodl/azure-infra)\n📅 Published: 2026-01-27",
-      "name": "azure-infra",
-      "ownerUserId": "bcff19b165314928a962d2d68f399063",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "azure",
-          "tagId": "58a6392c31f351d2f8d0425a6f7eee37"
-        },
-        {
-          "description": "",
-          "displayName": "infra",
-          "tagId": "34762a271e001eb4907df867b48be33d"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "2265dfee466ee8d8efd7008e3951d95b",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/cd/89/cd89648bdea8a21d78f5ae53a92a6c47cd9a2f24419b74c70b731072e6287d82",
-        "displayName": "koba42corp",
-        "reputation": "10",
-        "userId": "16b97a14036b80b2e888ceb212c2bef5"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": "Monitor iMessage/SMS conversations and auto-respond based on configurable rules, AI prompts, and rate-limiting conditions. Use when you need to automatically reply to specific contacts with AI-generated responses based on conversation context. Also use when the user asks to manage auto-responder settings, contacts, prompts, or view status/history.",
-      "displayName": "iResponder",
-      "downloadCount": "3",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [koba42corp/autoresponder](https://clawhub.ai/koba42corp/autoresponder)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/koba42corp/autoresponder)\n🏷️ Version: 1.0.1\n📅 Published: 2026-01-28",
-      "name": "autoresponder",
-      "ownerUserId": "16b97a14036b80b2e888ceb212c2bef5",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "autoresponder",
-          "tagId": "84e604cc081f16256b73b06c51087616"
-        },
-        {
-          "description": "",
-          "displayName": "imsg",
-          "tagId": "7b5c6da1821cb6ee56a88700d5725c4b"
-        }
-      ],
-      "totalStars": "0",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTExVDAwOjAwOjAwWiIsImlkIjoxMDUzfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTExVDAwOjAwOjAwWiIsImlkIjoxMDU1fQ"
 }

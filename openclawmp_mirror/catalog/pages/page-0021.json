@@ -1,6 +1,74 @@
 {
   "items": [
     {
+      "assetId": "41e8b29b30f8a55a32cdc492be20c3e5",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fe/7f/fe7f5d1d045264fd5b8dd92f0b941ec968b306947183122513d6080bdf0a2060",
+        "displayName": "manecharo",
+        "reputation": "5",
+        "userId": "f679021c1623e538257208a5e498f748"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Prevents LLMs from sunk-cost pushing broken solutions. Triggers when an agent is stuck, looping, or failing repeatedly. Forces a Popperian falsification moment, then generates 3 constrained-chaotic alternative approaches and picks the best one. Loops like design thinking until solved or escalated.",
+      "displayName": "Chaos pivot",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [manecharo/chaos-pivot](https://clawhub.ai/manecharo/chaos-pivot)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/manecharo/chaos-pivot)\n📅 Published: 2026-02-19",
+      "name": "chaos-pivot",
+      "ownerUserId": "f679021c1623e538257208a5e498f748",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "chaos",
+          "tagId": "b48cff05a71dcbc606bf85a6f285b0fa"
+        },
+        {
+          "description": "",
+          "displayName": "pivot",
+          "tagId": "cc9a9e684b684d88eb852c710df99cfe"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "ce01261dfc36c6b0316207ee8e27e661",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a2/13/a2135ceaa75127fd82a15828c94c0106fbd85354a55ed5787f7c6fb8ec4f006d",
+        "displayName": "aadipapp",
+        "reputation": "55",
+        "userId": "cbf922ac0b109024060b2321d8daf3f4"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Full Self-Driving agent with highest safety standards (Camera-Only, Redundant Checks).",
+      "displayName": "PolaBea",
+      "downloadCount": "4",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [aadipapp/fsd-secure-skill](https://clawhub.ai/aadipapp/fsd-secure-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/aadipapp/fsd-secure-skill)\n📅 Published: 2026-02-17",
+      "name": "fsd-secure-skill",
+      "ownerUserId": "cbf922ac0b109024060b2321d8daf3f4",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "fsd",
+          "tagId": "623873bcf81524702b1cfdfcff871f41"
+        },
+        {
+          "description": "",
+          "displayName": "secure",
+          "tagId": "8d4a484e1aa16d6008ad7df024159a5c"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "48165e9300627564fde4db473a865fd6",
       "assetType": 4,
       "author": {
@@ -188,7 +256,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/68/7f/687fa02b94f85557d074560741f78844bb6f8f157d6da8a5f5f8b81270bb6229",
         "displayName": "huaruoji",
-        "reputation": "65",
+        "reputation": "70",
         "userId": "bdd90d9d8d3f59487e3d96d74c7a39e7"
       },
       "category": "",
@@ -763,14 +831,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/90/0b/900b4d5b93fd2f43b5060b20d05933203dad2887619fc63ebb1f5be38d706418",
         "displayName": "nitishgargiitd",
-        "reputation": "95",
+        "reputation": "100",
         "userId": "10d2e6c34a02db2b09ac216a73bb806d"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Wall Street-grade analysis, accessible globally. Deep financial reasoning powered by #1 on DeepResearch Bench (Feb 2026) + SOTA financial models — stock analysis, valuation models, portfolio optimization, earnings breakdowns, financial statements, tax planning, and investment research. From raw tickers to boardroom-ready deliverables in one request.\"",
       "displayName": "Fin Cog",
-      "downloadCount": "12",
+      "downloadCount": "13",
       "latestSemver": "1.0.1",
       "longDescription": "📦 ClawHub: [nitishgargiitd/fin-cog](https://clawhub.ai/nitishgargiitd/fin-cog)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/nitishgargiitd/fin-cog)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-11",
       "name": "fin-cog",
@@ -1342,7 +1410,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9e/0e/9e0e2d972929d7d9a682b3a71f145f1a141af57f5f00e1e7d0a41182f3dd3aba",
         "displayName": "okradze",
-        "reputation": "65",
+        "reputation": "70",
         "userId": "a67c45021ad9ae61af4b43aa534ba043"
       },
       "category": "",
@@ -1783,7 +1851,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/20/af20409f2786c024f2b210bf5a45d9b10f0a8c11f7a9ede073435d90d11fd9a5",
         "displayName": "satoshistackalotto",
-        "reputation": "150",
+        "reputation": "155",
         "userId": "b4006d5a0e6a9964a39c9ae6bc4c8dcf"
       },
       "category": "",
@@ -2123,7 +2191,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/03/b8/03b82fe4d480ef39ea39172a6860df71141f7c8ada26ce89094e7b643fa859f8",
         "displayName": "runeweaverstudios",
-        "reputation": "70",
+        "reputation": "75",
         "userId": "c2e96341c4d81a619100ac04a23e65e1"
       },
       "category": "",
@@ -3219,80 +3287,7 @@
       ],
       "totalStars": "2",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "2aa8833e3c54c0b8dc7f08ee7c793dba",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d5/5f/d55f4214408971a92493cddf5348258dfefaff37ed60608cc59c0d1a76d84070",
-        "displayName": "krislavten",
-        "reputation": "25",
-        "userId": "9ab044d54458fda9ef742d265091a40a"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Teaches AI agents how to use reskill — a Git-based package manager for AI agent skills. Covers CLI commands, install formats, configuration, publishing, and common workflows.",
-      "displayName": "@kanyun/rush-reskill-usage",
-      "downloadCount": "8",
-      "latestSemver": "0.1.1",
-      "longDescription": "📦 ClawHub: [krislavten/rush-reskill-usage](https://clawhub.ai/krislavten/rush-reskill-usage)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/krislavten/rush-reskill-usage)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-24",
-      "name": "rush-reskill-usage",
-      "ownerUserId": "9ab044d54458fda9ef742d265091a40a",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "clawdhub",
-          "tagId": "23fd6714ddba5c4303cc602e935b3e61"
-        },
-        {
-          "description": "",
-          "displayName": "reskill",
-          "tagId": "a1fb02c5b662dd117bf189f2d234bacd"
-        },
-        {
-          "description": "",
-          "displayName": "usage",
-          "tagId": "a787d6169859b171d35ca0951ece51c0"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "e471f7be0d23d2f28ba2ab7f4cb6e8ee",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/67/b3/67b3fc61be69449a1e56d1eadf76b4747f328ffe77993e4e541469097cc4c62b",
-        "displayName": "mkpareek0315",
-        "reputation": "311",
-        "userId": "4e1f3b4ac8d7416326a9c21beff13263"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Track clients, projects, invoices, payments, earnings, leads, and time for freelancers. Local CRM.",
-      "displayName": "Client Manager",
-      "downloadCount": "11",
-      "latestSemver": "2.2.0",
-      "longDescription": "📦 ClawHub: [mkpareek0315/client-manager](https://clawhub.ai/mkpareek0315/client-manager)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mkpareek0315/client-manager)\n🏷️ Version: 2.2.0\n📅 Published: 2026-02-24",
-      "name": "client-manager",
-      "ownerUserId": "4e1f3b4ac8d7416326a9c21beff13263",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "client",
-          "tagId": "2e97eff318a5d97768972f76c631debe"
-        },
-        {
-          "description": "",
-          "displayName": "manager",
-          "tagId": "61490ada7413eb5ba019beb2dae8099c"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozODUzfQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozODU1fQ"
 }
