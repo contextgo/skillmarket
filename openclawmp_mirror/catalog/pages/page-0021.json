@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "assetId": "8bee5da36dfa4396e033bb33b722d799",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3d/5a/3d5a414db90b0e85eaecd84c813a6266219ab9a8a4ca2cb96cbdfb695f44e61e",
+        "displayName": "aligurelli",
+        "reputation": "35",
+        "userId": "0331b86a350662d1926ad6103b804647"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Check Claude Code / Claude Max usage limits. Run when user asks about usage, limits, quota, or how much Claude capacity is left.",
+      "displayName": "Claude Usage Checker",
+      "downloadCount": "8",
+      "latestSemver": "1.3.0",
+      "longDescription": "📦 ClawHub: [aligurelli/claude-usage-checker](https://clawhub.ai/aligurelli/claude-usage-checker)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/aligurelli/claude-usage-checker)\n🏷️ Version: 1.3.0\n📅 Published: 2026-02-19",
+      "name": "claude-usage-checker",
+      "ownerUserId": "0331b86a350662d1926ad6103b804647",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "claude",
+          "tagId": "26083dd7a689b0877fbe7801aa5862b8"
+        },
+        {
+          "description": "",
+          "displayName": "usage",
+          "tagId": "a787d6169859b171d35ca0951ece51c0"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "41e8b29b30f8a55a32cdc492be20c3e5",
       "assetType": 4,
       "author": {
@@ -263,7 +297,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Research technical projects/papers and generate comprehensive reports with PDF export. Modes: lite (analysis + writing) or full (+ environment setup + experiments). Params: iterations, mode, project-path, output. Use for paper analysis, code review, technical reports, research documentation.\"",
       "displayName": "Research Report Generator",
-      "downloadCount": "37",
+      "downloadCount": "38",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [huaruoji/research-report](https://clawhub.ai/huaruoji/research-report)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/huaruoji/research-report)\n📅 Published: 2026-02-22",
       "name": "research-report",
@@ -2426,7 +2460,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Control Apple Find My app via Peekaboo to locate people, devices, and items (AirTags). Use when asked to find keys, wallet, AirTags, locate family members and friends, play sound on lost items, or check device locations. Native app control - no third-party APIs or credential sharing required.",
       "displayName": "Find My",
-      "downloadCount": "9",
+      "downloadCount": "10",
       "latestSemver": "1.0.2",
       "longDescription": "📦 ClawHub: [loganprit/apple-find-my-local](https://clawhub.ai/loganprit/apple-find-my-local)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/loganprit/apple-find-my-local)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-16",
       "name": "apple-find-my-local",
@@ -2706,7 +2740,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d0/da/d0dab5abbc759a30215e6a3dfcb3153c1b87423ebab072eea999f770f01ddf6b",
         "displayName": "g4dr",
-        "reputation": "70",
+        "reputation": "75",
         "userId": "33a3c26c4844a61ac7ddd9b250e30b39"
       },
       "category": "",
@@ -3169,7 +3203,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d0/da/d0dab5abbc759a30215e6a3dfcb3153c1b87423ebab072eea999f770f01ddf6b",
         "displayName": "g4dr",
-        "reputation": "70",
+        "reputation": "75",
         "userId": "33a3c26c4844a61ac7ddd9b250e30b39"
       },
       "category": "",
@@ -3248,46 +3282,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "67515fa7300aff214ad92a61a5cc10d3",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/39/c9/39c97531f512dc43affc1bd021ccd7532b295a196d05411c6d6714c0be55bf5e",
-        "displayName": "qsmtco",
-        "reputation": "40",
-        "userId": "b0b94264c1c5f40e6d191fe5c727c6e3"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Persistent session state management across compaction and restarts via lifecycle hooks",
-      "displayName": "Session State Tracker",
-      "downloadCount": "7",
-      "latestSemver": "2.0.0",
-      "longDescription": "📦 ClawHub: [qsmtco/session-state-tracker](https://clawhub.ai/qsmtco/session-state-tracker)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/qsmtco/session-state-tracker)\n🏷️ Version: 2.0.0\n📅 Published: 2026-02-18",
-      "name": "session-state-tracker",
-      "ownerUserId": "b0b94264c1c5f40e6d191fe5c727c6e3",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "session",
-          "tagId": "5315c93885685355e03908e93a1bd81a"
-        },
-        {
-          "description": "",
-          "displayName": "state",
-          "tagId": "410f7164ea87627199cb25741ad21268"
-        },
-        {
-          "description": "",
-          "displayName": "tracker",
-          "tagId": "5c5d5c7cc37431510855f1553340e62e"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozODU1fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozODU2fQ"
 }

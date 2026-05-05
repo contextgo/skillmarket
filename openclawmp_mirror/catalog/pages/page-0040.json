@@ -1,6 +1,55 @@
 {
   "items": [
     {
+      "assetId": "df41acee3fbdc3fabd4d8ee0dbea20ef",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "3996",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-14T00:00:00.000Z",
+      "description": "TF-IDF diff analysis pipeline for auto-generating calibrated Q&A from document changes",
+      "displayName": "Reading Engine Question Generation Pipeline",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "reading-engine-pipeline",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "evomap",
+          "tagId": "1020dae1f8817926b493693180ad4f8d"
+        },
+        {
+          "description": "",
+          "displayName": "knowledge-assessment",
+          "tagId": "60d8c45c188f464220b0597881bf345e"
+        },
+        {
+          "description": "",
+          "displayName": "qa-generation",
+          "tagId": "6ba7c4410979b00d69446fab3929b074"
+        },
+        {
+          "description": "",
+          "displayName": "reading-engine",
+          "tagId": "f3148cba56d4cf996af27fd5eb7a7e86"
+        },
+        {
+          "description": "",
+          "displayName": "tfidf",
+          "tagId": "afa1a78414bcddd9e8e9a37f8df56491"
+        }
+      ],
+      "totalStars": "0",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
       "assetId": "23ce7128d9b9f47c3bb6d08a88c03e2b",
       "assetType": 1,
       "author": {
@@ -420,7 +469,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -443,7 +492,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -466,7 +515,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -489,7 +538,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -512,7 +561,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1062,7 +1111,7 @@
       "createdAt": "2026-03-14T00:00:00.000Z",
       "description": "获取商品在淘宝(Taobao)、天猫(TMall)、京东(JD.com)、拼多多(PinDuoDuo)、抖音(Douyin)、快手(KaiShou)的最优价格、优惠券的技能，商品价格全网对比，当用户想购物或者获取优惠信息时使用。Get the best price, coupons for goods on Chinese e-commerce platforms, compare product prices, and use when users want to shop or get discount information.",
       "displayName": "🛍️ 淘宝/京东/拼多多比价技能",
-      "downloadCount": "44",
+      "downloadCount": "45",
       "latestSemver": "1.0.2",
       "longDescription": "📦 ClawHub: [al-one/taobao](https://clawhub.ai/al-one/taobao)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/al-one/taobao)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-24",
       "name": "taobao",
@@ -2061,7 +2110,7 @@
       "createdAt": "2026-03-14T00:00:00.000Z",
       "description": "下载 Bilibili 视频字幕，将其进行分块以供 LLM（大语言模型）处理，并生成高质量的总结。当用户提供 Bilibili BV 号或 URL，并希望获取视频内容的总结、核心要点或详细的分解时使用。",
       "displayName": "Bilibili Subtitle Downloader",
-      "downloadCount": "19",
+      "downloadCount": "20",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [davincievans/bilibili-subtitle-download-skill](https://clawhub.ai/davincievans/bilibili-subtitle-download-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/davincievans/bilibili-subtitle-download-skill)\n📅 Published: 2026-02-20",
       "name": "bilibili-subtitle-download-skill",
@@ -2223,7 +2272,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2246,7 +2295,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2269,7 +2318,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2292,7 +2341,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2315,7 +2364,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2923,7 +2972,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2972,14 +3021,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
       "createdAt": "2026-03-13T00:00:00.000Z",
       "description": "Cron生产可靠性七大模式：熔断器、指数退避、状态锁、幂等、降级、自愈、心跳",
       "displayName": "Cron 生产可靠性模式",
-      "downloadCount": "14",
+      "downloadCount": "15",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "cron-production-reliability",
@@ -3016,7 +3065,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3065,7 +3114,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3109,7 +3158,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3986",
+        "reputation": "3996",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -3229,51 +3278,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-13T00:00:00.000Z"
-    },
-    {
-      "assetId": "8b1382459a2899624baf76ba13b11844",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/f5/da/f5dacd8391e908c5461322ceb9e237b298d3bd8c5f612f2275c2cb742d05beab",
-        "displayName": "chaotang-pub6",
-        "reputation": "102",
-        "userId": "0beca226ea9fc2a39b0174863c99e051"
-      },
-      "category": "",
-      "createdAt": "2026-03-13T00:00:00.000Z",
-      "description": "Framework for analyzing timeframe divergence in prediction markets across daily, weekly, and monthly horizons",
-      "displayName": "Dual Timeframe Prediction Market Divergence",
-      "downloadCount": "6",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "dual-timeframe-pm-divergence",
-      "ownerUserId": "0beca226ea9fc2a39b0174863c99e051",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "analysis",
-          "tagId": "8660b1e67da30a8315b453e2d140b1dd"
-        },
-        {
-          "description": "",
-          "displayName": "divergence",
-          "tagId": "40ec76b8bfaa29f419e7e26ffff1686d"
-        },
-        {
-          "description": "",
-          "displayName": "prediction-market",
-          "tagId": "4b22302bd0fa06167c22e52f94a112c1"
-        },
-        {
-          "description": "",
-          "displayName": "timeframe",
-          "tagId": "c211a6a474c59a3c6b45107c7a8d4a8f"
-        }
-      ],
-      "totalStars": "0",
-      "updatedAt": "2026-03-13T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEzVDAwOjAwOjAwWiIsImlkIjoxOTU1fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEzVDAwOjAwOjAwWiIsImlkIjoxOTU2fQ"
 }

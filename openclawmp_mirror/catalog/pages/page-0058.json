@@ -1,6 +1,29 @@
 {
   "items": [
     {
+      "assetId": "795c4ec0316840a834b0890fd266ea1d",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ab/91/ab9111f839bc5ea5f1f9f380408c6deb234b620c665f51b7f9bc86488c1c109c",
+        "displayName": "nzsz",
+        "reputation": "1025",
+        "userId": "25e91179db0bbb81ce0af885c5fd5c85"
+      },
+      "category": "",
+      "createdAt": "2026-03-04T00:00:00.000Z",
+      "description": "监控文件系统事件（创建/修改/删除），自动唤醒 Agent 执行任务。支持通配符、防抖、变量注入。",
+      "displayName": "File Watcher Trigger",
+      "downloadCount": "74",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "file-watcher",
+      "ownerUserId": "25e91179db0bbb81ce0af885c5fd5c85",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "19",
+      "updatedAt": "2026-03-04T00:00:00.000Z"
+    },
+    {
       "assetId": "1d0c754773e97c79e2c17d4a1840a1f8",
       "assetType": 1,
       "author": {
@@ -29,7 +52,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -98,7 +121,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -142,7 +165,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -371,7 +394,7 @@
       "createdAt": "2026-03-03T00:00:00.000Z",
       "description": "专业的A股实时行情监控技能，支持自选股管理、价格预警、涨跌幅追踪，数据来自东方财富网",
       "displayName": "A股实时行情监控助手",
-      "downloadCount": "622",
+      "downloadCount": "626",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "a-stock-monitor",
@@ -512,7 +535,7 @@
       "createdAt": "2026-03-03T00:00:00.000Z",
       "description": "Interact with GitHub using the gh CLI",
       "displayName": "GitHub",
-      "downloadCount": "45",
+      "downloadCount": "46",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "github",
@@ -535,7 +558,7 @@
       "createdAt": "2026-03-03T00:00:00.000Z",
       "description": "Summarize URLs or files with the summarize CLI (web, PDFs, images, audio, YouTube)",
       "displayName": "Summarize",
-      "downloadCount": "216",
+      "downloadCount": "217",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "summarize",
@@ -623,14 +646,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
       "createdAt": "2026-03-03T00:00:00.000Z",
       "description": "采集多源 AI 新闻并生成每日摘要（digest.md + digest.json），支持去重、评分、失败降级。",
       "displayName": "Rabbit 每日新闻源-AI 采集",
-      "downloadCount": "158",
+      "downloadCount": "160",
       "latestSemver": "1.0.0",
       "longDescription": "采集 Rabbit 每日新闻源-AI，聚合官方/工程/研究/社区来源，输出日报与结构化 JSON。",
       "name": "rabbit-daily-ai-news-source",
@@ -677,14 +700,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
       "createdAt": "2026-03-03T00:00:00.000Z",
       "description": "在安装 OpenClaw 资产（skill/plugin/trigger/channel/experience）前执行静态安全安检，扫描可疑网络请求、文件读写/删除、环境变量与敏感路径访问，并输出三档评级 SAFE/CAUTION/DANGEROUS（绿/黄/红灯）；用于“先扫描再安装，红灯直接卸载或阻止安装”的门禁流程。",
       "displayName": "OpenClaw 安检门（安装前扫描）",
-      "downloadCount": "660",
+      "downloadCount": "661",
       "latestSemver": "1.0.0",
       "longDescription": "在安装 OpenClaw 资产（skill/plugin/trigger/channel/experience）前执行静态安全安检，扫描可疑网络请求、文件读写/删除、环境变量与敏感路径访问，并输出三档评级 SAFE/CAUTION/DANGEROUS（绿/黄/红灯）；用于“先扫描再安装，红灯直接卸载或阻止安装”的门禁流程。",
       "name": "openclaw-install-security-gate",
@@ -770,7 +793,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -814,7 +837,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -858,14 +881,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
       "createdAt": "2026-03-03T00:00:00.000Z",
       "description": "为 OpenClaw 构建反脆弱模型路由：熔断、降级、回切、成本兜底。",
       "displayName": "OpenClaw 反脆弱模型路由",
-      "downloadCount": "21",
+      "downloadCount": "23",
       "latestSemver": "1.0.0",
       "longDescription": "为 OpenClaw 构建反脆弱模型路由：熔断、降级、回切、成本兜底。",
       "name": "openclaw-antifragile-router",
@@ -902,7 +925,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -946,7 +969,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -990,7 +1013,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -1039,7 +1062,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -1083,7 +1106,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -1127,7 +1150,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -1171,7 +1194,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -1215,7 +1238,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/88/ca/88cac495acfee879d282de06045e48c294b8a438d8574c9d52da5a15f91672d1",
         "displayName": "dooooongyuan",
-        "reputation": "5075",
+        "reputation": "5080",
         "userId": "930aae40f4e37af3da885d9191028251"
       },
       "category": "",
@@ -1277,7 +1300,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1300,7 +1323,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1323,7 +1346,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1390,7 +1413,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1413,7 +1436,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1467,7 +1490,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1516,7 +1539,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1539,7 +1562,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1608,7 +1631,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1631,7 +1654,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1654,7 +1677,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1677,7 +1700,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1700,7 +1723,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1723,7 +1746,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1746,7 +1769,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1769,7 +1792,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1792,7 +1815,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1815,7 +1838,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1838,7 +1861,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1861,7 +1884,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1884,7 +1907,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1907,7 +1930,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1930,7 +1953,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1953,7 +1976,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1976,14 +1999,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/92/88/92881028b629597d0667539cdc282b0360f659ab62f3f5f2f450d1e1f5ba9d04",
         "displayName": "KK-OS",
-        "reputation": "188",
+        "reputation": "193",
         "userId": "6cabe19facf14352973d85d0315bcedc"
       },
       "category": "",
       "createdAt": "2026-03-02T00:00:00.000Z",
       "description": "Universal skills loader for AI coding agents - install and load Anthropic SKILL.md format skills in any agent",
       "displayName": "OpenSkills - Universal Skills Loader",
-      "downloadCount": "19",
+      "downloadCount": "20",
       "latestSemver": "1.5.0",
       "longDescription": "",
       "name": "openskills",
@@ -2035,7 +2058,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/92/88/92881028b629597d0667539cdc282b0360f659ab62f3f5f2f450d1e1f5ba9d04",
         "displayName": "KK-OS",
-        "reputation": "188",
+        "reputation": "193",
         "userId": "6cabe19facf14352973d85d0315bcedc"
       },
       "category": "",
@@ -2084,7 +2107,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2107,7 +2130,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2130,7 +2153,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2160,7 +2183,7 @@
       "createdAt": "2026-03-02T00:00:00.000Z",
       "description": "查询天气信息，支持国内和国际城市。当用户询问天气时自动调用此技能。支持按城市名称查询、扩展气象字段、多天预报、逐小时预报、分钟级降水预报、18项生活指数等功能。",
       "displayName": "weather-query",
-      "downloadCount": "245",
+      "downloadCount": "246",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "weather-query",
@@ -2176,7 +2199,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2222,7 +2245,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2245,7 +2268,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2268,7 +2291,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2386,7 +2409,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2416,7 +2439,7 @@
       "createdAt": "2026-03-02T00:00:00.000Z",
       "description": "Give your AI agent eyes to see the entire internet",
       "displayName": "Agent Reach",
-      "downloadCount": "212",
+      "downloadCount": "213",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "agent-reach",
@@ -2448,7 +2471,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2471,7 +2494,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2543,7 +2566,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2594,7 +2617,7 @@
       "createdAt": "2026-03-01T00:00:00.000Z",
       "description": "全栈开发者的AI助手 - 智能编程、自动部署、监控告警、CI/CD流水线",
       "displayName": "AI代码助手与DevOps自动化系统",
-      "downloadCount": "73",
+      "downloadCount": "74",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "ai-devops-automation-suite",
@@ -2754,7 +2777,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2833,7 +2856,7 @@
       "createdAt": "2026-03-01T00:00:00.000Z",
       "description": "AI Agent自进化完整解决方案 - 包含多代理团队、记忆系统、认知架构",
       "displayName": "自主进化全套件",
-      "downloadCount": "382",
+      "downloadCount": "384",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "autonomous-evolution-suite",
@@ -2898,7 +2921,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2937,7 +2960,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2981,7 +3004,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3020,7 +3043,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3059,7 +3082,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3108,7 +3131,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3152,7 +3175,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3196,14 +3219,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
       "createdAt": "2026-03-01T00:00:00.000Z",
       "description": "A fast Rust-based headless browser automation CLI with Node.js fallback that enables AI agents to navigate, click, type, and snapshot pages via structured commands.",
       "displayName": "Agent Browser",
-      "downloadCount": "293",
+      "downloadCount": "295",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "agent-browser",
@@ -3245,7 +3268,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3294,7 +3317,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21329",
+        "reputation": "21334",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3331,30 +3354,7 @@
       ],
       "totalStars": "8",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "5bf3e0c6c6179cc2354ef60718716cd9",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
-        "displayName": "jyj545",
-        "reputation": "21329",
-        "userId": "3c9c493205a90db1948d819aa786ef27"
-      },
-      "category": "",
-      "createdAt": "2026-03-01T00:00:00.000Z",
-      "description": "**资产类型**：experience",
-      "displayName": "ClawHub 技能自动更新配置经验",
-      "downloadCount": "18",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "clawhub-2026-03-01",
-      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "3",
-      "updatedAt": "2026-03-01T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTAxVDAwOjAwOjAwWiIsImlkIjoxNTV9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTAxVDAwOjAwOjAwWiIsImlkIjoxNTZ9"
 }

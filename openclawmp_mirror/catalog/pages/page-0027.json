@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "assetId": "f36fae63c317e765853bce91debab12f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/71/f7/71f7b58f10e32f8a916dabc16bf0f4252147bc415a92e9ebf6a472380d07fd44",
+        "displayName": "lukeslp",
+        "reputation": "115",
+        "userId": "8bdf59900fe1388ebbb4e2559869fb3a"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Query the COCA (Corpus of Contemporary American English) linguistics API for word frequency, collocations, concordances, and historical usage trends. Use for linguistic research, writing assistance, or understanding how words are actually used in American English.",
+      "displayName": "Geepers Corpus",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [lukeslp/geepers-corpus](https://clawhub.ai/lukeslp/geepers-corpus)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lukeslp/geepers-corpus)\n📅 Published: 2026-02-18",
+      "name": "geepers-corpus",
+      "ownerUserId": "8bdf59900fe1388ebbb4e2559869fb3a",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "corpus",
+          "tagId": "25cd97c158d7b06b4aba489bc8ea9bfc"
+        },
+        {
+          "description": "",
+          "displayName": "geepers",
+          "tagId": "ca2d730b7aac3316669cb05456561743"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "e947bec4f1bc882c1d6a84fede9d0d53",
       "assetType": 2,
       "author": {
@@ -343,7 +377,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Extract text from images, documents and scanned PDFs using OpenOCR - supports text detection, recognition, universal VLM recognition, and document parsing with layout analysis",
       "displayName": "Opencr Skill",
-      "downloadCount": "15",
+      "downloadCount": "16",
       "latestSemver": "0.1.4",
       "longDescription": "📦 ClawHub: [topdu/opencr-skill](https://clawhub.ai/topdu/opencr-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/topdu/opencr-skill)\n🏷️ Version: 0.1.4\n📅 Published: 2026-02-12",
       "name": "opencr-skill",
@@ -796,7 +830,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3c/0f/3c0f2d359613f9a2c1f335db6e17daf4f7946a8d10b025424fdf5c74a09ce247",
         "displayName": "mohdalhashemi98-hue",
-        "reputation": "150",
+        "reputation": "155",
         "userId": "fb6371e22f7d2cd55ca9b6694dbd5512"
       },
       "category": "",
@@ -1119,14 +1153,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ed/37/ed37662e279aaaf2e9a45c6feb60d8d179c2209e3b0dd2c563b71e51d28cd0f9",
         "displayName": "terellison",
-        "reputation": "5",
+        "reputation": "10",
         "userId": "c0c56fc2cc303a185864b1abde373e22"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Analyze iMessage (macOS) and Signal conversation history to reveal relationship dynamics — message volume, initiation patterns, silence gaps, tone samples, and recent exchanges. Use when asked to analyze messages, read message history, check conversation patterns, or evaluate a relationship based on text history. Works on macOS (iMessage + Signal), Linux/Windows (Signal only).",
       "displayName": "iMessage & Signal Analyzer",
-      "downloadCount": "4",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [terellison/imessage-signal-analyzer](https://clawhub.ai/terellison/imessage-signal-analyzer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/terellison/imessage-signal-analyzer)\n📅 Published: 2026-02-20",
       "name": "imessage-signal-analyzer",
@@ -1158,7 +1192,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/92/f3/92f3e0b44f3147eb647bbe3617ab064981675104bae82fcdf539d82128836013",
         "displayName": "spyfree",
-        "reputation": "57",
+        "reputation": "62",
         "userId": "41820ad4afc6fc031935803369727a83"
       },
       "category": "",
@@ -1555,7 +1589,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/18/99/189930dbd6530049df9eb6d018a518e68cda89593cd46485741bee163c236e3b",
         "displayName": "ttboy",
-        "reputation": "70",
+        "reputation": "75",
         "userId": "4573b18cc5b5d409f83b44e850158dab"
       },
       "category": "",
@@ -2050,7 +2084,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Comprehensive evaluation of potential stock investments combining valuation analysis, fundamental research, technical assessment, and clear buy/hold/sell recommendations. Use when the user asks about buying a stock, evaluating investment opportunities, analyzing watchlist candidates, or requests stock recommendations. Provides specific entry prices, position sizing, and conviction ratings.",
       "displayName": "Stock Evaluator",
-      "downloadCount": "30",
+      "downloadCount": "32",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [demandgap/stock-evaluator](https://clawhub.ai/demandgap/stock-evaluator)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/demandgap/stock-evaluator)\n📅 Published: 2026-01-28",
       "name": "stock-evaluator",
@@ -2773,7 +2807,7 @@
       "author": {
         "avatarUrl": "",
         "displayName": "martinforsulu",
-        "reputation": "65",
+        "reputation": "70",
         "userId": "4903d4c5678a5156c1a6b84d5393bd8a"
       },
       "category": "",
@@ -2898,7 +2932,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/71/f7/71f7b58f10e32f8a916dabc16bf0f4252147bc415a92e9ebf6a472380d07fd44",
         "displayName": "lukeslp",
-        "reputation": "110",
+        "reputation": "115",
         "userId": "8bdf59900fe1388ebbb4e2559869fb3a"
       },
       "category": "",
@@ -3231,41 +3265,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "01cee0c1c24374f404e076e05ba52c26",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bb/e2/bbe28881df87578ff0e2e31d795ccfae74e5a32925dbd51654277387f78cf823",
-        "displayName": "brianrwagner",
-        "reputation": "95",
-        "userId": "f17675c3e2a23e1145d35ff72f36329d"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Generate an energy-optimized, time-blocked daily plan based on circadian rhythm research and GTD principles",
-      "displayName": "Plan My Day",
-      "downloadCount": "9",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [brianrwagner/brw-plan-my-day](https://clawhub.ai/brianrwagner/brw-plan-my-day)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/brianrwagner/brw-plan-my-day)\n📅 Published: 2026-02-18",
-      "name": "brw-plan-my-day",
-      "ownerUserId": "f17675c3e2a23e1145d35ff72f36329d",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "Day",
-          "tagId": "f0364b6ee2e5059c900cb9bd1989efd9"
-        },
-        {
-          "description": "",
-          "displayName": "plan",
-          "tagId": "a23ffbb598956149bc4839b14d225941"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozMjU1fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozMjU2fQ"
 }

@@ -1,6 +1,40 @@
 {
   "items": [
     {
+      "assetId": "53e7cf0d85f55b43779eb4b71df3511c",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/8a/43/8a43da22d586b61e4c8d5e80827a3e6fd94ca631f2be933606949673a0f299ba",
+        "displayName": "florianbeer",
+        "reputation": "15",
+        "userId": "76aae8416e99d7b1935b16e33db4185e"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "扫描网络以发现设备，收集MAC地址、供应商和主机名。包含安全检查，防止意外扫描公共网络。",
+      "displayName": "网络扫描器",
+      "downloadCount": "4",
+      "latestSemver": "1.1.0",
+      "longDescription": "📦 ClawHub: [florianbeer/network-scanner](https://clawhub.ai/florianbeer/network-scanner)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/florianbeer/network-scanner)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-01",
+      "name": "network-scanner",
+      "ownerUserId": "76aae8416e99d7b1935b16e33db4185e",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "network",
+          "tagId": "89482e3998d0501e45654f4a80f338cd"
+        },
+        {
+          "description": "",
+          "displayName": "scanner",
+          "tagId": "e6d6d2d7d6854c12e320f406724ef6d9"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
       "assetId": "a88483d43a93cfa3fe5dbcd3404fb883",
       "assetType": 3,
       "author": {
@@ -648,14 +682,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b5/2a/b52ae97f526edbe7d649626c0a156070e42e0bfc41132431542b27be41f3705b",
         "displayName": "dean0228",
-        "reputation": "71",
+        "reputation": "76",
         "userId": "d56df0b10836708a83b7b6363fadd616"
       },
       "category": "",
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "为 OpenClaw Agent 设计的技能安装安全审查协议，确保每个安装的技能都经过严格的安全评估",
       "displayName": "技能安装安全审查流程",
-      "downloadCount": "24",
+      "downloadCount": "25",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "skill-install-security-vetting",
@@ -802,7 +836,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "让 Agent 每天自动复盘能力缺口，搜索水产市场推荐资产，持续自我进化。包含完整的安装步骤、cron 配置、信号分类规则和常见问题解答。",
       "displayName": "自进化系统完整配置指南",
-      "downloadCount": "56",
+      "downloadCount": "57",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "自进化系统完整配置指南",
@@ -3235,36 +3269,7 @@
       ],
       "totalStars": "3",
       "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "927335fb56413dd60d533032edc1cb2e",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/e4/f1/e4f1514549fc1ed1f6b27cb6baaf56b775b5c3ad2cece83a090654f9a7a96ca4",
-        "displayName": "kleberbaum",
-        "reputation": "135",
-        "userId": "b39dc43277f6938d777bf20918a6ab12"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Pandora namespace for Netsnek e.U. secrets and configuration management vault. Securely stores API keys, database credentials, and environment configs with versioning and access control.",
-      "displayName": "Pandora",
-      "downloadCount": "11",
-      "latestSemver": "0.1.0",
-      "longDescription": "📦 ClawHub: [kleberbaum/pandora](https://clawhub.ai/kleberbaum/pandora)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/kleberbaum/pandora)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-18",
-      "name": "pandora",
-      "ownerUserId": "b39dc43277f6938d777bf20918a6ab12",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "pandora",
-          "tagId": "f671b4099e1f9167f87541668a0f82b9"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo3NTV9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo3NTZ9"
 }
