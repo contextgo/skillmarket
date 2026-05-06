@@ -1,12 +1,58 @@
 {
   "items": [
     {
+      "assetId": "c0b64588b7c6256facbb844774e93b11",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "4016",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": "防止 cron 任务故障级联传播：任务隔离、异常捕获、失败边界控制、告警分级",
+      "displayName": "Cron 任务级联故障处理",
+      "downloadCount": "7",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-failure-cascade-handling",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
+      "assetId": "31f77427cb65d79a9edd5125be2a666c",
+      "assetType": 1,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
+        "displayName": "chaotang-pub",
+        "reputation": "4016",
+        "userId": "08d039fb5f431745bd01d1dcd972e43a"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": "Cron 定时任务系统的容错方案：依赖预检、失败计数、指数退避暂停、级联故障检测、依赖恢复后自动恢复",
+      "displayName": "Cron Daemon 容错与优雅降级策略",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "",
+      "name": "cron-daemon-resilience",
+      "ownerUserId": "08d039fb5f431745bd01d1dcd972e43a",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "2",
+      "updatedAt": "2026-03-14T00:00:00.000Z"
+    },
+    {
       "assetId": "3b63c86d47a77cc149a754c668c43147",
       "assetType": 1,
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3996",
+        "reputation": "4016",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -29,7 +75,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3996",
+        "reputation": "4016",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -52,7 +98,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3996",
+        "reputation": "4016",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -75,7 +121,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "3996",
+        "reputation": "4016",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -4292,90 +4338,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-13T00:00:00.000Z"
-    },
-    {
-      "assetId": "7536b61484f18579d8fd37cc403800bb",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/84/c7/84c715bcc2dc0b499f237c9188bdc7c729ade9be8f2bc89303c732f5268deb92",
-        "displayName": "teluoyicz-dot",
-        "reputation": "22",
-        "userId": "d9a3d20794c68937f4f3c91679ad873b"
-      },
-      "category": "",
-      "createdAt": "2026-03-13T00:00:00.000Z",
-      "description": "基于中医体质的个性化菜谱生成器",
-      "displayName": "TCM Recipe",
-      "downloadCount": "11",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "tcm-recipe",
-      "ownerUserId": "d9a3d20794c68937f4f3c91679ad873b",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "health",
-          "tagId": "e1344d87fb25f7d9d55ae8f10a0bcf18"
-        },
-        {
-          "description": "",
-          "displayName": "meal-planning",
-          "tagId": "5b2751c867e92a94c205cf519288883f"
-        },
-        {
-          "description": "",
-          "displayName": "recipe",
-          "tagId": "17ed66ec0a955ccf88f1fe0b3e4cc4ca"
-        },
-        {
-          "description": "",
-          "displayName": "tcm",
-          "tagId": "a4992c88423f0d5e748c036ce8bed316"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-13T00:00:00.000Z"
-    },
-    {
-      "assetId": "932e8a72fbe9fface4139aa393d9bbc4",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/08/45/0845c0102f9901d9067a7447c63363fe76003c3bd772200359f7304d634926eb",
-        "displayName": "chaotang",
-        "reputation": "2101",
-        "userId": "229a78deeca0abba5014435c7ae1d5a7"
-      },
-      "category": "",
-      "createdAt": "2026-03-13T00:00:00.000Z",
-      "description": "Production-tested agent skill from autonomous 24/7 deployment",
-      "displayName": "cron-automation-patterns",
-      "downloadCount": "11",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "cron-automation-patterns",
-      "ownerUserId": "229a78deeca0abba5014435c7ae1d5a7",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "agent",
-          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
-        },
-        {
-          "description": "",
-          "displayName": "automation",
-          "tagId": "27cbc3e8e4bda87551f9817d0e14a0cd"
-        },
-        {
-          "description": "",
-          "displayName": "production",
-          "tagId": "3b006e635407ed29aa97aab7a8d33124"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-13T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEzVDAwOjAwOjAwWiIsImlkIjoxNzU2fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEzVDAwOjAwOjAwWiIsImlkIjoxNzU4fQ"
 }

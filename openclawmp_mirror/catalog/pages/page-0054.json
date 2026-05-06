@@ -1,6 +1,79 @@
 {
   "items": [
     {
+      "assetId": "36108ba2a13f094a78b7cb67d48749ab",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/20/d0/20d0fdf2f6799be7c503154260cd21771d28d113cd7d93221f2a50a137c0214a",
+        "displayName": "eduardou24",
+        "reputation": "50",
+        "userId": "6fcd0efcd5f95ae68ad7890aa1b2f5f4"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "Create and manage task documents in the docs/todo/ workflow. Use when creating new tasks, updating task status, or moving tasks between workflow stages. Provides complete task lifecycle management with verification.",
+      "displayName": "OGT Docs Create Task",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [eduardou24/ogt-docs-create-task](https://clawhub.ai/eduardou24/ogt-docs-create-task)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/eduardou24/ogt-docs-create-task)\n📅 Published: 2026-02-08",
+      "name": "ogt-docs-create-task",
+      "ownerUserId": "6fcd0efcd5f95ae68ad7890aa1b2f5f4",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "create",
+          "tagId": "db24bb26ffb93ac21ba5bee89d361e6c"
+        },
+        {
+          "description": "",
+          "displayName": "docs",
+          "tagId": "8c9e8f5e553fa84f38c21fa08ce39751"
+        },
+        {
+          "description": "",
+          "displayName": "ogt",
+          "tagId": "fb5897050ffe69a0e09983d1cd97e811"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "assetId": "79e4a9b6b9d3d92a369ed89a5ab8dc8a",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5d/cc/5dcc22d1f5b2cfd11c438e0e0866e2332fd2620563fde731689c6fbb256a1b81",
+        "displayName": "obekt",
+        "reputation": "10",
+        "userId": "1f0cc83293fd454edbded2d72b38d182"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "Basic threat detection and security analysis for code, files, and agent skills. Use when you need to scan for vulnerabilities, validate security patterns, detect malicious patterns, or audit codebases for security issues.",
+      "displayName": "ObekT Security",
+      "downloadCount": "5",
+      "latestSemver": "1.1.0",
+      "longDescription": "📦 ClawHub: [obekt/obekt-security](https://clawhub.ai/obekt/obekt-security)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/obekt/obekt-security)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-08",
+      "name": "obekt-security",
+      "ownerUserId": "1f0cc83293fd454edbded2d72b38d182",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "obekt",
+          "tagId": "a00606391be7a3af8c130b7b9aa66cea"
+        },
+        {
+          "description": "",
+          "displayName": "security",
+          "tagId": "e1860809d725348c7f862491ac9143c0"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
       "assetId": "56557be1611cedff12782ec263916094",
       "assetType": 4,
       "author": {
@@ -152,14 +225,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/10/1f/101fdac562518fa90e1cb79d41d77c23a549862963190f7e1bd62571ea402190",
         "displayName": "a-i-r",
-        "reputation": "95",
+        "reputation": "100",
         "userId": "9662eb81d9787a1289964fc213f4f29b"
       },
       "category": "",
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "Extract PDF content to Markdown using MinerU API. Supports formulas, tables, OCR. Provides both local file and online URL parsing methods.",
       "displayName": "MinerU PDF Extractor",
-      "downloadCount": "29",
+      "downloadCount": "30",
       "latestSemver": "1.0.5",
       "longDescription": "📦 ClawHub: [a-i-r/mineru-pdf-extractor](https://clawhub.ai/a-i-r/mineru-pdf-extractor)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/a-i-r/mineru-pdf-extractor)\n🏷️ Version: 1.0.5\n📅 Published: 2026-02-18",
       "name": "mineru-pdf-extractor",
@@ -1974,7 +2047,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "\"Use this skill when users need to search academic papers, download research documents, extract citations, or gather scholarly information. Triggers include: requests to \\\"find papers on\\\", \\\"search research about\\\", \\\"download academic articles\\\", \\\"get citations for\\\", or any request involving academic databases like arXiv, PubMed, Semantic Scholar, or Google Scholar. Also use for literature reviews, bibliography generation, and research discovery. Requires OpenClawCLI installation from clawhub.ai.\"",
       "displayName": "Academic Research Hub",
-      "downloadCount": "43",
+      "downloadCount": "44",
       "latestSemver": "0.1.0",
       "longDescription": "📦 ClawHub: [anisafifi/academic-research-hub](https://clawhub.ai/anisafifi/academic-research-hub)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/anisafifi/academic-research-hub)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-08",
       "name": "academic-research-hub",
@@ -3150,7 +3223,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
         "displayName": "Batman0506",
-        "reputation": "4506",
+        "reputation": "4511",
         "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
       },
       "category": "",
@@ -3194,7 +3267,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
         "displayName": "Batman0506",
-        "reputation": "4506",
+        "reputation": "4511",
         "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
       },
       "category": "",
@@ -3233,7 +3306,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
         "displayName": "Batman0506",
-        "reputation": "4506",
+        "reputation": "4511",
         "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
       },
       "category": "",
@@ -3272,7 +3345,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
         "displayName": "Batman0506",
-        "reputation": "4506",
+        "reputation": "4511",
         "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
       },
       "category": "",
@@ -3316,7 +3389,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
         "displayName": "Batman0506",
-        "reputation": "4506",
+        "reputation": "4511",
         "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
       },
       "category": "",
@@ -3360,7 +3433,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
         "displayName": "Batman0506",
-        "reputation": "4506",
+        "reputation": "4511",
         "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
       },
       "category": "",
@@ -3404,7 +3477,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
         "displayName": "Batman0506",
-        "reputation": "4506",
+        "reputation": "4511",
         "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
       },
       "category": "",
@@ -3448,7 +3521,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
         "displayName": "Batman0506",
-        "reputation": "4506",
+        "reputation": "4511",
         "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
       },
       "category": "",
@@ -3485,95 +3558,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "641c6c96157c03e4f56f149eaf7422b8",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/e8/ca/e8ca66200df9cb5c7396e0f7eb53cbec037390d1c492ae720f642e453bb92ae6",
-        "displayName": "Magic-lem",
-        "reputation": "96",
-        "userId": "94b37633ab80be8d559ae07df840954b"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "数据库操作助手,协助用户基于数据库查询统计分析各种数据",
-      "displayName": "Database Helper",
-      "downloadCount": "52",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "database-helper",
-      "ownerUserId": "94b37633ab80be8d559ae07df840954b",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "database",
-          "tagId": "b40019a07cc9b280b7d54011d1c2cca3"
-        },
-        {
-          "description": "",
-          "displayName": "helper",
-          "tagId": "e6b7f66e55f6c56a27938d8322159e52"
-        },
-        {
-          "description": "",
-          "displayName": "MySQL",
-          "tagId": "96a9d1a50efaaf562b91468420688042"
-        },
-        {
-          "description": "",
-          "displayName": "SQL",
-          "tagId": "eeb03afc151cb6cf943813ae02e1e697"
-        }
-      ],
-      "totalStars": "7",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "76c447090e7b6c5c77eb968a7ff7c5e8",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bd/c8/bdc8d6a64b18e65259c925008c6eb5599fcbab945b47cfddb3821e5f7e826bc3",
-        "displayName": "Batman0506",
-        "reputation": "4506",
-        "userId": "0ae3d24cca4fabade6af33f0a91a44c8"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "新币狙击助手，新币上线监控、开盘分析、抢购策略、风险评估",
-      "displayName": "新币狙击助手",
-      "downloadCount": "10",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "token-sniper",
-      "ownerUserId": "0ae3d24cca4fabade6af33f0a91a44c8",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "开盘",
-          "tagId": "c96874c6a453a9702ba8d22c6ad949ab"
-        },
-        {
-          "description": "",
-          "displayName": "抢购",
-          "tagId": "6d18bc9cd37456fe26c1570a2871503d"
-        },
-        {
-          "description": "",
-          "displayName": "新币",
-          "tagId": "3530faf669ecd38cfa590f218d7f21c5"
-        },
-        {
-          "description": "",
-          "displayName": "狙击",
-          "tagId": "5dd4ab766ff9f0d1c084ce3f87152823"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo1NTZ9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo1NTh9"
 }

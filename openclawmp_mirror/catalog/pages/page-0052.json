@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "assetId": "037bfd38cd47d95061521578233b0b5d",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "",
+        "displayName": "aaigotchi",
+        "reputation": "25",
+        "userId": "9e5e0bbfa5899f51b8454df5de29f6be"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "通过 gotchi ID 或名称在 Base 上获取 Aavegotchi NFT 数据。返回特征、可穿戴物品、稀有度评分、亲密度、经验值、等级和所有者数据。",
+      "displayName": "Aavegotchi 特征",
+      "downloadCount": "10",
+      "latestSemver": "1.1.0",
+      "longDescription": "📦 ClawHub: [aaigotchi/aavegotchi-traits](https://clawhub.ai/aaigotchi/aavegotchi-traits)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/aaigotchi/aavegotchi-traits)\n🏷️ Version: 1.1.0\n📅 Published: 2026-03-06",
+      "name": "aavegotchi-traits",
+      "ownerUserId": "9e5e0bbfa5899f51b8454df5de29f6be",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "aavegotchi",
+          "tagId": "7ba908de302e78a7efbf525fbd29562d"
+        },
+        {
+          "description": "",
+          "displayName": "traits",
+          "tagId": "c36a596400f80060371d3b9ada598014"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
+      "assetId": "5caceb2e2c5895ace5a6204717bfb19f",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7d/82/7d8244300a4008223664f30776073422c3ae30b3ce13d6d589e5f1c559bd20fc",
+        "displayName": "tobihagemann",
+        "reputation": "25",
+        "userId": "b7d8fb67120d00dfdcf0f6c084880dbd"
+      },
+      "category": "",
+      "createdAt": "2026-03-11T00:00:00.000Z",
+      "description": "通过macOS的say命令使用Siri自然语音进行文本转语音。用于生成语音音频、TTS片段或在macOS上朗读文本。",
+      "displayName": "语音播报",
+      "downloadCount": "13",
+      "latestSemver": "1.0.2",
+      "longDescription": "📦 ClawHub: [tobihagemann/say](https://clawhub.ai/tobihagemann/say)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/tobihagemann/say)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-15",
+      "name": "say",
+      "ownerUserId": "b7d8fb67120d00dfdcf0f6c084880dbd",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "say",
+          "tagId": "2658a2e9b9479b545fee03be98582bc1"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-11T00:00:00.000Z"
+    },
+    {
       "assetId": "53e7cf0d85f55b43779eb4b71df3511c",
       "assetType": 4,
       "author": {
@@ -836,7 +899,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "让 Agent 每天自动复盘能力缺口，搜索水产市场推荐资产，持续自我进化。包含完整的安装步骤、cron 配置、信号分类规则和常见问题解答。",
       "displayName": "自进化系统完整配置指南",
-      "downloadCount": "57",
+      "downloadCount": "58",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "自进化系统完整配置指南",
@@ -948,7 +1011,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "\"HDF5-backed persistent cognitive memory for AI agents. Use when: (1) saving conversation exchanges to long-term memory, (2) searching/recalling past conversations by semantic similarity, (3) managing agent memory files — stats, export, snapshot, WAL flush, (4) generating AGENTS.md summaries from memory. Requires the `edgehdf5` CLI binary (install via `cargo install edgehdf5-cli`).\"",
       "displayName": "EdgeHDF5 Memory",
-      "downloadCount": "16",
+      "downloadCount": "17",
       "latestSemver": "1.93.0",
       "longDescription": "📦 ClawHub: [osobh/edgehdf5-memory](https://clawhub.ai/osobh/edgehdf5-memory)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/osobh/edgehdf5-memory)\n🏷️ Version: 1.93.0\n📅 Published: 2026-02-23",
       "name": "edgehdf5-memory",
@@ -3206,70 +3269,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "26659b66420985eab5438b1debbaf65c",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0f/4d/0f4d5a7ddbd1089aec453173981fc01019888f92f5594595f57d3ec23d458495",
-        "displayName": "luigi-agosti",
-        "reputation": "40",
-        "userId": "e41d662fc2aae716bfc9fa92b1a4a239"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": ">",
-      "displayName": "Pinchtab",
-      "downloadCount": "14",
-      "latestSemver": "0.7.6",
-      "longDescription": "📦 ClawHub: [luigi-agosti/pinchtab](https://clawhub.ai/luigi-agosti/pinchtab)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/luigi-agosti/pinchtab)\n🏷️ Version: 0.7.6\n📅 Published: 2026-02-26",
-      "name": "pinchtab",
-      "ownerUserId": "e41d662fc2aae716bfc9fa92b1a4a239",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "pinchtab",
-          "tagId": "6ef9c81fbcbcd4f821c1d1a0918ab33a"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "c122ae8e23e5bc424d473600fda29d06",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b7/6d/b76d9a50b78ebe9eba33b8fadf541cabc873c8ae475e2aa45dde31584b17081c",
-        "displayName": "hushenglang",
-        "reputation": "20",
-        "userId": "76f619c1634fbbd223e562e81294b10e"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Conduct deep research using Perplexity Agent API with web search, reasoning, and multi-model analysis. Use when the user needs current information, market research, trend analysis, investment insights, or comprehensive research on any topic requiring web search and reasoning capabilities.",
-      "displayName": "Perplexity Research",
-      "downloadCount": "11",
-      "latestSemver": "2.0.0",
-      "longDescription": "📦 ClawHub: [hushenglang/perplexity-research](https://clawhub.ai/hushenglang/perplexity-research)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/hushenglang/perplexity-research)\n🏷️ Version: 2.0.0\n📅 Published: 2026-03-07",
-      "name": "perplexity-research",
-      "ownerUserId": "76f619c1634fbbd223e562e81294b10e",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "perplexity",
-          "tagId": "e7181282926e4719791c044a0ee25b2a"
-        },
-        {
-          "description": "",
-          "displayName": "research",
-          "tagId": "bdbf4d5498a5efbbd6a2fbb6eb25547d"
-        }
-      ],
-      "totalStars": "3",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo3NTZ9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo3NTh9"
 }

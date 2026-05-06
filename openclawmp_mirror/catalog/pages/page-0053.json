@@ -1,6 +1,69 @@
 {
   "items": [
     {
+      "assetId": "26659b66420985eab5438b1debbaf65c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0f/4d/0f4d5a7ddbd1089aec453173981fc01019888f92f5594595f57d3ec23d458495",
+        "displayName": "luigi-agosti",
+        "reputation": "40",
+        "userId": "e41d662fc2aae716bfc9fa92b1a4a239"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": ">",
+      "displayName": "Pinchtab",
+      "downloadCount": "14",
+      "latestSemver": "0.7.6",
+      "longDescription": "📦 ClawHub: [luigi-agosti/pinchtab](https://clawhub.ai/luigi-agosti/pinchtab)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/luigi-agosti/pinchtab)\n🏷️ Version: 0.7.6\n📅 Published: 2026-02-26",
+      "name": "pinchtab",
+      "ownerUserId": "e41d662fc2aae716bfc9fa92b1a4a239",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "pinchtab",
+          "tagId": "6ef9c81fbcbcd4f821c1d1a0918ab33a"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "assetId": "c122ae8e23e5bc424d473600fda29d06",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b7/6d/b76d9a50b78ebe9eba33b8fadf541cabc873c8ae475e2aa45dde31584b17081c",
+        "displayName": "hushenglang",
+        "reputation": "20",
+        "userId": "76f619c1634fbbd223e562e81294b10e"
+      },
+      "category": "",
+      "createdAt": "2026-03-10T00:00:00.000Z",
+      "description": "Conduct deep research using Perplexity Agent API with web search, reasoning, and multi-model analysis. Use when the user needs current information, market research, trend analysis, investment insights, or comprehensive research on any topic requiring web search and reasoning capabilities.",
+      "displayName": "Perplexity Research",
+      "downloadCount": "11",
+      "latestSemver": "2.0.0",
+      "longDescription": "📦 ClawHub: [hushenglang/perplexity-research](https://clawhub.ai/hushenglang/perplexity-research)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/hushenglang/perplexity-research)\n🏷️ Version: 2.0.0\n📅 Published: 2026-03-07",
+      "name": "perplexity-research",
+      "ownerUserId": "76f619c1634fbbd223e562e81294b10e",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "perplexity",
+          "tagId": "e7181282926e4719791c044a0ee25b2a"
+        },
+        {
+          "description": "",
+          "displayName": "research",
+          "tagId": "bdbf4d5498a5efbbd6a2fbb6eb25547d"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
       "assetId": "927335fb56413dd60d533032edc1cb2e",
       "assetType": 2,
       "author": {
@@ -429,7 +492,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/8d/54/8d54bee4832a2f5edeb3d20702b795d293480cfae9c613cc7c728d656382954c",
         "displayName": "zoroposkai",
-        "reputation": "65",
+        "reputation": "70",
         "userId": "e2423d0ab83cfdf0904f2a5856c06e01"
       },
       "category": "",
@@ -693,7 +756,7 @@
       "createdAt": "2026-03-10T00:00:00.000Z",
       "description": "\"Guide skill for controlling native Windows apps (UIA) and web browsers (Playwright) via the handsfree-windows CLI. Use when you need to automate or test desktop applications or websites on a Windows machine: launching apps from Start menu, discovering UI controls without guessing, clicking/typing in native apps, opening/snapshotting/clicking in browsers, recording and replaying YAML macros that mix desktop and web steps. REQUIRES handsfree-windows CLI (auto-installed on first use via setup.py).\"",
       "displayName": "Handsfree Windows Control",
-      "downloadCount": "27",
+      "downloadCount": "28",
       "latestSemver": "1.3.0",
       "longDescription": "📦 ClawHub: [lijinlar/handsfree-windows-control](https://clawhub.ai/lijinlar/handsfree-windows-control)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lijinlar/handsfree-windows-control)\n🏷️ Version: 1.3.0\n📅 Published: 2026-02-20",
       "name": "handsfree-windows-control",
@@ -3230,80 +3293,7 @@
       "tags": [],
       "totalStars": "1",
       "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "36108ba2a13f094a78b7cb67d48749ab",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/20/d0/20d0fdf2f6799be7c503154260cd21771d28d113cd7d93221f2a50a137c0214a",
-        "displayName": "eduardou24",
-        "reputation": "50",
-        "userId": "6fcd0efcd5f95ae68ad7890aa1b2f5f4"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Create and manage task documents in the docs/todo/ workflow. Use when creating new tasks, updating task status, or moving tasks between workflow stages. Provides complete task lifecycle management with verification.",
-      "displayName": "OGT Docs Create Task",
-      "downloadCount": "13",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [eduardou24/ogt-docs-create-task](https://clawhub.ai/eduardou24/ogt-docs-create-task)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/eduardou24/ogt-docs-create-task)\n📅 Published: 2026-02-08",
-      "name": "ogt-docs-create-task",
-      "ownerUserId": "6fcd0efcd5f95ae68ad7890aa1b2f5f4",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "create",
-          "tagId": "db24bb26ffb93ac21ba5bee89d361e6c"
-        },
-        {
-          "description": "",
-          "displayName": "docs",
-          "tagId": "8c9e8f5e553fa84f38c21fa08ce39751"
-        },
-        {
-          "description": "",
-          "displayName": "ogt",
-          "tagId": "fb5897050ffe69a0e09983d1cd97e811"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
-    },
-    {
-      "assetId": "79e4a9b6b9d3d92a369ed89a5ab8dc8a",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5d/cc/5dcc22d1f5b2cfd11c438e0e0866e2332fd2620563fde731689c6fbb256a1b81",
-        "displayName": "obekt",
-        "reputation": "10",
-        "userId": "1f0cc83293fd454edbded2d72b38d182"
-      },
-      "category": "",
-      "createdAt": "2026-03-10T00:00:00.000Z",
-      "description": "Basic threat detection and security analysis for code, files, and agent skills. Use when you need to scan for vulnerabilities, validate security patterns, detect malicious patterns, or audit codebases for security issues.",
-      "displayName": "ObekT Security",
-      "downloadCount": "5",
-      "latestSemver": "1.1.0",
-      "longDescription": "📦 ClawHub: [obekt/obekt-security](https://clawhub.ai/obekt/obekt-security)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/obekt/obekt-security)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-08",
-      "name": "obekt-security",
-      "ownerUserId": "1f0cc83293fd454edbded2d72b38d182",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "obekt",
-          "tagId": "a00606391be7a3af8c130b7b9aa66cea"
-        },
-        {
-          "description": "",
-          "displayName": "security",
-          "tagId": "e1860809d725348c7f862491ac9143c0"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-10T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo2NTZ9"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTEwVDAwOjAwOjAwWiIsImlkIjo2NTh9"
 }

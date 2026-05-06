@@ -1,6 +1,79 @@
 {
   "items": [
     {
+      "assetId": "fac91031a3b8f1da85a380368685dea5",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4b/9d/4b9d4cac7a4ac2c9a884fed6e47b28b28c0248fa8e979b88d58c431c5f96de8d",
+        "displayName": "snow-dust",
+        "reputation": "25",
+        "userId": "6077800d832116116b2c9f8fcd1b5571"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Export Tencent Meeting (腾讯会议) recording transcripts from public share links. Use when user needs to extract meeting transcription data, AI summaries, smart chapters, or critical events from Tencent Meeting cloud recordings. Supports exporting to Markdown or JSON format with speaker identification and timestamps.",
+      "displayName": "Tencent Meeting Export",
+      "downloadCount": "11",
+      "latestSemver": "1.0.1",
+      "longDescription": "📦 ClawHub: [snow-dust/tencent-meeting-export](https://clawhub.ai/snow-dust/tencent-meeting-export)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/snow-dust/tencent-meeting-export)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-21",
+      "name": "tencent-meeting-export",
+      "ownerUserId": "6077800d832116116b2c9f8fcd1b5571",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "export",
+          "tagId": "f29925feb470a38be729eb51cddd9758"
+        },
+        {
+          "description": "",
+          "displayName": "meeting",
+          "tagId": "4f8e6e5383f759b61629d4acee5efbc5"
+        },
+        {
+          "description": "",
+          "displayName": "tencent",
+          "tagId": "03424397ecdceb8360524f8e5de96f83"
+        }
+      ],
+      "totalStars": "3",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "bf6911494f26792f0ce0d7736c01ca2e",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5e/fc/5efc72b57cc20dbfca330583933b9ae7354d113e391c20a09e0969127b8159ca",
+        "displayName": "cfilipemt",
+        "reputation": "9",
+        "userId": "5812b2cc5a78489416eaf15df20322c0"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Institutional Desk-Level Fully Automated Trading OS for XAU/USD and XAG/USD. Event-driven, risk-first, multi-engine architecture that runs as a continuous analysis and execution pipeline inside OpenClaw's trader agent.",
+      "displayName": "XAUUSD",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [cfilipemt/metals-desk-os](https://clawhub.ai/cfilipemt/metals-desk-os)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/cfilipemt/metals-desk-os)\n📅 Published: 2026-02-11",
+      "name": "metals-desk-os",
+      "ownerUserId": "5812b2cc5a78489416eaf15df20322c0",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "desk",
+          "tagId": "50237d9097dddda2cf229876a12f75f0"
+        },
+        {
+          "description": "",
+          "displayName": "metals",
+          "tagId": "add15138c38cca81116c39564ae925e7"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "98d9ef4613a2431f560bbe634969bdb9",
       "assetType": 3,
       "author": {
@@ -778,7 +851,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Automate Windows GUI interactions (mouse, keyboard, windows) using PowerShell. Use when the user needs to simulate user input on the desktop, such as moving the cursor, clicking buttons, typing text in non-web apps, or managing window states.",
       "displayName": "Windows UI Automation",
-      "downloadCount": "44",
+      "downloadCount": "45",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [wwb-daniel/windows-ui-automation](https://clawhub.ai/wwb-daniel/windows-ui-automation)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/wwb-daniel/windows-ui-automation)\n📅 Published: 2026-02-11",
       "name": "windows-ui-automation",
@@ -1759,14 +1832,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c4/28/c428854e0927f6ec3818812dbbf4c6ced81f984b8fe6f53d26f1163933670a41",
         "displayName": "isonaei",
-        "reputation": "74",
+        "reputation": "79",
         "userId": "1d89fa70f363d353888cc4dac100da5d"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "Search, download, convert, organize, and audit academic literature collections. Use when asked to find papers, build a literature library, add papers to references, download PDFs, convert papers to markdown, organize references by category, audit a reference collection, or collect code/dataset links for tools mentioned in papers.",
       "displayName": "Literature Manager",
-      "downloadCount": "12",
+      "downloadCount": "13",
       "latestSemver": "1.1.1",
       "longDescription": "📦 ClawHub: [isonaei/literature-manager](https://clawhub.ai/isonaei/literature-manager)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/isonaei/literature-manager)\n🏷️ Version: 1.1.1\n📅 Published: 2026-02-20",
       "name": "literature-manager",
@@ -3156,64 +3229,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "6c5a6946f1bf0d499d2a10457ba50a9d",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/75/71/7571ab4caed2bf858f271d9e46b1ddd3bdcaa31e28887891705a17ac74475d1a",
-        "displayName": "omerflo",
-        "reputation": "30",
-        "userId": "a3e3da043a59765db4de6902595bbdb8"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "\"Make AI-powered outbound phone calls using ElevenLabs voice + GPT brain + Twilio. Supports one-way pre-recorded messages AND live two-way conversations where the AI listens, thinks, and responds in real-time. Use when asked to call someone, leave a voice message, schedule a morning call, have an AI make a reservation or appointment, run a voice campaign, or set up interactive phone conversations. Requires Twilio + ElevenLabs credentials. Triggers on 'call', 'phone', 'voice message', 'reserve', 'book by phone', 'schedule a call', 'call and tell them'.\"",
-      "displayName": "Phone Caller",
-      "downloadCount": "9",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [omerflo/phone-caller](https://clawhub.ai/omerflo/phone-caller)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/omerflo/phone-caller)\n📅 Published: 2026-02-24",
-      "name": "phone-caller",
-      "ownerUserId": "a3e3da043a59765db4de6902595bbdb8",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "caller",
-          "tagId": "6b83e2e9b265ca6785e1a8c9b5d93273"
-        },
-        {
-          "description": "",
-          "displayName": "phone",
-          "tagId": "d3b53e52eb4be79c2d1397eef7257027"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "b6eced76f6b7af510319f2487b43c99f",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/cc/6b/cc6bc447d00746d608b82fd06a7416cc098cc1641032933b77dc1e9aa860320f",
-        "displayName": "ryudi84",
-        "reputation": "205",
-        "userId": "3b9d2e7f66ba2ea10084f341a18ca303"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Sovereign git-commit-analyzer — imported from ClawHub",
-      "displayName": "Sovereign git-commit-analyzer",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [ryudi84/sovereign-git-commit-analyzer](https://clawhub.ai/ryudi84/sovereign-git-commit-analyzer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/ryudi84/sovereign-git-commit-analyzer)\n📅 Published: 2026-02-22",
-      "name": "sovereign-git-commit-analyzer",
-      "ownerUserId": "3b9d2e7f66ba2ea10084f341a18ca303",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0MzU2fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0MzU4fQ"
 }
