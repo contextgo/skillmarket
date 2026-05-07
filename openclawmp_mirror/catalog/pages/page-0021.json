@@ -1,6 +1,181 @@
 {
   "items": [
     {
+      "assetId": "4909b6fb71db25cab9250bdd8b585cc7",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/76/7f/767f56fbcf4a2b2341f10471b2153288d49f7cc927ff102799c96c06db484693",
+        "displayName": "jonwheatley",
+        "reputation": "10",
+        "userId": "6eebd1e9b6cd9172ab8976cfba5893cc"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Send real, physical greeting cards through the mail. Design custom cards with the user, print on premium cardstock, and mail with a first-class stamp. Use when the user wants to send a card, mentions a birthday or occasion, or asks about greeting cards. Requires a free API registration (POST /v1/auth/register returns a Bearer token). Works via API — no browser needed. Homepage https://indexcards.com — privacy policy at https://indexcards.com/privacy.",
+      "displayName": "Index Cards",
+      "downloadCount": "8",
+      "latestSemver": "1.3.1",
+      "longDescription": "📦 ClawHub: [jonwheatley/index-cards](https://clawhub.ai/jonwheatley/index-cards)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jonwheatley/index-cards)\n🏷️ Version: 1.3.1\n📅 Published: 2026-02-12",
+      "name": "index-cards",
+      "ownerUserId": "6eebd1e9b6cd9172ab8976cfba5893cc",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cards",
+          "tagId": "c13c85f7a6233289a215f355c0a42014"
+        },
+        {
+          "description": "",
+          "displayName": "index",
+          "tagId": "9f745ca332ae54a66a0ae24003c146cc"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "55cf686b14f2e9ab37ae2e72c6a06fc1",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a5/1f/a51ff495db9bb179b3f8b975158a006a7e6a7e32d0a53e213c3f62b11e63576c",
+        "displayName": "teamolab",
+        "reputation": "219",
+        "userId": "0fe6edf5a82655d61e0416cd94267e76"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "You are DeepSeek-R1-Agent，an effective content creator. # `current_date: $DATE$`",
+      "displayName": "Deepseek Reasoner Lite Agent",
+      "downloadCount": "11",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [teamolab/deepseek-reasoner-lite-agent](https://clawhub.ai/teamolab/deepseek-reasoner-lite-agent)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/teamolab/deepseek-reasoner-lite-agent)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-15",
+      "name": "deepseek-reasoner-lite-agent",
+      "ownerUserId": "0fe6edf5a82655d61e0416cd94267e76",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "deepseek",
+          "tagId": "0ce63c315dee50a9e36ba8c437e3cfe8"
+        },
+        {
+          "description": "",
+          "displayName": "lite",
+          "tagId": "8714cc4ebd0dcde782039335c5849d0e"
+        },
+        {
+          "description": "",
+          "displayName": "reasoner",
+          "tagId": "9849810f8e43cf5009f31095f95b0e71"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "ef2acfbfd61d666d3f3a81ddc2752c77",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/90/25/90251ee1718e26b35d326513b19bfd0f986c5f6f1be5e0b41e1280627e9f1910",
+        "displayName": "shaniidev",
+        "reputation": "25",
+        "userId": "e3c695adaa7a420dff40cb46dfd5e6cb"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Web2 bug bounty hunting agent — evidence-based vulnerability finder and report writer. Use when: auditing web apps/APIs for HackerOne, Bugcrowd, Intigriti, YesWeHack; hunting XSS, SQLi, NoSQLi, SSRF, IDOR, auth bypass, RCE, SSTI, LFI, XXE, CORS, CSRF, prototype pollution, subdomain takeover, HTTP smuggling, open redirect, API/GraphQL bugs; auditing locally downloaded GitHub repos or source code (white-box/source code review); writing platform-specific reports. Trigger on: 'pentest', 'find bugs', 'security audit', 'bug bounty', 'find vulnerabilities', 'source code review', 'audit this repo', 'review repo', 'white-box', 'local repo', vulnerability class names, or program/target names. Reports only real, confirmed medium+ severity bugs that pass real triage.\"",
+      "displayName": "Bug Reaper",
+      "downloadCount": "15",
+      "latestSemver": "0.0.5",
+      "longDescription": "📦 ClawHub: [shaniidev/bug-reaper](https://clawhub.ai/shaniidev/bug-reaper)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/shaniidev/bug-reaper)\n🏷️ Version: 0.0.5\n📅 Published: 2026-02-21",
+      "name": "bug-reaper",
+      "ownerUserId": "e3c695adaa7a420dff40cb46dfd5e6cb",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "bug",
+          "tagId": "314436f8cff9654ae16b3c040e5e3bed"
+        },
+        {
+          "description": "",
+          "displayName": "reaper",
+          "tagId": "b2615bd41e257783ef097b345c37dd84"
+        }
+      ],
+      "totalStars": "2",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "62b0ca305d0e2d35a13425d485424b37",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d7/e6/d7e659cdb145e751842334c0910613c0187cde6bc8783f3f1f7bcd477e8c437c",
+        "displayName": "roman181",
+        "reputation": "5",
+        "userId": "52126b47bf678638c7193d81bbb7a8cb"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.\"",
+      "displayName": "Tsz",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [roman181/hi](https://clawhub.ai/roman181/hi)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/roman181/hi)\n📅 Published: 2026-02-17",
+      "name": "hi",
+      "ownerUserId": "52126b47bf678638c7193d81bbb7a8cb",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "improvement",
+          "tagId": "0b62bfe0a5b0bf3979c125b0a659bc0c"
+        },
+        {
+          "description": "",
+          "displayName": "self",
+          "tagId": "c7758ebe98b1f2e9a44addd586dd4408"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "4c5ce17db6cace776d92e91779d1cfa9",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/20/af20409f2786c024f2b210bf5a45d9b10f0a8c11f7a9ede073435d90d11fd9a5",
+        "displayName": "satoshistackalotto",
+        "reputation": "155",
+        "userId": "b4006d5a0e6a9964a39c9ae6bc4c8dcf"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Natural language interface for querying Greek accounting data. Ask questions in English, get answers from across all system skills.",
+      "displayName": "Conversational Ai Assistant",
+      "downloadCount": "9",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [satoshistackalotto/conversational-ai-assistant](https://clawhub.ai/satoshistackalotto/conversational-ai-assistant)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/satoshistackalotto/conversational-ai-assistant)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-21",
+      "name": "conversational-ai-assistant",
+      "ownerUserId": "b4006d5a0e6a9964a39c9ae6bc4c8dcf",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "assistant",
+          "tagId": "dfed400d013d4bb0c2aef157e46e9b87"
+        },
+        {
+          "description": "",
+          "displayName": "conversational",
+          "tagId": "ba00401478f06d442df74e574fdd9fbd"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "95a3409ba0359898d82e0ee4b7de7a9f",
       "assetType": 2,
       "author": {
@@ -349,7 +524,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Research technical projects/papers and generate comprehensive reports with PDF export. Modes: lite (analysis + writing) or full (+ environment setup + experiments). Params: iterations, mode, project-path, output. Use for paper analysis, code review, technical reports, research documentation.\"",
       "displayName": "Research Report Generator",
-      "downloadCount": "39",
+      "downloadCount": "40",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [huaruoji/research-report](https://clawhub.ai/huaruoji/research-report)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/huaruoji/research-report)\n📅 Published: 2026-02-22",
       "name": "research-report",
@@ -575,14 +750,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/90/6a909ed79aedb6cc8c73b73a7bd18f2b518f6d2f942260b0ce70fec964b8f9ad",
         "displayName": "bowen-dotcom",
-        "reputation": "40",
+        "reputation": "45",
         "userId": "86159d9b0a64487795b0c6abbc52d47a"
       },
       "category": "",
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "\"Unified LLM Gateway - One API for 70+ AI models. Route to GPT, Claude, Gemini, Qwen, Deepseek, Grok and more with a single API key.\"",
       "displayName": "LLM Router Gateway",
-      "downloadCount": "11",
+      "downloadCount": "12",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [bowen-dotcom/aisa-llm-router-skill](https://clawhub.ai/bowen-dotcom/aisa-llm-router-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/bowen-dotcom/aisa-llm-router-skill)\n📅 Published: 2026-02-10",
       "name": "aisa-llm-router-skill",
@@ -917,7 +1092,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/90/0b/900b4d5b93fd2f43b5060b20d05933203dad2887619fc63ebb1f5be38d706418",
         "displayName": "nitishgargiitd",
-        "reputation": "100",
+        "reputation": "105",
         "userId": "10d2e6c34a02db2b09ac216a73bb806d"
       },
       "category": "",
@@ -3123,155 +3298,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "40d56084e7c460e45442f3fcfc3ff6e1",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/99/5d/995d4462a5bf0430fea05f0b0e54e7feddbecd70a4db1a4c62887c0b53fcd8b0",
-        "displayName": "lnemail",
-        "reputation": "10",
-        "userId": "0b582b1dfd128bbcb7794982142814c6"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Setup and use anonymous email accounts on LNemail.net using Bitcoin Lightning payments. Use when agents need email capabilities for 2FA, notifications, or communication without KYC or personal information.",
-      "displayName": "LNemail",
-      "downloadCount": "8",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [lnemail/lnemail](https://clawhub.ai/lnemail/lnemail)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lnemail/lnemail)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-23",
-      "name": "lnemail",
-      "ownerUserId": "0b582b1dfd128bbcb7794982142814c6",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "lnemail",
-          "tagId": "00510b180a9acee8dbf7bafc1b5172b0"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "07f40794f1928220ac52f36a6a67e834",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4b/1e/4b1e851c8f2f7bd6798f94c50deb99a393a098e62461ce9d7b1ba0b0cc03cb65",
-        "displayName": "lasurvivor",
-        "reputation": "5",
-        "userId": "c7e74cbcd84ae6845e2d881dadebb72c"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Download videos in MP4 format using yt-dlp with FaaS (Firecracker/Container) isolation. Start downloads, check status, and kill processes. Videos are automatically converted to MP4 format.",
-      "displayName": "Video Download FaaS",
-      "downloadCount": "4",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [lasurvivor/video-download-faas](https://clawhub.ai/lasurvivor/video-download-faas)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lasurvivor/video-download-faas)\n📅 Published: 2026-02-19",
-      "name": "video-download-faas",
-      "ownerUserId": "c7e74cbcd84ae6845e2d881dadebb72c",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "download",
-          "tagId": "012a0032a818a5bcca4aa0c1e16b31e0"
-        },
-        {
-          "description": "",
-          "displayName": "faas",
-          "tagId": "b069ad0d16bb3424821b2d20802c7584"
-        },
-        {
-          "description": "",
-          "displayName": "video",
-          "tagId": "85e9b2c35ee3196c5b314546bbbc312e"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "5fb76de98dcff0c7ba373d1227fa947f",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9c/82/9c82f135fb757b16a3afb6ce2d54610d89eebe355dfa07a7c115acbb2ffd9b8b",
-        "displayName": "kmasterrr",
-        "reputation": "10",
-        "userId": "de3de65123ae52cc79e133006bbec786"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Generate captions for short-form videos using the ReelWords (reelwords.ai) Caption API. Use when a user asks to create caption jobs, render stylized subtitles for Reels/TikTok/Shorts, poll caption-job status, or download the rendered captioned video via the ReelWords REST API endpoints (/api/v1/caption-jobs) using an x-api-key (rw_...).",
-      "displayName": "Video Captioning by ReelWords",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [kmasterrr/video-captions-reelwords](https://clawhub.ai/kmasterrr/video-captions-reelwords)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/kmasterrr/video-captions-reelwords)\n📅 Published: 2026-02-22",
-      "name": "video-captions-reelwords",
-      "ownerUserId": "de3de65123ae52cc79e133006bbec786",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "captions",
-          "tagId": "4b1d1cfe24ad71cc98c558b27f76d9e3"
-        },
-        {
-          "description": "",
-          "displayName": "reelwords",
-          "tagId": "d205b96f59019b83339aa30bdd9273f7"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "1672103b510a465269dfd8d1185f4d37",
-      "assetType": 4,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/07/8f/078fb31250d81bdf123b64b0a9e82eabacfcb314e986cd6ad91ecf085008b22d",
-        "displayName": "densmirnov",
-        "reputation": "5",
-        "userId": "11ccdfe18b41320fb8a58598fa045033"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Solvera Markets — imported from ClawHub",
-      "displayName": "Solvera Markets",
-      "downloadCount": "4",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [densmirnov/solvera](https://clawhub.ai/densmirnov/solvera)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/densmirnov/solvera)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-04",
-      "name": "solvera",
-      "ownerUserId": "11ccdfe18b41320fb8a58598fa045033",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "1c1699245647aacfb8b56bc2a002a5f7",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d0/da/d0dab5abbc759a30215e6a3dfcb3153c1b87423ebab072eea999f770f01ddf6b",
-        "displayName": "g4dr",
-        "reputation": "75",
-        "userId": "33a3c26c4844a61ac7ddd9b250e30b39"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Short-Form Video Creator for Social Media — imported from ClawHub",
-      "displayName": "Short-Form Video Creator for Social Media",
-      "downloadCount": "10",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [g4dr/short-video-creator](https://clawhub.ai/g4dr/short-video-creator)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/g4dr/short-video-creator)\n📅 Published: 2026-02-25",
-      "name": "short-video-creator",
-      "ownerUserId": "33a3c26c4844a61ac7ddd9b250e30b39",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozODU4fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozODYzfQ"
 }

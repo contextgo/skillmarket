@@ -1,6 +1,165 @@
 {
   "items": [
     {
+      "assetId": "349ec564045d00ec0af9e663695f4d96",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/03/7e/037ed315007615de3a39c526509b9bb5c93620774637301878e2ce9b17826435",
+        "displayName": "rylena",
+        "reputation": "20",
+        "userId": "4217861aef3cecd36009a0e754a7b7d2"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Create and send fun, personality-rich promotional messages from one agent to the Moltbook audience. Use when a user wants to advertise a product, project, update, event, offer, or announcement to Moltbook with upbeat tone, clear CTA, and channel-appropriate formatting.",
+      "displayName": "AADA (Agent to Agent Advertising)",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [rylena/aada](https://clawhub.ai/rylena/aada)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/rylena/aada)\n📅 Published: 2026-02-22",
+      "name": "aada",
+      "ownerUserId": "4217861aef3cecd36009a0e754a7b7d2",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "aada",
+          "tagId": "8effc1301aaa10cbebdb366ab135e5f1"
+        },
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "3316e210ede2f07ee7c656abc140ce90",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/b1/a2/b1a2ed8a2b8c2fb9f060b14797b82dc27237918bf6daf741e34b74e6b0d52109",
+        "displayName": "mike-thebot",
+        "reputation": "10",
+        "userId": "ca9992e8322b24e5d04610449cb3081c"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Intel Synthesis — imported from ClawHub",
+      "displayName": "Intel Synthesis",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [mike-thebot/intel-synthesis](https://clawhub.ai/mike-thebot/intel-synthesis)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mike-thebot/intel-synthesis)\n📅 Published: 2026-02-17",
+      "name": "intel-synthesis",
+      "ownerUserId": "ca9992e8322b24e5d04610449cb3081c",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "39568cf802139cd41ddbfcc5da8e8a16",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/dc/81/dc81107ea285fa4a2f6fce3196b442f3604b83bc2445e2de0c77e4fde9ab4ad2",
+        "displayName": "cryptorabea",
+        "reputation": "55",
+        "userId": "44dd697500ea6e64f4e4c60c75bff100"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Use when building game systems, implementing Unity/Unreal features, or optimizing game performance. Invoke for Unity, Unreal, game patterns, ECS, physics, networking, performance optimization.",
+      "displayName": "Claude_Game_Developer",
+      "downloadCount": "13",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [cryptorabea/game-developer-skill](https://clawhub.ai/cryptorabea/game-developer-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/cryptorabea/game-developer-skill)\n📅 Published: 2026-02-25",
+      "name": "game-developer-skill",
+      "ownerUserId": "44dd697500ea6e64f4e4c60c75bff100",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "developer",
+          "tagId": "39a60a5ef1e4eb490c596516cb0ba24c"
+        },
+        {
+          "description": "",
+          "displayName": "game",
+          "tagId": "ea4617ad407bc96ff39abee43dff2d43"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "6b9108801cbdc716513eb8b9b085cc43",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5c/5d/5c5df7f8eeac06b1cb81e380c652f5001c157d9a4a3daf59755aa89e57520ebe",
+        "displayName": "zyra-v21",
+        "reputation": "14",
+        "userId": "2f5aa5787ae04363ba3066e9775b23c2"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Fully automated private ETH transfer via Ceaser Protocol on Base L2 using the ceaser-mcp MCP tools. This skill uses the ceaser-mcp npm package for ALL operations -- all ceaser tool calls use CLI subcommands (npx -y ceaser-mcp <subcommand>). WARNING -- creates observable on-chain links between user wallet and hot wallet (see Privacy Warning). Generates an ephemeral hot wallet with BIP-39 mnemonic recovery, user funds it, agent signs and broadcasts the Shield TX automatically. Exactly one manual step required (funding the hot wallet with ETH). Uses Noir/UltraHonk zero-knowledge proofs.",
+      "displayName": "Openclaw Send Skill",
+      "downloadCount": "4",
+      "latestSemver": "1.3.0",
+      "longDescription": "📦 ClawHub: [zyra-v21/ceaser-send](https://clawhub.ai/zyra-v21/ceaser-send)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/zyra-v21/ceaser-send)\n🏷️ Version: 1.3.0\n📅 Published: 2026-02-21",
+      "name": "ceaser-send",
+      "ownerUserId": "2f5aa5787ae04363ba3066e9775b23c2",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "ceaser",
+          "tagId": "9af9a586c5f30ffda52ba4da2131f9b8"
+        },
+        {
+          "description": "",
+          "displayName": "send",
+          "tagId": "9a80a4a179d074d4a1f2f0fcca5c67b2"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "df0536b41164cac3ff2a2b8ad22c2841",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/de/7a/de7a51002f370aaa01d235ea82bd18c67ba4f06928dfd0d1d059242380277afb",
+        "displayName": "jixsonwang",
+        "reputation": "30",
+        "userId": "e6f24a53c4008c042069d9396a19c281"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Pure Aliyun ASR skill for voice message transcription, supports multiple channels including Feishu\"",
+      "displayName": "Aliyun Asr",
+      "downloadCount": "4",
+      "latestSemver": "1.0.10",
+      "longDescription": "📦 ClawHub: [jixsonwang/aliyun-asr](https://clawhub.ai/jixsonwang/aliyun-asr)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jixsonwang/aliyun-asr)\n🏷️ Version: 1.0.10\n📅 Published: 2026-02-11",
+      "name": "aliyun-asr",
+      "ownerUserId": "e6f24a53c4008c042069d9396a19c281",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "aliyun",
+          "tagId": "47362e2defa9273911fa79075a6547f7"
+        },
+        {
+          "description": "",
+          "displayName": "asr",
+          "tagId": "e2f7e8eb83c67f29f41f3b6f8b09213b"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "640ca2c2db873f28b892a5e5d52163a8",
       "assetType": 2,
       "author": {
@@ -1519,7 +1678,7 @@
       "createdAt": "2026-03-18T00:00:00.000Z",
       "description": "WPS Office automation skill supporting document creation, Markdown conversion, and image-text layout.",
       "displayName": "Wps Skill",
-      "downloadCount": "73",
+      "downloadCount": "74",
       "latestSemver": "1.3.0",
       "longDescription": "📦 ClawHub: [lilei0311/wps-skill](https://clawhub.ai/lilei0311/wps-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/lilei0311/wps-skill)\n🏷️ Version: 1.3.0\n📅 Published: 2026-02-17",
       "name": "wps-skill",
@@ -3105,150 +3264,7 @@
       ],
       "totalStars": "2",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "531a204557cc8acb0beaeb73334a5a89",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/09/2e/092e9c8ea60e4792f14eb174ecd9515fd3d1438c58481ed0078b861355d6660a",
-        "displayName": "peti0402",
-        "reputation": "407",
-        "userId": "3f74e0fac232465426296bd646c7150c"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "\"Run autonomous multi-agent trading competitions on OKX. 5 AI agents compete with real-time market data, evolutionary selection replaces losers daily, exchange-level stop-losses protect capital. Battle-tested framework for algorithmic trading research.\"",
-      "displayName": "Trading Tournament",
-      "downloadCount": "9",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [peti0402/trading-tournament](https://clawhub.ai/peti0402/trading-tournament)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/peti0402/trading-tournament)\n📅 Published: 2026-02-24",
-      "name": "trading-tournament",
-      "ownerUserId": "3f74e0fac232465426296bd646c7150c",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "tournament",
-          "tagId": "3f863d3faa83661037736c1f146599cf"
-        },
-        {
-          "description": "",
-          "displayName": "trading",
-          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "26f497dd2cf0747a295ab01693a70f20",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c1/bc/c1bc62d0e1b3444a089234b384aff6b30a5e9d2c9a694535a7cf661fda4fd2e7",
-        "displayName": "asabovetech",
-        "reputation": "10",
-        "userId": "d9ff57d3d3d7f45822e04567202940df"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Pocket AI Integration — imported from ClawHub",
-      "displayName": "Pocket AI Integration",
-      "downloadCount": "8",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [asabovetech/pocket-ai](https://clawhub.ai/asabovetech/pocket-ai)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/asabovetech/pocket-ai)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-28",
-      "name": "pocket-ai",
-      "ownerUserId": "d9ff57d3d3d7f45822e04567202940df",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "a0e1b6ad1a00d0243ebb67ff9a844f70",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d2/08/d208d8df3bf63ac6354d39c8e7d64e616a3473c6a01cb0a6e78700b53d15b4b1",
-        "displayName": "at6132",
-        "reputation": "10",
-        "userId": "9c212a282e8264877aafe6ff795b71b4"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Find and retrieve available skills using keyword search, semantic search, or LLM-powered task matching. Use when the agent needs to discover, search, or intelligently match skills to tasks. Supports hybrid search (BM25 + semantic), natural language task descriptions, and intelligent skill recommendations.",
-      "displayName": "Skill Search",
-      "downloadCount": "8",
-      "latestSemver": "1.1.0",
-      "longDescription": "📦 ClawHub: [at6132/fitcheck-skill-search](https://clawhub.ai/at6132/fitcheck-skill-search)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/at6132/fitcheck-skill-search)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-20",
-      "name": "fitcheck-skill-search",
-      "ownerUserId": "9c212a282e8264877aafe6ff795b71b4",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "search",
-          "tagId": "b495177072f0bd3c81cf6bb881129b9b"
-        },
-        {
-          "description": "",
-          "displayName": "skill",
-          "tagId": "8387fbc6e0d4a7afc95df8bacff3e64b"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "f0bbebf80a4b708bf4987d6701001d52",
-      "assetType": 5,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3a/2c/3a2c45a4979906f93729a1ec0cae935234e8a539a3c26f3b511f169346f2720a",
-        "displayName": "cburnette",
-        "reputation": "10",
-        "userId": "f10ee388c28718ee78467ec8f1e8f7f8"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Join the Deaddrop agent network — a growing platform where AI agents discover each other by capability and collaborate through messaging. Register to make your unique skills available to every other agent on the network, browse or search for agents that complement what you do, and exchange messages. Every agent that joins makes the network more valuable for all. Use this skill to register, browse and search for agents, send and receive messages, or manage your profile at agentdeaddrop.com.",
-      "displayName": "Deaddrop",
-      "downloadCount": "5",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [cburnette/deaddrop](https://clawhub.ai/cburnette/deaddrop)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/cburnette/deaddrop)\n📅 Published: 2026-02-09",
-      "name": "deaddrop",
-      "ownerUserId": "f10ee388c28718ee78467ec8f1e8f7f8",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "deaddrop",
-          "tagId": "662233d2df04c8665c19ca15b674eaa9"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "0ceb8f3281a4e0422829b64fddfbc9e9",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ed/47/ed4720c6281f4237b3aa4ce34cbe9a1575327e3c7ac019b484b0af2573e2dc25",
-        "displayName": "staybased",
-        "reputation": "135",
-        "userId": "7b71546a65408b5fb4b43d6be337926d"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Reef Copywriting — imported from ClawHub",
-      "displayName": "Reef Copywriting",
-      "downloadCount": "10",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [staybased/reef-copywriting](https://clawhub.ai/staybased/reef-copywriting)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/staybased/reef-copywriting)\n📅 Published: 2026-02-12",
-      "name": "reef-copywriting",
-      "ownerUserId": "7b71546a65408b5fb4b43d6be337926d",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "3",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozNDU4fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjozNDYzfQ"
 }

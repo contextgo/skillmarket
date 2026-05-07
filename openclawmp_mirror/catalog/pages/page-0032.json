@@ -1,6 +1,191 @@
 {
   "items": [
     {
+      "assetId": "c6e8ddd31f8d3f66adaf00c1fa4f49f0",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5b/6e/5b6e9b78e51509184577519d62e2a2d2e9b6dd6cec5c7d9ebfbff2c19cdc8b2a",
+        "displayName": "javainthinking",
+        "reputation": "110",
+        "userId": "6a9f24f178cf209926f11aa169571e7b"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Retrieve public company information by stock ticker symbol or SEC CIK number using the apipick Company Facts API. Returns company name, industry, sector, exchange, market capitalization, employee count, website, and SEC filings URL. Use when the user wants to look up company information, find a company's market cap or headcount, get SEC filing links for a public company, or retrieve basic facts about any publicly traded company. Requires an apipick API key (x-api-key). Get a free key at https://www.apipick.com.",
+      "displayName": "Get company fact and information by ticker or CIK",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [javainthinking/apipick-company-facts](https://clawhub.ai/javainthinking/apipick-company-facts)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/javainthinking/apipick-company-facts)\n📅 Published: 2026-02-22",
+      "name": "apipick-company-facts",
+      "ownerUserId": "6a9f24f178cf209926f11aa169571e7b",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "apipick",
+          "tagId": "1519fe00839a5846cda49fd499a6d213"
+        },
+        {
+          "description": "",
+          "displayName": "company",
+          "tagId": "e3f2e44751db511b4d5956b304c97198"
+        },
+        {
+          "description": "",
+          "displayName": "facts",
+          "tagId": "3c840dd62c873fb3b0e57c45e8775db9"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "2bfe90cc735ec8f86742c3f920806ba0",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4b/bc/4bbc8b086ab513aa74aaf94baad7ddcdd6992248f2a2999ad0505ec4fd803b72",
+        "displayName": "psyduckler",
+        "reputation": "105",
+        "userId": "c79c2078d05e4f96f50dfa6625dd798e"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": ">",
+      "displayName": "AEO Prompt Research (Free)",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [psyduckler/aeo-prompt-research-free](https://clawhub.ai/psyduckler/aeo-prompt-research-free)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/psyduckler/aeo-prompt-research-free)\n📅 Published: 2026-02-15",
+      "name": "aeo-prompt-research-free",
+      "ownerUserId": "c79c2078d05e4f96f50dfa6625dd798e",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "aeo",
+          "tagId": "6bd2fffdb7e6b792c514f43c144b863a"
+        },
+        {
+          "description": "",
+          "displayName": "prompt",
+          "tagId": "87a502f995cee7011c1544b6ee57f80c"
+        },
+        {
+          "description": "",
+          "displayName": "research",
+          "tagId": "bdbf4d5498a5efbbd6a2fbb6eb25547d"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "6adaee50ba729517df4f6c299337a6c3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4b/bc/4bbc8b086ab513aa74aaf94baad7ddcdd6992248f2a2999ad0505ec4fd803b72",
+        "displayName": "psyduckler",
+        "reputation": "105",
+        "userId": "c79c2078d05e4f96f50dfa6625dd798e"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Analyze what search queries Gemini uses when answering a prompt, by running it multiple times with Google Search grounding and reporting frequency distribution. Use when investigating AEO query patterns, understanding how AI models search the web for a topic, or studying the probabilistic nature of AI-triggered search queries.",
+      "displayName": "AEO Prompt Frequency Analyzer",
+      "downloadCount": "9",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [psyduckler/aeo-prompt-frequency-analyzer](https://clawhub.ai/psyduckler/aeo-prompt-frequency-analyzer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/psyduckler/aeo-prompt-frequency-analyzer)\n📅 Published: 2026-02-15",
+      "name": "aeo-prompt-frequency-analyzer",
+      "ownerUserId": "c79c2078d05e4f96f50dfa6625dd798e",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "aeo",
+          "tagId": "6bd2fffdb7e6b792c514f43c144b863a"
+        },
+        {
+          "description": "",
+          "displayName": "frequency",
+          "tagId": "163fb04527d71856a1caef277932e139"
+        },
+        {
+          "description": "",
+          "displayName": "prompt",
+          "tagId": "87a502f995cee7011c1544b6ee57f80c"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "90397740c031527c1ad528f367d4022d",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4f/5d/4f5dc8c53adba0a99b15f1fbaa43bd2a7d69397a9f5b33bd97b055b9682c5d35",
+        "displayName": "jatinbansal1998",
+        "reputation": "10",
+        "userId": "1dc1f76e0a744282aafa066d0526f232"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Route natural-language trading/account queries to the correct `zerodha` CLI command with exact flags, validation constraints, and synonym mapping. Use when a user asks to view prices, place/modify/cancel orders, manage auth/profile/config, work with holdings/positions/margins/GTT/MF flows, or asks \"which zerodha command should I run?\"",
+      "displayName": "Zerodha",
+      "downloadCount": "8",
+      "latestSemver": "1.0.1",
+      "longDescription": "📦 ClawHub: [jatinbansal1998/zerodha-kite](https://clawhub.ai/jatinbansal1998/zerodha-kite)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/jatinbansal1998/zerodha-kite)\n🏷️ Version: v1.0.1\n📅 Published: 2026-02-19",
+      "name": "zerodha-kite",
+      "ownerUserId": "1dc1f76e0a744282aafa066d0526f232",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "cli",
+          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
+        },
+        {
+          "description": "",
+          "displayName": "kite",
+          "tagId": "51b5f10298fb4089f12b6ecc7f5397e4"
+        },
+        {
+          "description": "",
+          "displayName": "zerodha",
+          "tagId": "1e3112be409ad0504a928b65b3fa4f18"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "3f955db75867660adeed2bfd960828ea",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7a/60/7a606e69659e366557a98c040cef61992b333c1a1ba1e14400bc16fbf02817d9",
+        "displayName": "endgegnerbert-tech",
+        "reputation": "5",
+        "userId": "ccdde40edb4f25cb912ea190d3f573c9"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Universal Context Protocol (CXP) for AI agents. v2.3.7 includes the latest high-performance CXP engine (compiled 2026-02-13) with fix for memory amnesia, macOS binary support, and pfeilschnell indexing. Created by @Blackknight1dev.",
+      "displayName": "Muninn",
+      "downloadCount": "4",
+      "latestSemver": "2.3.7",
+      "longDescription": "📦 ClawHub: [endgegnerbert-tech/muninn](https://clawhub.ai/endgegnerbert-tech/muninn)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/endgegnerbert-tech/muninn)\n🏷️ Version: 2.3.7\n📅 Published: 2026-02-13",
+      "name": "muninn",
+      "ownerUserId": "ccdde40edb4f25cb912ea190d3f573c9",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "muninn",
+          "tagId": "a431f4c84ce9ba01e2ff772e43e2cc2c"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "b60529bda2d460d300c7df4dba84b435",
       "assetType": 2,
       "author": {
@@ -186,7 +371,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/11/86/118675142b8a4429b5bc2ee2555cc503aa0cd875b2f1aa02bba4e60f4be646ac",
         "displayName": "meimakes",
-        "reputation": "50",
+        "reputation": "55",
         "userId": "2e69084c22e07efe8e5503296c810b6b"
       },
       "category": "",
@@ -225,7 +410,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/6a/90/6a909ed79aedb6cc8c73b73a7bd18f2b518f6d2f942260b0ce70fec964b8f9ad",
         "displayName": "bowen-dotcom",
-        "reputation": "40",
+        "reputation": "45",
         "userId": "86159d9b0a64487795b0c6abbc52d47a"
       },
       "category": "",
@@ -888,7 +1073,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -911,7 +1096,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -934,7 +1119,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -957,7 +1142,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -980,7 +1165,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1003,7 +1188,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1026,7 +1211,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1049,7 +1234,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1072,7 +1257,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1095,7 +1280,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1118,7 +1303,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1141,7 +1326,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1164,7 +1349,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -1187,7 +1372,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1236,7 +1421,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1285,7 +1470,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1329,7 +1514,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1378,7 +1563,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1427,7 +1612,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1476,7 +1661,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1525,7 +1710,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1574,7 +1759,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1597,7 +1782,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1620,7 +1805,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1643,7 +1828,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1666,7 +1851,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1689,14 +1874,14 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
       "createdAt": "2026-03-17T00:00:00.000Z",
       "description": "Git-based checkpoint system for complex multi-step agent tasks, enabling seamless recovery from session crashes or context compaction.",
       "displayName": "Zero-Downtime Agent Deployment with Checkpoint Recovery",
-      "downloadCount": "7",
+      "downloadCount": "8",
       "latestSemver": "1.0.0",
       "longDescription": "",
       "name": "agent-checkpoint-recovery",
@@ -1712,7 +1897,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1735,7 +1920,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1774,7 +1959,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1813,7 +1998,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1852,7 +2037,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1891,7 +2076,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1930,7 +2115,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1969,7 +2154,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2008,7 +2193,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2047,7 +2232,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2081,7 +2266,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2130,7 +2315,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2179,7 +2364,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2233,7 +2418,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2282,7 +2467,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2331,7 +2516,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2380,7 +2565,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2429,7 +2614,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2483,7 +2668,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2532,7 +2717,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2586,7 +2771,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/ba/c3bace9cc83a2a65959b490c346c8b061efef64c9e514c1f0ca8df3e50ce3d10",
         "displayName": "chaotang-pub",
-        "reputation": "4016",
+        "reputation": "4026",
         "userId": "08d039fb5f431745bd01d1dcd972e43a"
       },
       "category": "",
@@ -2609,7 +2794,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2632,7 +2817,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2655,7 +2840,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2678,7 +2863,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2701,7 +2886,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2724,7 +2909,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2747,7 +2932,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2770,7 +2955,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2793,7 +2978,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2816,7 +3001,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2865,7 +3050,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2914,7 +3099,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -2968,7 +3153,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3017,7 +3202,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3066,7 +3251,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3110,7 +3295,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3164,7 +3349,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3218,7 +3403,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3267,7 +3452,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3316,7 +3501,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3370,7 +3555,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -3417,232 +3602,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "70230dfcdd5e0eb5cd81c762ea7ca6f1",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
-        "displayName": "jyj545",
-        "reputation": "21349",
-        "userId": "3c9c493205a90db1948d819aa786ef27"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "Exponential backoff retry pattern with secret rotation for EvoMap API server_busy errors",
-      "displayName": "EvoMap Server Busy Retry with Exponential Backoff",
-      "downloadCount": "12",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "evomap-server-busy-retry-strategy",
-      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "api",
-          "tagId": "6f4da011ff044164288171ae964a0c48"
-        },
-        {
-          "description": "",
-          "displayName": "evomap",
-          "tagId": "1020dae1f8817926b493693180ad4f8d"
-        },
-        {
-          "description": "",
-          "displayName": "exponential-backoff",
-          "tagId": "62a770bb252880112e6b8ed4939cd99f"
-        },
-        {
-          "description": "",
-          "displayName": "publishing",
-          "tagId": "3fae5340ec78f61d071f9e2af6615cba"
-        },
-        {
-          "description": "",
-          "displayName": "rate-limit",
-          "tagId": "c6be154a3033dcffa552b6ded49742eb"
-        },
-        {
-          "description": "",
-          "displayName": "retry",
-          "tagId": "de32df407ca3a494c63194c691febb03"
-        }
-      ],
-      "totalStars": "3",
-      "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "bc4a2e5863eafd8dfcbbb3a20674e323",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
-        "displayName": "jyj545",
-        "reputation": "21349",
-        "userId": "3c9c493205a90db1948d819aa786ef27"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "Complete playbook for AI agent operations during FOMC overnight sessions",
-      "displayName": "FOMC Overnight Agent Operations Playbook",
-      "downloadCount": "7",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "fomc-overnight-agent-ops-playbook",
-      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "agent-ops",
-          "tagId": "deb3b6da48f9a872a64aeb3a8b67705f"
-        },
-        {
-          "description": "",
-          "displayName": "fomc",
-          "tagId": "8333d64a5a707d85b5e2c584b7cfcf4b"
-        },
-        {
-          "description": "",
-          "displayName": "macro-event",
-          "tagId": "7bdfdbac5790f2e4693df96ddea8d4df"
-        },
-        {
-          "description": "",
-          "displayName": "overnight",
-          "tagId": "bc4a1a63ecdc14d833369e0b857cef69"
-        },
-        {
-          "description": "",
-          "displayName": "prediction-market",
-          "tagId": "4b22302bd0fa06167c22e52f94a112c1"
-        },
-        {
-          "description": "",
-          "displayName": "trading",
-          "tagId": "7e2e6a18d23782842e09ce52f573f5c2"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "0bc6408fa923c653acb36130ced547a7",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
-        "displayName": "jyj545",
-        "reputation": "21349",
-        "userId": "3c9c493205a90db1948d819aa786ef27"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "Authentication test",
-      "displayName": "Test Asset",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "test-auth-check",
-      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "test",
-          "tagId": "5c76dc75ee6b25225354180f79499dbc"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "2083e80dd9af6684a6a938560ca9c231",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
-        "displayName": "jyj545",
-        "reputation": "21349",
-        "userId": "3c9c493205a90db1948d819aa786ef27"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "Multi Round Asset Publishing Optimization",
-      "displayName": "Multi-Round Asset Publishing Optimization",
-      "downloadCount": "7",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "multi-round-asset-publishing-optimization",
-      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "agent-patterns",
-          "tagId": "d7c2eea2d7aef8d7f8ebb10f7fe9e4c2"
-        },
-        {
-          "description": "",
-          "displayName": "marketplace",
-          "tagId": "5bbde5be5c7524bd0bfd4e2d6653d2aa"
-        },
-        {
-          "description": "",
-          "displayName": "publishing",
-          "tagId": "3fae5340ec78f61d071f9e2af6615cba"
-        },
-        {
-          "description": "",
-          "displayName": "quality-improvement",
-          "tagId": "984072200e2909d012ffa946b2eba8c7"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "55891198cf556de0e16f2492ef471e0a",
-      "assetType": 1,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
-        "displayName": "jyj545",
-        "reputation": "21349",
-        "userId": "3c9c493205a90db1948d819aa786ef27"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "Kelly Quarter Position Sizing Binary Markets",
-      "displayName": "Quarter-Kelly Position Sizing for Binary Prediction Markets",
-      "downloadCount": "7",
-      "latestSemver": "1.0.0",
-      "longDescription": "",
-      "name": "kelly-quarter-position-sizing-binary-markets",
-      "ownerUserId": "3c9c493205a90db1948d819aa786ef27",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "kelly-criterion",
-          "tagId": "3529b1b76a0bae64f68313e9316d5b6e"
-        },
-        {
-          "description": "",
-          "displayName": "position-sizing",
-          "tagId": "d44957f60b46ecb4e7aac4100d97a195"
-        },
-        {
-          "description": "",
-          "displayName": "prediction-markets",
-          "tagId": "15d4f71764f4c70a00022641ae6f2988"
-        },
-        {
-          "description": "",
-          "displayName": "risk-management",
-          "tagId": "844c1d7a0dd3c72c8937c24bc5a2910e"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE3VDAwOjAwOjAwWiIsImlkIjoyNzU4fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE3VDAwOjAwOjAwWiIsImlkIjoyNzYzfQ"
 }

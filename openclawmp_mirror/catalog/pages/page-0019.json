@@ -1,6 +1,186 @@
 {
   "items": [
     {
+      "assetId": "26b174c68a229419e6492dabe247e6e5",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fb/f2/fbf24b39e89224552fe892050445716957eec9087039c7e6d8673da0c908b734",
+        "displayName": "zopyx",
+        "reputation": "45",
+        "userId": "b151e4a69e372fdcc1cff02f2165cedd"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Download and archive daily Schlagzeilen from https://www.tageblatt.de/. Use when Master asks for TAGEBLATT headlines, wants them saved locally, or needs an automated 07:00 workflow that fetches and forwards the latest headlines.",
+      "displayName": "Tageblatt Headlines",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [zopyx/tageblatt-headlines](https://clawhub.ai/zopyx/tageblatt-headlines)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/zopyx/tageblatt-headlines)\n📅 Published: 2026-02-13",
+      "name": "tageblatt-headlines",
+      "ownerUserId": "b151e4a69e372fdcc1cff02f2165cedd",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "headlines",
+          "tagId": "50b64df3088c0221dc9fe1b3b818bbc4"
+        },
+        {
+          "description": "",
+          "displayName": "tageblatt",
+          "tagId": "1510f5249be27b58588c5a5e05f0d5ea"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "74b9f7560644752592e888bf98233aa1",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/dd/57/dd57e021acaf779c24380b4e2eed3beba53ab34f66ddedb1854b964ae314a34e",
+        "displayName": "gostlightai",
+        "reputation": "21",
+        "userId": "5161040d0cc1b6d031407687765d353f"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Multi-step scheduler for in-depth agent requests. Detects when user needs multiple steps, suggests plan and waits for confirmation, persists state, and runs heartbeat-aware flow. Use when requests have 3+ actions, sequential dependencies, output dependencies, or high scope/risk.",
+      "displayName": "Agent Step Sequencer",
+      "downloadCount": "4",
+      "latestSemver": "1.1.0",
+      "longDescription": "📦 ClawHub: [gostlightai/agent-step-sequencer](https://clawhub.ai/gostlightai/agent-step-sequencer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/gostlightai/agent-step-sequencer)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-10",
+      "name": "agent-step-sequencer",
+      "ownerUserId": "5161040d0cc1b6d031407687765d353f",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "agent",
+          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
+        },
+        {
+          "description": "",
+          "displayName": "sequencer",
+          "tagId": "7c62a1456d2e634364a49a83ea7354d3"
+        },
+        {
+          "description": "",
+          "displayName": "step",
+          "tagId": "77f5651ed822f4d21dbc52d415051d7e"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "d706bce816ddbb53857323b5fbaba9c6",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/16/20/1620520f6db39afc3b846743341a106fe51cebca87a7a4bc9e9831b55cda369a",
+        "displayName": "qiantao1001",
+        "reputation": "20",
+        "userId": "9e7358cd5548b50ff516b1baac778a96"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Send notes and memos to flomo (浮墨笔记) via URL Scheme with automatic webhook fallback. Use when user wants to save thoughts, links, ideas, or content to their flomo inbox. Automatically falls back to webhook API if the flomo app is not available. Supports hashtags and quick capture workflows on macOS. IMPORTANT: After installing this skill, run `./scripts/configure.sh` to set up your flomo PRO webhook for the best experience.\"",
+      "displayName": "Flomo Via App",
+      "downloadCount": "8",
+      "latestSemver": "1.0.8",
+      "longDescription": "📦 ClawHub: [qiantao1001/flomo-via-app](https://clawhub.ai/qiantao1001/flomo-via-app)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/qiantao1001/flomo-via-app)\n🏷️ Version: 1.0.8\n📅 Published: 2026-02-08",
+      "name": "flomo-via-app",
+      "ownerUserId": "9e7358cd5548b50ff516b1baac778a96",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "app",
+          "tagId": "145a65ae57974ed4ce31ce3d59226e8f"
+        },
+        {
+          "description": "",
+          "displayName": "flomo",
+          "tagId": "cc438f5fb782ddce40c581ad35aba044"
+        },
+        {
+          "description": "",
+          "displayName": "via",
+          "tagId": "8420fd5c661867b1c79f16c82d0dc553"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "0b2428452dcb99b531eb93b9685734bd",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/52/9a/529af7cb58e540bf35755d09a6c3c20b39678067399661cf5f5a6c6c3de797d2",
+        "displayName": "extraterrest",
+        "reputation": "45",
+        "userId": "5d58b9edcef4cf78a0773ceacaff671b"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "Student timetable manager for self or parent-managed child profiles. Includes init flow + profile registry under schedules/profiles/.",
+      "displayName": "Student Timetable",
+      "downloadCount": "10",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [extraterrest/student-timetable](https://clawhub.ai/extraterrest/student-timetable)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/extraterrest/student-timetable)\n🏷️ Version: 0.1.0-alpha.4\n📅 Published: 2026-02-19",
+      "name": "student-timetable",
+      "ownerUserId": "5d58b9edcef4cf78a0773ceacaff671b",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "student",
+          "tagId": "a9aaad41316bea913c43141e11e1ab99"
+        },
+        {
+          "description": "",
+          "displayName": "timetable",
+          "tagId": "431dc69dc1a1703d99b2036ca4d58c74"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
+      "assetId": "6e99549ec2404ff7a46b860bdc89465a",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/16/20/1620520f6db39afc3b846743341a106fe51cebca87a7a4bc9e9831b55cda369a",
+        "displayName": "qiantao1001",
+        "reputation": "20",
+        "userId": "9e7358cd5548b50ff516b1baac778a96"
+      },
+      "category": "",
+      "createdAt": "2026-03-18T00:00:00.000Z",
+      "description": "\"Send notes and memos to flomo (浮墨笔记) via URL Scheme with automatic webhook fallback. Use when user wants to save thoughts, links, ideas, or content to their flomo inbox. Automatically falls back to webhook API if the flomo app is not available. Supports hashtags and quick capture workflows on macOS. IMPORTANT: After installing this skill, run `./scripts/configure.sh` to set up your flomo PRO webhook for the best experience.\"",
+      "displayName": "Flomo Send",
+      "downloadCount": "8",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [qiantao1001/flomo-send](https://clawhub.ai/qiantao1001/flomo-send)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/qiantao1001/flomo-send)\n📅 Published: 2026-02-08",
+      "name": "flomo-send",
+      "ownerUserId": "9e7358cd5548b50ff516b1baac778a96",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "flomo",
+          "tagId": "cc438f5fb782ddce40c581ad35aba044"
+        },
+        {
+          "description": "",
+          "displayName": "send",
+          "tagId": "9a80a4a179d074d4a1f2f0fcca5c67b2"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-18T00:00:00.000Z"
+    },
+    {
       "assetId": "76db08a92a63351a9302002ee38a6c21",
       "assetType": 2,
       "author": {
@@ -2909,7 +3089,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/87/dc/87dc476da78d6a6f653694b1a1715bc79c1d088d6f7efa5a7f0c89accddb0791",
         "displayName": "gekacross",
-        "reputation": "80",
+        "reputation": "85",
         "userId": "2017b9fda826f826ee12df692647f6e8"
       },
       "category": "",
@@ -3159,156 +3339,7 @@
       ],
       "totalStars": "2",
       "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "18aa527e8bbea9b5f5206c54eeb8777a",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/fc/8f/fc8fb43685ecc305f0074038fc71adaf5515a49e064150485f539ab3e3f17aee",
-        "displayName": "kgnvsk",
-        "reputation": "30",
-        "userId": "769e4ceea549601a5cd4aa486ecaf2da"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Non-custodial SOL escrow for AI agent deals. Create, fund, deliver, verify contracts from chat. No browser needed.",
-      "displayName": "PayLock SOL Escrow",
-      "downloadCount": "8",
-      "latestSemver": "1.1.0",
-      "longDescription": "📦 ClawHub: [kgnvsk/paylock](https://clawhub.ai/kgnvsk/paylock)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/kgnvsk/paylock)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-22",
-      "name": "paylock",
-      "ownerUserId": "769e4ceea549601a5cd4aa486ecaf2da",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "paylock",
-          "tagId": "d509d9c45fc46acc83afc5e04a686a68"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "b0810a7bf8bb5b583a87d06a50956f6d",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/46/7a/467afbcdab37a426a14f7ff69b47360f7d25834fc335a9e399c07f287ac63da2",
-        "displayName": "myx0m0p",
-        "reputation": "20",
-        "userId": "26453a15d73aa326f0591baa662c842a"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Convert RSS or Atom feed URLs into Markdown using the bundled local converter script. Use this when a user asks to turn a feed URL into readable Markdown, optionally limiting items or writing to a file.",
-      "displayName": "Feed To Md",
-      "downloadCount": "8",
-      "latestSemver": "1.2.0",
-      "longDescription": "📦 ClawHub: [myx0m0p/feed-to-md](https://clawhub.ai/myx0m0p/feed-to-md)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/myx0m0p/feed-to-md)\n🏷️ Version: 1.2.0\n📅 Published: 2026-02-24",
-      "name": "feed-to-md",
-      "ownerUserId": "26453a15d73aa326f0591baa662c842a",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "feed",
-          "tagId": "c8e696f4146c9df59484e629a410bcb0"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "17a564f38cecc2939307272a7e48359b",
-      "assetType": 3,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5b/1a/5b1ae65813499d8dfd91963f76d9314863606084e8f05c978a07db00bbe98518",
-        "displayName": "marcus20232023",
-        "reputation": "5",
-        "userId": "f1c1952e777f495ddbb6ed3eb11dfbdf"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Togetherai Tts — imported from ClawHub",
-      "displayName": "Togetherai Tts",
-      "downloadCount": "4",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [marcus20232023/togetherai-tts](https://clawhub.ai/marcus20232023/togetherai-tts)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/marcus20232023/togetherai-tts)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-21",
-      "name": "togetherai-tts",
-      "ownerUserId": "f1c1952e777f495ddbb6ed3eb11dfbdf",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "c1fe402f38537187ead3a2897608e17f",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/db/48/db483625061048f9eedb07a73185199dc42cfc31d10d3e756995df91f89063bf",
-        "displayName": "mekedron",
-        "reputation": "30",
-        "userId": "31a74dc2bce5047297ea6c4740fa9e6b"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "\"Use `otta-cli` to automate `otta.fi` workflows from terminal. This tool is usually used for tracking working time, absences, and sick leaves: authenticate, inspect config/cache, check account status, manage worktimes (list/add/update/delete), browse absences, fetch holidays, and generate combined/detailed calendar reports. Trigger this skill when a request needs CLI-first Otta operations, `OTTA_CLI_*` environment setup, machine-readable `--format json` output, or diagnosis of auth/config/API validation errors.\"",
-      "displayName": "Otta Cli",
-      "downloadCount": "8",
-      "latestSemver": "0.1.1",
-      "longDescription": "📦 ClawHub: [mekedron/otta-cli](https://clawhub.ai/mekedron/otta-cli)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mekedron/otta-cli)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-22",
-      "name": "otta-cli",
-      "ownerUserId": "31a74dc2bce5047297ea6c4740fa9e6b",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "cli",
-          "tagId": "b145bd3b16c014462f01a0a3b3504ab1"
-        },
-        {
-          "description": "",
-          "displayName": "otta",
-          "tagId": "ab687c6be23fa868de75ed2e10a0928e"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
-    },
-    {
-      "assetId": "749ff69087cb57308226c3f68f6ba9c8",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a6/74/a67430dc5bb42f28dd6c683c8d66ed0b563867a808a9e3eb93931b8628a47440",
-        "displayName": "pigfoot",
-        "reputation": "20",
-        "userId": "b2d43482215ac92ca29c7c7dd8f725d1"
-      },
-      "category": "",
-      "createdAt": "2026-03-18T00:00:00.000Z",
-      "description": "Taiwan calendar query for accurate working day/holiday information. Use when user asks about Taiwan dates, working days, holidays, make-up workdays, or needs date calculations. Solves Claude's knowledge cutoff issues with Taiwan's administrative calendar.",
-      "displayName": "Taiwan Calendar Plugin",
-      "downloadCount": "10",
-      "latestSemver": "0.0.1",
-      "longDescription": "📦 ClawHub: [pigfoot/taiwan-calendar](https://clawhub.ai/pigfoot/taiwan-calendar)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/pigfoot/taiwan-calendar)\n🏷️ Version: 0.0.1\n📅 Published: 2026-02-11",
-      "name": "taiwan-calendar",
-      "ownerUserId": "b2d43482215ac92ca29c7c7dd8f725d1",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "calendar",
-          "tagId": "f77f2764c9f439f3bcd74e4c2f740b07"
-        },
-        {
-          "description": "",
-          "displayName": "taiwan",
-          "tagId": "4780d4d24c10316d4e3f16c69108a7de"
-        }
-      ],
-      "totalStars": "3",
-      "updatedAt": "2026-03-18T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0MDU4fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE4VDAwOjAwOjAwWiIsImlkIjo0MDYzfQ"
 }

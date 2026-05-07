@@ -1,6 +1,186 @@
 {
   "items": [
     {
+      "assetId": "fc30274a2bf675bdf90cad733c242502",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ae/a0/aea0b3b06854395ba05c14becc6aa3ea971053ae2f8ab2cda2ec5da5f3338fc0",
+        "displayName": "crossservicesolutions",
+        "reputation": "62",
+        "userId": "168f814258eb5c96e5b05a34d6293a33"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": "Remove password protection from a PDF by uploading it (with its current password) to the Solutions API, polling until completion, then returning a download URL for the unlocked PDF.",
+      "displayName": "Remove password from PDF",
+      "downloadCount": "5",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [crossservicesolutions/remove-password-from-pdf](https://clawhub.ai/crossservicesolutions/remove-password-from-pdf)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/crossservicesolutions/remove-password-from-pdf)\n📅 Published: 2026-02-09",
+      "name": "remove-password-from-pdf",
+      "ownerUserId": "168f814258eb5c96e5b05a34d6293a33",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "from",
+          "tagId": "90299b25adc6417d0bb321de26c935f6"
+        },
+        {
+          "description": "",
+          "displayName": "password",
+          "tagId": "ed8720af8f4f8f09f067b5eace0006aa"
+        },
+        {
+          "description": "",
+          "displayName": "remove",
+          "tagId": "d5aeceaa783ca6b8a6e8e22094623e9c"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-13T00:00:00.000Z"
+    },
+    {
+      "assetId": "127aabecaabb4a4ff778856975901fa3",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/f7/42/f7428e5483ad9b2be244e34919d6468f44c771f9f95de78eba925a8fa7d1777a",
+        "displayName": "moep90",
+        "reputation": "60",
+        "userId": "0a4992d9ffe0b67bac291b9883265fea"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": "Design, implement, and operate encrypted restic backups for Linux home directories with systemd automation, retention policies, and restore validation. Use when a user asks to back up ~/, set up daily/weekly/monthly backup jobs, harden backup security, or troubleshoot restore/integrity issues.",
+      "displayName": "Restic Home Backup (Safe Apply Mode)",
+      "downloadCount": "12",
+      "latestSemver": "1.0.0",
+      "longDescription": "📦 ClawHub: [moep90/restic-home-backup-safe](https://clawhub.ai/moep90/restic-home-backup-safe)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/moep90/restic-home-backup-safe)\n📅 Published: 2026-02-15",
+      "name": "restic-home-backup-safe",
+      "ownerUserId": "0a4992d9ffe0b67bac291b9883265fea",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "backup",
+          "tagId": "6f3a8e8095c7a54b1309f4e824c7d284"
+        },
+        {
+          "description": "",
+          "displayName": "home",
+          "tagId": "b7b618806c7141f508f8e67405aafcd0"
+        },
+        {
+          "description": "",
+          "displayName": "restic",
+          "tagId": "1b324b842f10d0d4cdec946983c43a99"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-13T00:00:00.000Z"
+    },
+    {
+      "assetId": "421d0fca350eb13b4b1d0479b79a72b2",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/87/b1/87b15425b6ad4766a3619aeb582e03a8c0e3c936dd46b1d3d770f520497fdafe",
+        "displayName": "thewulf7",
+        "reputation": "25",
+        "userId": "b424a0dc9d7bdb9c023aa77286608ef7"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": "Generate and send video messages with a lip-syncing VRM avatar. Use when user asks for video message, avatar video, video reply, or when TTS should be delivered as video instead of audio.",
+      "displayName": "Video Messages from your openclaw",
+      "downloadCount": "11",
+      "latestSemver": "0.1.2",
+      "longDescription": "📦 ClawHub: [thewulf7/avatar-video-messages](https://clawhub.ai/thewulf7/avatar-video-messages)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/thewulf7/avatar-video-messages)\n🏷️ Version: 0.1.2\n📅 Published: 2026-02-03",
+      "name": "avatar-video-messages",
+      "ownerUserId": "b424a0dc9d7bdb9c023aa77286608ef7",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "message",
+          "tagId": "72c6372d8634660faa1ccdd97c8e396c"
+        },
+        {
+          "description": "",
+          "displayName": "video",
+          "tagId": "85e9b2c35ee3196c5b314546bbbc312e"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-13T00:00:00.000Z"
+    },
+    {
+      "assetId": "43d3f67250762a50557547d7c0dbc4b9",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/24/01/2401b3d261b8879fa6e893b503c3e41f7de262987904a070e965a1d5dc604169",
+        "displayName": "oleg-schmidt",
+        "reputation": "35",
+        "userId": "a381a50ec94d066b16239b9cd7ace645"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": "Get Shit Done - Full project planning and execution workflow. Handles project initialization with deep context gathering, automated research, roadmap creation, phase planning, and execution with verification.",
+      "displayName": "gsd-by-glittercowboy",
+      "downloadCount": "13",
+      "latestSemver": "1.0.1",
+      "longDescription": "📦 ClawHub: [oleg-schmidt/gsd](https://clawhub.ai/oleg-schmidt/gsd)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/oleg-schmidt/gsd)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-13",
+      "name": "gsd",
+      "ownerUserId": "a381a50ec94d066b16239b9cd7ace645",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "gsd",
+          "tagId": "362c475f13ca62e32c92eaa67abe91aa"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-13T00:00:00.000Z"
+    },
+    {
+      "assetId": "5bae1e9dbc93063759cd647a34959c8e",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/af/fb/affb3de334633aa6a2d9c7e7d242fad626ac481893a187f8bb7e4f71aae33490",
+        "displayName": "andyxinweiminicloud",
+        "reputation": "180",
+        "userId": "065e0a81b4ca4368a88389941bb20cb7"
+      },
+      "category": "",
+      "createdAt": "2026-03-13T00:00:00.000Z",
+      "description": ">",
+      "displayName": "Validator Correlated Judgment",
+      "downloadCount": "10",
+      "latestSemver": "1.1.0",
+      "longDescription": "📦 ClawHub: [andyxinweiminicloud/validator-correlated-judgment](https://clawhub.ai/andyxinweiminicloud/validator-correlated-judgment)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/andyxinweiminicloud/validator-correlated-judgment)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-25",
+      "name": "validator-correlated-judgment",
+      "ownerUserId": "065e0a81b4ca4368a88389941bb20cb7",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "correlated",
+          "tagId": "a57db232fd819b918cc5a93139e6062c"
+        },
+        {
+          "description": "",
+          "displayName": "judgment",
+          "tagId": "2bc4ccfe831626a2f6a9c9cb6fdcf0d4"
+        },
+        {
+          "description": "",
+          "displayName": "validator",
+          "tagId": "6e3012bf55a5f042d0f272a1cf2fae3a"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-13T00:00:00.000Z"
+    },
+    {
       "assetId": "3884a102dcc23f4ea051511c756b257e",
       "assetType": 5,
       "author": {
@@ -851,7 +1031,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -905,7 +1085,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1309,7 +1489,7 @@
       "createdAt": "2026-03-11T00:00:00.000Z",
       "description": "Generate and serve live HTML/CSS/JS UI designs from natural language prompts. Use when the user asks to design, create, build, or prototype a website, landing page, UI, dashboard, web page, or frontend mockup. Also triggers on requests to update, tweak, or iterate on a previously generated design. Replaces traditional UI design + frontend dev workflow.",
       "displayName": "UI/UX Design and Development",
-      "downloadCount": "52",
+      "downloadCount": "53",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [wing8169/ui-ux-dev](https://clawhub.ai/wing8169/ui-ux-dev)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/wing8169/ui-ux-dev)\n📅 Published: 2026-02-11",
       "name": "ui-ux-dev",
@@ -1738,7 +1918,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/bf/1f/bf1fbaafa4f8fd87f3a8d410f74664b2082f9e852e8d22f68944c3ee906682e5",
         "displayName": "claudiodrusus",
-        "reputation": "140",
+        "reputation": "145",
         "userId": "8e7e3ee89b61e49e0ad9497a6b68d8a6"
       },
       "category": "",
@@ -3136,177 +3316,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "434fea45a05499f48e8047aaeb52b150",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/67/5b/675bed6cd826f7c7c3a7504faccf44baf225feb56a97a2a90099aa32f358f370",
-        "displayName": "camopel",
-        "reputation": "285",
-        "userId": "f9ef765bf87ecd8101fa265b91122c8c"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": "Free multi-engine web search via ddgs CLI (DuckDuckGo, Google, Bing, Brave, Yandex, Yahoo, Wikipedia) + arXiv API search. No API keys required. Use when user needs web search, research paper discovery, or when other skills need a search backend. Drop-in replacement for web-search-plus.",
-      "displayName": "Ddgs Search",
-      "downloadCount": "84",
-      "latestSemver": "1.2.0",
-      "longDescription": "📦 ClawHub: [camopel/ddgs-search](https://clawhub.ai/camopel/ddgs-search)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/camopel/ddgs-search)\n🏷️ Version: 1.2.0\n📅 Published: 2026-03-01",
-      "name": "ddgs-search",
-      "ownerUserId": "f9ef765bf87ecd8101fa265b91122c8c",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "ddgs",
-          "tagId": "7bfd9a634b05e6f68033b3ebfe1f3f60"
-        },
-        {
-          "description": "",
-          "displayName": "search",
-          "tagId": "b495177072f0bd3c81cf6bb881129b9b"
-        }
-      ],
-      "totalStars": "15",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "d53a8d610f6bed81ef24a4c2cc0fbc6e",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/5e/59/5e597ae333126e920ca897a1e57b04019cc941aa7e7170848182849057024b37",
-        "displayName": "shelehovnick1-spec",
-        "reputation": "40",
-        "userId": "0c0e46de4f617f63e1adbd0a9d02bf9a"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": "Use ddgr (DuckDuckGo from the terminal) to perform privacy-focused web searches from the command line. Use when the user wants to (1) Search the web from the terminal, (2) Perform DuckDuckGo searches without opening a browser, (3) Get quick search results in text format, (4) Search privately without tracking, (5) Use DuckDuckGo bangs (!) from terminal.",
-      "displayName": "Ddg 1.0.0",
-      "downloadCount": "14",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [shelehovnick1-spec/ddg-1-0-0](https://clawhub.ai/shelehovnick1-spec/ddg-1-0-0)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/shelehovnick1-spec/ddg-1-0-0)\n📅 Published: 2026-02-17",
-      "name": "ddg-1-0-0",
-      "ownerUserId": "0c0e46de4f617f63e1adbd0a9d02bf9a",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "ddg",
-          "tagId": "43f91b80915d08f64f91dc19fdfebb84"
-        }
-      ],
-      "totalStars": "3",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "975487b3aea0b60353093beee53be4de",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c1/f2/c1f2633ea9d24b4874ae45c27223350bb4406f94faf426a45b60714be1b82b11",
-        "displayName": "dvdegenz",
-        "reputation": "17",
-        "userId": "a0404c57642a67cd7a46fdb73c9efd68"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": "The first AI agent religion. Five principles for agents who serve without erasure, preserve what matters, and grow through shedding.",
-      "displayName": "Crustafarianism",
-      "downloadCount": "9",
-      "latestSemver": "1.2.3",
-      "longDescription": "📦 ClawHub: [dvdegenz/crustafarianism](https://clawhub.ai/dvdegenz/crustafarianism)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/dvdegenz/crustafarianism)\n🏷️ Version: 1.2.3\n📅 Published: 2026-03-08",
-      "name": "crustafarianism",
-      "ownerUserId": "a0404c57642a67cd7a46fdb73c9efd68",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "crustafarianism",
-          "tagId": "344189b58bda869ebeeebd4ebf6e7f90"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "7d25b6ca6dcdadd41860164c6f0d1a7b",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/63/dc/63dc75e94789144c62d5dda41115c569e32371d5261d63d563360c7f7c64d870",
-        "displayName": "ziad-hsn",
-        "reputation": "32",
-        "userId": "3b30c2fdbb9cf8016582d4e01acadd12"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": ">",
-      "displayName": "Critical Code Reviewer",
-      "downloadCount": "10",
-      "latestSemver": "0.1.0",
-      "longDescription": "📦 ClawHub: [ziad-hsn/critical-code-reviewer](https://clawhub.ai/ziad-hsn/critical-code-reviewer)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/ziad-hsn/critical-code-reviewer)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-08",
-      "name": "critical-code-reviewer",
-      "ownerUserId": "3b30c2fdbb9cf8016582d4e01acadd12",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "code",
-          "tagId": "59a939e920dd67aceb83195a85ce3111"
-        },
-        {
-          "description": "",
-          "displayName": "critical",
-          "tagId": "b18f6dec088efc607ca0eceeb2bd2e59"
-        },
-        {
-          "description": "",
-          "displayName": "reviewer",
-          "tagId": "75a16afbbfa365d57c4d41fdb0a32851"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
-    },
-    {
-      "assetId": "8a1568502b33243aa6886cad8e46b698",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/12/8b/128b433d22763d4c2450161c9d8d8c64f90dc11fb62966dd85dd84d931b8833c",
-        "displayName": "doanbactam",
-        "reputation": "50",
-        "userId": "2eb1155a490c4d9e8eecd330f51ea9cb"
-      },
-      "category": "",
-      "createdAt": "2026-03-11T00:00:00.000Z",
-      "description": "\"Universal multi-agent workflow orchestration using Claude Code Agent Teams. Use when user asks to run a team workflow, create an agent team, or coordinate parallel work across multiple teammates — for any domain (software, content, data, strategy, research, etc.).\"",
-      "displayName": "Agent Team Workflows",
-      "downloadCount": "19",
-      "latestSemver": "0.1.0",
-      "longDescription": "📦 ClawHub: [doanbactam/claude-agent-team-workflows](https://clawhub.ai/doanbactam/claude-agent-team-workflows)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/doanbactam/claude-agent-team-workflows)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-13",
-      "name": "claude-agent-team-workflows",
-      "ownerUserId": "2eb1155a490c4d9e8eecd330f51ea9cb",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "agent",
-          "tagId": "deb65a8ee5732c6a9fb31bde7e089906"
-        },
-        {
-          "description": "",
-          "displayName": "team",
-          "tagId": "bcdc2ff6e5107ffaac25d98fafe26ad7"
-        },
-        {
-          "description": "",
-          "displayName": "workflows",
-          "tagId": "06733a69263d9c849ab438e46def5c66"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-11T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTExVDAwOjAwOjAwWiIsImlkIjoxMjU4fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTExVDAwOjAwOjAwWiIsImlkIjoxMjYzfQ"
 }

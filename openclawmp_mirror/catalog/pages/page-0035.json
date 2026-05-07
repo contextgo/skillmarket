@@ -1,6 +1,175 @@
 {
   "items": [
     {
+      "assetId": "3834a919a98f5f3abaa3de01d0fd8989",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/7a/b7/7ab7b7d13de0d2c46b228985721584e2dd8502e795bddf7300a668fc665464b8",
+        "displayName": "phheng",
+        "reputation": "167",
+        "userId": "a8b231ed2258e1362964682a88f0406b"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "This skill is designed to help users automatically extract reviews from Google Maps via the Google Maps Reviews API. Agent should proactively apply this skill when users request to: 1. Find reviews for local businesses (e.g., coffee shops, clinics); 2. Monitor customer feedback for a specific brand or location; 3. Analyze sentiment of reviews for competitors; 4. Extract reviews for a chain of stores or services; 5. Track reputation of a local restaurant; 6. Gather user testimonials for a specific venue; 7. Conduct market research on service quality of local businesses; 8. Monitor reviews for a new retail location; 9. Collect feedback on public attractions or parks; 10. Identify common complaints for a specific service provider; 11. Research the best-rated places in a city; 12. Analyze recurring themes in reviews for a specific industry.",
+      "displayName": "Google Maps Reviews Api Skill",
+      "downloadCount": "8",
+      "latestSemver": "0.1.0",
+      "longDescription": "📦 ClawHub: [phheng/google-maps-reviews-api-skill](https://clawhub.ai/phheng/google-maps-reviews-api-skill)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/phheng/google-maps-reviews-api-skill)\n🏷️ Version: 0.1.0\n📅 Published: 2026-02-07",
+      "name": "google-maps-reviews-api-skill",
+      "ownerUserId": "a8b231ed2258e1362964682a88f0406b",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "google",
+          "tagId": "10894dfb9b8de2a32cf8e763cec9ba68"
+        },
+        {
+          "description": "",
+          "displayName": "maps",
+          "tagId": "d21be1100e468ac5cee2a1e0acc2764a"
+        },
+        {
+          "description": "",
+          "displayName": "reviews",
+          "tagId": "e774a218f7ac2647c76d2c77f8a36bdc"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "5b63eb3a6d9fce540facf1ffd572d07f",
+      "assetType": 3,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/a1/35/a1357a235bb0a012d0c039330a2af4af5bdf693331008b6fceec4f6e99d992f2",
+        "displayName": "ikchain",
+        "reputation": "5",
+        "userId": "3ba5057aa7050178b20511e314c3f67d"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "\"Personal cognitive architecture that learns how you work. Builds a knowledge graph from your sessions, profiles your expertise, adapts retrieval per task, and self-corrects via outcome feedback. Three-tier hybrid RAG (vector + graph + full-text). Runs locally with any Ollama model — no outbound network calls from Fabrik-Codek itself.\"",
+      "displayName": "Fabrik Codek",
+      "downloadCount": "5",
+      "latestSemver": "1.10.0",
+      "longDescription": "📦 ClawHub: [ikchain/fabrik-codek](https://clawhub.ai/ikchain/fabrik-codek)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/ikchain/fabrik-codek)\n🏷️ Version: 1.10.0\n📅 Published: 2026-03-01",
+      "name": "fabrik-codek",
+      "ownerUserId": "3ba5057aa7050178b20511e314c3f67d",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "codek",
+          "tagId": "3c52bc28ca1c4529351bf09dc9c17df5"
+        },
+        {
+          "description": "",
+          "displayName": "fabrik",
+          "tagId": "104bf7eb603b1542a79bdcd44e6dae38"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "d7f381e4df3f2b5e714275c66173d09e",
+      "assetType": 4,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/84/58/8458f90defa86199d459f8ff0e0108d80d861c528799b4641d64b6e795a17906",
+        "displayName": "variable190",
+        "reputation": "5",
+        "userId": "bb73b109879f20320eb780caab142cab"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Deterministic, evidence-gated controller templates for OpenClaw (HEARTBEAT/ACTIVITIES + sprint template + poll cron payload). Docs-only: installs no services and makes no config changes by itself.",
+      "displayName": "Deterministic Controller",
+      "downloadCount": "4",
+      "latestSemver": "0.1.1",
+      "longDescription": "📦 ClawHub: [variable190/deterministic-controller](https://clawhub.ai/variable190/deterministic-controller)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/variable190/deterministic-controller)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-18",
+      "name": "deterministic-controller",
+      "ownerUserId": "bb73b109879f20320eb780caab142cab",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "controller",
+          "tagId": "88801aea48b80d6ab926a4cab0bd2488"
+        },
+        {
+          "description": "",
+          "displayName": "deterministic",
+          "tagId": "5a7be78851acaed283daa62db886d78b"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "9b4078fe30801159c5310f2ba6f5ec1c",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/4f/79/4f79b717c07eddecbc0129cc400627cf9cc4a9497dc392789c764fb6c2a4fef6",
+        "displayName": "alirezarezvani",
+        "reputation": "397",
+        "userId": "e1de37d4bc9ceb3c4e43b0c0436db4a0"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Monitors customer health, predicts churn risk, and identifies expansion opportunities using weighted scoring models for SaaS customer success. Use when analyzing customer accounts, reviewing retention metrics, scoring at-risk customers, or when the user mentions churn, customer health scores, upsell opportunities, expansion revenue, retention analysis, or customer analytics. Runs three Python CLI tools to produce deterministic health scores, churn risk tiers, and prioritized expansion recommendations across Enterprise, Mid-Market, and SMB segments.",
+      "displayName": "Customer Success Manager",
+      "downloadCount": "8",
+      "latestSemver": "2.1.1",
+      "longDescription": "📦 ClawHub: [alirezarezvani/customer-success-manager](https://clawhub.ai/alirezarezvani/customer-success-manager)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/alirezarezvani/customer-success-manager)\n🏷️ Version: 2.1.1\n📅 Published: 2026-03-11",
+      "name": "customer-success-manager",
+      "ownerUserId": "e1de37d4bc9ceb3c4e43b0c0436db4a0",
+      "publicationHint": null,
+      "tags": [
+        {
+          "description": "",
+          "displayName": "\"customer",
+          "tagId": "8e9b637df5204050da530da4397e20c8"
+        },
+        {
+          "description": "",
+          "displayName": "manager\"",
+          "tagId": "26fb0f1df5c4bd2741e4135bdb9578ed"
+        },
+        {
+          "description": "",
+          "displayName": "success",
+          "tagId": "c2f8ee49ae600496523b8191eb384662"
+        }
+      ],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
+      "assetId": "5a72b134e1328bfa54b2e21d3a468d64",
+      "assetType": 2,
+      "author": {
+        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/ae/c9/aec9e728ca4ee4cdbad32eda9268ecbcc75d01c80e00fa7cf47cca370d295374",
+        "displayName": "zbreda",
+        "reputation": "10",
+        "userId": "f5a6f8008be58381fcbb0d9b02278f20"
+      },
+      "category": "",
+      "createdAt": "2026-03-17T00:00:00.000Z",
+      "description": "Bio Reabilita Z — imported from ClawHub",
+      "displayName": "Bio Reabilita Z",
+      "downloadCount": "8",
+      "latestSemver": "1.0.3",
+      "longDescription": "📦 ClawHub: [zbreda/bio-reabilita-z](https://clawhub.ai/zbreda/bio-reabilita-z)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/zbreda/bio-reabilita-z)\n🏷️ Version: 1.0.3\n📅 Published: 2026-02-11",
+      "name": "bio-reabilita-z",
+      "ownerUserId": "f5a6f8008be58381fcbb0d9b02278f20",
+      "publicationHint": null,
+      "tags": [],
+      "totalStars": "1",
+      "updatedAt": "2026-03-17T00:00:00.000Z"
+    },
+    {
       "assetId": "08cfa64be670c7d06b9bbd2203e3312b",
       "assetType": 2,
       "author": {
@@ -165,7 +334,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -209,7 +378,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -253,7 +422,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -297,7 +466,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -341,7 +510,7 @@
       "author": {
         "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/0d/91/0d913da421bfe2e79ec69f9d2e9dcf5e9b2173d070dfd4455d6b65d1c718525a",
         "displayName": "jyj545",
-        "reputation": "21349",
+        "reputation": "21369",
         "userId": "3c9c493205a90db1948d819aa786ef27"
       },
       "category": "",
@@ -1136,7 +1305,7 @@
       "createdAt": "2026-03-17T00:00:00.000Z",
       "description": ">",
       "displayName": "Ebooks Search",
-      "downloadCount": "10",
+      "downloadCount": "12",
       "latestSemver": "1.0.0",
       "longDescription": "📦 ClawHub: [arbuge/ebooks](https://clawhub.ai/arbuge/ebooks)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/arbuge/ebooks)\n📅 Published: 2026-02-21",
       "name": "ebooks",
@@ -2416,7 +2585,7 @@
       "createdAt": "2026-03-17T00:00:00.000Z",
       "description": "\"Verify claims, fact-check content, check URL trustworthiness, and trace claims to their origin using the TruthCheck CLI. Use when: (1) user asks to fact-check or verify a claim, (2) user wants to check if a URL/source is trustworthy, (3) user wants to trace where a claim originated, (4) user asks about misinformation or content verification. Requires: pip install truthcheck\"",
       "displayName": "TruthCheck",
-      "downloadCount": "10",
+      "downloadCount": "11",
       "latestSemver": "0.4.3",
       "longDescription": "📦 ClawHub: [baiyishr/truthcheck](https://clawhub.ai/baiyishr/truthcheck)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/baiyishr/truthcheck)\n🏷️ Version: 0.4.3\n📅 Published: 2026-02-23",
       "name": "truthcheck",
@@ -2581,7 +2750,7 @@
       "createdAt": "2026-03-17T00:00:00.000Z",
       "description": "Long-term structured memory with knowledge graph, entity tracking, temporal reasoning, and cross-session recall. Powered by the Cortex API.",
       "displayName": "Cortex Memory",
-      "downloadCount": "17",
+      "downloadCount": "19",
       "latestSemver": "1.0.2",
       "longDescription": "📦 ClawHub: [matthewubundi/cortex-memory](https://clawhub.ai/matthewubundi/cortex-memory)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/matthewubundi/cortex-memory)\n🏷️ Version: 1.0.2\n📅 Published: 2026-02-17",
       "name": "cortex-memory",
@@ -3178,155 +3347,7 @@
       ],
       "totalStars": "1",
       "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "c529acc04398c1421ad09e32244eb1a0",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/d4/a8/d4a885b4008e165f74dff509365e96401f2151d6033df96397e43ef894ffd591",
-        "displayName": "farseek2020",
-        "reputation": "10",
-        "userId": "1ffd3621b764fac6bf64ac0ace32d7a8"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "Farseek — imported from ClawHub",
-      "displayName": "Farseek",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [farseek2020/farseek](https://clawhub.ai/farseek2020/farseek)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/farseek2020/farseek)\n📅 Published: 2026-02-18",
-      "name": "farseek",
-      "ownerUserId": "1ffd3621b764fac6bf64ac0ace32d7a8",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "db682d520e34e5b282a25f502aa093bd",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/9d/38/9d383b9e6d43812747e1cc0989dc72654d61d0e95fb9e88691c625bc1c307325",
-        "displayName": "xukp20",
-        "reputation": "100",
-        "userId": "20913051582b3c2e3d38909c68d13dd9"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "\"Tool-only paper processing skill with a manual language parameter: supports batch artifact download for many papers or single-paper download, then the model manually reads source/PDF and writes summary.md in the selected language. Use when per-paper comprehension should be model-driven instead of script-generated.\"",
-      "displayName": "Arxiv Paper Processor",
-      "downloadCount": "11",
-      "latestSemver": "0.1.1",
-      "longDescription": "📦 ClawHub: [xukp20/arxiv-paper-processor](https://clawhub.ai/xukp20/arxiv-paper-processor)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/xukp20/arxiv-paper-processor)\n🏷️ Version: 0.1.1\n📅 Published: 2026-02-14",
-      "name": "arxiv-paper-processor",
-      "ownerUserId": "20913051582b3c2e3d38909c68d13dd9",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "arxiv",
-          "tagId": "f4287fc5509212310dc951861962540c"
-        },
-        {
-          "description": "",
-          "displayName": "paper",
-          "tagId": "fc7faa36883faf8c13b7a372acb3a033"
-        },
-        {
-          "description": "",
-          "displayName": "processor",
-          "tagId": "7370d58ff8e9c08662fae54d778b22b6"
-        }
-      ],
-      "totalStars": "2",
-      "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "2bfa89ee23a86504ba2b08a853058427",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/3c/0f/3c0f2d359613f9a2c1f335db6e17daf4f7946a8d10b025424fdf5c74a09ce247",
-        "displayName": "mohdalhashemi98-hue",
-        "reputation": "155",
-        "userId": "fb6371e22f7d2cd55ca9b6694dbd5512"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "Send WhatsApp messages to other people or search/sync WhatsApp history via the wacli CLI (not for normal user chats).",
-      "displayName": "MH wacli",
-      "downloadCount": "8",
-      "latestSemver": "1.0.0",
-      "longDescription": "📦 ClawHub: [mohdalhashemi98-hue/mh-wacli](https://clawhub.ai/mohdalhashemi98-hue/mh-wacli)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/mohdalhashemi98-hue/mh-wacli)\n📅 Published: 2026-02-25",
-      "name": "mh-wacli",
-      "ownerUserId": "fb6371e22f7d2cd55ca9b6694dbd5512",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "wacli",
-          "tagId": "73727facd9a08a5a53c58aad3721436f"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "f78b23e086604e66a7bfdad0dc9b784c",
-      "assetType": 2,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/c3/e2/c3e22f4f3b873742cd293a4f471c7fe64ed79036ed2bf06bc4e99dacab426a5c",
-        "displayName": "ryandeangraves",
-        "reputation": "50",
-        "userId": "bbae456fc546dfc82dd06bb9f89c0302"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "Charts — imported from ClawHub",
-      "displayName": "Charts",
-      "downloadCount": "10",
-      "latestSemver": "1.1.0",
-      "longDescription": "📦 ClawHub: [ryandeangraves/charts](https://clawhub.ai/ryandeangraves/charts)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/ryandeangraves/charts)\n🏷️ Version: 1.1.0\n📅 Published: 2026-02-19",
-      "name": "charts",
-      "ownerUserId": "bbae456fc546dfc82dd06bb9f89c0302",
-      "publicationHint": null,
-      "tags": [],
-      "totalStars": "1",
-      "updatedAt": "2026-03-17T00:00:00.000Z"
-    },
-    {
-      "assetId": "a25497bd378b7e29fb454d167aa9bda1",
-      "assetType": 3,
-      "author": {
-        "avatarUrl": "https://openclawmp-dl.stepfun.com/blobs/sha256/55/6c/556c9b22fc5064ec1166aa3a3463880179149a3e231967335d9f0de5a7cd33d1",
-        "displayName": "qiao101660",
-        "reputation": "5",
-        "userId": "57ff8d1f0ccc696e5d26ce4364538e0d"
-      },
-      "category": "",
-      "createdAt": "2026-03-17T00:00:00.000Z",
-      "description": "A Skill for searching hotels and querying prices via AIGoHotel MCP (searchHotels / getHotelDetail / getHotelSearchTags)",
-      "displayName": "AI Go Hotel",
-      "downloadCount": "4",
-      "latestSemver": "1.0.1",
-      "longDescription": "📦 ClawHub: [qiao101660/aihotel](https://clawhub.ai/qiao101660/aihotel)\n📂 Source: [openclaw/skills](https://github.com/openclaw/skills/tree/main/skills/qiao101660/aihotel)\n🏷️ Version: 1.0.1\n📅 Published: 2026-02-25",
-      "name": "aihotel",
-      "ownerUserId": "57ff8d1f0ccc696e5d26ce4364538e0d",
-      "publicationHint": null,
-      "tags": [
-        {
-          "description": "",
-          "displayName": "aigohotel",
-          "tagId": "9a7d4e4303c4806c595dc25db5fd409d"
-        },
-        {
-          "description": "",
-          "displayName": "mcp",
-          "tagId": "7f82cd7d22fcc8d86d2ef57721d02967"
-        }
-      ],
-      "totalStars": "1",
-      "updatedAt": "2026-03-17T00:00:00.000Z"
     }
   ],
-  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE3VDAwOjAwOjAwWiIsImlkIjoyNDU4fQ"
+  "nextPageToken": "eyJjcmVhdGVkQXQiOiIyMDI2LTAzLTE3VDAwOjAwOjAwWiIsImlkIjoyNDYzfQ"
 }
